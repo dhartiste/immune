@@ -28,8 +28,10 @@ export default class GameScene extends Scene {
     start(){
         this.interactive = true;
         // this.interactiveChildren = true;
-        this.dragManager = new DragManager(this, this.art.remote, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
+        this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
         this.dragManager.addObject(this.art.remote.button);
+        this.dragManager.addObject(this.art.protein);
+        this.dragManager.addObject(this.art.bacteria);
 
     }
 
@@ -58,4 +60,6 @@ interface Art extends PIXI.animate.MovieClip {
     };
     screen: PIXI.animate.MovieClip;
     lipsyncScene: PIXI.animate.MovieClip;
+    bacteria:PIXI.animate.MovieClip;
+    protein:PIXI.animate.MovieClip;
 }
