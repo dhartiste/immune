@@ -1,0 +1,12 @@
+﻿<flash_project name="Immune" version="1">
+    <project_folder name="sub animations" expanded="false">
+        <project_file path=".:virus_explosion.fla" filetype="fla" profile="" />
+        <project_file path=".:virus_creation.fla" filetype="fla" profile="" />
+    </project_folder>
+    <project_file path=".:Act1.fla" filetype="fla" profile="" />
+    <project_file path=".:test_load.fla" filetype="fla" profile="" />
+    <project_file path=".:External.fla" filetype="fla" profile="" />
+    <project_file path=".:Internal.fla" filetype="fla" profile="" />
+    <project_file path=".:ImmuneShell_05_navigation.fla" filetype="fla" profile="" def_file="true" />
+    <project_file path=".:Pub.fla" filetype="fla" profile="" />
+</flash_project>

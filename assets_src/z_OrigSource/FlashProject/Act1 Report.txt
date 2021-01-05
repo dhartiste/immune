@@ -1,0 +1,74 @@
+Act1.swf Movie Report
+----------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          22216          22216    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0           152                  1169
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+BioMom_text                            0             0                     0
+BioMom_blue                            0             0                     0
+gray_kid2                              0             0                     0
+gray_Nat                               0             0                     0
+beaker_layered                        53             0                     0
+shade                                 52             0                     0
+temp2                                 43             0                     0
+beaker_save                            0             0                     0
+beaker_bottom                         35             0                     0
+beaker_shade2                          0             0                     0
+beaker_shade                           0             0                     0
+beaker_front                         167            29                     0
+bubbles2                               0             0                     0
+pnlPopup2                              0            82                     0
+line                                  19             0                     0
+large box                             55             0                     0
+button_controller                     23             0                     0
+hitsource                             24             0                     0
+hitme                                  0             0                     0
+invisible                              0             0                     0
+panel                                  0            35                     0
+popupbox                              53             0                     0
+beaker                                 0             0                     0
+bubbles back                        2439             0                     0
+expose_txt                             0            28                     0
+gray_kid                               0             0                     0
+inject_txt                             0            28                     0
+syringe                              382             0                     0
+bacteria                             770             0                   806
+protein                              404             0                   659
+virus_alive                         1058             0                   824
+virus_attenuated                    1209             0                   764
+virus_dead                           931             0                   854
+antibiotic                           388             0                   736
+pose_kid                               0             0                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+Tahoma Bold                    3967     !%&,./0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+ActionScript Bytes    Location
+------------------    --------
+               165    Scene 1:Actions:1
+               806    bacteria:Layer 1:1:b_prot(invisible)
+               659    protein:Layer 1:1:b_prot(invisible)
+               824    virus_alive:Layer 1:1:b_lv(invisible)
+               854    virus_dead:Layer 1:1:b_dv(invisible)
+               764    virus_attenuated:Layer 1:1:b_av(invisible)
+                 6    Scene 1:objects:1:virus_attenuated(virus_attenuated)
+               736    antibiotic:button:1:btnAntibody(invisible)
+               133    Scene 1:popups:1:pnlPopup(panel)
+                64    Scene 1:popups:1:pnlPopup2(pnlPopup2)
+               801    Scene 1:controller:1:cntl(button_controller)
+
+Bitmap                     Compressed    Compression
+-----------------------    ----------  --------  -----------
+NatOutline.png                  2654      114000   Lossless
+
+
+
+
