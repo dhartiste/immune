@@ -3,6 +3,7 @@
           <DOMFolderItem name="Hit controllers" itemID="409a71c8-00001a2b"/>
           <DOMFolderItem name="Organisms" itemID="5ff4e016-00000190"/>
      </folders>
+     <media/>
      <symbols>
           <Include href="Button.xml" loadImmediate="false" itemID="5c242ce7-0000042f" lastModified="1545875163"/>
           <Include href="Eyes.xml" itemIcon="1" loadImmediate="false" itemID="5c2433c3-00000466" lastModified="1545876419"/>
@@ -11,7 +12,7 @@
           <Include href="LipsyncScene.xml" loadImmediate="false" itemID="5e6fd93c-0000000d" lastModified="1584388952"/>
           <Include href="Organisms/antibiotic.xml" loadImmediate="false" itemID="40fbffab-000042c2" lastModified="1090253590"/>
           <Include href="Organisms/bacteria.xml" loadImmediate="false" itemID="4023ccbf-00004f2a" lastModified="1088441811"/>
-          <Include href="Organisms/protein.xml" loadImmediate="false" itemID="4023ccc7-00004f50" lastModified="1088442515"/>
+          <Include href="Organisms/protein.xml" loadImmediate="false" itemID="4023ccc7-00004f50" lastModified="1609884937"/>
           <Include href="Organisms/virus_alive.xml" loadImmediate="false" itemID="4023c6af-0000403f" lastModified="1090421679"/>
           <Include href="Organisms/virus_attenuated.xml" loadImmediate="false" itemID="4023c695-00003fd1" lastModified="1091202469"/>
           <Include href="Organisms/virus_dead.xml" loadImmediate="false" itemID="4023c671-00003f5b" lastModified="1088441888"/>
@@ -28,7 +29,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria">
                                              <matrix>
                                                   <Matrix a="0.620635986328125" d="0.620635986328125" tx="469.95" ty="114"/>
                                              </matrix>
@@ -44,7 +45,7 @@
                                                   <Point x="0.5" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_alive" name="virus_alive" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_alive" name="virus_alive">
                                              <matrix>
                                                   <Matrix a="0.709274291992188" d="0.709274291992188" tx="455.45" ty="246.15"/>
                                              </matrix>
@@ -52,7 +53,7 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead">
                                              <matrix>
                                                   <Matrix a="0.714141845703125" d="0.714141845703125" tx="425.5" ty="404.45"/>
                                              </matrix>
@@ -60,7 +61,7 @@
                                                   <Point x="0.55" y="1.35"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated">
                                              <matrix>
                                                   <Matrix a="0.7093505859375" d="0.7093505859375" tx="574.7" ty="355.95"/>
                                              </matrix>

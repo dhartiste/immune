@@ -1,4 +1,7 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1088442515" lastModified="1088442515" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1088442515" lastModified="1609884937" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+  <persistentData>
+    <PD n="copyLayersToBitmapScale" t="d" v="1.000000"/>
+  </persistentData>
   <timeline>
     <DOMTimeline name="protein">
       <layers>
@@ -26,12 +29,12 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix tx="-399.85" ty="-300.15"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix tx="-399.85" ty="-300.15"/>
                       </matrix>
@@ -45,7 +48,7 @@
                         </StrokeStyle>
                       </strokes>
                       <edges>
-                        <Edge strokeStyle="1" edges="!8267 5642S4|8023 5649!8023 5649|8016 5405!8016 5405|8260 5398!8260 5398|8267 5642"/>
+                        <Edge strokeStyle="1" edges="!8267 5642|8023 5649!8023 5649|8016 5405!8016 5405|8260 5398!8260 5398|8267 5642"/>
                       </edges>
                     </DOMShape>
                   </members>
@@ -353,7 +356,7 @@
                 </DOMGroup>
                 <DOMSymbolInstance libraryItemName="Hit controllers/invisible" name="b_prot" symbolType="button">
                   <matrix>
-                    <Matrix a="0.465438842773438" d="0.485214233398438" tx="-25.75" ty="-14.25"/>
+                    <Matrix a="0.465438842773438" d="0.485214233398438" tx="-23.4" ty="-14.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
