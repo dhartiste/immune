@@ -23,9 +23,8 @@ export default class TitleScene extends Scene {
 
         
         this.btnPink = new PIXI.Sprite(this.cache.images.btn_pink);
+        
     
-
-
         // recipe for an object that has interactivity and two states
 
         /*

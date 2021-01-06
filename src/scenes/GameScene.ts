@@ -27,7 +27,7 @@ export default class GameScene extends Scene {
 
     start(){
         this.interactive = true;
-        // this.interactiveChildren = true;
+        this.interactiveChildren = true;
         this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
