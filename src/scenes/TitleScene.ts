@@ -16,7 +16,7 @@ export default class TitleScene extends Scene {
     setup(){
         let i:number;
         const background = new PIXI.Graphics();
-        background.beginFill(0xDDDDDD);
+        background.beginFill(0xCCCCCC);
         background.drawRect(0, 0, 1624, 750);
         background.endFill();
         this.addChild(background);
