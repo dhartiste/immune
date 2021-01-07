@@ -12,7 +12,6 @@ export default class GameScene extends Scene {
     preload():AssetList{
         return [
             {type:'animate', id:'gameArt', stage:GameArt.stage, cacheInstance:true},
-            
         ];
     }
 
@@ -31,7 +30,9 @@ export default class GameScene extends Scene {
         this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
-
+        this.dragManager.addObject(this.art.virus_alive);
+        this.dragManager.addObject(this.art.virus_attenuated);
+        this.dragManager.addObject(this.art.virus_dead);
     }
 
     onStartDrag =(object:MovieClip)=>{
@@ -61,4 +62,7 @@ interface Art extends PIXI.animate.MovieClip {
     //lipsyncScene: PIXI.animate.MovieClip;
     bacteria:PIXI.animate.MovieClip;
     protein:PIXI.animate.MovieClip;
+    virus_alive:PIXI.animate.MovieClip;
+    virus_attenuated:PIXI.animate.MovieClip;
+    virus_dead:PIXI.animate.MovieClip;
 }
