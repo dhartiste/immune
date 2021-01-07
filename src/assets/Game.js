@@ -1060,7 +1060,7 @@ var lib;
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         stage: lib.Game,
-        background: 0xffffff,
+        background: 0xffffce,
         width: 1536,
         height: 768,
         framerate: 30,
