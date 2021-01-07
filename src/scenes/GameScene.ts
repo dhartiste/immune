@@ -18,8 +18,8 @@ export default class GameScene extends Scene {
 
     setup(){
         this.art = this.cache.animations.gameArt as Art;
-        this.art.remote.button.gotoAndStop(0);
-        this.art.screen.gotoAndStop(0);
+        //this.art.remote.button.gotoAndStop(0);
+        //this.art.screen.gotoAndStop(0);
         this.addChild(this.art);
     }
 
@@ -54,11 +54,11 @@ export default class GameScene extends Scene {
 }
 
 interface Art extends PIXI.animate.MovieClip {
-    remote: PIXI.animate.MovieClip & {
-        button: PIXI.animate.MovieClip;
-    };
-    screen: PIXI.animate.MovieClip;
-    lipsyncScene: PIXI.animate.MovieClip;
+    //remote: PIXI.animate.MovieClip & {
+      //  button: PIXI.animate.MovieClip;
+    //};
+    //screen: PIXI.animate.MovieClip;
+    //lipsyncScene: PIXI.animate.MovieClip;
     bacteria:PIXI.animate.MovieClip;
     protein:PIXI.animate.MovieClip;
 }

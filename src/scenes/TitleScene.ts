@@ -8,7 +8,7 @@ export default class TitleScene extends Scene {
     preload():AssetList{
         return [
             
-            {type:'image', id:'btn_pink', path:'img/btn_pink.png'},
+            {type:'image', id:'btn_pink', path:'img/enterImage.png'},
             
         ];
     }
@@ -44,7 +44,7 @@ export default class TitleScene extends Scene {
 
         
         this.btnPink.y = 500;
-        this.btnPink.x = 500;
+        this.btnPink.x = 725;
         
         this.addChild(this.btnPink);
 
