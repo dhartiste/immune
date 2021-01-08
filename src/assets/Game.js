@@ -2,7 +2,6 @@
 
     var MovieClip = PIXI.animate.MovieClip;
     var Container = PIXI.Container;
-    var Text = PIXI.Text;
     var Graphics = PIXI.Graphics;
     var shapes = PIXI.animate.ShapesCache;
 
@@ -577,391 +576,35 @@
         this.addChild(instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
-    lib.LipsyncScene = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[110]);
-        var instance1 = new Text("Lipsync w/ rhubarb")
-            .setStyle({
-                fontFamily: "Arial Rounded MT Bold",
-                fontSize: 18,
-                fill: "#fff",
-                leading: 2
-            })
-            .setTransform(-96.95, -10.35);
-        this.addChild(instance2, instance1);
-    });
-
-    lib.Paper = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Game[112]);
-        this.addChild(instance1);
-    });
-
-    lib.Button = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 2
-        });
-        var instance3 = new Graphics()
-            .drawCommands(shapes.Game[115]);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[114]);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Game[113]);
-        var instance4 = new Graphics()
-            .drawCommands(shapes.Game[116])
-            .setTransform(140.35, 38.75);
-        this.addTimedChild(instance3, 0, 1)
-            .addTimedChild(instance2, 0, 1, {
-                "0": {
-                    x: 140.35,
-                    y: 38.75
-                }
-            })
-            .addTimedChild(instance1, 0, 1, {
-                "0": {
-                    x: 140.35,
-                    y: 28.85
-                }
-            })
-            .addTimedChild(instance4, 1, 1);
-    });
-
-    lib.Remote = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[117]);
-        var instance1 = new lib.Button()
-            .setTransform(-98.35, -37.2);
-        this[instance1.name = "button"] = instance1;
-        this.addChild(instance2, instance1);
-    });
-
-    var Graphic1 = MovieClip.extend(function (mode) {
-        MovieClip.call(this, { mode: mode, duration: 117, loop: false });
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Game[118]);
-        this.addTimedChild(instance1);
-    });
-
-    var Graphic3 = MovieClip.extend(function (mode) {
-        MovieClip.call(this, { mode: mode, duration: 117, loop: false });
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[119]);
-        var instance1 = new Graphic1(MovieClip.SYNCHED);
-        this.addTimedChild(instance2)
-            .addTimedChild(instance1, 0, 117, {
-                "0": {
-                    x: -9.4,
-                    y: -45.95,
-                    sy: 1
-                },
-                "36": {
-                    y: -46,
-                    sy: 0.109
-                },
-                "37": {
-                    y: -46.023,
-                    sy: 0.555
-                },
-                "38": {
-                    y: -45.95,
-                    sy: 1
-                },
-                "72": {
-                    y: -46,
-                    sy: 0.109
-                },
-                "73": {
-                    y: -45.95,
-                    sy: 1
-                },
-                "75": {
-                    y: -46,
-                    sy: 0.109
-                },
-                "76": {
-                    y: -46.023,
-                    sy: 0.555
-                },
-                "77": {
-                    y: -45.95,
-                    sy: 1
-                }
-            });
-    });
-
-    var Graphic2 = MovieClip.extend(function (mode) {
-        MovieClip.call(this, { mode: mode, duration: 123, loop: false });
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Game[120])
-            .setTransform(-744.2, -383.1);
-        this.addTimedChild(instance1);
-    });
-
-    lib.Screen = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 123,
-            labels: {
-                turnOn: 0,
-                turnOn_stop: 19,
-                watchTV: 20,
-                watchTV_loop: 109,
-                turnOff: 110,
-                turnOff_stop: 122
-            }
-        });
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[121])
-            .setTransform(-744.2, -383.1);
-        var instance1 = new Graphic2(MovieClip.SYNCHED);
-        var instance3 = new Graphic3(MovieClip.SYNCHED);
-        this.addTimedChild(instance2)
-            .addTimedChild(instance1, 0, 123, {
-                "0": {
-                    sx: 1,
-                    sy: 1,
-                    a: 0
-                },
-                "1": {
-                    a: 0.05
-                },
-                "2": {
-                    a: 0.11
-                },
-                "3": {
-                    a: 0.16
-                },
-                "4": {
-                    a: 0.21
-                },
-                "5": {
-                    a: 0.26
-                },
-                "6": {
-                    a: 0.32
-                },
-                "7": {
-                    a: 0.37
-                },
-                "8": {
-                    a: 0.42
-                },
-                "9": {
-                    a: 0.47
-                },
-                "10": {
-                    a: 0.53
-                },
-                "11": {
-                    a: 0.58
-                },
-                "12": {
-                    a: 0.63
-                },
-                "13": {
-                    a: 0.68
-                },
-                "14": {
-                    a: 0.74
-                },
-                "15": {
-                    a: 0.79
-                },
-                "16": {
-                    a: 0.84
-                },
-                "17": {
-                    a: 0.89
-                },
-                "18": {
-                    a: 0.95
-                },
-                "19": {
-                    a: 1
-                },
-                "111": {
-                    a: 0.8
-                },
-                "112": {
-                    a: 0.59
-                },
-                "113": {
-                    sx: 0.689,
-                    sy: 0.689,
-                    a: 0.51
-                },
-                "114": {
-                    sx: 0.377,
-                    sy: 0.377,
-                    a: 0.43
-                },
-                "115": {
-                    sx: 0.066,
-                    sy: 0.066,
-                    a: 0.35
-                },
-                "116": {
-                    sx: 0.299,
-                    sy: 0.052,
-                    a: 0.52
-                },
-                "117": {
-                    sx: 0.533,
-                    sy: 0.038,
-                    a: 0.68
-                },
-                "118": {
-                    sx: 0.766,
-                    sy: 0.024,
-                    a: 0.84
-                },
-                "119": {
-                    sx: 0.999,
-                    sy: 0.01,
-                    a: 1
-                },
-                "120": {
-                    a: 0.67
-                },
-                "121": {
-                    a: 0.33
-                },
-                "122": {
-                    a: 0
-                }
-            })
-            .addTimedChild(instance3, 6, 117, {
-                "6": {
-                    x: -3.05,
-                    y: 16.35,
-                    a: 0
-                },
-                "7": {
-                    a: 0.08
-                },
-                "8": {
-                    a: 0.15
-                },
-                "9": {
-                    a: 0.23
-                },
-                "10": {
-                    a: 0.31
-                },
-                "11": {
-                    a: 0.38
-                },
-                "12": {
-                    a: 0.46
-                },
-                "13": {
-                    a: 0.54
-                },
-                "14": {
-                    a: 0.62
-                },
-                "15": {
-                    a: 0.69
-                },
-                "16": {
-                    a: 0.77
-                },
-                "17": {
-                    a: 0.85
-                },
-                "18": {
-                    a: 0.92
-                },
-                "19": {
-                    a: 1
-                },
-                "111": {
-                    a: 0.75
-                },
-                "112": {
-                    a: 0.5
-                },
-                "113": {
-                    a: 0.25
-                },
-                "114": {
-                    a: 0
-                }
-            });
-    });
-
     lib.Game = MovieClip.extend(function () {
         MovieClip.call(this, {
             duration: 1,
             framerate: 30
         });
-        var instance19 = new Graphics()
-            .drawCommands(shapes.Game[126]);
-        var instance18 = new Graphics()
-            .drawCommands(shapes.Game[125])
-            .setTransform(-5.15, -2.6);
-        var instance17 = new Graphics()
-            .drawCommands(shapes.Game[124]);
-        var instance16 = new Graphics()
-            .drawCommands(shapes.Game[123])
-            .setTransform(30.8, -6.15);
-        var instance15 = new Graphics()
-            .drawCommands(shapes.Game[122])
-            .setTransform(4.2, 12.6);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.Game[122])
-            .setTransform(4.2, 90);
-        var instance13 = new lib.Screen()
-            .setTransform(744.2, 383.1);
-        this[instance13.name = "screen"] = instance13;
-        var instance12 = new lib.Remote()
-            .setTransform(762.85, 695.8);
-        this[instance12.name = "remote"] = instance12;
-        var instance11 = new lib.Paper()
-            .setTransform(1150.2, 389);
-        var instance10 = new Graphics()
+        var instance8 = new Graphics()
             .drawCommands(shapes.Game[111]);
-        var instance9 = new Text("Game + captions (here)")
-            .setStyle({
-                fontFamily: "Arial Rounded MT Bold",
-                fontSize: 18,
-                fill: "#fff",
-                leading: 2
-            })
-            .setTransform(1042.95, 302.8);
-        var instance8 = new lib.LipsyncScene()
-            .setTransform(1148.9, 355.6);
-        this[instance8.name = "lipsyncScene"] = instance8;
-        var instance7 = new Text("WGBH TV Guide \n(example scenes)")
-            .setStyle({
-                fontFamily: "Arial Rounded MT Bold",
-                fontSize: 20,
-                fill: "#663499",
-                leading: 2
-            })
-            .setAlign("center")
-            .setTransform(1146.85, 235.55);
+        var instance7 = new Graphics()
+            .drawCommands(shapes.Game[110])
+            .setTransform(-5.15, -2.6);
         var instance6 = new lib.bacteria()
-            .setTransform(469.95, 114, 0.621, 0.621);
+            .setTransform(806.15, 261.65, 0.621, 0.621);
         this[instance6.name = "bacteria"] = instance6;
         var instance5 = new lib.protein()
-            .setTransform(613.9, 124.1);
+            .setTransform(725.9, 250.1);
         this[instance5.name = "protein"] = instance5;
         var instance4 = new lib.virus_alive()
-            .setTransform(455.45, 246.15, 0.709, 0.709);
+            .setTransform(642.65, 260.6, 0.709, 0.709);
         this[instance4.name = "virus_alive"] = instance4;
         var instance3 = new lib.virus_dead()
-            .setTransform(425.5, 404.45, 0.714, 0.714);
+            .setTransform(412.9, 272.55, 0.714, 0.714);
         this[instance3.name = "virus_dead"] = instance3;
         var instance2 = new lib.virus_attenuated()
-            .setTransform(574.7, 355.95, 0.709, 0.709);
+            .setTransform(531.9, 268.65, 0.709, 0.709);
         this[instance2.name = "virus_attenuated"] = instance2;
         var instance1 = new lib.antibiotic()
-            .setTransform(818.6, 521.1, 0.741, 0.741);
+            .setTransform(977.55, 252.05, 0.741, 0.741);
         this[instance1.name = "antibiotic"] = instance1;
-        this.addChild(instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.Game.assets = {
