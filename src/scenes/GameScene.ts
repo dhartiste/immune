@@ -40,6 +40,10 @@ export default class GameScene extends Scene {
     }
     onEndDrag =()=>{
     //to do
+        
+        //   if bacteria is on girl then 
+            // current_microorg = "bacteria";
+            // changescene->Internal()
     }
     onStickySelect =()=>{
     //to do
@@ -47,6 +51,9 @@ export default class GameScene extends Scene {
 
     update(){
         this.dragManager.update();
+
+        // for each MO -> check if it's over girl and check if it's over the syringe
+        // if over G then highlight the G...
     }
 
     cleanup(){
