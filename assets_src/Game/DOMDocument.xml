@@ -25,19 +25,19 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="objects" color="#9933CC" locked="true" autoNamed="false">
+                    <DOMLayer name="objects" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria">
                                              <matrix>
-                                                  <Matrix a="0.620635986328125" d="0.620635986328125" tx="982.25" ty="397.55"/>
+                                                  <Matrix a="0.620635986328125" d="0.620635986328125" tx="905.35" ty="553.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein">
                                              <matrix>
                                                   <Matrix tx="984.25" ty="283.75"/>
                                              </matrix>
@@ -45,7 +45,7 @@
                                                   <Point x="0.5" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_alive" name="virus_alive" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_alive" name="virus_alive">
                                              <matrix>
                                                   <Matrix a="0.709274291992188" d="0.709274291992188" tx="854.2" ty="276.7"/>
                                              </matrix>
@@ -53,15 +53,15 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead">
                                              <matrix>
-                                                  <Matrix a="0.714141845703125" d="0.714141845703125" tx="714.1" ty="277.75"/>
+                                                  <Matrix a="0.714141845703125" d="0.714141845703125" tx="413.3" ty="277.05"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.55" y="1.35"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated">
                                              <matrix>
                                                   <Matrix a="0.7093505859375" d="0.7093505859375" tx="706.15" ty="395.8"/>
                                              </matrix>
@@ -69,7 +69,7 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/antibiotic" name="antibiotic" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/antibiotic" name="antibiotic">
                                              <matrix>
                                                   <Matrix a="0.741378784179688" d="0.741378784179688" tx="855.75" ty="391.8"/>
                                              </matrix>
@@ -81,7 +81,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="game-safe" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="game-safe" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -96,7 +96,7 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!26240 0|26240 15000!6240 0|6240 15000"/>
+                                                  <Edge strokeStyle="1" edges="!26740 0|26740 15000!5740 0|5740 15000"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -109,7 +109,7 @@
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="GameSafe">
                                              <matrix>
-                                                  <Matrix a="0.96875" d="0.9765625" tx="312"/>
+                                                  <Matrix a="1.01718139648438" d="0.9765625" tx="287"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="516.15" y="384"/>

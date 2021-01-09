@@ -30,6 +30,8 @@ export default class GameScene extends Scene {
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
 
+        this.art.bacteria.x=600;
+
     }
 
     onStartDrag =(object:MovieClip)=>{

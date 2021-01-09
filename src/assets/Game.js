@@ -560,7 +560,7 @@
             .drawCommands(shapes.Game[112])
             .setTransform(-5.15, -2.6);
         var instance8 = new lib.GameSafe()
-            .setTransform(312, 0, 0.969, 0.977)
+            .setTransform(287, 0, 1.017, 0.977)
             .setAlpha(0.18);
         var instance7 = new Graphics()
             .drawCommands(shapes.Game[110]);
