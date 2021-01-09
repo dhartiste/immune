@@ -18,8 +18,7 @@ export default class GameScene extends Scene {
 
     setup(){
         this.art = this.cache.animations.gameArt as Art;
-        this.art.remote.button.gotoAndStop(0);
-        this.art.screen.gotoAndStop(0);
+        //this.art.screen.gotoAndStop(0);
         this.addChild(this.art);
     }
 
@@ -31,6 +30,9 @@ export default class GameScene extends Scene {
         this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
+        this.dragManager.addObject(this.art.virus_dead);
+        this.dragManager.addObject(this.art.virus_attenuated);
+        this.dragManager.addObject(this.art.virus_alive);
 
     }
 
@@ -54,11 +56,9 @@ export default class GameScene extends Scene {
 }
 
 interface Art extends PIXI.animate.MovieClip {
-    remote: PIXI.animate.MovieClip & {
-        button: PIXI.animate.MovieClip;
-    };
-    screen: PIXI.animate.MovieClip;
-    lipsyncScene: PIXI.animate.MovieClip;
     bacteria:PIXI.animate.MovieClip;
     protein:PIXI.animate.MovieClip;
+    virus_dead:PIXI.animate.MovieClip;
+    virus_attenuated:PIXI.animate.MovieClip;
+    virus_alive:PIXI.animate.MovieClip;
 }
