@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_attenuated" itemID="4023c695-00003fd1" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/virus_attenuated" sourceLastModified="1091202469" lastModified="1091202469" lastUniqueIdentifier="4" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_attenuated" itemID="4023c695-00003fd1" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/virus_attenuated" sourceLastModified="1091202469" lastModified="1610231101" lastUniqueIdentifier="4" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="virus_attenuated">
       <layers>
@@ -177,9 +177,9 @@
                       </fills>
                       <edges>
                         <Edge fillStyle0="1" edges="
-!4588 1346[4626 1364 4617 1401!4617 1401[4600 1472 4437 1603!4437 1603[#10FC.7B #684.1C 4292 1709.5!4292 1709.5[#10EE.CF #65A.AA 4407 1477!4407 1477[4465 1379 4520 1347!4520 1347[4551 1329 4588 1346!4552 1281[4481 1291 4428 1346!4428
- 1346[4371 1406 4318 1514!4318 1514[4263 1638 4232 1697!4232 1697[4218 1722 4243 1739!4243 1739[4246 #6CD.0A 4249 1742.5!4249 1742.5[#108A.FA #6DD.9A 4251 1777!4251 1777[4271 1799 4294 1782!4294 1782[4506 1625 4554 1581!4554 1581[4711
- 1437 4668 1342!4668 1342[4635 1269 4552 1281"/>
+!4552 1281[4481 1291 4428 1346!4428 1346[4371 1406 4318 1514!4318 1514[4263 1638 4232 1697!4232 1697[4218 1722 4243 1739!4243 1739[4246 #6CD.0A 4249 1742.5!4249 1742.5[#108A.FA #6DD.9A 4251 1777!4251 1777[4271 1799 4294 1782!4294 1782
+[4506 1625 4554 1581!4554 1581[4711 1437 4668 1342!4668 1342[4635 1269 4552 1281!4588 1346[4626 1364 4617 1401!4617 1401[4600 1472 4437 1603!4437 1603[#10FC.7B #684.1C 4292 1709.5!4292 1709.5[#10EE.CF #65A.AA 4407 1477!4407 1477[4465
+ 1379 4520 1347!4520 1347[4551 1329 4588 1346"/>
                       </edges>
                     </DOMShape>
                   </members>
@@ -265,9 +265,9 @@
                       </fills>
                       <edges>
                         <Edge fillStyle0="1" edges="
-!6176 2300[6210 2320 6202 2353!6202 2353[6185 2419 6015 2537!6015 2537|5852 2638.5!5852 2638.5[#170F.85 #9FC.25 5992 2406!5992 2406[6052 2321 6113 2294!6113 2294[6143 2281 6176 2300!6160 2234[6090 2229 6031 2274!6031 2274[5962 2327 5897
- 2438!5897 2438[5828 2565 5791 2622!5791 2622[5776 2647 5800 2664!5800 2664[#16AB.BC #A6A.A5 5807.5 2668.5!5807.5 2668.5[#16A4.44 #A79.C9 5806 2702!5806 2702[5818 2729 5843 2714!5843 2714[6049 2586 6106 2544!6106 2544[6286 2411 6260 2313
-!6260 2313[6240 2238 6160 2234"/>
+!6160 2234[6090 2229 6031 2274!6031 2274[5962 2327 5897 2438!5897 2438[5828 2565 5791 2622!5791 2622[5776 2647 5800 2664!5800 2664[#16AB.BC #A6A.A5 5807.5 2668.5!5807.5 2668.5[#16A4.44 #A79.C9 5806 2702!5806 2702[5818 2729 5843 2714!5843
+ 2714[6049 2586 6106 2544!6106 2544[6286 2411 6260 2313!6260 2313[6240 2238 6160 2234!6176 2300[6210 2320 6202 2353!6202 2353[6185 2419 6015 2537!6015 2537|5852 2638.5!5852 2638.5[#170F.85 #9FC.25 5992 2406!5992 2406[6052 2321 6113 2294
+!6113 2294[6143 2281 6176 2300"/>
                       </edges>
                     </DOMShape>
                   </members>
@@ -773,17 +773,6 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Hit controllers/invisible" name="b_av" symbolType="button">
-                  <matrix>
-                    <Matrix tx="-52.8" ty="-45.1"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Hit controllers/hitsource" name="hittestie">
                   <matrix>
                     <Matrix a="0.501953125" d="0.421630859375" tx="-7.9" ty="-7.5"/>
