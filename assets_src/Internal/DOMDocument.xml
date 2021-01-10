@@ -22,13 +22,13 @@
           <Include href="Organisms/details/mac_baceyebrows.xml" loadImmediate="false" itemID="40757b3b-00007bcf" lastModified="1081437483"/>
           <Include href="Organisms/details/macro_bac_blue.xml" loadImmediate="false" itemID="40757a98-000078df" lastModified="1087397386"/>
           <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610249211"/>
-          <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610247646"/>
+          <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610252132"/>
           <Include href="RightAnt.xml" loadImmediate="false" itemID="5ffa6d31-00000324" lastModified="1610247473"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="ui" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="ui" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -44,7 +44,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_1" color="#00FFFF">
+                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -56,9 +56,9 @@
                                                   <Point x="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein" selected="true">
                                              <matrix>
-                                                  <Matrix tx="889.9" ty="200"/>
+                                                  <Matrix tx="879.9" ty="220"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.1"/>

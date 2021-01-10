@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" linkageExportForAS="true" linkageIdentifier="protein" linkageClassName="protein" sourceFlashFilepath="../../../Immune system Flash 8/New/Internal.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1085049839" lastModified="1610247646" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" linkageExportForAS="true" linkageIdentifier="protein" linkageClassName="protein" sourceFlashFilepath="../../../Immune system Flash 8/New/Internal.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1085049839" lastModified="1610252132" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="protein" currentFrame="25" layerDepthEnabled="true">
+    <DOMTimeline name="protein" currentFrame="53" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="labels" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>

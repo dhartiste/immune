@@ -90,7 +90,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="game-safe" color="#9933CC" locked="true" autoNamed="false">
+                    <DOMLayer name="game-safe" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -112,7 +112,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="game-safe-bg" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="game-safe-bg" color="#FF800A" locked="true" autoNamed="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>

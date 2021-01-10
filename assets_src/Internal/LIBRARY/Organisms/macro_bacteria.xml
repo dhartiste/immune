@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="macro_bacteria" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="labels" color="#9933CC" autoNamed="false">
+        <DOMLayer name="labels" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="14" name="intro" labelType="name" keyMode="9728">
               <elements/>
@@ -88,7 +88,7 @@ this._parent.bInfected = false;*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Bacteria_anim" color="#FFFF4F" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="Bacteria_anim" color="#FFFF4F" autoNamed="false" open="false" layerType="folder"/>
         <DOMLayer name="Guide__ant1" color="#808080" parentLayerIndex="3" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">

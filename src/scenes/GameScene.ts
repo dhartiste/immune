@@ -56,29 +56,6 @@ export default class GameScene extends BaseScene {
             console.log("go to the scene for... ", );
 
             this.changeScene("internal");
-
-            // todo: move to other scenes ****
-
-            switch(this.gameData.currentChoiceIndex) {
-                case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
-                    break;
-                case MICROORGANISM_INDEX.BACTERIA:
-                    // do the bateria
-                    console.log("...The BACTERIA. which was found in the number check");
-                    break;
-                case MICROORGANISM_INDEX.BACTERIA_PROTEIN:
-                    console.log("...The BACTERIA_PROTEIN which was found in the number check");
-                    break;
-                case MICROORGANISM_INDEX.DEAD_VIRUS:
-                    break;
-                case MICROORGANISM_INDEX.LIVE_VIRUS:
-                    break;            
-            }
-
-            if (this.gameData.currentChoiceIndex===MICROORGANISM_INDEX.BACTERIA) {
-                // do the bacteria
-                console.log("The bacteria was found in the string check");
-            }
         }
     }
     onStickySelect =()=>{
