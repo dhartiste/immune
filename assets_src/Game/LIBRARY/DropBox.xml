@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="DropBox" itemID="5ffa578b-00000258" lastModified="1610242277">
   <timeline>
-    <DOMTimeline name="DropBox" currentFrame="1">
+    <DOMTimeline name="DropBox">
       <layers>
         <DOMLayer name="outline" color="#00FFFF" autoNamed="false">
           <frames>

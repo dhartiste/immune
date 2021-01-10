@@ -26,7 +26,7 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="objects" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="objects" color="#9933CC" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -78,7 +78,7 @@
                                                   <Point x="0.45" y="0.9"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="DropBox" name="dropbox" selected="true">
+                                        <DOMSymbolInstance libraryItemName="DropBox" name="dropbox">
                                              <matrix>
                                                   <Matrix tx="1200" ty="600"/>
                                              </matrix>
@@ -112,7 +112,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="game-safe-bg" color="#FF800A" locked="true" autoNamed="false">
+                    <DOMLayer name="game-safe-bg" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>

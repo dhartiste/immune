@@ -55,6 +55,8 @@ export default class GameScene extends BaseScene {
             // go to the next scene
             console.log("go to the scene for... ", );
 
+            this.changeScene("internal");
+
             // todo: move to other scenes ****
 
             switch(this.gameData.currentChoiceIndex) {
