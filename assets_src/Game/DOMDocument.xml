@@ -5,6 +5,7 @@
      </folders>
      <symbols>
           <Include href="Button.xml" loadImmediate="false" itemID="5c242ce7-0000042f" lastModified="1545875163"/>
+          <Include href="DropBox.xml" loadImmediate="false" itemID="5ffa578b-00000258" lastModified="1610242277"/>
           <Include href="Eyes.xml" itemIcon="1" loadImmediate="false" itemID="5c2433c3-00000466" lastModified="1545876419"/>
           <Include href="GameSafe.xml" loadImmediate="false" itemID="5ffa2c0f-00000136" lastModified="1610230799"/>
           <Include href="Hit controllers/hitsource.xml" loadImmediate="false" itemID="402d6773-000191b3" lastModified="1088440452"/>
@@ -31,7 +32,7 @@
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria">
                                              <matrix>
-                                                  <Matrix a="0.620635986328125" d="0.620635986328125" tx="905.35" ty="553.5"/>
+                                                  <Matrix a="0.620635986328125" d="0.620635986328125" tx="681.45" ty="279.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -39,7 +40,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein">
                                              <matrix>
-                                                  <Matrix tx="984.25" ty="283.75"/>
+                                                  <Matrix tx="966.7" ty="283.75"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.5" y="-0.05"/>
@@ -55,7 +56,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead">
                                              <matrix>
-                                                  <Matrix a="0.714141845703125" d="0.714141845703125" tx="413.3" ty="277.05"/>
+                                                  <Matrix a="0.714141845703125" d="0.714141845703125" tx="972.4" ty="393.2"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.55" y="1.35"/>
@@ -75,6 +76,14 @@
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.45" y="0.9"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="DropBox" name="dropbox" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="1200" ty="600"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
