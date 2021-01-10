@@ -40,7 +40,7 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="objects" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="objects" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -68,7 +68,7 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead" selected="true">
                                              <matrix>
                                                   <Matrix a="0.714141845703125" d="0.714141845703125" tx="477.9" ty="531.95"/>
                                              </matrix>
@@ -415,7 +415,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background" color="#FF0000" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="background" color="#FF0000" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -444,7 +444,7 @@
 !20499 2999|22879 2999!22879 2999|22879 4219!22879 4219|20499 4219!20499 4219|20499 2999"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMRectangleObject objectWidth="1536.05" objectHeight="768" x="5.15" y="2.6" selected="true" lockFlag="true">
+                                        <DOMRectangleObject objectWidth="1536.05" objectHeight="768" x="5.15" y="2.6" lockFlag="true">
                                              <matrix>
                                                   <Matrix a="0.999969482421875" tx="-5.15" ty="-2.6"/>
                                              </matrix>
