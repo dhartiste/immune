@@ -2,28 +2,30 @@ import { MovieClip } from 'pixi-animate';
 import { Rectangle } from 'pixi.js';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as GameArt from '../assets/Game';
+import { MICROORGANISM_INDEX } from '../helpers/Const';
 import DragManager from '../helpers/DragManager';
+import BaseScene, { MicroOrganism } from './BaseScene';
 
-export default class GameScene extends Scene {
+export default class GameScene extends BaseScene {
 
     private art: Art;
     private dragManager:DragManager;
+    private isDragging:boolean = false;
+    private objDragging:MicroButtons;
+    private isHit:boolean = false;
     
     preload():AssetList{
         return [
             {type:'animate', id:'gameArt', stage:GameArt.stage, cacheInstance:true},
-            
         ];
     }
 
     setup(){
         this.art = this.cache.animations.gameArt as Art;
-        this.art.remote.button.gotoAndStop(0);
-        this.art.screen.gotoAndStop(0);
         this.addChild(this.art);
-    }
 
-   
+        this.art.dropbox.gotoAndStop(0);
+    }
 
     start(){
         this.interactive = true;
@@ -32,13 +34,29 @@ export default class GameScene extends Scene {
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
 
+        this.art.bacteria.index = MICROORGANISM_INDEX.BACTERIA;
+        this.art.protein.index = MICROORGANISM_INDEX.BACTERIA_PROTEIN;
     }
 
-    onStartDrag =(object:MovieClip)=>{
-        console.log(object.name, "this is the name of the thing");
+    onStartDrag =(object:MicroButtons)=>{
+        console.log(object.name, "this is the name of the button");
+        this.isDragging = true;
+        this.objDragging = object;
+
+        this.gameData.currentChoice = object.name as MicroOrganism;
+        this.gameData.currentChoiceIndex = object.index;
     }
     onEndDrag =()=>{
     //to do
+        this.isDragging = false;
+        this.objDragging = null;
+
+        if (this.isHit) {
+            // go to the next scene
+            console.log("go to the scene for... ", );
+
+            this.changeScene("internal");
+        }
     }
     onStickySelect =()=>{
     //to do
@@ -46,6 +64,21 @@ export default class GameScene extends Scene {
 
     update(){
         this.dragManager.update();
+        
+        if (this.isDragging && this.objDragging!==null) {
+            let db:MovieClip = this.art.dropbox;
+            let obj:MovieClip = this.objDragging;
+            //
+            this.isHit = 
+            obj.x < db.x + db.width/2 && 
+            obj.x > db.x - db.width/2  &&
+            obj.y > db.y - db.height/2 &&
+            obj.y < db.y + db.height/2;
+            this.art.dropbox.gotoAndStop(0);
+            if (this.isHit) {
+                this.art.dropbox.gotoAndStop(1);
+            }            
+        }
     }
 
     cleanup(){
@@ -53,12 +86,12 @@ export default class GameScene extends Scene {
     }
 }
 
-interface Art extends PIXI.animate.MovieClip {
-    remote: PIXI.animate.MovieClip & {
-        button: PIXI.animate.MovieClip;
-    };
-    screen: PIXI.animate.MovieClip;
-    lipsyncScene: PIXI.animate.MovieClip;
-    bacteria:PIXI.animate.MovieClip;
-    protein:PIXI.animate.MovieClip;
+interface Art extends MovieClip {
+    bacteria:MicroButtons;
+    protein:MicroButtons;
+    dropbox:MovieClip;
+}
+
+interface MicroButtons extends MovieClip {
+    index: number;
 }

@@ -13,7 +13,7 @@ const game = new TemplateGame({
     containerID: 'content',
     width:1624,
     height:750,
-    altWidth:1000,
+    altWidth:1050,
     transition: Transition.stage,
     
 

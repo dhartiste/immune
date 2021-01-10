@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_dead" itemID="4023c671-00003f5b" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/virus_dead" sourceLastModified="1088441888" lastModified="1088441888" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_dead" itemID="4023c671-00003f5b" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/virus_dead" sourceLastModified="1088441888" lastModified="1610231096" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="virus_dead">
       <layers>
@@ -669,17 +669,6 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Hit controllers/invisible" name="b_dv" symbolType="button">
-                  <matrix>
-                    <Matrix tx="-55.8" ty="-48.9"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Hit controllers/hitsource" name="hittestie">
                   <matrix>
                     <Matrix a="0.501953125" d="0.421630859375" tx="-11.9" ty="-11.35"/>
