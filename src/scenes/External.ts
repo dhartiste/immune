@@ -1,6 +1,7 @@
-import { MovieClip} from 'pixi-animate';
+import { MovieClip, utils} from 'pixi-animate';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as ExternalArt from '../assets/External';
+//import Utils from '../helpers/Utils';
 
 export default class GameScene extends Scene {
     
@@ -17,6 +18,7 @@ export default class GameScene extends Scene {
         this.addChild(this.art);
 
         this.art.gotoAndStop('default');
+        //Utils.simpleButton(this.art.btnAhead);
     }
 
     start(){
@@ -42,6 +44,6 @@ interface ExternalArt extends MovieClip {
     Protection:PIXI.animate.MovieClip;
     dDescription:PIXI.animate.MovieClip;
     */
-    //btnAhead:PIXI.animate.button;
-    //btnBack:PIXI.animate.MovieClip;
+    btnAhead:MovieClip;
+    btnBack:MovieClip;
 }
