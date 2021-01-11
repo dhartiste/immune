@@ -16,15 +16,12 @@ export default class GameScene extends Scene {
         this.art = this.cache.animations.externalArt as ExternalArt;
         this.addChild(this.art);
 
-        this.art.patient.gotoAndStop(0);
+        this.art.gotoAndStop('default');
     }
 
     start(){
-        // to do
-    }
-
-    endAnimation = () => {
-        //PIXI.animate.Animator.play(this.art.patient, "sickToSickInBed");
+        PIXI.animate.Animator.play(this.art, 'healthyToSick');
+        //PIXI.animate.Animator.play(this.art, 'sickToBed');
     }
 
     update(){

@@ -27,24 +27,30 @@
           <Include href="zDetails/bandaid details/nub_only.xml" loadImmediate="false" itemID="40bf243b-00001446" lastModified="1090507614"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="100" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Labels" color="#FF4F4F" autoNamed="false">
+                    <DOMLayer name="Labels" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" name="default" labelType="name" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="4" duration="35" name="healthyToSick" labelType="name" keyMode="9728">
+                              <DOMFrame index="4" duration="45" name="healthyToSick" labelType="name" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="39" duration="36" name="sickToSickInBed" labelType="name" keyMode="9728">
+                              <DOMFrame index="49" duration="5" name="healthyToSick_stop" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="54" duration="46" name="sickToBed" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="100" name="sickToBed_stop" labelType="name" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="thermometer" color="#4FFFFF" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="75" keyMode="9728">
+                              <DOMFrame index="0" duration="101" keyMode="9728">
                                    <elements>
                                         <DOMShape selected="true">
                                              <fills>
@@ -63,7 +69,7 @@
                                              </strokes>
                                              <edges>
                                                   <Edge fillStyle1="1" edges="!8972.5 -100|9785.5 -100!9785.5 -100[#2579.B -80 9379 -80!9379 -80[#23CC.5 -80 8972.5 -100"/>
-                                                  <Edge strokeStyle="1" edges="!9061 6912|9994 6912!9061 6623|9994 6623!9061 6334|9994 6334!9061 7201|9994 7201!9061 7490|9994 7490!9061 7779|9994 7779!9071 6045|10004 6045"/>
+                                                  <Edge strokeStyle="1" edges="!9071 6045|10004 6045!9061 7779|9994 7779!9061 7490|9994 7490!9061 7201|9994 7201!9061 6334|9994 6334!9061 6623|9994 6623!9061 6912|9994 6912"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMStaticText fontRenderingMode="standard" width="24" height="14.5" isSelectable="false">
@@ -145,7 +151,7 @@
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient">
                                              <matrix>
-                                                  <Matrix tx="427.7" ty="219.65"/>
+                                                  <Matrix tx="428.7" ty="219.65"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="104.15" y="143.45"/>
@@ -156,7 +162,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="4" duration="35" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="4" duration="45" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
                                              <matrix>
@@ -171,7 +177,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="39" duration="35" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="49" duration="5" keyMode="15872">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
                                              <matrix>
@@ -186,7 +192,22 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="74" keyMode="9728">
+                              <DOMFrame index="54" duration="45" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
+                                             <matrix>
+                                                  <Matrix tx="427.7" ty="219.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="104.15" y="143.45"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#FFEA00"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="99" duration="2" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
                                              <matrix>
@@ -205,7 +226,7 @@
                     </DOMLayer>
                     <DOMLayer name="layout" color="#FFFF4F" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="75" keyMode="9728">
+                              <DOMFrame index="0" duration="101" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid">
                                              <matrix>
@@ -267,9 +288,9 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="background" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="background" color="#00FFFF" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="75" keyMode="9728">
+                              <DOMFrame index="0" duration="101" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
