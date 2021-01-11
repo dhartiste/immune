@@ -51,7 +51,8 @@ export default class TitleScene extends Scene {
         this.btnPink.once("pointerdown",()=>{
             // todo
             console.log("Pink button pressed");
-            this.changeScene("game");
+            //this.changeScene("game");
+            this.changeScene("external");
         });
        
 
