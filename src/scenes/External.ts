@@ -1,4 +1,4 @@
-import { MovieClip } from 'pixi-animate';
+import { MovieClip} from 'pixi-animate';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as ExternalArt from '../assets/External';
 
