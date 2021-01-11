@@ -18,8 +18,8 @@ export default class GameScene extends Scene {
 
     setup(){
         this.art = this.cache.animations.gameArt as Art;
-        this.art.remote.button.gotoAndStop(0);
-        this.art.screen.gotoAndStop(0);
+        // this.art.remote.button.gotoAndStop(0);
+        // this.art.screen.gotoAndStop(0);
         this.addChild(this.art);
     }
 
@@ -31,6 +31,9 @@ export default class GameScene extends Scene {
         this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
+        this.dragManager.addObject(this.art.virus_alive);
+        this.dragManager.addObject(this.art.virus_attenuated);
+        this.dragManager.addObject(this.art.virus_dead);
 
     }
 
@@ -39,6 +42,11 @@ export default class GameScene extends Scene {
     }
     onEndDrag =()=>{
     //to do
+        // if not on top || collides with girl or syringe, move back to original position
+        // if on girl 
+        // current_microorg = "bacteria";
+        // changeScene -> Internal();
+
     }
     onStickySelect =()=>{
     //to do
@@ -46,6 +54,9 @@ export default class GameScene extends Scene {
 
     update(){
         this.dragManager.update();
+        // for each MO, check if over girl and check if over syringe
+        // if over g, highlight g
+
     }
 
     cleanup(){
@@ -54,11 +65,14 @@ export default class GameScene extends Scene {
 }
 
 interface Art extends PIXI.animate.MovieClip {
-    remote: PIXI.animate.MovieClip & {
-        button: PIXI.animate.MovieClip;
-    };
-    screen: PIXI.animate.MovieClip;
-    lipsyncScene: PIXI.animate.MovieClip;
+    // remote: PIXI.animate.MovieClip & {
+    //     button: PIXI.animate.MovieClip;
+    // };
+    // screen: PIXI.animate.MovieClip;
+    // lipsyncScene: PIXI.animate.MovieClip;
     bacteria:PIXI.animate.MovieClip;
     protein:PIXI.animate.MovieClip;
+    virus_alive:PIXI.animate.MovieClip;
+    virus_attenuated:PIXI.animate.MovieClip;
+    virus_dead:PIXI.animate.MovieClip;
 }
