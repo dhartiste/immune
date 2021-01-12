@@ -24,9 +24,8 @@ export default class GameScene extends Scene {
     }
 
     start(){
-        //PIXI.animate.Animator.play(this.art, 'healthyToSick');
-        PIXI.animate.Animator.play(this.art, 'gray');
-        //PIXI.animate.Animator.play(this.art, 'sickToBed');
+        PIXI.animate.Animator.play(this.art);
+     
     }
 
     update(){
@@ -44,6 +43,9 @@ interface ExternalArt extends MovieClip {
     bacolor:MovieClip;
     /*
     dTempFC:PIXI.animate.MovieClip;
+    /*
+    dTempFC:PIXI.animate.MovieClip;
+    Health:PIXI.animate.MovieClip;
     bandaid:PIXI.animate.MovieClip;
     Protection:PIXI.animate.MovieClip;
     dDescription:PIXI.animate.MovieClip;

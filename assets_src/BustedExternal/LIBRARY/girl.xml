@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/gray_kid2" itemID="410ac6b0-00003931" sourceFlashFilepath="../../../../Downloads/immune-ERuggiero_menu/assets_src/z_OrigSource/FlashProject/External.fla" sourceLibraryItemHRef="Objects/gray_kid2" sourceLastModified="1091222251" lastModified="1091222251" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="girl" itemID="5ffd2f46-000001c8" lastModified="1610428253">
   <timeline>
-    <DOMTimeline name="gray_kid2" layerDepthEnabled="true">
+    <DOMTimeline name="girl" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -16,7 +16,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Objects/Hit controllers/hitme" name="hitme" symbolType="button">
                   <matrix>
-                    <Matrix a="1.75" d="1.84848022460938" tx="38" ty="25.05"/>
+                    <Matrix tx="44" ty="67.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

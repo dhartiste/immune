@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#252526" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="A09BED2094E84065A6361245C94B5046">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFDFBF" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="A09BED2094E84065A6361245C94B5046">
      <folders>
           <DOMFolderItem name="Buttons" itemID="5ffca144-000001d4"/>
           <DOMFolderItem name="Objects" itemID="5ffca150-000001e0"/>
@@ -11,25 +11,32 @@
           <DOMBitmapItem name="Objects/NatOutline.png" itemID="410ac5d7-0000365d" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Illustrator:NatOutline.png" sourceLastImported="1091221408" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Objects/NatOutline.png" bitmapDataHRef="M 2 1610391899.dat" frameRight="1900" frameBottom="6000"/>
      </media>
      <symbols>
-          <Include href="70Protection.xml" loadImmediate="false" itemID="5ffd7c66-00000182" lastModified="1610447974"/>
-          <Include href="95Protect.xml" loadImmediate="false" itemID="5ffd7cc4-000001a5" lastModified="1610448068"/>
+          <Include href="0Protection.xml" loadImmediate="false" itemID="5ffd69d3-000001df" lastModified="1610443219"/>
+          <Include href="70%Protect.xml" loadImmediate="false" itemID="5ffd6a0f-0000022f" lastModified="1610443279"/>
+          <Include href="70Protection.xml" loadImmediate="false" itemID="5ffd69c1-000001d9" lastModified="1610443201"/>
+          <Include href="95Protect.xml" loadImmediate="false" itemID="5ffd6a32-00000233" lastModified="1610443314"/>
           <Include href="Buttons/bulb.xml" loadImmediate="false" itemID="40bf65e1-00006b00" lastModified="1090251326"/>
           <Include href="Buttons/jump.xml" loadImmediate="false" itemID="40bf5ef3-0000417e" lastModified="1090507520"/>
           <Include href="Buttons/press.xml" itemIcon="0" loadImmediate="false" itemID="40bf62ba-000057ea" lastModified="1090251724"/>
           <Include href="dCelcius.xml" loadImmediate="false" itemID="5ffd38eb-00000374" lastModified="1610441459"/>
           <Include href="dFarenheit.xml" loadImmediate="false" itemID="5ffd38e6-00000370" lastModified="1610430694"/>
           <Include href="dTemp.xml" loadImmediate="false" itemID="5ffd26af-000001aa" lastModified="1610426031"/>
-          <Include href="InBed.xml" loadImmediate="false" itemID="5ffd7bd2-00000141" lastModified="1610447826"/>
-          <Include href="Objects/bandaid.xml" loadImmediate="false" itemID="40bf20a2-00000af4" lastModified="1090507645"/>
-          <Include href="Objects/gray_kid2.xml" loadImmediate="false" itemID="410ac6b0-00003931" lastModified="1091222251"/>
+          <Include href="girl.xml" loadImmediate="false" itemID="5ffd2f46-000001c8" lastModified="1610428253"/>
+          <Include href="Objects/bandaid.xml" loadImmediate="false" itemID="40bf20a2-00000af4" lastModified="1610440249"/>
+          <Include href="Objects/gray_kid2.xml" loadImmediate="false" itemID="410ac6b0-00003931" lastModified="1610428250"/>
           <Include href="Objects/gray_Nat.xml" loadImmediate="false" itemID="410ac615-000036b4" lastModified="1091221799"/>
           <Include href="Objects/Hit controllers/hitme.xml" itemIcon="0" loadImmediate="false" itemID="402d6554-00018227" lastModified="1091221611"/>
-          <Include href="Sick.xml" loadImmediate="false" itemID="5ffd78c1-00000215" lastModified="1610447041"/>
-          <Include href="SickInBed!.xml" loadImmediate="false" itemID="5ffd78e3-0000021a" lastModified="1610447584"/>
+          <Include href="patient.xml" loadImmediate="false" itemID="5ffd37ee-00000364" lastModified="1610430446"/>
+          <Include href="Sick.xml" loadImmediate="false" itemID="5ffd6069-00000185" lastModified="1610440809"/>
+          <Include href="SickInBed.xml" loadImmediate="false" itemID="5ffd6076-0000018a" lastModified="1610441031"/>
           <Include href="text.xml" loadImmediate="false" itemID="5ffcfeb7-000001ed" lastModified="1610421544"/>
-          <Include href="Texts/txtHealth.xml" loadImmediate="false" itemID="40bf285d-00002d24" lastModified="1090516668"/>
-          <Include href="Texts/txtProtection.xml" loadImmediate="false" itemID="40bf288d-00002e04" lastModified="1610447977"/>
+          <Include href="Texts/txtHealth.xml" loadImmediate="false" itemID="40bf285d-00002d24" lastModified="1610440545"/>
+          <Include href="Texts/txtProtection.xml" loadImmediate="false" itemID="40bf288d-00002e04" lastModified="1610443209"/>
           <Include href="Texts/txtTemperature.xml" loadImmediate="false" itemID="40bf4935-00003ead" lastModified="1610443146"/>
+          <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="5ffd012b-0000021d" lastModified="1610416427"/>
+          <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5df4-00000148" lastModified="1610440180"/>
+          <Include href="Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5e00-0000014c" lastModified="1610440192"/>
+          <Include href="Tween 4.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5e1a-00000152" lastModified="1610440218"/>
           <Include href="Tween 5.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5ea9-0000015a" lastModified="1610440361"/>
           <Include href="Tween 6.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5ea9-0000015e" lastModified="1610440361"/>
           <Include href="zDetails/ba_color.xml" loadImmediate="false" itemID="40bf2673-00002539" lastModified="1090506658"/>
@@ -38,7 +45,7 @@
           <Include href="zDetails/bandaid details/nub_only.xml" loadImmediate="false" itemID="40bf243b-00001446" lastModified="1090507614"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="100" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="26" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Labels" color="#FF4F4F" autoNamed="false">
                          <frames>
@@ -59,7 +66,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="thermometer" color="#9933CC" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="thermometer" color="#9933CC" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="thermometer_color" color="#00FFFF" parentLayerIndex="1" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
@@ -321,23 +328,11 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="5" duration="21" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="5" duration="44" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="text" name="text" centerPoint3DX="477.9" centerPoint3DY="389.1">
                                              <matrix>
                                                   <Matrix tx="395.05" ty="378.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="82.85" y="11"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="26" duration="23" tweenType="motion" motionTweenSnap="true" keyMode="22017">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="text" name="text" selected="true" centerPoint3DX="477.9" centerPoint3DY="368.1">
-                                             <matrix>
-                                                  <Matrix tx="395.05" ty="357.1"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="82.85" y="11"/>
@@ -415,7 +410,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="body" color="#808080" autoNamed="false">
+                    <DOMLayer name="body" color="#808080" autoNamed="false" highlighted="true">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements>
@@ -432,7 +427,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="4" duration="45" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
                                              <matrix>
@@ -443,6 +438,36 @@
                                              </transformationPoint>
                                              <color>
                                                   <Color tintMultiplier="1" tintColor="#00DD00"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
+                                             <matrix>
+                                                  <Matrix tx="427.7" ty="219.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="104.15" y="143.45"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="6" greenOffset="221"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="40" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
+                                             <matrix>
+                                                  <Matrix tx="427.7" ty="219.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="104.15" y="143.45"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="29" greenOffset="222"/>
                                              </color>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -477,7 +502,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="99" duration="2" keyMode="9728">
+                              <DOMFrame index="99" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/gray_kid2" name="patient" centerPoint3DX="475.2" centerPoint3DY="369.65">
                                              <matrix>
@@ -492,11 +517,23 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="100" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="patient" name="patient">
+                                             <matrix>
+                                                  <Matrix tx="427.7" ty="219.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="52.05" y="150"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="layout" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="4" keyMode="9728">
+                              <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid">
                                              <matrix>
@@ -556,7 +593,7 @@
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="4" duration="41" keyMode="9728">
+                              <DOMFrame index="2" duration="45" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid" centerPoint3DX="668.6" centerPoint3DY="361.1">
                                              <matrix>
@@ -577,7 +614,7 @@
                                                   <Color tintMultiplier="1" tintColor="#D09214"/>
                                              </color>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Texts/txtProtection" name="Protection" centerPoint3DX="683.95" centerPoint3DY="194.45">
+                                        <DOMSymbolInstance libraryItemName="Texts/txtProtection" name="Protection" centerPoint3DX="692.85" centerPoint3DY="194.45">
                                              <matrix>
                                                   <Matrix tx="606.2" ty="183.95"/>
                                              </matrix>
@@ -616,7 +653,7 @@
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="45" duration="52" keyMode="9728">
+                              <DOMFrame index="47" duration="45" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid" centerPoint3DX="668.6" centerPoint3DY="361.1">
                                              <matrix>
@@ -626,23 +663,12 @@
                                                   <Point x="21" y="146.15"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Sick" name="Health" centerPoint3DX="478" centerPoint3DY="198.45">
+                                        <DOMSymbolInstance libraryItemName="Sick" name="Health" centerPoint3DX="461.7" centerPoint3DY="196.45">
                                              <matrix>
-                                                  <Matrix tx="446" ty="185.95"/>
+                                                  <Matrix tx="429.7" ty="183.95"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="29.3" y="10.5"/>
-                                             </transformationPoint>
-                                             <color>
-                                                  <Color tintMultiplier="1" tintColor="#D09214"/>
-                                             </color>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="70Protection" name="Protection" centerPoint3DX="683.95" centerPoint3DY="194.45">
-                                             <matrix>
-                                                  <Matrix tx="606.2" ty="183.95"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="62.4" y="10.5"/>
                                              </transformationPoint>
                                              <color>
                                                   <Color tintMultiplier="1" tintColor="#D09214"/>
@@ -674,9 +700,17 @@
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="70%Protect">
+                                             <matrix>
+                                                  <Matrix tx="605.55" ty="183.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="73.3" y="10.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="97" duration="4" keyMode="9728">
+                              <DOMFrame index="92" duration="9" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid" centerPoint3DX="668.6" centerPoint3DY="361.1">
                                              <matrix>
@@ -686,9 +720,9 @@
                                                   <Point x="21" y="146.15"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="InBed" name="Health" centerPoint3DX="468" centerPoint3DY="198.45">
+                                        <DOMSymbolInstance libraryItemName="SickInBed" name="Health" centerPoint3DX="461.7" centerPoint3DY="196.45">
                                              <matrix>
-                                                  <Matrix tx="436" ty="185.95"/>
+                                                  <Matrix tx="429.7" ty="183.95"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="29.3" y="10.5"/>
@@ -697,9 +731,9 @@
                                                   <Color tintMultiplier="1" tintColor="#D09214"/>
                                              </color>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="95Protect" name="Protection" selected="true" centerPoint3DX="670.95" centerPoint3DY="194.45">
+                                        <DOMSymbolInstance libraryItemName="95Protect" name="Protection" centerPoint3DX="692.85" centerPoint3DY="194.45">
                                              <matrix>
-                                                  <Matrix tx="593.2" ty="183.95"/>
+                                                  <Matrix tx="606.2" ty="183.95"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="62.4" y="10.5"/>
@@ -742,7 +776,7 @@
                          <frames>
                               <DOMFrame index="0" duration="101" keyMode="9728">
                                    <elements>
-                                        <DOMShape>
+                                        <DOMShape selected="true">
                                              <fills>
                                                   <FillStyle index="1">
                                                        <SolidColor color="#FFFFCE"/>
@@ -758,7 +792,8 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!-240 -240|32748 -240!32748 -240|32748 15155!32748 15155|-240 15155!-240 15155|-240 -240"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="
+!-240 -240|32748 -240!32748 -240|32748 15155!32748 15155|-240 15155!-240 15155|-240 -240"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
