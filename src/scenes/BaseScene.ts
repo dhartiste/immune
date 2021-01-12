@@ -44,7 +44,7 @@ export default class BaseScene extends Scene {
 
 }
 
-export type MicroOrganism = 'none' | 'bacteria' | 'protein'| 'liveVirus' | 'deadVirus' | 'attenuateVirus';
+export type MicroOrganism = 'none' | 'bacteria' | 'protein'| 'virus_alive' | 'virus_dead' | 'virus_attenuated';
 
 export interface GameData {
    currentChoice : MicroOrganism;

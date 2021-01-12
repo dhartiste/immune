@@ -1,7 +1,7 @@
 import { MovieClip, utils} from 'pixi-animate';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as ExternalArt from '../assets/External';
-//import Utils from '../helpers/Utils';
+import Utils from '../helpers/Utils';
 
 export default class GameScene extends Scene {
     
@@ -18,25 +18,51 @@ export default class GameScene extends Scene {
         this.addChild(this.art);
 
         this.art.gotoAndStop('default');
-        //Utils.simpleButton(this.art.btnAhead);
+        //this.art.bacolor.gotoAndStop('default');
+        this.art.btnAhead.gotoAndStop('default');
+        this.art.btnBack.gotoAndStop('default');
+
+        this.art.btnAhead.once("pointerdown",()=>{
+            console.log("btnAhead pressed");
+            this.changeScene("title");
+            //this.changeScene("external");
+        });
+        this.art.btnBack.once("pointerdown",()=>{
+            console.log("btnAhead pressed");
+            this.changeScene("title");
+        });
     }
 
     start(){
+        Utils.simpleButton(this.art.btnAhead);
+        Utils.simpleButton(this.art.btnBack);
+        //PIXI.animate.Animator.play(this.art, 'healthyToSick');
         PIXI.animate.Animator.play(this.art);
-     
+       /* var test = setTimeout(function(){ alert("hello");}, 1000);
+        var stop = setTimeout(function(){ PIXI.animate.Animator.stopAll();}, 1000); */
+
+   
     }
 
     update(){
         // to do
     }
 
+
     cleanup(){
         // to do
+        this.art.btnAhead.off("pointerdown");
+        this.art.btnBack.off("pointerdown");
     }
 }
 
 interface ExternalArt extends MovieClip {
     patient: MovieClip;
+    Health:MovieClip;
+    bacolor:MovieClip;
+    dFarenheit: MovieClip;
+    /*
+    dTempFC:PIXI.animate.MovieClip;
     /*
     dTempFC:PIXI.animate.MovieClip;
     Health:PIXI.animate.MovieClip;

@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Popup/pnlPopup2" itemID="40437b40-000096ea" lastModified="1090420029" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="pnlPopup2">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/large box" name="box">
+                  <matrix>
+                    <Matrix a="0.999679565429688" ty="-3.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="34.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="popuptxt_det" fontRenderingMode="standard" width="138.4" height="128" includeOutlines="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="11.55" ty="25.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>attenuated virus detai&#xD;more&#xD;more</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="popuptxt2" fontRenderingMode="standard" width="266.4" height="16" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="11.55" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>attenuated virus2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/line" name="hline">
+                  <matrix>
+                    <Matrix a="0.9996337890625" tx="11.4" ty="20.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

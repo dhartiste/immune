@@ -8,19 +8,143 @@
     var Graphics = PIXI.Graphics;
     var shapes = PIXI.animate.ShapesCache;
 
+    var Graphic1 = MovieClip.extend(function (mode) {
+        MovieClip.call(this, { mode: mode, duration: 97, loop: false });
+        var instance1 = new Graphics()
+            .drawCommands(shapes.External[0])
+            .setTransform(-668.6, -361.1);
+        this.addTimedChild(instance1);
+    });
+
+    lib.nub_circle = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.External[3]);
+        this.addChild(instance1);
+    });
+
+    lib.nub_circles = Container.extend(function () {
+        Container.call(this);
+        var instance20 = new lib.nub_circle()
+            .setTransform(18.3, 6.45);
+        var instance19 = new lib.nub_circle()
+            .setTransform(18.3, 20.65);
+        var instance18 = new lib.nub_circle()
+            .setTransform(18.3, 49.05);
+        var instance17 = new lib.nub_circle()
+            .setTransform(18.3, 34.85);
+        var instance16 = new lib.nub_circle()
+            .setTransform(18.3, 63.25);
+        var instance15 = new lib.nub_circle()
+            .setTransform(18.3, 77.45);
+        var instance14 = new lib.nub_circle()
+            .setTransform(18.3, 91.65);
+        var instance13 = new lib.nub_circle()
+            .setTransform(33.55, 14.15);
+        var instance12 = new lib.nub_circle()
+            .setTransform(33.55, 28.35);
+        var instance11 = new lib.nub_circle()
+            .setTransform(33.55, 56.75);
+        var instance10 = new lib.nub_circle()
+            .setTransform(33.55, 42.55);
+        var instance9 = new lib.nub_circle()
+            .setTransform(33.55, 70.95);
+        var instance8 = new lib.nub_circle()
+            .setTransform(33.55, 85.15);
+        var instance7 = new lib.nub_circle()
+            .setTransform(3.25, 12.85);
+        var instance6 = new lib.nub_circle()
+            .setTransform(3.25, 41.25);
+        var instance5 = new lib.nub_circle()
+            .setTransform(3.25, 27.05);
+        var instance4 = new lib.nub_circle()
+            .setTransform(3.25, 55.45);
+        var instance3 = new lib.nub_circle()
+            .setTransform(3.25, 69.65);
+        var instance2 = new lib.nub_circle()
+            .setTransform(3.25, 83.85);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.External[2]);
+        this.addChild(instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+    });
+
+    lib.nub_only = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.External[4]);
+        this.addChild(instance1);
+    });
+
+    lib.ba_color = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.External[1])
+            .setTransform(-647.6, -214.95);
+        this.addChild(instance1);
+    });
+
+    lib.bandaid = Container.extend(function () {
+        Container.call(this);
+        var instance4 = new lib.ba_color()
+            .setColorTransform(0, 0.8, 0, 0.8, 0, 0.8);
+        this[instance4.name = "bacolor"] = instance4;
+        var instance3 = new Graphics()
+            .drawCommands(shapes.External[5]);
+        var instance2 = new lib.nub_only()
+            .setTransform(0, 91.85);
+        this[instance2.name = "nub"] = instance2;
+        var instance1 = new lib.nub_circles()
+            .setTransform(-1.1, 91.1);
+        this[instance1.name = "circles"] = instance1;
+        this.addChild(instance4, instance3, instance2, instance1);
+    });
+
+    lib._37 = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Text("37.0")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                leading: 2
+            })
+            .setAlign("right")
+            .setTransform(55);
+        this.addChild(instance1);
+    });
+
+    lib._38 = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new lib._37();
+        this.addChild(instance1);
+    });
+
+    lib._98 = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Text("98.6")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                leading: 2
+            })
+            .setAlign("right")
+            .setTransform(55);
+        this[instance1.name = "dFarenheit"] = instance1;
+        this.addChild(instance1);
+    });
+
     lib.press = MovieClip.extend(function () {
         MovieClip.call(this, {
             duration: 4
         });
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[1]);
-        this.addTimedChild(instance1, 3, 1);
+
     });
 
     lib.bulb = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.External[3]);
+            .drawCommands(shapes.External[7]);
         this.addChild(instance1);
     });
 
@@ -29,7 +153,7 @@
         var instance3 = new lib.bulb();
         this[instance3.name = "thebulb"] = instance3;
         var instance2 = new Graphics()
-            .drawCommands(shapes.External[2]);
+            .drawCommands(shapes.External[6]);
         var instance1 = new Text("expose to live virus")
             .setStyle({
                 fontFamily: "Tahoma",
@@ -44,1046 +168,10 @@
         this.addChild(instance3, instance2, instance1);
     });
 
-    lib.dCelcius = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Text("40")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setTransform(2, 2);
-        this[instance1.name = "dCelcius"] = instance1;
-        this.addChild(instance1);
-    });
-
-    lib.dFarenheit = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Text("99")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right")
-            .setTransform(55);
-        this[instance1.name = "dFarenheit"] = instance1;
-        this.addChild(instance1);
-    });
-
-    lib.dTemp = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right")
-            .setTransform(55);
-        this[instance2.name = "dFarenheit"] = instance2;
-        var instance1 = new Text("38.5")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setTransform(116, 2);
-        this[instance1.name = "dCelcius"] = instance1;
-        this.addChild(instance2, instance1);
-    });
-
-    lib.txtTemperature = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 102,
-            labels: {
-                default: 0,
-                healthyToSickText: 4,
-                healthyToSick_stopText: 49,
-                sickToBedText: 54,
-                sickToBed_stopText: 101
-            }
-        });
-        var instance2 = new lib.dFarenheit();
-        this[instance2.name = "dFarenheit"] = instance2;
-        var instance1 = new lib.dCelcius();
-        this[instance1.name = "dCelcius"] = instance1;
-        var instance4 = new Text("99")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance4.name = "dFarenheit"] = instance4;
-        var instance3 = new Text("37.1")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance3.name = "dCelcius"] = instance3;
-        var instance6 = new Text("99")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance6.name = "dFarenheit"] = instance6;
-        var instance5 = new Text("37.2")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance5.name = "dCelcius"] = instance5;
-        var instance8 = new Text("99")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance8.name = "dFarenheit"] = instance8;
-        var instance7 = new Text("37.3")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance7.name = "dCelcius"] = instance7;
-        var instance10 = new Text("99")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance10.name = "dFarenheit"] = instance10;
-        var instance9 = new Text("37.4")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance9.name = "dCelcius"] = instance9;
-        var instance12 = new Text("99")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance12.name = "dFarenheit"] = instance12;
-        var instance11 = new Text("37.5")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance11.name = "dCelcius"] = instance11;
-        var instance14 = new Text("100")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance14.name = "dFarenheit"] = instance14;
-        var instance13 = new Text("37.6")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance13.name = "dCelcius"] = instance13;
-        var instance16 = new Text("100")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance16.name = "dFarenheit"] = instance16;
-        var instance15 = new Text("37.7")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance15.name = "dCelcius"] = instance15;
-        var instance18 = new Text("100")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance18.name = "dFarenheit"] = instance18;
-        var instance17 = new Text("37.8")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance17.name = "dCelcius"] = instance17;
-        var instance20 = new Text("100")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance20.name = "dFarenheit"] = instance20;
-        var instance19 = new Text("37.9")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance19.name = "dCelcius"] = instance19;
-        var instance22 = new Text("100")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance22.name = "dFarenheit"] = instance22;
-        var instance21 = new Text("38.0")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance21.name = "dCelcius"] = instance21;
-        var instance24 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance24.name = "dFarenheit"] = instance24;
-        var instance23 = new Text("38.1")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance23.name = "dCelcius"] = instance23;
-        var instance26 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance26.name = "dFarenheit"] = instance26;
-        var instance25 = new Text("38.2")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance25.name = "dCelcius"] = instance25;
-        var instance28 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance28.name = "dFarenheit"] = instance28;
-        var instance27 = new Text("38.3")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance27.name = "dCelcius"] = instance27;
-        var instance30 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance30.name = "dFarenheit"] = instance30;
-        var instance29 = new Text("38.4")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance29.name = "dCelcius"] = instance29;
-        var instance32 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance32.name = "dFarenheit"] = instance32;
-        var instance31 = new Text("38.5")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance31.name = "dCelcius"] = instance31;
-        var instance33 = new lib.dTemp();
-        this[instance33.name = "dTemperature"] = instance33;
-        var instance35 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance35.name = "dFarenheit"] = instance35;
-        var instance34 = new Text("38.5")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance34.name = "dCelcius"] = instance34;
-        var instance37 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance37.name = "dFarenheit"] = instance37;
-        var instance36 = new Text("38.6")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance36.name = "dCelcius"] = instance36;
-        var instance39 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance39.name = "dFarenheit"] = instance39;
-        var instance38 = new Text("38.7")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance38.name = "dCelcius"] = instance38;
-        var instance41 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance41.name = "dFarenheit"] = instance41;
-        var instance40 = new Text("38.8")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance40.name = "dCelcius"] = instance40;
-        var instance43 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance43.name = "dFarenheit"] = instance43;
-        var instance42 = new Text("38.9")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance42.name = "dCelcius"] = instance42;
-        var instance45 = new Text("101")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance45.name = "dFarenheit"] = instance45;
-        var instance44 = new Text("39.0")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance44.name = "dCelcius"] = instance44;
-        var instance47 = new Text("102")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance47.name = "dFarenheit"] = instance47;
-        var instance46 = new Text("39.1")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance46.name = "dCelcius"] = instance46;
-        var instance49 = new Text("102")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance49.name = "dFarenheit"] = instance49;
-        var instance48 = new Text("39.2")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance48.name = "dCelcius"] = instance48;
-        var instance51 = new Text("102")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance51.name = "dFarenheit"] = instance51;
-        var instance50 = new Text("39.3")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance50.name = "dCelcius"] = instance50;
-        var instance53 = new Text("102")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance53.name = "dFarenheit"] = instance53;
-        var instance52 = new Text("39.4")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance52.name = "dCelcius"] = instance52;
-        var instance55 = new Text("102")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance55.name = "dFarenheit"] = instance55;
-        var instance54 = new Text("39.5")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance54.name = "dCelcius"] = instance54;
-        var instance57 = new Text("103")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance57.name = "dFarenheit"] = instance57;
-        var instance56 = new Text("39.6")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance56.name = "dCelcius"] = instance56;
-        var instance59 = new Text("103")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance59.name = "dFarenheit"] = instance59;
-        var instance58 = new Text("39.6")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance58.name = "dCelcius"] = instance58;
-        var instance61 = new Text("103")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance61.name = "dFarenheit"] = instance61;
-        var instance60 = new Text("39.7")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance60.name = "dCelcius"] = instance60;
-        var instance63 = new Text("103")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance63.name = "dFarenheit"] = instance63;
-        var instance62 = new Text("39.8")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance62.name = "dCelcius"] = instance62;
-        var instance65 = new Text("103")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance65.name = "dFarenheit"] = instance65;
-        var instance64 = new Text("39.9")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance64.name = "dCelcius"] = instance64;
-        var instance67 = new Text("104")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right");
-        this[instance67.name = "dFarenheit"] = instance67;
-        var instance66 = new Text("40")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            });
-        this[instance66.name = "dCelcius"] = instance66;
-        var instance69 = new Text("104")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("right")
-            .setTransform(43);
-        this[instance69.name = "dFarenheit"] = instance69;
-        var instance68 = new Text("40")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setTransform(104, 2);
-        this[instance68.name = "dCelcius"] = instance68;
-        this.addTimedChild(instance2, 0, 4, {
-                "0": {
-                    x: -12
-                }
-            })
-            .addTimedChild(instance1, 0, 4, {
-                "0": {
-                    x: 102
-                }
-            })
-            .addTimedChild(instance4, 4, 3, {
-                "4": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance3, 4, 3, {
-                "4": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance6, 7, 3, {
-                "7": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance5, 7, 3, {
-                "7": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance8, 10, 3, {
-                "10": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance7, 10, 3, {
-                "10": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance10, 13, 3, {
-                "13": {
-                    x: -9,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance9, 13, 3, {
-                "13": {
-                    x: 105,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance12, 16, 3, {
-                "16": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance11, 16, 3, {
-                "16": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance14, 19, 3, {
-                "19": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance13, 19, 3, {
-                "19": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance16, 22, 3, {
-                "22": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance15, 22, 3, {
-                "22": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance18, 25, 3, {
-                "25": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance17, 25, 3, {
-                "25": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance20, 28, 3, {
-                "28": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance19, 28, 3, {
-                "28": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance22, 31, 3, {
-                "31": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance21, 31, 3, {
-                "31": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance24, 34, 3, {
-                "34": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance23, 34, 3, {
-                "34": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance26, 37, 3, {
-                "37": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance25, 37, 3, {
-                "37": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance28, 40, 3, {
-                "40": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance27, 40, 3, {
-                "40": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance30, 43, 3, {
-                "43": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance29, 43, 3, {
-                "43": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance32, 46, 8, {
-                "46": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance31, 46, 8, {
-                "46": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance33, 54, 1, {
-                "54": {
-                    x: -12
-                }
-            })
-            .addTimedChild(instance35, 55, 3, {
-                "55": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance34, 55, 3, {
-                "55": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance37, 58, 3, {
-                "58": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance36, 58, 3, {
-                "58": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance39, 61, 2, {
-                "61": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance38, 61, 2, {
-                "61": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance41, 63, 3, {
-                "63": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance40, 63, 3, {
-                "63": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance43, 66, 3, {
-                "66": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance42, 66, 3, {
-                "66": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance45, 69, 3, {
-                "69": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance44, 69, 3, {
-                "69": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance47, 72, 3, {
-                "72": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance46, 72, 3, {
-                "72": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance49, 75, 3, {
-                "75": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance48, 75, 3, {
-                "75": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance51, 78, 3, {
-                "78": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance50, 78, 3, {
-                "78": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance53, 81, 2, {
-                "81": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance52, 81, 2, {
-                "81": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance55, 83, 3, {
-                "83": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance54, 83, 3, {
-                "83": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance57, 86, 2, {
-                "86": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance56, 86, 2, {
-                "86": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance59, 88, 3, {
-                "88": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance58, 88, 3, {
-                "88": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance61, 91, 3, {
-                "91": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance60, 91, 3, {
-                "91": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance63, 94, 3, {
-                "94": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance62, 94, 3, {
-                "94": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance65, 97, 3, {
-                "97": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance64, 97, 3, {
-                "97": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance67, 100, 1, {
-                "100": {
-                    x: -10,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance66, 100, 1, {
-                "100": {
-                    x: 104,
-                    y: 2
-                }
-            })
-            .addTimedChild(instance69, 101, 1)
-            .addTimedChild(instance68, 101, 1);
-    });
-
     lib.hitme = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.External[5]);
+            .drawCommands(shapes.External[9]);
         this.addChild(instance1);
     });
 
@@ -1142,103 +230,48 @@
         this.addChild(instance1);
     });
 
-    lib.nub_circle = Container.extend(function () {
+    lib._99 = Container.extend(function () {
         Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[7]);
+        var instance1 = new Text("99")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2
+            })
+            .setAlign("right")
+            .setTransform(55);
         this.addChild(instance1);
     });
 
-    lib.nub_circles = Container.extend(function () {
+    lib._100 = Container.extend(function () {
         Container.call(this);
-        var instance20 = new lib.nub_circle()
-            .setTransform(18.3, 6.45);
-        var instance19 = new lib.nub_circle()
-            .setTransform(18.3, 20.65);
-        var instance18 = new lib.nub_circle()
-            .setTransform(18.3, 49.05);
-        var instance17 = new lib.nub_circle()
-            .setTransform(18.3, 34.85);
-        var instance16 = new lib.nub_circle()
-            .setTransform(18.3, 63.25);
-        var instance15 = new lib.nub_circle()
-            .setTransform(18.3, 77.45);
-        var instance14 = new lib.nub_circle()
-            .setTransform(18.3, 91.65);
-        var instance13 = new lib.nub_circle()
-            .setTransform(33.55, 14.15);
-        var instance12 = new lib.nub_circle()
-            .setTransform(33.55, 28.35);
-        var instance11 = new lib.nub_circle()
-            .setTransform(33.55, 56.75);
-        var instance10 = new lib.nub_circle()
-            .setTransform(33.55, 42.55);
-        var instance9 = new lib.nub_circle()
-            .setTransform(33.55, 70.95);
-        var instance8 = new lib.nub_circle()
-            .setTransform(33.55, 85.15);
-        var instance7 = new lib.nub_circle()
-            .setTransform(3.25, 12.85);
-        var instance6 = new lib.nub_circle()
-            .setTransform(3.25, 41.25);
-        var instance5 = new lib.nub_circle()
-            .setTransform(3.25, 27.05);
-        var instance4 = new lib.nub_circle()
-            .setTransform(3.25, 55.45);
-        var instance3 = new lib.nub_circle()
-            .setTransform(3.25, 69.65);
-        var instance2 = new lib.nub_circle()
-            .setTransform(3.25, 83.85);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[6]);
-        this.addChild(instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
-    });
-
-    lib.nub_only = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[8]);
+        var instance1 = new Text("100")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2
+            })
+            .setAlign("right")
+            .setTransform(55);
         this.addChild(instance1);
     });
 
-    lib.ba_color = Container.extend(function () {
+    lib._101 = Container.extend(function () {
         Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[0])
-            .setTransform(-647.6, -214.95);
-        this.addChild(instance1);
-    });
-
-    lib.bandaid = Container.extend(function () {
-        Container.call(this);
-        var instance4 = new lib.ba_color()
-            .setColorTransform(0, 0.8, 0, 0.8, 0, 0.8);
-        this[instance4.name = "bacolor"] = instance4;
-        var instance3 = new Graphics()
-            .drawCommands(shapes.External[9]);
-        var instance2 = new lib.nub_only()
-            .setTransform(0, 91.85);
-        this[instance2.name = "nub"] = instance2;
-        var instance1 = new lib.nub_circles()
-            .setTransform(-1.1, 91.1);
-        this[instance1.name = "circles"] = instance1;
-        this.addChild(instance4, instance3, instance2, instance1);
-    });
-
-    var Graphic1 = MovieClip.extend(function (mode) {
-        MovieClip.call(this, { mode: mode, duration: 93, loop: false });
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[11])
-            .setTransform(-668.6, -361.1);
-        this.addTimedChild(instance1);
-    });
-
-    lib.text = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new lib.txtTemperature()
-            .setTransform(12)
-            .setColorTransform(0, 0.31, 0, 0.38, 0, 0.25);
-        this[instance1.name = "dTempFC"] = instance1;
+        var instance1 = new Text("101\n")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2
+            })
+            .setAlign("right")
+            .setTransform(55);
         this.addChild(instance1);
     });
 
@@ -1275,7 +308,7 @@
     var Graphic2 = MovieClip.extend(function (mode) {
         MovieClip.call(this, { mode: mode, duration: 4, loop: false });
         var instance1 = new Graphics()
-            .drawCommands(shapes.External[11])
+            .drawCommands(shapes.External[0])
             .setTransform(-668.6, -361.1);
         this.addTimedChild(instance1);
     });
@@ -1324,26 +357,15 @@
                 sickToBed_stop: 100
             }
         });
-        var instance16 = new Graphics()
+        var instance19 = new Graphics()
             .drawCommands(shapes.External[10]);
-        var instance15 = new lib.bandaid();
-        this[instance15.name = "bandaid"] = instance15;
-        var instance14 = new lib.txtHealth();
-        this[instance14.name = "Health"] = instance14;
-        var instance13 = new lib.txtProtection();
-        this[instance13.name = "Protection"] = instance13;
-        var instance12 = new Text("(after the shot)...")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2,
-                wordWrap: true,
-                wordWrapWidth: 248.55
-            });
-        this[instance12.name = "dDescription"] = instance12;
-        var instance11 = new Text("Next Act...")
+        var instance18 = new lib.bandaid();
+        this[instance18.name = "bandaid"] = instance18;
+        var instance17 = new lib.txtHealth();
+        this[instance17.name = "Health"] = instance17;
+        var instance16 = new lib.txtProtection();
+        this[instance16.name = "Protection"] = instance16;
+        var instance15 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1351,18 +373,7 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance22 = new Text("(after the shot)...")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2,
-                wordWrap: true,
-                wordWrapWidth: 248.55
-            });
-        this[instance22.name = "dDescription"] = instance22;
-        var instance21 = new Text("Next Act...")
+        var instance23 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1370,22 +381,13 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance27 = new lib.Sick();
-        this[instance27.name = "Health"] = instance27;
-        var instance26 = new lib._70Protection();
-        this[instance26.name = "Protection"] = instance26;
-        var instance25 = new Text("(after the shot)...")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2,
-                wordWrap: true,
-                wordWrapWidth: 248.55
-            });
-        this[instance25.name = "dDescription"] = instance25;
-        var instance24 = new Text("Next Act...")
+        var instance29 = new lib.bandaid();
+        this[instance29.name = "bandaid"] = instance29;
+        var instance28 = new lib.Sick();
+        this[instance28.name = "Health"] = instance28;
+        var instance27 = new lib._70Protection();
+        this[instance27.name = "Protection"] = instance27;
+        var instance26 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1393,27 +395,15 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance32 = new lib.InBed()
+        var instance34 = new lib.InBed()
             .setTransform(436, 185.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance32.name = "Health"] = instance32;
-        var instance31 = new lib._95Protect()
+        this[instance34.name = "Health"] = instance34;
+        var instance33 = new lib._95Protect()
             .setTransform(593.2, 183.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance31.name = "Protection"] = instance31;
-        var instance30 = new Text("(after the shot)...")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2,
-                wordWrap: true,
-                wordWrapWidth: 248.55
-            })
-            .setTransform(793.25, 326.05);
-        this[instance30.name = "dDescription"] = instance30;
-        var instance29 = new Text("Next Act...")
+        this[instance33.name = "Protection"] = instance33;
+        var instance32 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1422,20 +412,23 @@
                 leading: 2
             })
             .setTransform(766.2, 521.65);
-        var instance10 = new lib.gray_kid2();
-        this[instance10.name = "patient"] = instance10;
-        var instance20 = new lib.text();
-        var instance23 = new lib.text();
-        this[instance23.name = "text"] = instance23;
-        var instance34 = new lib.dFarenheit()
-            .setTransform(393.95, 292.55);
-        this[instance34.name = "dFarenheit"] = instance34;
-        var instance33 = new lib.dCelcius()
-            .setTransform(508, 292.55);
-        this[instance33.name = "dCelcius"] = instance33;
-        var instance9 = new Graphics()
-            .drawCommands(shapes.External[4]);
-        var instance8 = new Text("°F ")
+        var instance14 = new Text("(after exposure to the live virus) If the patient falls ill, there is little one can do to fight the viral infection. You normally have to wait for the body to work it out.")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2,
+                wordWrap: true,
+                wordWrapWidth: 248.55
+            })
+            .setTransform(792.7, 333.15);
+        this[instance14.name = "dDescription"] = instance14;
+        var instance13 = new lib.gray_kid2();
+        this[instance13.name = "patient"] = instance13;
+        var instance12 = new Graphics()
+            .drawCommands(shapes.External[8]);
+        var instance11 = new Text("°F ")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1443,7 +436,7 @@
                 fill: "#4e6040",
                 leading: 2
             });
-        var instance7 = new Text("°C")
+        var instance10 = new Text("°C")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1452,9 +445,7 @@
                 leading: 2
             })
             .setAlign("right");
-        var instance6 = new lib.txtTemperature();
-        this[instance6.name = "dTempFC"] = instance6;
-        var instance19 = new Text("°F ")
+        var instance22 = new Text("°F ")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1463,7 +454,7 @@
                 leading: 2
             })
             .setTransform(431.7, 270.25);
-        var instance18 = new Text("°C")
+        var instance21 = new Text("°C")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1473,31 +464,39 @@
             })
             .setAlign("right")
             .setTransform(526.7, 270.05);
-        var instance5 = new lib.jump()
+        var instance9 = new lib.jump()
             .setTransform(764.2, 544.45);
-        this[instance5.name = "btnMoveOn"] = instance5;
-        var instance4 = new lib.jump()
+        this[instance9.name = "btnMoveOn"] = instance9;
+        var instance8 = new lib.jump()
             .setTransform(930.6, 544.55);
-        this[instance4.name = "btnBack"] = instance4;
-        var instance3 = new lib.press()
+        this[instance8.name = "btnBack"] = instance8;
+        var instance7 = new lib.press()
             .setTransform(931.6, 544.65);
-        this[instance3.name = "btnBack"] = instance3;
-        var instance2 = new lib.press();
-        this[instance2.name = "btnAhead"] = instance2;
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[0]);
-        var instance17 = new Graphic1(MovieClip.SYNCHED);
-        var instance28 = new Graphic2(MovieClip.SYNCHED)
+        this[instance7.name = "btnBack"] = instance7;
+        var instance6 = new lib.press();
+        this[instance6.name = "btnAhead"] = instance6;
+        var instance5 = new lib._98();
+        var instance20 = new lib._99();
+        var instance24 = new lib._100();
+        var instance25 = new lib._101();
+        var instance30 = new lib._99();
+        var instance4 = new lib._38();
+        var instance3 = new lib.bandaid();
+        this[instance3.name = "bandaid"] = instance3;
+        var instance2 = new Graphics()
+            .drawCommands(shapes.External[1]);
+        var instance1 = new Graphic1(MovieClip.SYNCHED);
+        var instance31 = new Graphic2(MovieClip.SYNCHED)
             .setTransform(668.6, 361.1)
             .setAlpha(0);
-        this.addTimedChild(instance16)
-            .addTimedChild(instance15, 0, 101, {
+        this.addTimedChild(instance19)
+            .addTimedChild(instance18, 0, 4, {
                 "0": {
                     x: 647.6,
                     y: 214.95
                 }
             })
-            .addTimedChild(instance14, 0, 45, {
+            .addTimedChild(instance17, 0, 45, {
                 "0": {
                     x: 450,
                     y: 183.95,
@@ -1511,7 +510,7 @@
                     ]
                 }
             })
-            .addTimedChild(instance13, 0, 45, {
+            .addTimedChild(instance16, 0, 45, {
                 "0": {
                     x: 606.2,
                     y: 183.95,
@@ -1525,31 +524,25 @@
                     ]
                 }
             })
-            .addTimedChild(instance12, 0, 4, {
-                "0": {
-                    x: 793.25,
-                    y: 326.05
-                }
-            })
-            .addTimedChild(instance11, 0, 4, {
+            .addTimedChild(instance15, 0, 4, {
                 "0": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance22, 4, 41, {
-                "4": {
-                    x: 793.25,
-                    y: 326.05
-                }
-            })
-            .addTimedChild(instance21, 4, 41, {
+            .addTimedChild(instance23, 4, 41, {
                 "4": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance27, 45, 52, {
+            .addTimedChild(instance29, 45, 56, {
+                "45": {
+                    x: 647.6,
+                    y: 214.95
+                }
+            })
+            .addTimedChild(instance28, 45, 52, {
                 "45": {
                     x: 446,
                     y: 185.95,
@@ -1563,7 +556,7 @@
                     ]
                 }
             })
-            .addTimedChild(instance26, 45, 52, {
+            .addTimedChild(instance27, 45, 52, {
                 "45": {
                     x: 606.2,
                     y: 183.95,
@@ -1577,23 +570,17 @@
                     ]
                 }
             })
-            .addTimedChild(instance25, 45, 52, {
-                "45": {
-                    x: 793.25,
-                    y: 326.05
-                }
-            })
-            .addTimedChild(instance24, 45, 52, {
+            .addTimedChild(instance26, 45, 52, {
                 "45": {
                     x: 766.2,
                     y: 521.65
                 }
             })
+            .addTimedChild(instance34, 97, 4)
+            .addTimedChild(instance33, 97, 4)
             .addTimedChild(instance32, 97, 4)
-            .addTimedChild(instance31, 97, 4)
-            .addTimedChild(instance30, 97, 4)
-            .addTimedChild(instance29, 97, 4)
-            .addTimedChild(instance10, 0, 101, {
+            .addTimedChild(instance14)
+            .addTimedChild(instance13, 0, 101, {
                 "0": {
                     x: 428.7,
                     y: 219.65,
@@ -2518,351 +1505,611 @@
                     ]
                 }
             })
-            .addTimedChild(instance20, 4, 1, {
-                "4": {
-                    x: 395.05,
-                    y: 379.1
-                }
-            })
-            .addTimedChild(instance23, 5, 95, {
-                "5": {
-                    x: 395.05,
-                    y: 378.1
-                },
-                "6": {
-                    y: 377.1
-                },
-                "7": {
-                    y: 376.1
-                },
-                "8": {
-                    y: 375.1
-                },
-                "9": {
-                    y: 374.1
-                },
-                "10": {
-                    y: 373.1
-                },
-                "11": {
-                    y: 372.1
-                },
-                "12": {
-                    y: 371.1
-                },
-                "13": {
-                    y: 370.1
-                },
-                "14": {
-                    y: 369.1
-                },
-                "15": {
-                    y: 368.1
-                },
-                "16": {
-                    y: 367.1
-                },
-                "17": {
-                    y: 366.1
-                },
-                "18": {
-                    y: 365.1
-                },
-                "19": {
-                    y: 364.1
-                },
-                "20": {
-                    y: 363.1
-                },
-                "21": {
-                    y: 362.1
-                },
-                "22": {
-                    y: 361.1
-                },
-                "23": {
-                    y: 360.1
-                },
-                "24": {
-                    y: 359.1
-                },
-                "25": {
-                    y: 358.1
-                },
-                "26": {
-                    y: 357.1
-                },
-                "27": {
-                    y: 356.1
-                },
-                "28": {
-                    y: 355.1
-                },
-                "29": {
-                    y: 354.1
-                },
-                "30": {
-                    y: 353.1
-                },
-                "31": {
-                    y: 352.1
-                },
-                "32": {
-                    y: 351.1
-                },
-                "33": {
-                    y: 350.1
-                },
-                "34": {
-                    y: 349.1
-                },
-                "35": {
-                    y: 348.1
-                },
-                "36": {
-                    y: 347.1
-                },
-                "37": {
-                    y: 346.1
-                },
-                "38": {
-                    y: 345.15
-                },
-                "39": {
-                    y: 344.15
-                },
-                "40": {
-                    y: 343.15
-                },
-                "41": {
-                    y: 342.15
-                },
-                "42": {
-                    y: 341.15
-                },
-                "43": {
-                    y: 340.15
-                },
-                "44": {
-                    y: 339.15
-                },
-                "45": {
-                    y: 338.15
-                },
-                "46": {
-                    y: 337.15
-                },
-                "47": {
-                    y: 336.15
-                },
-                "48": {
-                    y: 335.15
-                },
-                "49": {
-                    y: 334.15
-                },
-                "55": {
-                    y: 333.25
-                },
-                "56": {
-                    x: 395,
-                    y: 332.3
-                },
-                "57": {
-                    y: 331.4
-                },
-                "58": {
-                    x: 394.95,
-                    y: 330.45
-                },
-                "59": {
-                    y: 329.55
-                },
-                "60": {
-                    x: 394.9,
-                    y: 328.6
-                },
-                "61": {
-                    y: 327.7
-                },
-                "62": {
-                    x: 394.85,
-                    y: 326.75
-                },
-                "63": {
-                    y: 325.85
-                },
-                "64": {
-                    x: 394.8,
-                    y: 324.9
-                },
-                "65": {
-                    y: 324
-                },
-                "66": {
-                    x: 394.75,
-                    y: 323.05
-                },
-                "67": {
-                    y: 322.15
-                },
-                "68": {
-                    x: 394.7,
-                    y: 321.2
-                },
-                "69": {
-                    y: 320.3
-                },
-                "70": {
-                    x: 394.65,
-                    y: 319.35
-                },
-                "71": {
-                    y: 318.45
-                },
-                "72": {
-                    x: 394.6,
-                    y: 317.5
-                },
-                "73": {
-                    y: 316.6
-                },
-                "74": {
-                    x: 394.55,
-                    y: 315.65
-                },
-                "75": {
-                    y: 314.75
-                },
-                "76": {
-                    x: 394.5,
-                    y: 313.8
-                },
-                "77": {
-                    y: 312.9
-                },
-                "78": {
-                    x: 394.45,
-                    y: 311.95
-                },
-                "79": {
-                    y: 311.05
-                },
-                "80": {
-                    y: 310.1
-                },
-                "81": {
-                    x: 394.4,
-                    y: 309.2
-                },
-                "82": {
-                    y: 308.25
-                },
-                "83": {
-                    x: 394.35,
-                    y: 307.35
-                },
-                "84": {
-                    y: 306.4
-                },
-                "85": {
-                    x: 394.3,
-                    y: 305.5
-                },
-                "86": {
-                    y: 304.55
-                },
-                "87": {
-                    x: 394.25,
-                    y: 303.65
-                },
-                "88": {
-                    y: 302.7
-                },
-                "89": {
-                    x: 394.2,
-                    y: 301.8
-                },
-                "90": {
-                    y: 300.85
-                },
-                "91": {
-                    y: 299.95
-                },
-                "92": {
-                    x: 394.15,
-                    y: 299
-                },
-                "93": {
-                    y: 298.1
-                },
-                "94": {
-                    x: 394.1,
-                    y: 297.15
-                },
-                "95": {
-                    y: 296.25
-                },
-                "96": {
-                    x: 394.05,
-                    y: 295.3
-                },
-                "97": {
-                    y: 294.4
-                },
-                "98": {
-                    x: 394,
-                    y: 293.45
-                },
-                "99": {
-                    y: 292.55
-                }
-            })
-            .addTimedChild(instance34, 100, 1)
-            .addTimedChild(instance33, 100, 1)
-            .addTimedChild(instance9)
-            .addTimedChild(instance8, 0, 4, {
+            .addTimedChild(instance12)
+            .addTimedChild(instance11, 0, 4, {
                 "0": {
                     x: 431.7,
                     y: 270.25
                 }
             })
-            .addTimedChild(instance7, 0, 4, {
+            .addTimedChild(instance10, 0, 4, {
                 "0": {
                     x: 500.7,
                     y: 272.05
                 }
             })
-            .addTimedChild(instance6, 0, 4, {
-                "0": {
-                    x: 407.05,
-                    y: 379.1,
-                    c: [
-                        0,
-                        0.31,
-                        0,
-                        0.38,
-                        0,
-                        0.25
-                    ]
-                }
-            })
-            .addTimedChild(instance19, 4, 97)
-            .addTimedChild(instance18, 4, 97)
-            .addTimedChild(instance5)
-            .addTimedChild(instance4)
-            .addTimedChild(instance3)
-            .addTimedChild(instance2, 0, 101, {
+            .addTimedChild(instance22, 4, 97)
+            .addTimedChild(instance21, 4, 97)
+            .addTimedChild(instance9)
+            .addTimedChild(instance8)
+            .addTimedChild(instance7)
+            .addTimedChild(instance6, 0, 101, {
                 "0": {
                     x: 764.2,
                     y: 544.65
                 }
             })
-            .addTimedChild(instance1, 0, 4)
-            .addTimedChild(instance17, 4, 93, {
+            .addTimedChild(instance5, 0, 4, {
+                "0": {
+                    x: 382.95,
+                    y: 374.5
+                }
+            })
+            .addTimedChild(instance20, 4, 15, {
                 "4": {
+                    x: 382.95,
+                    y: 374.5
+                },
+                "5": {
+                    y: 373.6
+                },
+                "6": {
+                    y: 372.75
+                },
+                "7": {
+                    y: 371.85
+                },
+                "8": {
+                    y: 371
+                },
+                "9": {
+                    y: 370.1
+                },
+                "10": {
+                    y: 369.25
+                },
+                "11": {
+                    y: 368.35
+                },
+                "12": {
+                    y: 367.5
+                },
+                "13": {
+                    y: 366.6
+                },
+                "14": {
+                    y: 365.75
+                },
+                "15": {
+                    y: 364.85
+                },
+                "16": {
+                    y: 364
+                },
+                "17": {
+                    y: 363.1
+                },
+                "18": {
+                    y: 362.25
+                }
+            })
+            .addTimedChild(instance24, 19, 15, {
+                "19": {
+                    x: 382.95,
+                    y: 361.35
+                },
+                "20": {
+                    y: 360.45
+                },
+                "21": {
+                    y: 359.6
+                },
+                "22": {
+                    y: 358.7
+                },
+                "23": {
+                    y: 357.85
+                },
+                "24": {
+                    y: 356.95
+                },
+                "25": {
+                    y: 356.1
+                },
+                "26": {
+                    y: 355.2
+                },
+                "27": {
+                    y: 354.35
+                },
+                "28": {
+                    y: 353.45
+                },
+                "29": {
+                    y: 352.6
+                },
+                "30": {
+                    y: 351.7
+                },
+                "31": {
+                    y: 350.85
+                },
+                "32": {
+                    y: 349.95
+                },
+                "33": {
+                    y: 349.1
+                }
+            })
+            .addTimedChild(instance25, 34, 15, {
+                "34": {
+                    x: 382.95,
+                    y: 348.2
+                },
+                "35": {
+                    y: 347.3
+                },
+                "36": {
+                    y: 346.45
+                },
+                "37": {
+                    y: 345.55
+                },
+                "38": {
+                    y: 344.7
+                },
+                "39": {
+                    y: 343.8
+                },
+                "40": {
+                    y: 342.95
+                },
+                "41": {
+                    y: 342.05
+                },
+                "42": {
+                    y: 341.2
+                },
+                "43": {
+                    y: 340.3
+                },
+                "44": {
+                    y: 339.45
+                },
+                "45": {
+                    y: 338.55
+                },
+                "46": {
+                    y: 337.7
+                },
+                "47": {
+                    y: 336.8
+                },
+                "48": {
+                    y: 335.95
+                }
+            })
+            .addTimedChild(instance30, 49, 52, {
+                "49": {
+                    x: 382.95,
+                    y: 335.05
+                },
+                "55": {
+                    y: 334.1
+                },
+                "56": {
+                    y: 333.1
+                },
+                "57": {
+                    y: 332.15
+                },
+                "58": {
+                    y: 331.2
+                },
+                "59": {
+                    y: 330.2
+                },
+                "60": {
+                    y: 329.25
+                },
+                "61": {
+                    y: 328.3
+                },
+                "62": {
+                    y: 327.3
+                },
+                "63": {
+                    y: 326.35
+                },
+                "64": {
+                    y: 325.4
+                },
+                "65": {
+                    y: 324.4
+                },
+                "66": {
+                    y: 323.45
+                },
+                "67": {
+                    y: 322.5
+                },
+                "68": {
+                    y: 321.5
+                },
+                "69": {
+                    y: 320.55
+                },
+                "70": {
+                    y: 319.6
+                },
+                "71": {
+                    y: 318.6
+                },
+                "72": {
+                    y: 317.65
+                },
+                "73": {
+                    y: 316.7
+                },
+                "74": {
+                    y: 315.7
+                },
+                "75": {
+                    y: 314.75
+                },
+                "76": {
+                    y: 313.8
+                },
+                "77": {
+                    y: 312.8
+                },
+                "78": {
+                    y: 311.85
+                },
+                "79": {
+                    y: 310.9
+                },
+                "80": {
+                    y: 309.9
+                },
+                "81": {
+                    y: 308.95
+                },
+                "82": {
+                    y: 308
+                },
+                "83": {
+                    y: 307
+                },
+                "84": {
+                    y: 306.05
+                },
+                "85": {
+                    y: 305.1
+                },
+                "86": {
+                    y: 304.1
+                },
+                "87": {
+                    y: 303.15
+                },
+                "88": {
+                    y: 302.2
+                },
+                "89": {
+                    y: 301.2
+                },
+                "90": {
+                    y: 300.25
+                },
+                "91": {
+                    y: 299.3
+                },
+                "92": {
+                    y: 298.3
+                },
+                "93": {
+                    y: 297.35
+                },
+                "94": {
+                    y: 296.4
+                },
+                "95": {
+                    y: 295.4
+                },
+                "96": {
+                    y: 294.45
+                },
+                "97": {
+                    y: 293.5
+                },
+                "98": {
+                    y: 292.5
+                },
+                "99": {
+                    y: 291.55
+                }
+            })
+            .addTimedChild(instance4, 0, 101, {
+                "0": {
+                    x: 493,
+                    y: 374.5
+                },
+                "5": {
+                    y: 373.6
+                },
+                "6": {
+                    y: 372.75
+                },
+                "7": {
+                    y: 371.85
+                },
+                "8": {
+                    y: 371
+                },
+                "9": {
+                    y: 370.1
+                },
+                "10": {
+                    y: 369.25
+                },
+                "11": {
+                    y: 368.35
+                },
+                "12": {
+                    y: 367.5
+                },
+                "13": {
+                    y: 366.6
+                },
+                "14": {
+                    y: 365.75
+                },
+                "15": {
+                    y: 364.85
+                },
+                "16": {
+                    y: 364
+                },
+                "17": {
+                    y: 363.1
+                },
+                "18": {
+                    y: 362.25
+                },
+                "19": {
+                    y: 361.35
+                },
+                "20": {
+                    y: 360.45
+                },
+                "21": {
+                    y: 359.6
+                },
+                "22": {
+                    y: 358.7
+                },
+                "23": {
+                    y: 357.85
+                },
+                "24": {
+                    y: 356.95
+                },
+                "25": {
+                    y: 356.1
+                },
+                "26": {
+                    y: 355.2
+                },
+                "27": {
+                    y: 354.35
+                },
+                "28": {
+                    y: 353.45
+                },
+                "29": {
+                    y: 352.6
+                },
+                "30": {
+                    y: 351.7
+                },
+                "31": {
+                    y: 350.85
+                },
+                "32": {
+                    y: 349.95
+                },
+                "33": {
+                    y: 349.1
+                },
+                "34": {
+                    y: 348.2
+                },
+                "35": {
+                    y: 347.3
+                },
+                "36": {
+                    y: 346.45
+                },
+                "37": {
+                    y: 345.55
+                },
+                "38": {
+                    y: 344.7
+                },
+                "39": {
+                    y: 343.8
+                },
+                "40": {
+                    y: 342.95
+                },
+                "41": {
+                    y: 342.05
+                },
+                "42": {
+                    y: 341.2
+                },
+                "43": {
+                    y: 340.3
+                },
+                "44": {
+                    y: 339.45
+                },
+                "45": {
+                    y: 338.55
+                },
+                "46": {
+                    y: 337.7
+                },
+                "47": {
+                    y: 336.8
+                },
+                "48": {
+                    y: 335.95
+                },
+                "49": {
+                    y: 335.05
+                },
+                "55": {
+                    y: 334.1
+                },
+                "56": {
+                    y: 333.1
+                },
+                "57": {
+                    y: 332.15
+                },
+                "58": {
+                    y: 331.2
+                },
+                "59": {
+                    y: 330.2
+                },
+                "60": {
+                    y: 329.25
+                },
+                "61": {
+                    y: 328.3
+                },
+                "62": {
+                    y: 327.3
+                },
+                "63": {
+                    y: 326.35
+                },
+                "64": {
+                    y: 325.4
+                },
+                "65": {
+                    y: 324.4
+                },
+                "66": {
+                    y: 323.45
+                },
+                "67": {
+                    y: 322.5
+                },
+                "68": {
+                    y: 321.5
+                },
+                "69": {
+                    y: 320.55
+                },
+                "70": {
+                    y: 319.6
+                },
+                "71": {
+                    y: 318.6
+                },
+                "72": {
+                    y: 317.65
+                },
+                "73": {
+                    y: 316.7
+                },
+                "74": {
+                    y: 315.7
+                },
+                "75": {
+                    y: 314.75
+                },
+                "76": {
+                    y: 313.8
+                },
+                "77": {
+                    y: 312.8
+                },
+                "78": {
+                    y: 311.85
+                },
+                "79": {
+                    y: 310.9
+                },
+                "80": {
+                    y: 309.9
+                },
+                "81": {
+                    y: 308.95
+                },
+                "82": {
+                    y: 308
+                },
+                "83": {
+                    y: 307
+                },
+                "84": {
+                    y: 306.05
+                },
+                "85": {
+                    y: 305.1
+                },
+                "86": {
+                    y: 304.1
+                },
+                "87": {
+                    y: 303.15
+                },
+                "88": {
+                    y: 302.2
+                },
+                "89": {
+                    y: 301.2
+                },
+                "90": {
+                    y: 300.25
+                },
+                "91": {
+                    y: 299.3
+                },
+                "92": {
+                    y: 298.3
+                },
+                "93": {
+                    y: 297.35
+                },
+                "94": {
+                    y: 296.4
+                },
+                "95": {
+                    y: 295.4
+                },
+                "96": {
+                    y: 294.45
+                },
+                "97": {
+                    y: 293.5
+                },
+                "98": {
+                    y: 292.5
+                },
+                "99": {
+                    y: 291.55
+                }
+            })
+            .addTimedChild(instance3, 0, 101, {
+                "0": {
+                    x: 647.9,
+                    y: 214.8
+                }
+            })
+            .addTimedChild(instance2, 0, 4)
+            .addTimedChild(instance1, 0, 97, {
+                "0": {
                     x: 668.6,
                     y: 361.1,
+                    a: 0.98
+                },
+                "4": {
                     a: 1
                 },
                 "5": {
@@ -3088,7 +2335,7 @@
                     a: 0.01
                 }
             })
-            .addTimedChild(instance28, 97, 4);
+            .addTimedChild(instance31, 97, 4);
     });
 
     lib.External.assets = {

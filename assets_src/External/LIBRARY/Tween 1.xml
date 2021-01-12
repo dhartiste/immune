@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 1" itemID="5ffd012b-0000021d" symbolType="graphic" lastModified="1610416427">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 1" itemID="5ffde3b2-000002ab" symbolType="graphic" lastModified="1610474418">
   <timeline>
     <DOMTimeline name="Tween 1" layerDepthEnabled="true">
       <layers>
@@ -6,19 +6,22 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="dFarenheit" selected="true" fontRenderingMode="standard" width="51" height="18" includeOutlines="true" isSelectable="false">
+                <DOMSymbolInstance libraryItemName="Numbers/98.6" selected="true">
                   <matrix>
-                    <Matrix tx="-25.5" ty="-9"/>
+                    <Matrix tx="-76.3" ty="-11"/>
                   </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>101</characters>
-                      <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMDynamicText>
+                  <transformationPoint>
+                    <Point x="27.5" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Numbers/37.3" selected="true">
+                  <matrix>
+                    <Matrix tx="21.35" ty="-11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="27.5" y="11"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

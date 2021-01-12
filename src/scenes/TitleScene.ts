@@ -15,7 +15,7 @@ export default class TitleScene extends BaseScene {
     setup(){
         let i:number;
         const background = new PIXI.Graphics();
-        background.beginFill(0xDDDDDD);
+        background.beginFill(0xFFFFCE);
         background.drawRect(0, 0, 1624, 750);
         background.endFill();
         this.addChild(background);
@@ -28,13 +28,14 @@ export default class TitleScene extends BaseScene {
         this.gameData.completedOrgs = [false,false,false,false,false];
 
         this.btnPink.y = 500;
-        this.btnPink.x = 500;
+        this.btnPink.x = 725;
         
         this.addChild(this.btnPink);
 
         this.btnPink.once("pointerdown",()=>{
             console.log("Pink button pressed");
             this.changeScene("game");
+            //this.changeScene("external");
         });
         this.resize();
     }

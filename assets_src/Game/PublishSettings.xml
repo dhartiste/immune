@@ -39,7 +39,7 @@
     <Property name="version">0.1</Property>
   </PublishProperties>
   <PublishProperties id="8F6F8054-505F-472A-B602-F78CFC350563" name="PixiAnimate" enabled="true">
-    <Property name="PublishSettings.IncludeInvisibleLayer">true</Property>
+    <Property name="PublishSettings.IncludeInvisibleLayer">false</Property>
     <Property name="PublishSettings.PixiJS.CommonJS">true</Property>
     <Property name="PublishSettings.PixiJS.CompactShapes">true</Property>
     <Property name="PublishSettings.PixiJS.CompressJS">false</Property>
