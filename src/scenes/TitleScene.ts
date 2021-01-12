@@ -8,7 +8,7 @@ export default class TitleScene extends BaseScene {
 
     preload():AssetList{
         return [
-            {type:'image', id:'btn_pink', path:'img/btn_pink.png'},
+            {type:'image', id:'btn_pink', path:'img/enterImage.png'},
         ];
     }
 
