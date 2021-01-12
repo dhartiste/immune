@@ -1,0 +1,66 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/beaker_layered" itemID="40ffd022-00004a50" lastModified="1091223868" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="beaker_layered">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="0.75">
+                        <fill>
+                          <SolidColor color="#4E6040"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!5998 63.5[#1734.37 #5.93 5857.5 5.5!5857.5 5.5|210 5.5!210 5.5[#7F.06 #5.93 68 63.5!68 63.5[#A.0F #7A.47 10 205!10 205|10 7804.5!10 7804.5[#A.0F #1ECE.F7 68 7944.5!68 7944.5[#7F.06 #1F43.6C 210 8003.5!210 8003.5|5857.5 8003.5!5857.5
+ 8003.5[#1734.37 #1F43.6C 5998 7944.5!5998 7944.5[#17A8.AF #1ECE.F7 6056.5 7804.5!6056.5 7804.5|6056.5 205!6056.5 205[#17A8.AF #7A.47 5998 63.5"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/beaker_bottom">
+                  <matrix>
+                    <Matrix a="1.03416442871094" d="-1" tx="1" ty="405.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="146.3" y="2.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/temp2">
+                  <matrix>
+                    <Matrix a="0.98382568359375" tx="13.9" ty="380.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="152.6" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.73046875"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/shade">
+                  <transformationPoint>
+                    <Point x="151.45" y="200.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.44140625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/beaker_front">
+                  <matrix>
+                    <Matrix tx="0.5" ty="9.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="152.5" y="195.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

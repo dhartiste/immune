@@ -2,562 +2,991 @@
 
     var MovieClip = PIXI.animate.MovieClip;
     var Container = PIXI.Container;
+    var Sprite = PIXI.Sprite;
+    var fromFrame = PIXI.Texture.fromFrame;
+    var Text = PIXI.Text;
     var Graphics = PIXI.Graphics;
     var shapes = PIXI.animate.ShapesCache;
 
-    lib.DropBox = MovieClip.extend(function () {
+    lib.hitme = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.Game[0]);
+        this.addChild(instance1);
+    });
+
+    lib.syringe = Container.extend(function () {
+        Container.call(this);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.Game[19])
+            .setTransform(-436.9, -242.4);
+        var instance19 = new Graphics()
+            .drawCommands(shapes.Game[18])
+            .setTransform(-436.9, -242.4);
+        var instance18 = new Graphics()
+            .drawCommands(shapes.Game[17])
+            .setTransform(-436.9, -242.4);
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Game[16]);
+        var instance16 = new Graphics()
+            .drawCommands(shapes.Game[15])
+            .setTransform(-436.9, -242.4);
+        var instance15 = new Graphics()
+            .drawCommands(shapes.Game[14])
+            .setTransform(-436.9, -242.4);
+        var instance14 = new Graphics()
+            .drawCommands(shapes.Game[13])
+            .setTransform(-436.9, -242.4);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.Game[12])
+            .setTransform(-436.9, -242.4);
+        var instance12 = new Graphics()
+            .drawCommands(shapes.Game[11])
+            .setTransform(-436.9, -242.4);
+        var instance11 = new Graphics()
+            .drawCommands(shapes.Game[10])
+            .setTransform(-436.9, -242.4);
+        var instance10 = new Graphics()
+            .drawCommands(shapes.Game[9])
+            .setTransform(-436.9, -242.4);
+        var instance9 = new Graphics()
+            .drawCommands(shapes.Game[8])
+            .setTransform(-436.9, -242.4);
+        var instance8 = new Graphics()
+            .drawCommands(shapes.Game[7])
+            .setTransform(-436.9, -242.4);
+        var instance7 = new Graphics()
+            .drawCommands(shapes.Game[6])
+            .setTransform(-436.9, -242.4);
+        var instance6 = new Graphics()
+            .drawCommands(shapes.Game[5])
+            .setTransform(-436.9, -242.4);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.Game[4])
+            .setTransform(-436.9, -242.4);
+        var instance4 = new Graphics()
+            .drawCommands(shapes.Game[3])
+            .setTransform(-436.9, -242.4);
+        var instance3 = new Graphics()
+            .drawCommands(shapes.Game[2])
+            .setTransform(-436.9, -242.4);
+        var instance2 = new Graphics()
+            .drawCommands(shapes.Game[1])
+            .setTransform(-436.9, -242.4);
+        var instance1 = new lib.hitme()
+            .setTransform(20, 68.85)
+            .setAlpha(0);
+        this[instance1.name = "hitme"] = instance1;
+        this.addChild(instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+    });
+
+    lib.syringe_1 = MovieClip.extend(function () {
         MovieClip.call(this, {
             duration: 2
         });
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Game[1]);
+        var instance1 = new lib.syringe();
+        this[instance1.name = "syringe"] = instance1;
+        this.addTimedChild(instance1, 0, 2, {
+            "0": {
+                c: [
+                    0.58,
+                    0.42,
+                    0.58,
+                    0.42,
+                    0.58,
+                    0.42
+                ]
+            },
+            "1": {
+                c: [
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            }
+        });
+    });
+
+    lib.gray_Nat = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Sprite(fromFrame("NatOutline"));
+        this.addChild(instance1);
+    });
+
+    lib.gray_kid2 = Container.extend(function () {
+        Container.call(this);
+        var instance2 = new lib.gray_Nat()
+            .setColorTransform(0, 0.61, 0, 0.54, 0, 0.35);
+        this[instance2.name = "patient"] = instance2;
+        var instance1 = new lib.hitme()
+            .setTransform(38, 25.05, 1.75, 1.848)
+            .setAlpha(0);
+        this[instance1.name = "hitme"] = instance1;
+        this.addChild(instance2, instance1);
+    });
+
+    lib.girl = MovieClip.extend(function () {
+        MovieClip.call(this, {
+            duration: 2
+        });
+        var instance1 = new lib.gray_kid2();
+        this.addTimedChild(instance1, 0, 2, {
+            "0": {
+                c: [
+                    0.49,
+                    0.51,
+                    0.49,
+                    0.51,
+                    0.49,
+                    0.51
+                ]
+            },
+            "1": {
+                c: [
+                    0,
+                    0.64,
+                    0,
+                    0.54,
+                    0,
+                    0.35
+                ]
+            }
+        });
+    });
+
+    lib.beaker_front = Container.extend(function () {
+        Container.call(this);
+        var instance7 = new Graphics()
+            .drawCommands(shapes.Game[20])
+            .setTransform(-27.9, -361.85);
+        var instance6 = new Graphics()
+            .drawCommands(shapes.Game[20])
+            .setTransform(-27.9, -324.85);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.Game[20])
+            .setTransform(-27.9, -287.85);
+        var instance4 = new Graphics()
+            .drawCommands(shapes.Game[20])
+            .setTransform(-27.9, -250.85);
+        var instance3 = new Graphics()
+            .drawCommands(shapes.Game[20])
+            .setTransform(-27.9, -213.85);
         var instance2 = new Graphics()
-            .drawCommands(shapes.Game[0]);
-        this.addTimedChild(instance1)
-            .addTimedChild(instance2, 1, 1);
+            .drawCommands(shapes.Game[20])
+            .setTransform(-27.9, -176.85);
+        var instance1 = new Text("200 ml")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 18,
+                fontWeight: "bold",
+                fill: "#fff",
+                leading: 2
+            })
+            .setTransform(139, 53);
+        this.addChild(instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+    });
+
+    lib.shade = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.Game[21]);
+        this.addChild(instance1);
+    });
+
+    lib.temp2 = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.Game[22]);
+        this.addChild(instance1);
+    });
+
+    lib.beaker_bottom = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.Game[23]);
+        this.addChild(instance1);
+    });
+
+    lib.beaker_layered = Container.extend(function () {
+        Container.call(this);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.Game[24]);
+        var instance4 = new lib.beaker_bottom()
+            .setTransform(1, 405.75, 1.034, 1, 0, 3.142);
+        var instance3 = new lib.temp2()
+            .setTransform(13.9, 380.85, 0.984)
+            .setAlpha(0.73);
+        var instance2 = new lib.shade()
+            .setAlpha(0.44);
+        var instance1 = new lib.beaker_front()
+            .setTransform(0.5, 9.95);
+        this.addChild(instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.hitsource = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Game[2]);
+            .drawCommands(shapes.Game[0])
+            .setTransform(12.35, 0, 2.169, 0.541);
         this.addChild(instance1);
     });
 
-    lib.antibiotic = Container.extend(function () {
-        Container.call(this);
-        var instance16 = new Graphics()
-            .drawCommands(shapes.Game[15])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance15 = new Graphics()
-            .drawCommands(shapes.Game[14])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.Game[13])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance13 = new Graphics()
-            .drawCommands(shapes.Game[12])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance12 = new Graphics()
-            .drawCommands(shapes.Game[11])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance11 = new Graphics()
-            .drawCommands(shapes.Game[10]);
-        var instance10 = new Graphics()
-            .drawCommands(shapes.Game[3])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance9 = new Graphics()
-            .drawCommands(shapes.Game[9])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance8 = new Graphics()
-            .drawCommands(shapes.Game[7])
-            .setTransform(-545.46, -366.569, 1.438, 1.401);
-        var instance7 = new Graphics()
-            .drawCommands(shapes.Game[8]);
-        var instance6 = new Graphics()
-            .drawCommands(shapes.Game[7])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance5 = new Graphics()
-            .drawCommands(shapes.Game[6])
-            .setTransform(-518.85, -389.35, 1.298, 1.298);
-        var instance4 = new Graphics()
-            .drawCommands(shapes.Game[5]);
-        var instance3 = new Graphics()
-            .drawCommands(shapes.Game[4]);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[3])
-            .setTransform(519.8, -389.45, 1.298, 1.298, 0, 0, 3.142);
-        var instance1 = new lib.hitsource()
-            .setTransform(-14.5, -9.85, 0.646, 0.646)
-            .setAlpha(0);
-        this[instance1.name = "hittestie"] = instance1;
-        this.addChild(instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+    lib.invisible = MovieClip.extend(function () {
+        MovieClip.call(this, {
+            duration: 4
+        });
+        var instance1 = new Graphics()
+            .drawCommands(shapes.Game[25]);
+        this.addTimedChild(instance1, 3, 1);
     });
 
     lib.virus_attenuated = Container.extend(function () {
         Container.call(this);
+        var instance38 = new Graphics()
+            .drawCommands(shapes.Game[56]);
         var instance37 = new Graphics()
-            .drawCommands(shapes.Game[46]);
+            .drawCommands(shapes.Game[55]);
         var instance36 = new Graphics()
-            .drawCommands(shapes.Game[45]);
+            .drawCommands(shapes.Game[54])
+            .setTransform(-238, -129.95);
         var instance35 = new Graphics()
-            .drawCommands(shapes.Game[44])
+            .drawCommands(shapes.Game[53])
             .setTransform(-238, -129.95);
         var instance34 = new Graphics()
-            .drawCommands(shapes.Game[43])
+            .drawCommands(shapes.Game[52])
             .setTransform(-238, -129.95);
         var instance33 = new Graphics()
-            .drawCommands(shapes.Game[42])
+            .drawCommands(shapes.Game[51])
             .setTransform(-238, -129.95);
         var instance32 = new Graphics()
-            .drawCommands(shapes.Game[41])
+            .drawCommands(shapes.Game[50])
             .setTransform(-238, -129.95);
         var instance31 = new Graphics()
-            .drawCommands(shapes.Game[40])
+            .drawCommands(shapes.Game[49])
             .setTransform(-238, -129.95);
         var instance30 = new Graphics()
-            .drawCommands(shapes.Game[39])
+            .drawCommands(shapes.Game[48])
             .setTransform(-238, -129.95);
         var instance29 = new Graphics()
-            .drawCommands(shapes.Game[38])
+            .drawCommands(shapes.Game[47])
             .setTransform(-238, -129.95);
         var instance28 = new Graphics()
-            .drawCommands(shapes.Game[37])
+            .drawCommands(shapes.Game[46])
             .setTransform(-238, -129.95);
         var instance27 = new Graphics()
-            .drawCommands(shapes.Game[36])
+            .drawCommands(shapes.Game[45])
             .setTransform(-238, -129.95);
         var instance26 = new Graphics()
-            .drawCommands(shapes.Game[35])
+            .drawCommands(shapes.Game[44])
             .setTransform(-238, -129.95);
         var instance25 = new Graphics()
-            .drawCommands(shapes.Game[34])
+            .drawCommands(shapes.Game[43])
             .setTransform(-238, -129.95);
         var instance24 = new Graphics()
-            .drawCommands(shapes.Game[33])
+            .drawCommands(shapes.Game[42])
             .setTransform(-238, -129.95);
         var instance23 = new Graphics()
-            .drawCommands(shapes.Game[32])
-            .setTransform(-238, -129.95);
-        var instance22 = new Graphics()
-            .drawCommands(shapes.Game[31])
+            .drawCommands(shapes.Game[41])
             .setTransform(-225.45, -138.75, 0.868, 1.109);
-        var instance21 = new Graphics()
-            .drawCommands(shapes.Game[31])
+        var instance22 = new Graphics()
+            .drawCommands(shapes.Game[41])
             .setTransform(-238, -129.95);
-        var instance20 = new Graphics()
-            .drawCommands(shapes.Game[30])
+        var instance21 = new Graphics()
+            .drawCommands(shapes.Game[40])
             .setTransform(-245.8, -113.35, 0.995);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.Game[40])
+            .setTransform(-238, -129.95);
         var instance19 = new Graphics()
-            .drawCommands(shapes.Game[30])
+            .drawCommands(shapes.Game[39])
             .setTransform(-238, -129.95);
         var instance18 = new Graphics()
-            .drawCommands(shapes.Game[29])
-            .setTransform(-238, -129.95);
-        var instance17 = new Graphics()
-            .drawCommands(shapes.Game[28])
+            .drawCommands(shapes.Game[38])
             .setTransform(-306.3, -135.25, 1.115, 0.822);
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Game[38])
+            .setTransform(-238, -129.95);
         var instance16 = new Graphics()
-            .drawCommands(shapes.Game[28])
+            .drawCommands(shapes.Game[37])
             .setTransform(-238, -129.95);
         var instance15 = new Graphics()
-            .drawCommands(shapes.Game[27])
+            .drawCommands(shapes.Game[36])
             .setTransform(-238, -129.95);
         var instance14 = new Graphics()
-            .drawCommands(shapes.Game[26])
+            .drawCommands(shapes.Game[35])
             .setTransform(-238, -129.95);
         var instance13 = new Graphics()
-            .drawCommands(shapes.Game[25])
+            .drawCommands(shapes.Game[34])
             .setTransform(-238, -129.95);
         var instance12 = new Graphics()
-            .drawCommands(shapes.Game[24])
+            .drawCommands(shapes.Game[33])
             .setTransform(-238, -129.95);
         var instance11 = new Graphics()
-            .drawCommands(shapes.Game[23])
-            .setTransform(-238, -129.95);
+            .drawCommands(shapes.Game[32])
+            .setTransform(-264.35, -124.2, 0.997, 1.003);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Game[22])
+            .drawCommands(shapes.Game[31])
             .setTransform(-264.35, -124.2, 0.997, 1.003);
         var instance9 = new Graphics()
-            .drawCommands(shapes.Game[21])
-            .setTransform(-264.35, -124.2, 0.997, 1.003);
+            .drawCommands(shapes.Game[32])
+            .setTransform(-238, -129.95);
         var instance8 = new Graphics()
-            .drawCommands(shapes.Game[22])
+            .drawCommands(shapes.Game[31])
             .setTransform(-238, -129.95);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Game[21])
+            .drawCommands(shapes.Game[30])
             .setTransform(-238, -129.95);
         var instance6 = new Graphics()
-            .drawCommands(shapes.Game[20])
+            .drawCommands(shapes.Game[29])
             .setTransform(-238, -129.95);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Game[19])
+            .drawCommands(shapes.Game[28])
             .setTransform(-238, -129.95);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Game[18])
+            .drawCommands(shapes.Game[27])
             .setTransform(-238, -129.95);
         var instance3 = new Graphics()
-            .drawCommands(shapes.Game[17])
-            .setTransform(-238, -129.95);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[16]);
+            .drawCommands(shapes.Game[26]);
+        var instance2 = new lib.invisible()
+            .setTransform(-52.8, -45.1)
+            .setAlpha(0);
+        this[instance2.name = "b_av"] = instance2;
         var instance1 = new lib.hitsource()
             .setTransform(-7.9, -7.5, 0.502, 0.422)
             .setAlpha(0);
         this[instance1.name = "hittestie"] = instance1;
-        this.addChild(instance37, instance36, instance35, instance34, instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance38, instance37, instance36, instance35, instance34, instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.virus_dead = Container.extend(function () {
         Container.call(this);
-        var instance32 = new Graphics()
-            .drawCommands(shapes.Game[64])
+        var instance33 = new Graphics()
+            .drawCommands(shapes.Game[74])
             .setTransform(-242.8, -307.2);
-        var instance31 = new Graphics()
-            .drawCommands(shapes.Game[44])
+        var instance32 = new Graphics()
+            .drawCommands(shapes.Game[54])
             .setTransform(-237.6, -133.1);
+        var instance31 = new Graphics()
+            .drawCommands(shapes.Game[73])
+            .setTransform(-242.8, -307.2);
         var instance30 = new Graphics()
-            .drawCommands(shapes.Game[63])
+            .drawCommands(shapes.Game[72])
             .setTransform(-242.8, -307.2);
         var instance29 = new Graphics()
-            .drawCommands(shapes.Game[62])
+            .drawCommands(shapes.Game[71])
             .setTransform(-242.8, -307.2);
         var instance28 = new Graphics()
-            .drawCommands(shapes.Game[61])
+            .drawCommands(shapes.Game[70])
             .setTransform(-242.8, -307.2);
         var instance27 = new Graphics()
-            .drawCommands(shapes.Game[60])
+            .drawCommands(shapes.Game[69])
             .setTransform(-242.8, -307.2);
         var instance26 = new Graphics()
-            .drawCommands(shapes.Game[59])
+            .drawCommands(shapes.Game[68])
             .setTransform(-242.8, -307.2);
         var instance25 = new Graphics()
-            .drawCommands(shapes.Game[58])
+            .drawCommands(shapes.Game[67])
             .setTransform(-242.8, -307.2);
         var instance24 = new Graphics()
-            .drawCommands(shapes.Game[57])
+            .drawCommands(shapes.Game[66])
             .setTransform(-242.8, -307.2);
         var instance23 = new Graphics()
-            .drawCommands(shapes.Game[56])
+            .drawCommands(shapes.Game[57])
             .setTransform(-242.8, -307.2);
         var instance22 = new Graphics()
-            .drawCommands(shapes.Game[47])
+            .drawCommands(shapes.Game[65])
             .setTransform(-242.8, -307.2);
         var instance21 = new Graphics()
-            .drawCommands(shapes.Game[55])
+            .drawCommands(shapes.Game[64])
             .setTransform(-242.8, -307.2);
         var instance20 = new Graphics()
-            .drawCommands(shapes.Game[54])
-            .setTransform(-242.8, -307.2);
-        var instance19 = new Graphics()
-            .drawCommands(shapes.Game[27])
+            .drawCommands(shapes.Game[37])
             .setTransform(-257.05, -198.65, 1, 0.783);
-        var instance18 = new Graphics()
-            .drawCommands(shapes.Game[27])
+        var instance19 = new Graphics()
+            .drawCommands(shapes.Game[37])
             .setTransform(-237.6, -198.65, 1, 0.783);
-        var instance17 = new Graphics()
-            .drawCommands(shapes.Game[52])
+        var instance18 = new Graphics()
+            .drawCommands(shapes.Game[62])
             .setTransform(-329.55, -337.2, 0.949, 0.993);
-        var instance16 = new Graphics()
-            .drawCommands(shapes.Game[52])
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Game[62])
             .setTransform(-319.7, -356.2, 0.949);
-        var instance15 = new Graphics()
-            .drawCommands(shapes.Game[51])
+        var instance16 = new Graphics()
+            .drawCommands(shapes.Game[61])
             .setTransform(-316.5, -250, 0.941, 0.988);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.Game[51])
+        var instance15 = new Graphics()
+            .drawCommands(shapes.Game[61])
             .setTransform(-326.9, -264.8, 0.941, 0.983);
-        var instance13 = new Graphics()
-            .drawCommands(shapes.Game[53])
+        var instance14 = new Graphics()
+            .drawCommands(shapes.Game[63])
             .setTransform(-262.25, -307.2);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.Game[63])
+            .setTransform(-242.8, -307.2);
         var instance12 = new Graphics()
-            .drawCommands(shapes.Game[53])
-            .setTransform(-242.8, -307.2);
-        var instance11 = new Graphics()
-            .drawCommands(shapes.Game[52])
+            .drawCommands(shapes.Game[62])
             .setTransform(-252.2, -290.15);
+        var instance11 = new Graphics()
+            .drawCommands(shapes.Game[62])
+            .setTransform(-242.8, -307.2);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Game[52])
-            .setTransform(-242.8, -307.2);
-        var instance9 = new Graphics()
-            .drawCommands(shapes.Game[51])
+            .drawCommands(shapes.Game[61])
             .setTransform(-251.6, -323.85, 0.996);
-        var instance8 = new Graphics()
-            .drawCommands(shapes.Game[51])
+        var instance9 = new Graphics()
+            .drawCommands(shapes.Game[61])
             .setTransform(-242.8, -307.2);
+        var instance8 = new Graphics()
+            .drawCommands(shapes.Game[60])
+            .setTransform(-274.75, -307.2, 1.003);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Game[50])
+            .drawCommands(shapes.Game[59])
             .setTransform(-274.75, -307.2, 1.003);
         var instance6 = new Graphics()
-            .drawCommands(shapes.Game[49])
-            .setTransform(-274.75, -307.2, 1.003);
+            .drawCommands(shapes.Game[60])
+            .setTransform(-242.8, -307.2);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Game[50])
+            .drawCommands(shapes.Game[59])
             .setTransform(-242.8, -307.2);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Game[49])
+            .drawCommands(shapes.Game[58])
             .setTransform(-242.8, -307.2);
         var instance3 = new Graphics()
-            .drawCommands(shapes.Game[48])
-            .setTransform(-242.8, -307.2);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[47])
+            .drawCommands(shapes.Game[57])
             .setTransform(243.95, -304.95, 1, 1, 0, 0, 3.142);
+        var instance2 = new lib.invisible()
+            .setTransform(-55.8, -48.9)
+            .setAlpha(0);
+        this[instance2.name = "b_dv"] = instance2;
         var instance1 = new lib.hitsource()
             .setTransform(-11.9, -11.35, 0.502, 0.422)
             .setAlpha(0);
         this[instance1.name = "hittestie"] = instance1;
-        this.addChild(instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.virus_alive = Container.extend(function () {
         Container.call(this);
-        var instance36 = new Graphics()
-            .drawCommands(shapes.Game[45])
+        var instance37 = new Graphics()
+            .drawCommands(shapes.Game[55])
             .setTransform(1.4, -2.15);
-        var instance35 = new Graphics()
-            .drawCommands(shapes.Game[44])
+        var instance36 = new Graphics()
+            .drawCommands(shapes.Game[54])
             .setTransform(-236.6, -132.1);
+        var instance35 = new Graphics()
+            .drawCommands(shapes.Game[87])
+            .setTransform(-447.1, -305.1);
         var instance34 = new Graphics()
-            .drawCommands(shapes.Game[77])
+            .drawCommands(shapes.Game[86])
             .setTransform(-447.1, -305.1);
         var instance33 = new Graphics()
-            .drawCommands(shapes.Game[76])
+            .drawCommands(shapes.Game[85])
             .setTransform(-447.1, -305.1);
         var instance32 = new Graphics()
-            .drawCommands(shapes.Game[75])
+            .drawCommands(shapes.Game[84])
             .setTransform(-447.1, -305.1);
         var instance31 = new Graphics()
-            .drawCommands(shapes.Game[74])
+            .drawCommands(shapes.Game[83])
             .setTransform(-447.1, -305.1);
         var instance30 = new Graphics()
-            .drawCommands(shapes.Game[73])
+            .drawCommands(shapes.Game[82])
             .setTransform(-447.1, -305.1);
         var instance29 = new Graphics()
-            .drawCommands(shapes.Game[72])
+            .drawCommands(shapes.Game[81])
             .setTransform(-447.1, -305.1);
         var instance28 = new Graphics()
-            .drawCommands(shapes.Game[71])
+            .drawCommands(shapes.Game[80])
             .setTransform(-447.1, -305.1);
         var instance27 = new Graphics()
-            .drawCommands(shapes.Game[70])
-            .setTransform(-447.1, -305.1);
-        var instance26 = new Graphics()
-            .drawCommands(shapes.Game[47])
+            .drawCommands(shapes.Game[57])
             .setTransform(-241.3, -307.35, 0.998, 1.004);
-        var instance25 = new Graphics()
-            .drawCommands(shapes.Game[69])
+        var instance26 = new Graphics()
+            .drawCommands(shapes.Game[79])
             .setTransform(-447.1, -305.1);
-        var instance24 = new Graphics()
-            .drawCommands(shapes.Game[54])
+        var instance25 = new Graphics()
+            .drawCommands(shapes.Game[64])
             .setTransform(-241.8, -305.45, 1, 0.998);
-        var instance23 = new Graphics()
-            .drawCommands(shapes.Game[27])
+        var instance24 = new Graphics()
+            .drawCommands(shapes.Game[37])
             .setTransform(-256.05, -197.65, 1, 0.783);
-        var instance22 = new Graphics()
-            .drawCommands(shapes.Game[27])
+        var instance23 = new Graphics()
+            .drawCommands(shapes.Game[37])
             .setTransform(-236.6, -197.65, 1, 0.783);
-        var instance21 = new Graphics()
-            .drawCommands(shapes.Game[68])
+        var instance22 = new Graphics()
+            .drawCommands(shapes.Game[78])
             .setTransform(-476.15, -305.1);
-        var instance20 = new Graphics()
-            .drawCommands(shapes.Game[67])
+        var instance21 = new Graphics()
+            .drawCommands(shapes.Game[77])
             .setTransform(-473.9, -305.1, 0.995);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.Game[78])
+            .setTransform(-447.1, -305.1);
         var instance19 = new Graphics()
-            .drawCommands(shapes.Game[68])
+            .drawCommands(shapes.Game[77])
             .setTransform(-447.1, -305.1);
         var instance18 = new Graphics()
-            .drawCommands(shapes.Game[67])
-            .setTransform(-447.1, -305.1);
-        var instance17 = new Graphics()
-            .drawCommands(shapes.Game[52])
+            .drawCommands(shapes.Game[62])
             .setTransform(-328.55, -338.4, 0.949);
-        var instance16 = new Graphics()
-            .drawCommands(shapes.Game[52])
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Game[62])
             .setTransform(-318.7, -355.2, 0.949);
-        var instance15 = new Graphics()
-            .drawCommands(shapes.Game[51])
+        var instance16 = new Graphics()
+            .drawCommands(shapes.Game[61])
             .setTransform(-315.5, -249, 0.941, 0.988);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.Game[51])
+        var instance15 = new Graphics()
+            .drawCommands(shapes.Game[61])
             .setTransform(-324.7, -265.45, 0.937, 0.988);
-        var instance13 = new Graphics()
-            .drawCommands(shapes.Game[27])
+        var instance14 = new Graphics()
+            .drawCommands(shapes.Game[37])
             .setTransform(-256.05, -88.15, 1, 0.757);
-        var instance12 = new Graphics()
-            .drawCommands(shapes.Game[27])
+        var instance13 = new Graphics()
+            .drawCommands(shapes.Game[37])
             .setTransform(-236.6, -88.15, 1, 0.757);
-        var instance11 = new Graphics()
-            .drawCommands(shapes.Game[52])
+        var instance12 = new Graphics()
+            .drawCommands(shapes.Game[62])
             .setTransform(-252.6, -289.15, 1.005);
+        var instance11 = new Graphics()
+            .drawCommands(shapes.Game[62])
+            .setTransform(-241.8, -306.2);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Game[52])
-            .setTransform(-241.8, -306.2);
-        var instance9 = new Graphics()
-            .drawCommands(shapes.Game[51])
+            .drawCommands(shapes.Game[61])
             .setTransform(-251.85, -322.85);
-        var instance8 = new Graphics()
-            .drawCommands(shapes.Game[51])
+        var instance9 = new Graphics()
+            .drawCommands(shapes.Game[61])
             .setTransform(-241.8, -306.2);
-        var instance7 = new Graphics()
-            .drawCommands(shapes.Game[22])
+        var instance8 = new Graphics()
+            .drawCommands(shapes.Game[32])
             .setTransform(-122.6, -60.75, 0.43, 0.432);
-        var instance6 = new Graphics()
-            .drawCommands(shapes.Game[66])
+        var instance7 = new Graphics()
+            .drawCommands(shapes.Game[76])
             .setTransform(-476.4, -305.1);
-        var instance5 = new Graphics()
-            .drawCommands(shapes.Game[22])
+        var instance6 = new Graphics()
+            .drawCommands(shapes.Game[32])
             .setTransform(-93.3, -60.75, 0.43, 0.432);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.Game[76])
+            .setTransform(-447.1, -305.1);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Game[66])
+            .drawCommands(shapes.Game[75])
             .setTransform(-447.1, -305.1);
-        var instance3 = new Graphics()
-            .drawCommands(shapes.Game[65])
-            .setTransform(-447.1, -305.1);
+        var instance3 = new lib.invisible()
+            .setTransform(-53.95, -47.9)
+            .setAlpha(0);
+        this[instance3.name = "b_lv"] = instance3;
         var instance2 = new Graphics()
-            .drawCommands(shapes.Game[47])
+            .drawCommands(shapes.Game[57])
             .setTransform(244.4, -305.15, 0.998, 1.004, 0, 0, 3.142);
         var instance1 = new lib.hitsource()
             .setTransform(-12.3, -12.75, 0.502, 0.422)
             .setAlpha(0);
         this[instance1.name = "hittestie"] = instance1;
-        this.addChild(instance36, instance35, instance34, instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance37, instance36, instance35, instance34, instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.protein = Container.extend(function () {
         Container.call(this);
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Game[102])
+            .setTransform(-399.85, -300.15);
         var instance16 = new Graphics()
-            .drawCommands(shapes.Game[92])
+            .drawCommands(shapes.Game[101])
             .setTransform(-399.85, -300.15);
         var instance15 = new Graphics()
-            .drawCommands(shapes.Game[91])
+            .drawCommands(shapes.Game[100])
             .setTransform(-399.85, -300.15);
         var instance14 = new Graphics()
-            .drawCommands(shapes.Game[90])
+            .drawCommands(shapes.Game[99])
             .setTransform(-399.85, -300.15);
         var instance13 = new Graphics()
-            .drawCommands(shapes.Game[89])
+            .drawCommands(shapes.Game[98])
             .setTransform(-399.85, -300.15);
         var instance12 = new Graphics()
-            .drawCommands(shapes.Game[88])
+            .drawCommands(shapes.Game[97])
             .setTransform(-399.85, -300.15);
         var instance11 = new Graphics()
-            .drawCommands(shapes.Game[87])
+            .drawCommands(shapes.Game[96])
             .setTransform(-399.85, -300.15);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Game[86])
+            .drawCommands(shapes.Game[95])
             .setTransform(-399.85, -300.15);
         var instance9 = new Graphics()
-            .drawCommands(shapes.Game[85])
+            .drawCommands(shapes.Game[94])
             .setTransform(-399.85, -300.15);
         var instance8 = new Graphics()
-            .drawCommands(shapes.Game[84])
+            .drawCommands(shapes.Game[93])
             .setTransform(-399.85, -300.15);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Game[83])
+            .drawCommands(shapes.Game[92])
             .setTransform(-399.85, -300.15);
         var instance6 = new Graphics()
-            .drawCommands(shapes.Game[82])
+            .drawCommands(shapes.Game[91])
             .setTransform(-399.85, -300.15);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Game[81])
+            .drawCommands(shapes.Game[90])
             .setTransform(-399.85, -300.15);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Game[80])
+            .drawCommands(shapes.Game[89])
             .setTransform(-399.85, -300.15);
         var instance3 = new Graphics()
-            .drawCommands(shapes.Game[79])
+            .drawCommands(shapes.Game[88])
             .setTransform(-399.85, -300.15);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Game[78])
-            .setTransform(-399.85, -300.15);
+        var instance2 = new lib.invisible()
+            .setTransform(-25.75, -14.25, 0.465, 0.485)
+            .setAlpha(0);
+        this[instance2.name = "b_prot"] = instance2;
         var instance1 = new lib.hitsource()
             .setTransform(-4.9, 0.5, 0.307, 0.293)
             .setAlpha(0);
         this[instance1.name = "hittestie"] = instance1;
-        this.addChild(instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.bacteria = Container.extend(function () {
         Container.call(this);
-        var instance30 = new Graphics()
-            .drawCommands(shapes.Game[111])
+        var instance31 = new Graphics()
+            .drawCommands(shapes.Game[121])
             .setTransform(-329.2, -306.5);
+        var instance30 = new Graphics()
+            .drawCommands(shapes.Game[117])
+            .setTransform(-306.4, -305.9, 0.996);
         var instance29 = new Graphics()
-            .drawCommands(shapes.Game[107])
+            .drawCommands(shapes.Game[116])
             .setTransform(-306.4, -305.9, 0.996);
         var instance28 = new Graphics()
-            .drawCommands(shapes.Game[106])
-            .setTransform(-306.4, -305.9, 0.996);
+            .drawCommands(shapes.Game[117])
+            .setTransform(-285.9, -305, 0.996);
         var instance27 = new Graphics()
-            .drawCommands(shapes.Game[107])
+            .drawCommands(shapes.Game[116])
             .setTransform(-285.9, -305, 0.996);
         var instance26 = new Graphics()
-            .drawCommands(shapes.Game[106])
-            .setTransform(-285.9, -305, 0.996);
-        var instance25 = new Graphics()
-            .drawCommands(shapes.Game[92])
+            .drawCommands(shapes.Game[102])
             .setTransform(-353.75, -302.35, 0.98, 0.976);
+        var instance25 = new Graphics()
+            .drawCommands(shapes.Game[120])
+            .setTransform(-329.2, -306.5);
         var instance24 = new Graphics()
-            .drawCommands(shapes.Game[110])
+            .drawCommands(shapes.Game[119])
             .setTransform(-329.2, -306.5);
         var instance23 = new Graphics()
-            .drawCommands(shapes.Game[109])
+            .drawCommands(shapes.Game[118])
             .setTransform(-329.2, -306.5);
         var instance22 = new Graphics()
-            .drawCommands(shapes.Game[108])
+            .drawCommands(shapes.Game[117])
             .setTransform(-329.2, -306.5);
         var instance21 = new Graphics()
-            .drawCommands(shapes.Game[107])
+            .drawCommands(shapes.Game[116])
             .setTransform(-329.2, -306.5);
         var instance20 = new Graphics()
-            .drawCommands(shapes.Game[106])
-            .setTransform(-329.2, -306.5);
+            .drawCommands(shapes.Game[102])
+            .setTransform(-446.9, -311.35);
         var instance19 = new Graphics()
-            .drawCommands(shapes.Game[92])
+            .drawCommands(shapes.Game[101])
             .setTransform(-446.9, -311.35);
         var instance18 = new Graphics()
-            .drawCommands(shapes.Game[91])
-            .setTransform(-446.9, -311.35);
+            .drawCommands(shapes.Game[100])
+            .setTransform(-443.85, -310.65, 0.997);
         var instance17 = new Graphics()
-            .drawCommands(shapes.Game[90])
+            .drawCommands(shapes.Game[99])
             .setTransform(-443.85, -310.65, 0.997);
         var instance16 = new Graphics()
-            .drawCommands(shapes.Game[89])
-            .setTransform(-443.85, -310.65, 0.997);
+            .drawCommands(shapes.Game[115])
+            .setTransform(-329.2, -306.5);
         var instance15 = new Graphics()
-            .drawCommands(shapes.Game[105])
+            .drawCommands(shapes.Game[114])
             .setTransform(-329.2, -306.5);
         var instance14 = new Graphics()
-            .drawCommands(shapes.Game[104])
+            .drawCommands(shapes.Game[113])
             .setTransform(-329.2, -306.5);
         var instance13 = new Graphics()
-            .drawCommands(shapes.Game[103])
+            .drawCommands(shapes.Game[112])
             .setTransform(-329.2, -306.5);
         var instance12 = new Graphics()
-            .drawCommands(shapes.Game[102])
+            .drawCommands(shapes.Game[111])
             .setTransform(-329.2, -306.5);
         var instance11 = new Graphics()
-            .drawCommands(shapes.Game[101])
+            .drawCommands(shapes.Game[110])
             .setTransform(-329.2, -306.5);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Game[100])
+            .drawCommands(shapes.Game[109])
             .setTransform(-329.2, -306.5);
         var instance9 = new Graphics()
-            .drawCommands(shapes.Game[99])
+            .drawCommands(shapes.Game[108])
             .setTransform(-329.2, -306.5);
         var instance8 = new Graphics()
-            .drawCommands(shapes.Game[98])
+            .drawCommands(shapes.Game[107])
             .setTransform(-329.2, -306.5);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Game[97])
-            .setTransform(-329.2, -306.5);
-        var instance6 = new Graphics()
-            .drawCommands(shapes.Game[84])
+            .drawCommands(shapes.Game[94])
             .setTransform(-355.35, -203.1, 0.751, 0.641);
+        var instance6 = new Graphics()
+            .drawCommands(shapes.Game[106])
+            .setTransform(-329.2, -306.5);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Game[96])
+            .drawCommands(shapes.Game[105])
             .setTransform(-329.2, -306.5);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Game[95])
+            .drawCommands(shapes.Game[104])
             .setTransform(-329.2, -306.5);
-        var instance3 = new Graphics()
-            .drawCommands(shapes.Game[94])
-            .setTransform(-329.2, -306.5);
+        var instance3 = new lib.invisible()
+            .setTransform(-79, -23.8, 1.608, 0.551)
+            .setAlpha(0);
+        this[instance3.name = "b_prot"] = instance3;
         var instance2 = new Graphics()
-            .drawCommands(shapes.Game[93])
+            .drawCommands(shapes.Game[103])
             .setTransform(-329.2, -306.5);
         var instance1 = new lib.hitsource()
             .setTransform(-4.9, -4.7, 0.307, 0.293)
             .setAlpha(0);
         this[instance1.name = "hittestie"] = instance1;
-        this.addChild(instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
-    lib.GameSafe = Container.extend(function () {
+    lib.bubbles_back = Container.extend(function () {
         Container.call(this);
+        var instance72 = new Graphics()
+            .drawCommands(shapes.Game[145])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance71 = new Graphics()
+            .drawCommands(shapes.Game[144])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance70 = new Graphics()
+            .drawCommands(shapes.Game[143])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance69 = new Graphics()
+            .drawCommands(shapes.Game[142])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance68 = new Graphics()
+            .drawCommands(shapes.Game[141])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance67 = new Graphics()
+            .drawCommands(shapes.Game[140])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance66 = new Graphics()
+            .drawCommands(shapes.Game[139])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance65 = new Graphics()
+            .drawCommands(shapes.Game[138])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance64 = new Graphics()
+            .drawCommands(shapes.Game[137])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance63 = new Graphics()
+            .drawCommands(shapes.Game[136])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance62 = new Graphics()
+            .drawCommands(shapes.Game[135])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance61 = new Graphics()
+            .drawCommands(shapes.Game[134])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance60 = new Graphics()
+            .drawCommands(shapes.Game[133])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance59 = new Graphics()
+            .drawCommands(shapes.Game[132])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance58 = new Graphics()
+            .drawCommands(shapes.Game[131])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance57 = new Graphics()
+            .drawCommands(shapes.Game[130])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance56 = new Graphics()
+            .drawCommands(shapes.Game[129])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance55 = new Graphics()
+            .drawCommands(shapes.Game[128])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance54 = new Graphics()
+            .drawCommands(shapes.Game[127])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance53 = new Graphics()
+            .drawCommands(shapes.Game[126])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance52 = new Graphics()
+            .drawCommands(shapes.Game[125])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance51 = new Graphics()
+            .drawCommands(shapes.Game[124])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance50 = new Graphics()
+            .drawCommands(shapes.Game[123])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance49 = new Graphics()
+            .drawCommands(shapes.Game[122])
+            .setTransform(-84.05, 8.25, 0.558, 0.558);
+        var instance48 = new Graphics()
+            .drawCommands(shapes.Game[145])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance47 = new Graphics()
+            .drawCommands(shapes.Game[144])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance46 = new Graphics()
+            .drawCommands(shapes.Game[143])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance45 = new Graphics()
+            .drawCommands(shapes.Game[142])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance44 = new Graphics()
+            .drawCommands(shapes.Game[141])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance43 = new Graphics()
+            .drawCommands(shapes.Game[140])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance42 = new Graphics()
+            .drawCommands(shapes.Game[139])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance41 = new Graphics()
+            .drawCommands(shapes.Game[138])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance40 = new Graphics()
+            .drawCommands(shapes.Game[137])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance39 = new Graphics()
+            .drawCommands(shapes.Game[136])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance38 = new Graphics()
+            .drawCommands(shapes.Game[135])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance37 = new Graphics()
+            .drawCommands(shapes.Game[134])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance36 = new Graphics()
+            .drawCommands(shapes.Game[133])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance35 = new Graphics()
+            .drawCommands(shapes.Game[132])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance34 = new Graphics()
+            .drawCommands(shapes.Game[131])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance33 = new Graphics()
+            .drawCommands(shapes.Game[130])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance32 = new Graphics()
+            .drawCommands(shapes.Game[129])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance31 = new Graphics()
+            .drawCommands(shapes.Game[128])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance30 = new Graphics()
+            .drawCommands(shapes.Game[127])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance29 = new Graphics()
+            .drawCommands(shapes.Game[126])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance28 = new Graphics()
+            .drawCommands(shapes.Game[125])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance27 = new Graphics()
+            .drawCommands(shapes.Game[124])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance26 = new Graphics()
+            .drawCommands(shapes.Game[123])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance25 = new Graphics()
+            .drawCommands(shapes.Game[122])
+            .setTransform(-235.85, 29.35, 0.651, 0.651);
+        var instance24 = new Graphics()
+            .drawCommands(shapes.Game[145])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance23 = new Graphics()
+            .drawCommands(shapes.Game[144])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance22 = new Graphics()
+            .drawCommands(shapes.Game[143])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance21 = new Graphics()
+            .drawCommands(shapes.Game[142])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.Game[141])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance19 = new Graphics()
+            .drawCommands(shapes.Game[140])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance18 = new Graphics()
+            .drawCommands(shapes.Game[139])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Game[138])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance16 = new Graphics()
+            .drawCommands(shapes.Game[137])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance15 = new Graphics()
+            .drawCommands(shapes.Game[136])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance14 = new Graphics()
+            .drawCommands(shapes.Game[135])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.Game[134])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance12 = new Graphics()
+            .drawCommands(shapes.Game[133])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance11 = new Graphics()
+            .drawCommands(shapes.Game[132])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance10 = new Graphics()
+            .drawCommands(shapes.Game[131])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance9 = new Graphics()
+            .drawCommands(shapes.Game[130])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance8 = new Graphics()
+            .drawCommands(shapes.Game[129])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance7 = new Graphics()
+            .drawCommands(shapes.Game[128])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance6 = new Graphics()
+            .drawCommands(shapes.Game[127])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.Game[126])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance4 = new Graphics()
+            .drawCommands(shapes.Game[125])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance3 = new Graphics()
+            .drawCommands(shapes.Game[124])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        var instance2 = new Graphics()
+            .drawCommands(shapes.Game[123])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Game[113]);
+            .drawCommands(shapes.Game[122])
+            .setTransform(-170.6, -43.15, 0.488, 0.488);
+        this.addChild(instance72, instance71, instance70, instance69, instance68, instance67, instance66, instance65, instance64, instance63, instance62, instance61, instance60, instance59, instance58, instance57, instance56, instance55, instance54, instance53, instance52, instance51, instance50, instance49, instance48, instance47, instance46, instance45, instance44, instance43, instance42, instance41, instance40, instance39, instance38, instance37, instance36, instance35, instance34, instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+    });
+
+    lib.inject_txt = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Text("Inject")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 14,
+                fontWeight: "bold",
+                leading: 2
+            })
+            .setTransform(2, 2);
+        this.addChild(instance1);
+    });
+
+    lib.expose_txt = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Text("Expose")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 14,
+                fontWeight: "bold",
+                leading: 2
+            })
+            .setTransform(2, 2);
         this.addChild(instance1);
     });
 
@@ -566,49 +995,71 @@
             duration: 1,
             framerate: 30
         });
-        var instance11 = new Graphics()
-            .drawCommands(shapes.Game[115]);
-        var instance10 = new Graphics()
-            .drawCommands(shapes.Game[114])
+        var instance14 = new Graphics()
+            .drawCommands(shapes.Game[147]);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.Game[146])
             .setTransform(-5.15, -2.6);
-        var instance9 = new lib.GameSafe()
-            .setTransform(287, 0, 1.017, 0.977)
-            .setAlpha(0.18);
-        var instance8 = new Graphics()
-            .drawCommands(shapes.Game[112]);
-        var instance7 = new lib.bacteria()
-            .setTransform(681.45, 279.25, 0.621, 0.621);
-        this[instance7.name = "bacteria"] = instance7;
-        var instance6 = new lib.protein()
-            .setTransform(966.7, 283.75);
-        this[instance6.name = "protein"] = instance6;
-        var instance5 = new lib.virus_alive()
-            .setTransform(854.2, 276.7, 0.709, 0.709);
-        this[instance5.name = "virus_alive"] = instance5;
-        var instance4 = new lib.virus_dead()
-            .setTransform(972.4, 393.2, 0.714, 0.714);
-        this[instance4.name = "virus_dead"] = instance4;
-        var instance3 = new lib.virus_attenuated()
-            .setTransform(706.15, 395.8, 0.709, 0.709);
-        this[instance3.name = "virus_attenuated"] = instance3;
-        var instance2 = new lib.antibiotic()
-            .setTransform(855.75, 391.8, 0.741, 0.741);
-        this[instance2.name = "antibiotic"] = instance2;
-        var instance1 = new lib.DropBox()
-            .setTransform(1200, 600);
-        this[instance1.name = "dropbox"] = instance1;
-        this.addChild(instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        var instance12 = new lib.expose_txt()
+            .setTransform(1063.05, 234.7)
+            .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
+        var instance11 = new lib.inject_txt()
+            .setTransform(839.9, 234.7)
+            .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
+        var instance10 = new Text("Chose one of the types of microorganisms in the beaker and drag over to the right. You can inject your patient with a vaccine or expose them to a microbe, depending on what you have chosen.")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2,
+                wordWrap: true,
+                wordWrapWidth: 311
+            })
+            .setTransform(837.15, 114.2);
+        this[instance10.name = "instructions"] = instance10;
+        var instance9 = new lib.bubbles_back()
+            .setTransform(603.25, 106.3)
+            .setAlpha(0.19549)
+            .setColorTransform(-0.68, 1, 0.87, -0.6, -0.53, -0.75);
+        this[instance9.name = "bubbles"] = instance9;
+        var instance8 = new lib.bacteria()
+            .setTransform(561.55, 277.05, 0.621, 0.621);
+        this[instance8.name = "bacteria"] = instance8;
+        var instance7 = new lib.protein()
+            .setTransform(675.1, 357.2);
+        this[instance7.name = "protein"] = instance7;
+        var instance6 = new lib.virus_alive()
+            .setTransform(549.7, 389.35, 0.709, 0.709);
+        this[instance6.name = "virus_alive"] = instance6;
+        var instance5 = new lib.virus_dead()
+            .setTransform(519.75, 547.65, 0.714, 0.714);
+        this[instance5.name = "virus_dead"] = instance5;
+        var instance4 = new lib.virus_attenuated()
+            .setTransform(668.95, 499.15, 0.709, 0.709);
+        this[instance4.name = "virus_attenuated"] = instance4;
+        var instance3 = new lib.beaker_layered()
+            .setTransform(459.2, 215);
+        this[instance3.name = "beaker"] = instance3;
+        var instance2 = new lib.girl()
+            .setTransform(1038.2, 282.75);
+        this[instance2.name = "girl"] = instance2;
+        var instance1 = new lib.syringe_1()
+            .setTransform(835.15, 291.75);
+        this[instance1.name = "syringe"] = instance1;
+        this.addChild(instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.Game.assets = {
-        "Game": "images/Game.shapes.txt"
+        "Game": "images/Game.shapes.txt",
+        "Game_atlas_1": "images/Game_atlas_1.json"
     };
 })(PIXI, lib = lib || {});
 var lib;
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
         stage: lib.Game,
-        background: 0xffffff,
+        background: 0xffffcc,
         width: 1624,
         height: 750,
         framerate: 30,

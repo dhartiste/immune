@@ -1,0 +1,143 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/beaker_front" itemID="40fc0b0c-000056ad" lastModified="1091223291">
+  <timeline>
+    <DOMTimeline name="beaker_front">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-27.9" ty="-176.85"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-27.9" ty="-176.85"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.52156862745098"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2845 4738|1245 4738!1245 4738[1168 4738 1161 4818!1161 4818[1153 4897 1230 4897!1230 4897|2830 4897!2830 4897[2907 4897 2914 4818!2914 4818[2922 4738 2845 4738"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-27.9" ty="-176.85"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-27.9" ty="-176.85"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.52156862745098"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2845 5478|1245 5478!1245 5478[1168 5478 1161 5558!1161 5558[1153 5637 1230 5637!1230 5637|2830 5637!2830 5637[2907 5637 2914 5558!2914 5558[2922 5478 2845 5478"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-27.9" ty="-176.85"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-27.9" ty="-176.85"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.52156862745098"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1230 6377|2830 6377!2830 6377[2907 6377 2914 6298!2914 6298[2922 6218 2845 6218!2845 6218|1245 6218!1245 6218[1168 6218 1161 6298!1161 6298[1153 6377 1230 6377"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.52156862745098"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!672 3580S1|2272 3580!2272 3580[2349 3580 2356 3501!2356 3501[2364 3421 2287 3421!2287 3421|687 3421!687 3421[610 3421 603 3501!603 3501[595 3580 672 3580"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-27.9" ty="-176.85"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-27.9" ty="-176.85"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.52156862745098"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!1230 7857|2830 7857!2830 7857[2907 7857 2914 7778!2914 7778[2922 7698 2845 7698!2845 7698|1245 7698!1245 7698[1168 7698 1161 7778!1161 7778[1153 7857 1230 7857"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-27.9" ty="-176.85"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="-27.9" ty="-176.85"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.52156862745098"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!2845 8438|1245 8438!1245 8438[1168 8438 1161 8518!1161 8518[1153 8597 1230 8597!1230 8597|2830 8597!2830 8597[2907 8597 2914 8518!2914 8518[2922 8438 2845 8438"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMStaticText fontRenderingMode="standard" width="62.35" height="21.7" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="139" ty="53"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>200 ml</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.509803921568627" lineHeight="21.7" size="18" face="Tahoma-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
