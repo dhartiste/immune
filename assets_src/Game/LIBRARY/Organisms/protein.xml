@@ -1,7 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1088442515" lastModified="1609884937" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
-  <persistentData>
-    <PD n="copyLayersToBitmapScale" t="d" v="1.000000"/>
-  </persistentData>
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1088442515" lastModified="1088442515" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="protein">
       <layers>
@@ -356,7 +353,7 @@
                 </DOMGroup>
                 <DOMSymbolInstance libraryItemName="Hit controllers/invisible" name="b_prot" symbolType="button">
                   <matrix>
-                    <Matrix a="0.465438842773438" d="0.485214233398438" tx="-23.4" ty="-14.95"/>
+                    <Matrix a="0.465438842773438" d="0.485214233398438" tx="-25.75" ty="-14.25"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>
