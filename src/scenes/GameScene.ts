@@ -163,12 +163,14 @@ export default class GameScene extends BaseScene {
 
     cleanup(){
     //to do
+    /*
         this.art.bacteria.off("pointerover", () => {
             this.art.pnlPopup2.visible = false;
         });
         this.art.pnlPopup2.off("pointerover", () => {
             this.art.pnlPopup2.visible = false;
         });
+        */
     }
 }
 
