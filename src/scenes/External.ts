@@ -18,11 +18,14 @@ export default class GameScene extends Scene {
         this.addChild(this.art);
 
         this.art.gotoAndStop('default');
+        //this.art.bacolor.gotoAndStop('default');
+        //this.art.Health.gotoAndStop(0);
         //Utils.simpleButton(this.art.btnAhead);
     }
 
     start(){
-        PIXI.animate.Animator.play(this.art, 'healthyToSick');
+        //PIXI.animate.Animator.play(this.art, 'healthyToSick');
+        PIXI.animate.Animator.play(this.art, 'gray');
         //PIXI.animate.Animator.play(this.art, 'sickToBed');
     }
 
@@ -37,9 +40,10 @@ export default class GameScene extends Scene {
 
 interface ExternalArt extends MovieClip {
     patient: MovieClip;
+    Health:MovieClip;
+    bacolor:MovieClip;
     /*
     dTempFC:PIXI.animate.MovieClip;
-    Health:PIXI.animate.MovieClip;
     bandaid:PIXI.animate.MovieClip;
     Protection:PIXI.animate.MovieClip;
     dDescription:PIXI.animate.MovieClip;

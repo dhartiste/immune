@@ -1,12 +1,43 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/bandaid" itemID="40bf20a2-00000af4" lastModified="1090507645" lastUniqueIdentifier="6">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/bandaid" itemID="40bf20a2-00000af4" lastModified="1610434352" lastUniqueIdentifier="9">
   <timeline>
-    <DOMTimeline name="bandaid" layerDepthEnabled="true">
+    <DOMTimeline name="bandaid" currentFrame="100" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="circles" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Labels" color="#FF4F4F" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="4" name="default" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" duration="45" name="healthyToSick" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="49" duration="5" name="healthyToSick_stop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="54" duration="46" name="sickToBed" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="100" name="sickToBed_stop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="circles" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="49" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circles" name="circles">
+                  <matrix>
+                    <Matrix tx="-1.1" ty="91.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.8" y="52.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circles" name="circles" centerPoint3DX="20.7" centerPoint3DY="143.75">
                   <matrix>
                     <Matrix tx="-1.1" ty="91.1"/>
                   </matrix>
@@ -20,9 +51,21 @@
         </DOMLayer>
         <DOMLayer name="nub" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="49" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_only" name="nub">
+                  <matrix>
+                    <Matrix ty="91.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21" y="52.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" duration="52" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_only" name="nub" centerPoint3DX="21" centerPoint3DY="144">
                   <matrix>
                     <Matrix ty="91.85"/>
                   </matrix>
@@ -36,7 +79,7 @@
         </DOMLayer>
         <DOMLayer name="outline" color="#4FFF4F" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="49" keyMode="9728">
               <elements>
                 <DOMShape>
                   <strokes>
@@ -55,11 +98,30 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
+            <DOMFrame index="49" duration="52" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#4E6040"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!680 0[747 0 793 46!793 46[840 92 840 157!840 157|840 5690!840 5690[840 5755 793 5801!793 5801[747 5847 680 5847!680 5847|160 5847!160 5847[94 5847 47 5801!47 5801[0 5755 0 5690!0 5690|0 157!0 157[0 92 47 46!47 46[94 0 160 0!160 0|680
+ 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="color" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="color" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="4" keyMode="15872">
               <elements>
                 <DOMSymbolInstance libraryItemName="zDetails/ba_color" name="bacolor">
                   <transformationPoint>
@@ -70,6 +132,48 @@
                   </color>
                 </DOMSymbolInstance>
               </elements>
+            </DOMFrame>
+            <DOMFrame index="4" duration="45" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/ba_color" name="bacolor" selected="true" centerPoint3DX="21" centerPoint3DY="146.15">
+                  <transformationPoint>
+                    <Point x="21" y="146.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#CCCCCC"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="49" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/ba_color" name="bacolor" centerPoint3DX="21" centerPoint3DY="146.15">
+                  <transformationPoint>
+                    <Point x="21" y="146.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="204" blueOffset="204" greenOffset="204"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+              <frameColor>
+                <Color tintMultiplier="1" tintColor="#999900"/>
+              </frameColor>
+            </DOMFrame>
+            <DOMFrame index="54" duration="47" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/ba_color" name="bacolor" centerPoint3DX="21" centerPoint3DY="146.15">
+                  <transformationPoint>
+                    <Point x="21" y="146.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color redMultiplier="0" blueMultiplier="0" greenMultiplier="0" redOffset="204" blueOffset="204" greenOffset="204"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+              <frameColor>
+                <Color tintMultiplier="1" tintColor="#999900"/>
+              </frameColor>
             </DOMFrame>
           </frames>
         </DOMLayer>

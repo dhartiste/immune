@@ -192,24 +192,49 @@
     lib.ba_color = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.External[9]);
+            .drawCommands(shapes.External[10]);
         this.addChild(instance1);
     });
 
-    lib.bandaid = Container.extend(function () {
-        Container.call(this);
-        var instance4 = new lib.ba_color()
-            .setColorTransform(0, 0.8, 0, 0.8, 0, 0.8);
+    lib.bandaid = MovieClip.extend(function () {
+        MovieClip.call(this, {
+            duration: 101,
+            labels: {
+                default: 0,
+                gray: 4,
+                gray_stop: 49,
+                sickToBed: 54,
+                sickToBed_stop: 100
+            }
+        });
+        var instance4 = new lib.ba_color();
         this[instance4.name = "bacolor"] = instance4;
         var instance3 = new Graphics()
             .drawCommands(shapes.External[8]);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.External[9]);
         var instance2 = new lib.nub_only()
             .setTransform(0, 91.85);
         this[instance2.name = "nub"] = instance2;
         var instance1 = new lib.nub_circles()
             .setTransform(-1.1, 91.1);
         this[instance1.name = "circles"] = instance1;
-        this.addChild(instance4, instance3, instance2, instance1);
+        this.addTimedChild(instance4, 0, 101, {
+                "0": {
+                    c: [
+                        0,
+                        0.8,
+                        0,
+                        0.8,
+                        0,
+                        0.8
+                    ]
+                }
+            })
+            .addTimedChild(instance3, 0, 49)
+            .addTimedChild(instance5, 49, 52)
+            .addTimedChild(instance2)
+            .addTimedChild(instance1);
     });
 
     lib.External = MovieClip.extend(function () {
@@ -225,7 +250,7 @@
             }
         });
         var instance15 = new Graphics()
-            .drawCommands(shapes.External[10]);
+            .drawCommands(shapes.External[11]);
         var instance14 = new lib.bandaid()
             .setTransform(647.6, 214.95);
         this[instance14.name = "bandaid"] = instance14;
@@ -233,9 +258,7 @@
             .setTransform(450, 183.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
         this[instance13.name = "Health"] = instance13;
-        var instance12 = new lib.txtProtection()
-            .setTransform(606.2, 183.95)
-            .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
+        var instance12 = new lib.txtProtection();
         this[instance12.name = "Protection"] = instance12;
         var instance11 = new Text("(after the shot)...")
             .setStyle({
@@ -246,10 +269,29 @@
                 leading: 2,
                 wordWrap: true,
                 wordWrapWidth: 248.55
-            })
-            .setTransform(793.25, 326.05);
+            });
         this[instance11.name = "dDescription"] = instance11;
         var instance10 = new Text("Next Act...")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#d09214",
+                leading: 2
+            });
+        var instance17 = new Text("(after the shot)...")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2,
+                wordWrap: true,
+                wordWrapWidth: 248.55
+            })
+            .setTransform(793.25, 326.05);
+        this[instance17.name = "dDescription"] = instance17;
+        var instance16 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -300,9 +342,34 @@
         this.addTimedChild(instance15)
             .addTimedChild(instance14)
             .addTimedChild(instance13)
-            .addTimedChild(instance12)
-            .addTimedChild(instance11)
-            .addTimedChild(instance10)
+            .addTimedChild(instance12, 0, 101, {
+                "0": {
+                    x: 606.2,
+                    y: 183.95,
+                    c: [
+                        0,
+                        0.82,
+                        0,
+                        0.57,
+                        0,
+                        0.08
+                    ]
+                }
+            })
+            .addTimedChild(instance11, 0, 49, {
+                "0": {
+                    x: 793.25,
+                    y: 326.05
+                }
+            })
+            .addTimedChild(instance10, 0, 49, {
+                "0": {
+                    x: 766.2,
+                    y: 521.65
+                }
+            })
+            .addTimedChild(instance17, 49, 52)
+            .addTimedChild(instance16, 49, 52)
             .addTimedChild(instance9, 0, 101, {
                 "0": {
                     x: 428.7,
