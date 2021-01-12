@@ -227,7 +227,7 @@
                                                   <Edge fillStyle1="2" strokeStyle="1" edges="!21379 2819|23759 2819!23759 2819|23759 4039!23759 4039|21379 4039!21379 4039|21379 2819"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMRectangleObject objectWidth="1624.05" objectHeight="750" x="5.15" y="2.6" lockFlag="true">
+                                        <DOMRectangleObject objectWidth="1624.05" objectHeight="750" x="5.15" y="2.6" selected="true" lockFlag="true">
                                              <matrix>
                                                   <Matrix a="0.999969482421875" tx="-5.15" ty="-2.6"/>
                                              </matrix>

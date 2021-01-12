@@ -59,20 +59,20 @@ export default class GameScene extends BaseScene {
         this.isDragging = false;
         this.objDragging = null;
         
-       if (this.gameData.currentChoice == "bacteria" || this.gameData.currentChoice == "virus_alive") {
+       if (this.gameData.currentChoice === "bacteria" || this.gameData.currentChoice === "virus_alive") {
             console.log(this.gameData.currentChoice);
              if (this.isHitGirl) {
                  // go to the next scene
                  console.log("go to the scene for... ", );
 
-                 this.changeScene("internal");
+                 this.changeScene("antibiotic");
              }
         }
-        if (this.gameData.currentChoice == "protein" || this.gameData.currentChoice == "virus_attenuated" || this.gameData.currentChoice == "virus_dead"){ 
+        if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
             console.log(this.gameData.currentChoice);
              if (this.isHitSyringe) {
                  console.log("syringe: go to scene for...");
-                 this.changeScene("internal");
+                 this.changeScene("antibiotic");
              }
         }
     }
@@ -94,7 +94,7 @@ export default class GameScene extends BaseScene {
             obj.y > db.y - db.height/2 &&
             obj.y < db.y + db.height/2;
             this.art.girl.gotoAndStop(0);
-            if (this.gameData.currentChoice == "bacteria" || this.gameData.currentChoice == "virus_alive") {    
+            if (this.gameData.currentChoice === "bacteria" || this.gameData.currentChoice === "virus_alive") {    
                 if (this.isHitGirl) {
                     this.art.girl.gotoAndStop(1);
                 } 
@@ -106,7 +106,7 @@ export default class GameScene extends BaseScene {
             obj.y > bd.y - bd.height/2 &&
             obj.y < bd.y + bd.height/2;
             this.art.syringe.gotoAndStop(0);
-            if (this.gameData.currentChoice == "protein" || this.gameData.currentChoice == "virus_attenuated" || this.gameData.currentChoice == "virus_dead"){ 
+            if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
                 if (this.isHitSyringe) {
                     this.art.syringe.gotoAndStop(1);
                 }   
