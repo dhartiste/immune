@@ -18,7 +18,6 @@ export default class GameScene extends Scene {
         this.addChild(this.art);
 
         this.art.gotoAndStop('default');
-        //this.art.bacolor.gotoAndStop('default');
         this.art.btnAhead.gotoAndStop('default');
         this.art.btnBack.gotoAndStop('default');
 

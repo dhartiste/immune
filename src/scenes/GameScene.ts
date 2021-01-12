@@ -14,11 +14,6 @@ export default class GameScene extends BaseScene {
     private objDragging:MicroButtons;
     private isHitGirl:boolean = false;
     private isHitSyringe:boolean = false;
-    //private mouse:MouseEvent;
-    //private newMouse:interaction.InteractionManager;
-
-    //private mousex = event.clientX; // Gets Mouse X
-    //private mousey = event.clientY; // Gets Mouse Y
 
     preload():AssetList{
         return [
@@ -40,8 +35,6 @@ export default class GameScene extends BaseScene {
         this.interactive = true;
         this.interactiveChildren = true;
         this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
-        //this.mouse = new MouseEvent('mouse');
-        //this.newMouse = new interaction.InteractionManager();
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
         this.dragManager.addObject(this.art.virus_dead);
@@ -59,38 +52,44 @@ export default class GameScene extends BaseScene {
             this.art.virus_attenuatedPopup.x = this.art.bacteria.x;
             this.art.virus_attenuatedPopup.y = this.art.bacteria.y;
         });
-        /*
-        this.art.pnlPopup.on("pointerover", () => {
-            this.art.pnlPopup.visible = false;
-            this.art.pnlPopup2.visible = true;
-            this.art.pnlPopup2.x = this.art.bacteria.x;
-            this.art.pnlPopup2.y = this.art.bacteria.y;
-        });
-        */
+        this.art.bacteria.on("pointerout", () => {
+            this.art.virus_attenuatedPopup.visible = false;
+        })
        this.art.protein.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.protein.x;
             this.art.virus_attenuatedPopup.y = this.art.protein.y;
         });
+        this.art.protein.on("pointerout", () => {
+            this.art.virus_attenuatedPopup.visible = false;
+        })
         this.art.virus_dead.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.virus_dead.x;
             this.art.virus_attenuatedPopup.y = this.art.virus_dead.y;
         });
+        this.art.virus_dead.on("pointerout", () => {
+            this.art.virus_attenuatedPopup.visible = false;
+        })
         this.art.virus_attenuated.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.virus_attenuated.x;
             this.art.virus_attenuatedPopup.y = this.art.virus_attenuated.y;
         });
+        this.art.virus_attenuated.on("pointerout", () => {
+            this.art.virus_attenuatedPopup.visible = false;
+        })
         this.art.virus_alive.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.virus_alive.x;
             this.art.virus_attenuatedPopup.y = this.art.virus_alive.y;
         });
+        this.art.virus_alive.on("pointerout", () => {
+            this.art.virus_attenuatedPopup.visible = false;
+        })
     }
 
     onStartDrag =(object:MicroButtons)=>{
-        //console.log(this.newMouse.data);
         console.log(object.name, "this is the name of the button");
         this.isDragging = true;
         this.objDragging = object;
@@ -99,7 +98,6 @@ export default class GameScene extends BaseScene {
         this.gameData.currentChoiceIndex = object.index;
     }
     onEndDrag =()=>{
-    //to do
         this.isDragging = false;
         this.objDragging = null;
         
@@ -162,15 +160,16 @@ export default class GameScene extends BaseScene {
     }
 
     cleanup(){
-    //to do
-    /*
-        this.art.bacteria.off("pointerover", () => {
-            this.art.pnlPopup2.visible = false;
-        });
-        this.art.pnlPopup2.off("pointerover", () => {
-            this.art.pnlPopup2.visible = false;
-        });
-        */
+        this.art.bacteria.off("pointerover");
+        this.art.virus_alive.off("pointerover");
+        this.art.virus_attenuated.off("pointerover");
+        this.art.virus_dead.off("pointerover");
+        this.art.protein.off("pointerover");
+        this.art.bacteria.off("pointerout");
+        this.art.virus_alive.off("pointerout");
+        this.art.virus_attenuated.off("pointerout");
+        this.art.virus_dead.off("pointerout");
+        this.art.protein.off("pointerout");
     }
 }
 
