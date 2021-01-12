@@ -38,8 +38,7 @@ export default class GameScene extends Scene {
         Utils.simpleButton(this.art.btnBack);
         //PIXI.animate.Animator.play(this.art, 'healthyToSick');
         PIXI.animate.Animator.play(this.art);
-       /* var test = setTimeout(function(){ alert("hello");}, 1000);
-        var stop = setTimeout(function(){ PIXI.animate.Animator.stopAll();}, 1000); */
+    
 
    
     }

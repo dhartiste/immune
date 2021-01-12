@@ -1,18 +1,18 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Numbers/101" itemID="5ffddad5-000001b1" lastModified="1610477547">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="39.1" itemID="5ffded03-000007a9" lastModified="1610476803">
   <timeline>
-    <DOMTimeline name="101" layerDepthEnabled="true">
+    <DOMTimeline name="39.1" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText fontRenderingMode="standard" width="51" height="18" isSelectable="false">
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="51" height="18" isSelectable="false">
                   <matrix>
                     <Matrix tx="2" ty="2"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>101&#xD;</characters>
+                      <characters>39.1</characters>
                       <textAttrs>
                         <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#4E6040"/>
                       </textAttrs>
