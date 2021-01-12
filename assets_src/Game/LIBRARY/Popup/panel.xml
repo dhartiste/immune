@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Popup/panel" itemID="402d4cb8-0000f46d" lastModified="1090420041" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="panel">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/popupbox" selected="true">
+                  <matrix>
+                    <Matrix d="0.600006103515625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="20"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="popuptxt" fontRenderingMode="standard" width="139.45" height="19.05" includeOutlines="true">
+                  <matrix>
+                    <Matrix a="0.9996337890625" d="1.00216674804688" tx="8.5" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>attenuated virus</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

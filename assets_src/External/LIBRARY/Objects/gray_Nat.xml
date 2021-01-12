@@ -1,0 +1,17 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/gray_Nat" itemID="410ac615-000036b4" sourceFlashFilepath="../../../../Downloads/immune-ERuggiero_menu/assets_src/z_OrigSource/FlashProject/External.fla" sourceLibraryItemHRef="Objects/gray_Nat" sourceLastModified="1091221799" lastModified="1091221799" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="gray_Nat" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Objects/NatOutline.png"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

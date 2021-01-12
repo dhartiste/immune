@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/shade" itemID="40fe90a7-000013ef" lastModified="1091223857">
+  <timeline>
+    <DOMTimeline name="shade" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D09214"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!5859 0S1|200 0!200 0[117 #0.07 58 58!58 58[0 #75.03 0 200!0 200|0 7811.5!0 7811.5[0 #1ED6.7D 58 7952.5!58 7952.5[117 #1F4B.38 200 8011!200 8011|5859 8011!5859 8011[5942 #1F4B.38 6000 7952.5!6000 7952.5[6059 #1ED6.7D 6059 7811.5!6059
+ 7811.5|6059 200!6059 200[6059 #75.03 6000 58!6000 58[5942 #0.07 5859 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

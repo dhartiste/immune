@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 6" itemID="5ffd5ea9-0000015e" symbolType="graphic" lastModified="1610440361">
+  <timeline>
+    <DOMTimeline name="Tween 6" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-668.6" ty="-361.1"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#D50007"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!13745 4345S2[13792 4391 13792 4456!13792 4456|13792 9989!13792 9989[13792 10054 13745 10100!13745 10100[13699 10146 13632 10146!13632 10146|13112 10146!13112 10146[13046 10146 12999 10100!12999 10100[12952 10054 12952 9989!12952 9989
+|12952 4456!12952 4456[12952 4391 12999 4345!12999 4345[13046 4299 13112 4299!13112 4299|13632 4299!13632 4299[13699 4299 13745 4345"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

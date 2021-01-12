@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/jump" itemID="40bf5ef3-0000417e" lastModified="1090507520" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="jump" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="outline" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#4E6040"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!322.5 -0.5[#BD.CD #FFFFFF.B1 95 70.5!95 70.5[#0.23 #8B.D5 0 238.5!0 238.5[#0.23 #151.5F 95 408!95 408[#BD.CD #1DD.83 322.5 477.5!322.5 477.5|2656.5 477.5!2656.5 477.5[#AE4.F1 #1DD.83 2883.5 408!2883.5 408[#BA0.EE #151.5F 2977 238.5!2977
+ 238.5[#BA0.EE #8B.D5 2883.5 70.5!2883.5 70.5[#AE4.F1 #FFFFFF.B1 2656.5 -0.5!2656.5 -0.5|322.5 -0.5"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText name="dtext" fontRenderingMode="standard" width="130.7" height="14.5" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="8.75" ty="3.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>expose to live virus</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#39472F"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bulb" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Buttons/bulb" name="thebulb">
+                  <transformationPoint>
+                    <Point x="74.4" y="11.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

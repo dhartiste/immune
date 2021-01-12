@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="zDetails/bandaid details/nub_only" itemID="40bf243b-00001446" lastModified="1090507614">
+  <timeline>
+    <DOMTimeline name="nub_only" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="4">
+                        <fill>
+                          <SolidColor color="#4E6040"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!160 0|680 0!680 0[#2D2.28 0 756 18!756 18[#307.F2 #1C.F2 793 46!793 46[840 92 840 157!840 157|840 1930!840 1930[840 1995 793 2041!793 2041[#307.F2 #80A.0E 756 2069!756 2069[#2D2.28 2087 680 2087!680 2087|160 2087!160 2087[94 2087 47
+ 2041!47 2041[0 1995 0 1930!0 1930|0 157!0 157[0 92 47 46!47 46[94 0 160 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="text" itemID="5ffcfeb7-000001ed" lastModified="1610471652" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="text" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Texts/txtTemperature" name="dTempFC" centerPoint3DX="82.85" centerPoint3DY="11">
+                  <matrix>
+                    <Matrix a="1.00030517578125" tx="12"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="76.85" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#4E6040"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

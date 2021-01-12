@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_alive" itemID="4023c6af-0000403f" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/virus_alive" sourceLastModified="1090421679" lastModified="1610231105" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_alive" itemID="4023c6af-0000403f" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Organisms/virus_alive" sourceLastModified="1090421679" lastModified="1090421679" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="virus_alive">
       <layers>
@@ -740,6 +740,17 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Hit controllers/invisible" name="b_lv" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-53.95" ty="-47.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
                 <DOMGroup>
                   <matrix>
                     <Matrix a="-1" tx="450.2" ty="-302.9"/>

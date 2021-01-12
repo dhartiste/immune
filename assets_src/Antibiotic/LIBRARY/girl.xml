@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="girl" itemID="5ffc52e5-000003ce" lastModified="1610374586" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="girl" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gray_kid2">
+                  <transformationPoint>
+                    <Point x="47.5" y="150"/>
+                  </transformationPoint>
+                  <color>
+                    <Color brightness="0.51"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="gray_kid2" centerPoint3DX="47.5" centerPoint3DY="150">
+                  <transformationPoint>
+                    <Point x="47.5" y="150"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#A48959"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
