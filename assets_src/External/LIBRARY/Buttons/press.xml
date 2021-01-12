@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/press" itemID="40bf62ba-000057ea" symbolType="button" lastModified="1090251724">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/press" itemID="40bf62ba-000057ea" symbolType="button" lastModified="1610470705">
   <timeline>
-    <DOMTimeline name="press">
+    <DOMTimeline name="press" currentFrame="3">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -8,19 +8,7 @@
               <elements/>
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
-              <elements>
-                <DOMShape>
-                  <fills>
-                    <FillStyle index="1">
-                      <SolidColor color="#EC9036"/>
-                    </FillStyle>
-                  </fills>
-                  <edges>
-                    <Edge fillStyle0="1" edges="!322.5 -0.5S1[#BD.CD #FFFFFF.B1 95 70.5!95 70.5[#0.23 #8B.D5 0 238.5!0 238.5[#0.23 #151.5F 95 408!95 408[#BD.CD #1DD.83 322.5 477.5!322.5 477.5|2656.5 477.5!2656.5 477.5[#AE4.F1 #1DD.83 2883.5 408!2883.5 408[#BA0.EE #151.5F 2977 238.5
-!2977 238.5[#BA0.EE #8B.D5 2883.5 70.5!2883.5 70.5[#AE4.F1 #FFFFFF.B1 2656.5 -0.5!2656.5 -0.5|322.5 -0.5"/>
-                  </edges>
-                </DOMShape>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

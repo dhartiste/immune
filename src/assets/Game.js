@@ -1112,7 +1112,7 @@
             .setTransform(668.95, 499.15, 0.709, 0.709);
         this[instance7.name = "virus_attenuated"] = instance7;
         var instance6 = new lib.beaker_layered()
-            .setTransform(454.2, 234.7)
+            .setTransform(459.2, 215)
             .setAlpha(0.5);
         this[instance6.name = "beaker"] = instance6;
         var instance5 = new lib.gray_kid2()
@@ -1126,10 +1126,10 @@
             .setTransform(835.15, 291.75);
         this[instance3.name = "syringe"] = instance3;
         var instance2 = new lib.panel()
-            .setTransform(290.85, 579.3);
-        this[instance2.name = "virus_attenuatedPopup"] = instance2;
+            .setTransform(628.2, 839.05);
+        this[instance2.name = "pnlPopup"] = instance2;
         var instance1 = new lib.pnlPopup2()
-            .setTransform(121.9, 579.3);
+            .setTransform(459.25, 839.05);
         this[instance1.name = "pnlPopup2"] = instance1;
         this.addChild(instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });

@@ -1,10 +1,10 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" guidesSnapTo="false" timelineLabelWidth="310" viewAngle3D="113.905639833042" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="ACC79270925F48F6B9A7B73C4B14D82F">
      <folders>
-          <DOMFolderItem name="Act 1 - fixed" itemID="5ffc59a2-000003ef" isExpanded="true"/>
-          <DOMFolderItem name="Act 1 - fixed/Popup" itemID="409a715c-000019a5"/>
+          <DOMFolderItem name="Act 1 - fixed" itemID="5ffc59a2-000003ef"/>
+          <DOMFolderItem name="Act 1 - fixed/Popup" itemID="409a715c-000019a5" isExpanded="true"/>
           <DOMFolderItem name="Hit controllers" itemID="409a71c8-00001a2b"/>
           <DOMFolderItem name="Organisms" itemID="5ff4e016-00000190"/>
-          <DOMFolderItem name="Popup" itemID="5ffdc37e-000001f1" isExpanded="true"/>
+          <DOMFolderItem name="Popup" itemID="5ffdc37e-000001f1"/>
      </folders>
      <media>
           <DOMBitmapItem name="NatOutline.png" itemID="410ac5d7-0000365d" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Illustrator:NatOutline.png" sourceLastImported="1091221408" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="NatOutline.png" bitmapDataHRef="M 1 1610373543.dat" frameRight="1900" frameBottom="6000"/>
@@ -55,9 +55,9 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Popup/panel" name="virus_attenuatedPopup" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Popup/panel" name="pnlPopup">
                                              <matrix>
-                                                  <Matrix tx="290.85" ty="579.3"/>
+                                                  <Matrix tx="628.2" ty="839.05"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="79.45" y="12"/>
@@ -65,7 +65,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Popup/pnlPopup2" name="pnlPopup2">
                                              <matrix>
-                                                  <Matrix tx="121.9" ty="579.3"/>
+                                                  <Matrix tx="459.25" ty="839.05"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="79.45" y="46.95"/>
@@ -167,7 +167,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Act 1 - fixed/beaker_layered" name="beaker">
                                              <matrix>
-                                                  <Matrix tx="454.2" ty="234.7"/>
+                                                  <Matrix tx="459.2" ty="215"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="151.8" y="202.85"/>

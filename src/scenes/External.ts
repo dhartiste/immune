@@ -44,6 +44,7 @@ export default class GameScene extends Scene {
         // to do
     }
 
+
     cleanup(){
         // to do
         this.art.btnAhead.off("pointerdown");
@@ -55,6 +56,7 @@ interface ExternalArt extends MovieClip {
     patient: MovieClip;
     Health:MovieClip;
     bacolor:MovieClip;
+    dFarenheit: MovieClip;
     /*
     dTempFC:PIXI.animate.MovieClip;
     /*
