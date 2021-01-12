@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="0Protection" itemID="5ffd69d3-000001df" lastModified="1610443219">
+  <timeline>
+    <DOMTimeline name="0Protection" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Texts/txtProtection" name="Protection" selected="true" centerPoint3DX="73.3" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix tx="-13.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="62.4" y="10.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#D09214"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,193 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="zDetails/bandaid details/nub_circles" itemID="40bf244a-00001473" lastModified="1090507642" lastUniqueIdentifier="44">
+  <timeline>
+    <DOMTimeline name="nub_circles" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="4">
+                        <fill>
+                          <SolidColor color="#4E6040"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!806 85[#321.A1 #66.B1 788 117!788 117[768 137 739 137!739 137[711 137 691 117!691 117[671 97 671 68!671 68[671 #29.1B 689.5 21.5!199 20.5[202 #1E.2D 202 41!202 41[202 69 182 90!182 90[162 110 133 110!133 110[105 110 85 90!85 90[#4A.A5
+ #4F.A5 69.5 67!200 2010[#C3.93 #7C8.93 182 1979!182 1979[161 1959 133 1959!133 1959[105 1959 85 1979!85 1979[#4D.C3 #7C2.3D 73 1994.5!73 1994.5[#4F.1 #7C2.4B 87 1979!87 1979[#6B.45 #7A8.1 136 1960.5!136 1960.5[#A4.43 #7A9.6B 184 1982.5
+!184 1982.5[#C3.9A #7CA.C5 200 2010!678.5 2085.5[#2A3.5 #81F.81 673.5 2072.5!673.5 2072.5[#29A.31 #7FD.78 680 2020!680 2020[#2B6.1 #7CB.84 722 1988!722 1988[#2ED.03 #7BC.8F 773.5 1994.5!773.5 1994.5[#312.37 #7D1.F8 794.5 2013!195 2057.5
+[#C9.DA #7FD.A 202.5 2031!202.5 2031[#CA.CF #7E3.CE 200 2010!200 2010[202 #7E2.01 202 2027!202 2027[202 #7FB.7D 195 2057.5!65 2027[65 #7D9.22 73 1994.5!195 2057.5[#BF.0E #811.A7 185 2073"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="6.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="20.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="49.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="34.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="63.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="77.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="18.3" ty="91.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="33.55" ty="14.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="33.55" ty="28.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="33.55" ty="56.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="33.55" ty="42.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="33.55" ty="70.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="33.55" ty="85.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="3.25" ty="12.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="3.25" ty="41.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="3.25" ty="27.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="3.25" ty="55.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="3.25" ty="69.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circle">
+                  <matrix>
+                    <Matrix tx="3.25" ty="83.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.4" y="3.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

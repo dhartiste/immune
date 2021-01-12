@@ -2,6 +2,7 @@ import {Game} from 'wgbh-springroll-game';
 import TitleScene from './scenes/TitleScene';
 import GameScene from './scenes/GameScene';
 import InternalScene from './scenes/InternalScene';
+import ExternalScene from './scenes/External';
 
 export default class TemplateGame extends Game{
 
@@ -9,9 +10,10 @@ export default class TemplateGame extends Game{
         this.addScenes({
             title: TitleScene,
             game: GameScene,
-            internal: InternalScene
+            internal: InternalScene,
+            external: ExternalScene
             
         });
-        this.changeScene('title');
+        this.changeScene('external');
     }
 }

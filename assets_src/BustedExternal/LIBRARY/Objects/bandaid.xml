@@ -1,0 +1,86 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/bandaid" itemID="40bf20a2-00000af4" lastModified="1610440249" lastUniqueIdentifier="9">
+  <timeline>
+    <DOMTimeline name="bandaid" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="circles" color="#FFFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_circles" name="circles">
+                  <matrix>
+                    <Matrix tx="-1.1" ty="91.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21.8" y="52.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="nub" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/bandaid details/nub_only" name="nub">
+                  <matrix>
+                    <Matrix ty="91.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="21" y="52.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="outline" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="4">
+                        <fill>
+                          <SolidColor color="#4E6040"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!680 0[747 0 793 46!793 46[840 92 840 157!840 157|840 5690!840 5690[840 5755 793 5801!793 5801[747 5847 680 5847!680 5847|160 5847!160 5847[94 5847 47 5801!47 5801[0 5755 0 5690!0 5690|0 157!0 157[0 92 47 46!47 46[94 0 160 0!160 0|680
+ 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="color" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="zDetails/ba_color" name="bacolor">
+                  <transformationPoint>
+                    <Point x="21" y="146.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#CCCCCC"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

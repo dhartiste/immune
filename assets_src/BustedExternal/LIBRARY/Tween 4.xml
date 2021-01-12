@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 4" itemID="5ffd5e1a-00000152" symbolType="graphic" lastModified="1610440218">
+  <timeline>
+    <DOMTimeline name="Tween 4" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-21" ty="-146.15"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFDFBF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!793 46S2[840 92 840 157!840 157|840 5690!840 5690[840 5755 793 5801!793 5801[747 5847 680 5847!680 5847|160 5847!160 5847[94 5847 47 5801!47 5801[0 5755 0 5690!0 5690|0 157!0 157[0 92 47 46!47 46[94 0 160 0!160 0|680 0!680 0[747 0 793
+ 46"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

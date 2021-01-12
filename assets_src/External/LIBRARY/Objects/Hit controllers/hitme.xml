@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Objects/Hit controllers/hitme" itemID="402d6554-00018227" sourceFlashFilepath="../../../../Downloads/immune-ERuggiero_menu/assets_src/z_OrigSource/FlashProject/External.fla" sourceLibraryItemHRef="Objects/Hit controllers/hitme" sourceLastModified="1091221611" symbolType="button" lastModified="1091221611" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="hitme">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CC9966"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!320 0|320 1980!320 1980|0 1980!0 1980|0 0!0 0|320 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
