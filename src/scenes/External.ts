@@ -1,7 +1,7 @@
 import { MovieClip, utils} from 'pixi-animate';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as ExternalArt from '../assets/External';
-//import Utils from '../helpers/Utils';
+import Utils from '../helpers/Utils';
 
 export default class GameScene extends Scene {
     
@@ -19,13 +19,25 @@ export default class GameScene extends Scene {
 
         this.art.gotoAndStop('default');
         //this.art.bacolor.gotoAndStop('default');
-        //this.art.Health.gotoAndStop(0);
-        //Utils.simpleButton(this.art.btnAhead);
+        this.art.btnAhead.gotoAndStop('default');
+        this.art.btnBack.gotoAndStop('default');
+
+        this.art.btnAhead.once("pointerdown",()=>{
+            console.log("btnAhead pressed");
+            this.changeScene("title");
+            //this.changeScene("external");
+        });
+        this.art.btnBack.once("pointerdown",()=>{
+            console.log("btnAhead pressed");
+            this.changeScene("title");
+        });
     }
 
     start(){
+        Utils.simpleButton(this.art.btnAhead);
+        Utils.simpleButton(this.art.btnBack);
+        //PIXI.animate.Animator.play(this.art, 'healthyToSick');
         PIXI.animate.Animator.play(this.art);
-     
     }
 
     update(){
@@ -34,6 +46,8 @@ export default class GameScene extends Scene {
 
     cleanup(){
         // to do
+        this.art.btnAhead.off("pointerdown");
+        this.art.btnBack.off("pointerdown");
     }
 }
 

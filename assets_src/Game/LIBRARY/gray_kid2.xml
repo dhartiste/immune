@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="gray_Nat" name="patient" selected="true">
+                <DOMSymbolInstance libraryItemName="gray_Nat" name="patient">
                   <transformationPoint>
                     <Point x="47.5" y="150"/>
                   </transformationPoint>

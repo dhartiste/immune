@@ -13,22 +13,14 @@
             duration: 4
         });
         var instance1 = new Graphics()
-<<<<<<< HEAD
-            .drawCommands(shapes.External[0]);
-=======
             .drawCommands(shapes.External[1]);
->>>>>>> origin/WarrenMenuTween
         this.addTimedChild(instance1, 3, 1);
     });
 
     lib.bulb = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-<<<<<<< HEAD
-            .drawCommands(shapes.External[2]);
-=======
             .drawCommands(shapes.External[3]);
->>>>>>> origin/WarrenMenuTween
         this.addChild(instance1);
     });
 
@@ -37,11 +29,7 @@
         var instance3 = new lib.bulb();
         this[instance3.name = "thebulb"] = instance3;
         var instance2 = new Graphics()
-<<<<<<< HEAD
-            .drawCommands(shapes.External[1]);
-=======
             .drawCommands(shapes.External[2]);
->>>>>>> origin/WarrenMenuTween
         var instance1 = new Text("expose to live virus")
             .setStyle({
                 fontFamily: "Tahoma",
@@ -56,27 +44,15 @@
         this.addChild(instance3, instance2, instance1);
     });
 
-<<<<<<< HEAD
-    lib.txtTemperature = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new Text("98.6")
-=======
     lib.dCelcius = Container.extend(function () {
         Container.call(this);
         var instance1 = new Text("40")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
                 leading: 2
             })
-<<<<<<< HEAD
-            .setAlign("right")
-            .setTransform(43);
-        this[instance2.name = "dFarenheit"] = instance2;
-        var instance1 = new Text("37.0")
-=======
             .setTransform(2, 2);
         this[instance1.name = "dCelcius"] = instance1;
         this.addChild(instance1);
@@ -85,50 +61,12 @@
     lib.dFarenheit = Container.extend(function () {
         Container.call(this);
         var instance1 = new Text("99")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
                 leading: 2
             })
-<<<<<<< HEAD
-            .setTransform(104, 2);
-        this[instance1.name = "dCelcius"] = instance1;
-        this.addChild(instance2, instance1);
-    });
-
-    lib.hitme = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[4]);
-        this.addChild(instance1);
-    });
-
-    lib.gray_Nat = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Sprite(fromFrame("NatOutline"));
-        this.addChild(instance1);
-    });
-
-    lib.gray_kid2 = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new lib.gray_Nat()
-            .setColorTransform(0, 0.71, 0, 0.55, 0, 0.56);
-        var instance1 = new lib.hitme()
-            .setTransform(38, 25.05, 1.75, 1.848)
-            .setAlpha(0);
-        this[instance1.name = "hitme"] = instance1;
-        this.addChild(instance2, instance1);
-    });
-
-    lib.txtProtection = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new Text("100% ")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 14,
-=======
             .setAlign("right")
             .setTransform(55);
         this[instance1.name = "dFarenheit"] = instance1;
@@ -141,172 +79,10 @@
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
->>>>>>> origin/WarrenMenuTween
                 fontWeight: "bold",
                 leading: 2
             })
             .setAlign("right")
-<<<<<<< HEAD
-            .setTransform(47.3);
-        this[instance2.name = "dtext"] = instance2;
-        var instance1 = new Text("Protection")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 14,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setTransform(50, 2);
-        this.addChild(instance2, instance1);
-    });
-
-    lib.txtHealth = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Text("Healthy")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 14,
-                fontWeight: "bold",
-                leading: 2
-            })
-            .setAlign("center")
-            .setTransform(32);
-        this[instance1.name = "dtext"] = instance1;
-        this.addChild(instance1);
-    });
-
-    lib.nub_circle = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[6]);
-        this.addChild(instance1);
-    });
-
-    lib.nub_circles = Container.extend(function () {
-        Container.call(this);
-        var instance20 = new lib.nub_circle()
-            .setTransform(18.3, 6.45);
-        var instance19 = new lib.nub_circle()
-            .setTransform(18.3, 20.65);
-        var instance18 = new lib.nub_circle()
-            .setTransform(18.3, 49.05);
-        var instance17 = new lib.nub_circle()
-            .setTransform(18.3, 34.85);
-        var instance16 = new lib.nub_circle()
-            .setTransform(18.3, 63.25);
-        var instance15 = new lib.nub_circle()
-            .setTransform(18.3, 77.45);
-        var instance14 = new lib.nub_circle()
-            .setTransform(18.3, 91.65);
-        var instance13 = new lib.nub_circle()
-            .setTransform(33.55, 14.15);
-        var instance12 = new lib.nub_circle()
-            .setTransform(33.55, 28.35);
-        var instance11 = new lib.nub_circle()
-            .setTransform(33.55, 56.75);
-        var instance10 = new lib.nub_circle()
-            .setTransform(33.55, 42.55);
-        var instance9 = new lib.nub_circle()
-            .setTransform(33.55, 70.95);
-        var instance8 = new lib.nub_circle()
-            .setTransform(33.55, 85.15);
-        var instance7 = new lib.nub_circle()
-            .setTransform(3.25, 12.85);
-        var instance6 = new lib.nub_circle()
-            .setTransform(3.25, 41.25);
-        var instance5 = new lib.nub_circle()
-            .setTransform(3.25, 27.05);
-        var instance4 = new lib.nub_circle()
-            .setTransform(3.25, 55.45);
-        var instance3 = new lib.nub_circle()
-            .setTransform(3.25, 69.65);
-        var instance2 = new lib.nub_circle()
-            .setTransform(3.25, 83.85);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[5]);
-        this.addChild(instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
-    });
-
-    lib.nub_only = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[7]);
-        this.addChild(instance1);
-    });
-
-    lib.ba_color = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[10]);
-        this.addChild(instance1);
-    });
-
-    lib.bandaid = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 101,
-            labels: {
-                default: 0,
-                gray: 4,
-                gray_stop: 49,
-                sickToBed: 54,
-                sickToBed_stop: 100
-            }
-        });
-        var instance4 = new lib.ba_color();
-        this[instance4.name = "bacolor"] = instance4;
-        var instance3 = new Graphics()
-            .drawCommands(shapes.External[8]);
-        var instance5 = new Graphics()
-            .drawCommands(shapes.External[9]);
-        var instance2 = new lib.nub_only()
-            .setTransform(0, 91.85);
-        this[instance2.name = "nub"] = instance2;
-        var instance1 = new lib.nub_circles()
-            .setTransform(-1.1, 91.1);
-        this[instance1.name = "circles"] = instance1;
-        this.addTimedChild(instance4, 0, 101, {
-                "0": {
-                    c: [
-                        0,
-                        0.8,
-                        0,
-                        0.8,
-                        0,
-                        0.8
-                    ]
-                }
-            })
-            .addTimedChild(instance3, 0, 49)
-            .addTimedChild(instance5, 49, 52)
-            .addTimedChild(instance2)
-            .addTimedChild(instance1);
-    });
-
-    lib.External = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 101,
-            framerate: 30,
-            labels: {
-                default: 0,
-                healthyToSick: 4,
-                healthyToSick_stop: 49,
-                sickToBed: 54,
-                sickToBed_stop: 100
-            }
-        });
-        var instance15 = new Graphics()
-            .drawCommands(shapes.External[11]);
-        var instance14 = new lib.bandaid()
-            .setTransform(647.6, 214.95);
-        this[instance14.name = "bandaid"] = instance14;
-        var instance13 = new lib.txtHealth()
-            .setTransform(450, 183.95)
-            .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance13.name = "Health"] = instance13;
-        var instance12 = new lib.txtProtection();
-        this[instance12.name = "Protection"] = instance12;
-        var instance11 = new Text("(after the shot)...")
-=======
             .setTransform(55);
         this[instance2.name = "dFarenheit"] = instance2;
         var instance1 = new Text("38.5")
@@ -326,10 +102,10 @@
             duration: 102,
             labels: {
                 default: 0,
-                healthyToSickText: 4,
-                healthyToSick_stopText: 49,
-                sickToBedText: 54,
-                sickToBed_stopText: 101
+                healthyToSick: 4,
+                healthyToSick_stop: 49,
+                sickToBed: 54,
+                sickToBed_stop: 101
             }
         });
         var instance2 = new lib.dFarenheit();
@@ -346,20 +122,10 @@
             .setAlign("right");
         this[instance4.name = "dFarenheit"] = instance4;
         var instance3 = new Text("37.1")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
-<<<<<<< HEAD
-                fill: "#4e6040",
-                leading: 2,
-                wordWrap: true,
-                wordWrapWidth: 248.55
-            });
-        this[instance11.name = "dDescription"] = instance11;
-        var instance10 = new Text("Next Act...")
-=======
                 leading: 2
             });
         this[instance3.name = "dCelcius"] = instance3;
@@ -373,73 +139,35 @@
             .setAlign("right");
         this[instance6.name = "dFarenheit"] = instance6;
         var instance5 = new Text("37.2")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
-<<<<<<< HEAD
-                fill: "#d09214",
-                leading: 2
-            });
-        var instance17 = new Text("(after the shot)...")
-=======
                 leading: 2
             });
         this[instance5.name = "dCelcius"] = instance5;
         var instance8 = new Text("99")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
-<<<<<<< HEAD
-                fill: "#4e6040",
-                leading: 2,
-                wordWrap: true,
-                wordWrapWidth: 248.55
-            })
-            .setTransform(793.25, 326.05);
-        this[instance17.name = "dDescription"] = instance17;
-        var instance16 = new Text("Next Act...")
-=======
                 leading: 2
             })
             .setAlign("right");
         this[instance8.name = "dFarenheit"] = instance8;
         var instance7 = new Text("37.3")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
-<<<<<<< HEAD
-                fill: "#d09214",
-                leading: 2
-            })
-            .setTransform(766.2, 521.65);
-        var instance9 = new lib.gray_kid2();
-        this[instance9.name = "patient"] = instance9;
-        var instance8 = new Graphics()
-            .drawCommands(shapes.External[3]);
-        var instance7 = new Text("°F ")
-=======
                 leading: 2
             });
         this[instance7.name = "dCelcius"] = instance7;
         var instance10 = new Text("99")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
-<<<<<<< HEAD
-                fill: "#4e6040",
-                leading: 2
-            })
-            .setTransform(431.7, 270.25);
-        var instance6 = new Text("°C")
-=======
                 leading: 2
             })
             .setAlign("right");
@@ -453,59 +181,10 @@
             });
         this[instance9.name = "dCelcius"] = instance9;
         var instance12 = new Text("99")
->>>>>>> origin/WarrenMenuTween
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
                 fontWeight: "bold",
-<<<<<<< HEAD
-                fill: "#4e6040",
-                leading: 2
-            })
-            .setAlign("right")
-            .setTransform(526.7, 270.05);
-        var instance5 = new lib.txtTemperature()
-            .setTransform(407.05, 379.1)
-            .setColorTransform(0, 0.31, 0, 0.38, 0, 0.25);
-        this[instance5.name = "dTempFC"] = instance5;
-        var instance4 = new lib.jump()
-            .setTransform(764.2, 544.45);
-        this[instance4.name = "btnMoveOn"] = instance4;
-        var instance3 = new lib.jump()
-            .setTransform(930.6, 544.55);
-        this[instance3.name = "btnBack"] = instance3;
-        var instance2 = new lib.press()
-            .setTransform(931.6, 544.65);
-        this[instance2.name = "btnBack"] = instance2;
-        var instance1 = new lib.press()
-            .setTransform(764.2, 544.65);
-        this[instance1.name = "btnAhead"] = instance1;
-        this.addTimedChild(instance15)
-            .addTimedChild(instance14)
-            .addTimedChild(instance13)
-            .addTimedChild(instance12, 0, 101, {
-                "0": {
-                    x: 606.2,
-                    y: 183.95,
-                    c: [
-                        0,
-                        0.82,
-                        0,
-                        0.57,
-                        0,
-                        0.08
-                    ]
-                }
-            })
-            .addTimedChild(instance11, 0, 49, {
-                "0": {
-                    x: 793.25,
-                    y: 326.05
-                }
-            })
-            .addTimedChild(instance10, 0, 49, {
-                "0": {
-=======
                 leading: 2
             })
             .setAlign("right");
@@ -1748,12 +1427,12 @@
         var instance20 = new lib.text();
         var instance23 = new lib.text();
         this[instance23.name = "text"] = instance23;
-        var instance34 = new lib.dFarenheit()
+        var instance36 = new lib.dFarenheit()
             .setTransform(393.95, 292.55);
-        this[instance34.name = "dFarenheit"] = instance34;
-        var instance33 = new lib.dCelcius()
+        this[instance36.name = "dFarenheit"] = instance36;
+        var instance35 = new lib.dCelcius()
             .setTransform(508, 292.55);
-        this[instance33.name = "dCelcius"] = instance33;
+        this[instance35.name = "dCelcius"] = instance35;
         var instance9 = new Graphics()
             .drawCommands(shapes.External[4]);
         var instance8 = new Text("°F ")
@@ -1782,9 +1461,26 @@
                 fontWeight: "bold",
                 fill: "#4e6040",
                 leading: 2
+            });
+        var instance18 = new Text("°C")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2
+            })
+            .setAlign("right");
+        var instance34 = new Text("°F ")
+            .setStyle({
+                fontFamily: "Tahoma",
+                fontSize: 12,
+                fontWeight: "bold",
+                fill: "#4e6040",
+                leading: 2
             })
             .setTransform(431.7, 270.25);
-        var instance18 = new Text("°C")
+        var instance33 = new Text("°C")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1906,22 +1602,15 @@
             })
             .addTimedChild(instance24, 45, 52, {
                 "45": {
->>>>>>> origin/WarrenMenuTween
                     x: 766.2,
                     y: 521.65
                 }
             })
-<<<<<<< HEAD
-            .addTimedChild(instance17, 49, 52)
-            .addTimedChild(instance16, 49, 52)
-            .addTimedChild(instance9, 0, 101, {
-=======
             .addTimedChild(instance32, 97, 4)
             .addTimedChild(instance31, 97, 4)
             .addTimedChild(instance30, 97, 4)
             .addTimedChild(instance29, 97, 4)
             .addTimedChild(instance10, 0, 101, {
->>>>>>> origin/WarrenMenuTween
                 "0": {
                     x: 428.7,
                     y: 219.65,
@@ -2560,9 +2249,6 @@
                         0,
                         0.95,
                         0,
-<<<<<<< HEAD
-                        0.57,
-=======
                         0.57,
                         0,
                         0
@@ -2684,297 +2370,40 @@
                         0.92,
                         0,
                         0.33,
->>>>>>> origin/WarrenMenuTween
                         0,
                         0
                     ]
                 },
-<<<<<<< HEAD
-                "72": {
-                    c: [
-                        0,
-                        0.95,
-                        0,
-                        0.55,
-=======
                 "84": {
                     c: [
                         0,
                         0.92,
                         0,
                         0.31,
->>>>>>> origin/WarrenMenuTween
                         0,
                         0
                     ]
                 },
-<<<<<<< HEAD
-                "73": {
-                    c: [
-                        0,
-                        0.95,
-                        0,
-                        0.53,
-=======
                 "85": {
                     c: [
                         0,
                         0.91,
                         0,
                         0.29,
->>>>>>> origin/WarrenMenuTween
                         0,
                         0
                     ]
                 },
-<<<<<<< HEAD
-                "74": {
-                    c: [
-                        0,
-                        0.95,
-                        0,
-                        0.51,
-=======
                 "86": {
                     c: [
                         0,
                         0.91,
                         0,
                         0.27,
->>>>>>> origin/WarrenMenuTween
                         0,
                         0
                     ]
                 },
-<<<<<<< HEAD
-                "75": {
-                    c: [
-                        0,
-                        0.94,
-                        0,
-                        0.49,
-=======
-                "87": {
-                    c: [
-                        0,
-                        0.91,
-                        0,
-                        0.24,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "76": {
-                    c: [
-                        0,
-                        0.94,
-                        0,
-                        0.47,
-=======
-                "88": {
-                    c: [
-                        0,
-                        0.91,
-                        0,
-                        0.22,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "77": {
-                    c: [
-                        0,
-                        0.94,
-                        0,
-                        0.45,
-=======
-                "89": {
-                    c: [
-                        0,
-                        0.9,
-                        0,
-                        0.2,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "78": {
-                    c: [
-                        0,
-                        0.93,
-                        0,
-                        0.43,
-=======
-                "90": {
-                    c: [
-                        0,
-                        0.9,
-                        0,
-                        0.18,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "79": {
-                    c: [
-                        0,
-                        0.93,
-                        0,
-                        0.41,
-=======
-                "91": {
-                    c: [
-                        0,
-                        0.9,
-                        0,
-                        0.16,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "80": {
-                    c: [
-                        0,
-                        0.93,
-                        0,
-                        0.39,
-=======
-                "92": {
-                    c: [
-                        0,
-                        0.89,
-                        0,
-                        0.14,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "81": {
-                    c: [
-                        0,
-                        0.93,
-                        0,
-                        0.37,
-=======
-                "93": {
-                    c: [
-                        0,
-                        0.89,
-                        0,
-                        0.12,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "82": {
-                    c: [
-                        0,
-                        0.92,
-                        0,
-                        0.35,
-=======
-                "94": {
-                    c: [
-                        0,
-                        0.89,
-                        0,
-                        0.1,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "83": {
-                    c: [
-                        0,
-                        0.92,
-                        0,
-                        0.33,
-=======
-                "95": {
-                    c: [
-                        0,
-                        0.89,
-                        0,
-                        0.08,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "84": {
-                    c: [
-                        0,
-                        0.92,
-                        0,
-                        0.31,
-=======
-                "96": {
-                    c: [
-                        0,
-                        0.88,
-                        0,
-                        0.06,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "85": {
-                    c: [
-                        0,
-                        0.91,
-                        0,
-                        0.29,
-=======
-                "97": {
-                    c: [
-                        0,
-                        0.88,
-                        0,
-                        0.04,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
-                "86": {
-                    c: [
-                        0,
-                        0.91,
-                        0,
-                        0.27,
-=======
-                "98": {
-                    c: [
-                        0,
-                        0.88,
-                        0,
-                        0.02,
->>>>>>> origin/WarrenMenuTween
-                        0,
-                        0
-                    ]
-                },
-<<<<<<< HEAD
                 "87": {
                     c: [
                         0,
@@ -3095,26 +2524,6 @@
                         0
                     ]
                 },
-                "99": {
-                    c: [
-                        0,
-                        0.87,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                }
-            })
-            .addTimedChild(instance8)
-            .addTimedChild(instance7)
-            .addTimedChild(instance6)
-            .addTimedChild(instance5)
-            .addTimedChild(instance4)
-            .addTimedChild(instance3)
-            .addTimedChild(instance2)
-            .addTimedChild(instance1);
-=======
                 "99": {
                     c: [
                         0,
@@ -3426,8 +2835,8 @@
                     y: 292.55
                 }
             })
-            .addTimedChild(instance34, 100, 1)
-            .addTimedChild(instance33, 100, 1)
+            .addTimedChild(instance36, 100, 1)
+            .addTimedChild(instance35, 100, 1)
             .addTimedChild(instance9)
             .addTimedChild(instance8, 0, 4, {
                 "0": {
@@ -3455,8 +2864,20 @@
                     ]
                 }
             })
-            .addTimedChild(instance19, 4, 97)
-            .addTimedChild(instance18, 4, 97)
+            .addTimedChild(instance19, 4, 96, {
+                "4": {
+                    x: 431.7,
+                    y: 270.25
+                }
+            })
+            .addTimedChild(instance18, 4, 96, {
+                "4": {
+                    x: 500.7,
+                    y: 272.05
+                }
+            })
+            .addTimedChild(instance34, 100, 1)
+            .addTimedChild(instance33, 100, 1)
             .addTimedChild(instance5)
             .addTimedChild(instance4)
             .addTimedChild(instance3)
@@ -3697,7 +3118,6 @@
                 }
             })
             .addTimedChild(instance28, 97, 4);
->>>>>>> origin/WarrenMenuTween
     });
 
     lib.External.assets = {

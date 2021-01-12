@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/Popup/popupbox" itemID="402d4c29-0000f13f" lastModified="1090420039">
+  <timeline>
+    <DOMTimeline name="popupbox">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#020201"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!136.5 -67[#37.14 -65.5 -3 29!-3 29[-61 128 -61 266!-61 266|-61 466!-61 466[-61 604 -3 701!-3 701[#7.96 #2CE.95 19 733!19 733[#46.E4 799 139 799!139 799|2919 799!2919 799[3002 799 3060 701!3060 701[3119 604 3119 466!3119 466|3119 266
+!3119 266[3119 128 3060 29!3060 29[3002 -67 2919 -67!2919 -67|136.5 -67"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

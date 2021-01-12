@@ -1,5 +1,5 @@
 import { MovieClip } from 'pixi-animate';
-import { Rectangle } from 'pixi.js';
+import { interaction, Rectangle } from 'pixi.js';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as GameArt from '../assets/Game';
 import { MICROORGANISM_INDEX } from '../helpers/Const';
@@ -14,6 +14,11 @@ export default class GameScene extends BaseScene {
     private objDragging:MicroButtons;
     private isHitGirl:boolean = false;
     private isHitSyringe:boolean = false;
+    //private mouse:MouseEvent;
+    //private newMouse:interaction.InteractionManager;
+
+    //private mousex = event.clientX; // Gets Mouse X
+    //private mousey = event.clientY; // Gets Mouse Y
 
     preload():AssetList{
         return [
@@ -33,6 +38,8 @@ export default class GameScene extends BaseScene {
         this.interactive = true;
         this.interactiveChildren = true;
         this.dragManager = new DragManager(this, this, new Rectangle(312, 0, 1000, 750) , this.onStartDrag, this.onEndDrag, this.onStickySelect);
+        //this.mouse = new MouseEvent('mouse');
+        //this.newMouse = new interaction.InteractionManager();
         this.dragManager.addObject(this.art.protein);
         this.dragManager.addObject(this.art.bacteria);
         this.dragManager.addObject(this.art.virus_dead);
@@ -47,6 +54,7 @@ export default class GameScene extends BaseScene {
     }
 
     onStartDrag =(object:MicroButtons)=>{
+        //console.log(this.newMouse.data);
         console.log(object.name, "this is the name of the button");
         this.isDragging = true;
         this.objDragging = object;
@@ -59,7 +67,7 @@ export default class GameScene extends BaseScene {
         this.isDragging = false;
         this.objDragging = null;
         
-       if (this.gameData.currentChoice == "bacteria" || this.gameData.currentChoice == "virus_alive") {
+       if (this.gameData.currentChoice === "bacteria" || this.gameData.currentChoice === "virus_alive") {
             console.log(this.gameData.currentChoice);
              if (this.isHitGirl) {
                  // go to the next scene
@@ -69,7 +77,7 @@ export default class GameScene extends BaseScene {
                  this.changeScene('external');
              }
         }
-        if (this.gameData.currentChoice == "protein" || this.gameData.currentChoice == "virus_attenuated" || this.gameData.currentChoice == "virus_dead"){ 
+        if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
             console.log(this.gameData.currentChoice);
              if (this.isHitSyringe) {
                  console.log("syringe: go to scene for...");
@@ -82,6 +90,8 @@ export default class GameScene extends BaseScene {
     }
 
     update(){
+        //console.log(this.mouse.clientX);
+
         this.dragManager.update();
         
         if (this.isDragging && this.objDragging!==null) {
@@ -95,7 +105,7 @@ export default class GameScene extends BaseScene {
             obj.y > db.y - db.height/2 &&
             obj.y < db.y + db.height/2;
             this.art.girl.gotoAndStop(0);
-            if (this.gameData.currentChoice == "bacteria" || this.gameData.currentChoice == "virus_alive") {    
+            if (this.gameData.currentChoice === "bacteria" || this.gameData.currentChoice === "virus_alive") {    
                 if (this.isHitGirl) {
                     this.art.girl.gotoAndStop(1);
                 } 
@@ -107,7 +117,7 @@ export default class GameScene extends BaseScene {
             obj.y > bd.y - bd.height/2 &&
             obj.y < bd.y + bd.height/2;
             this.art.syringe.gotoAndStop(0);
-            if (this.gameData.currentChoice == "protein" || this.gameData.currentChoice == "virus_attenuated" || this.gameData.currentChoice == "virus_dead"){ 
+            if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
                 if (this.isHitSyringe) {
                     this.art.syringe.gotoAndStop(1);
                 }   

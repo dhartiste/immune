@@ -29,7 +29,7 @@
           <Include href="text.xml" loadImmediate="false" itemID="5ffcfeb7-000001ed" lastModified="1610421544"/>
           <Include href="Texts/txtHealth.xml" loadImmediate="false" itemID="40bf285d-00002d24" lastModified="1090516668"/>
           <Include href="Texts/txtProtection.xml" loadImmediate="false" itemID="40bf288d-00002e04" lastModified="1610447977"/>
-          <Include href="Texts/txtTemperature.xml" loadImmediate="false" itemID="40bf4935-00003ead" lastModified="1610443146"/>
+          <Include href="Texts/txtTemperature.xml" loadImmediate="false" itemID="40bf4935-00003ead" lastModified="1610465092"/>
           <Include href="Tween 5.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5ea9-0000015a" lastModified="1610440361"/>
           <Include href="Tween 6.xml" itemIcon="1" loadImmediate="false" itemID="5ffd5ea9-0000015e" lastModified="1610440361"/>
           <Include href="zDetails/ba_color.xml" loadImmediate="false" itemID="40bf2673-00002539" lastModified="1090506658"/>
@@ -38,7 +38,7 @@
           <Include href="zDetails/bandaid details/nub_only.xml" loadImmediate="false" itemID="40bf243b-00001446" lastModified="1090507614"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="100" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="Labels" color="#FF4F4F" autoNamed="false">
                          <frames>
@@ -121,7 +121,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="thermometer" color="#4FFFFF" parentLayerIndex="1" autoNamed="false">
+                    <DOMLayer name="thermometer" color="#4FFFFF" parentLayerIndex="1" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements>
@@ -141,10 +141,8 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" edges="
-!8972.5 -100|9785.5 -100!9785.5 -100[#2579.B -80 9379 -80!9379 -80[#23CC.5 -80 8972.5 -100"/>
-                                                  <Edge strokeStyle="1" edges="
-!9061 6912|9994 6912!9061 6623|9994 6623!9061 6334|9994 6334!9061 7201|9994 7201!9061 7490|9994 7490!9061 7779|9994 7779!9071 6045|10004 6045"/>
+                                                  <Edge fillStyle1="1" edges="!8972.5 -100|9785.5 -100!9785.5 -100[#2579.B -80 9379 -80!9379 -80[#23CC.5 -80 8972.5 -100"/>
+                                                  <Edge strokeStyle="1" edges="!9071 6045|10004 6045!9061 7779|9994 7779!9061 7490|9994 7490!9061 7201|9994 7201!9061 6334|9994 6334!9061 6623|9994 6623!9061 6912|9994 6912"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMStaticText fontRenderingMode="standard" width="24" height="14.5" isSelectable="false">
@@ -173,7 +171,7 @@
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMStaticText>
-                                        <DOMSymbolInstance libraryItemName="Texts/txtTemperature" name="dTempFC">
+                                        <DOMSymbolInstance libraryItemName="Texts/txtTemperature" name="dTempFC" selected="true">
                                              <matrix>
                                                   <Matrix a="1.00030517578125" tx="407.05" ty="379.1"/>
                                              </matrix>
@@ -218,7 +216,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="4" duration="97" keyMode="9728">
+                              <DOMFrame index="4" duration="96" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -239,7 +237,7 @@
                                                   <Edge fillStyle1="1" edges="
 !8972.5 -100|9785.5 -100!9785.5 -100[#2579.B -80 9379 -80!9379 -80[#23CC.5 -80 8972.5 -100"/>
                                                   <Edge strokeStyle="1" edges="
-!9071 6045|10004 6045!9061 7779|9994 7779!9061 7490|9994 7490!9061 7201|9994 7201!9061 6334|9994 6334!9061 6623|9994 6623!9061 6912|9994 6912"/>
+!9061 6912|9994 6912!9061 6623|9994 6623!9061 6334|9994 6334!9061 7201|9994 7201!9061 7490|9994 7490!9061 7779|9994 7779!9071 6045|10004 6045"/>
                                              </edges>
                                         </DOMShape>
                                         <DOMStaticText fontRenderingMode="standard" width="24" height="14.5" isSelectable="false">
@@ -292,7 +290,91 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Buttons/press" name="btnAhead" symbolType="button" centerPoint3DX="838.6" centerPoint3DY="556.6">
+                                        <DOMSymbolInstance libraryItemName="Buttons/press" name="btnAhead" selected="true" symbolType="button" centerPoint3DX="838.6" centerPoint3DY="556.6">
+                                             <matrix>
+                                                  <Matrix tx="764.2" ty="544.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="100" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFEE00"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal" weight="2">
+                                                            <fill>
+                                                                 <SolidColor color="#4E6040"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!8972.5 -100|9785.5 -100!9785.5 -100[#2579.B -80 9379 -80!9379 -80[#23CC.5 -80 8972.5 -100"/>
+                                                  <Edge strokeStyle="1" edges="
+!9061 6912|9994 6912!9061 6623|9994 6623!9061 6334|9994 6334!9061 7201|9994 7201!9061 7490|9994 7490!9061 7779|9994 7779!9071 6045|10004 6045"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMStaticText fontRenderingMode="standard" width="24" height="14.5" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="431.7" ty="270.25"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>°F </characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" face="Tahoma-Bold" fillColor="#4E6040"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMStaticText fontRenderingMode="standard" width="24" height="14.5" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="500.7" ty="272.05"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>°C</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="14.5" face="Tahoma-Bold" fillColor="#4E6040"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMStaticText>
+                                        <DOMSymbolInstance libraryItemName="Buttons/jump" name="btnMoveOn" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="764.2" ty="544.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Buttons/jump" name="btnBack" centerPoint3DX="1005" centerPoint3DY="556.5">
+                                             <matrix>
+                                                  <Matrix tx="930.6" ty="544.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Buttons/press" name="btnBack">
+                                             <matrix>
+                                                  <Matrix tx="931.6" ty="544.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Buttons/press" name="btnAhead">
                                              <matrix>
                                                   <Matrix tx="764.2" ty="544.65"/>
                                              </matrix>
@@ -494,7 +576,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layout" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="layout" color="#FFFF4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements>
@@ -697,7 +779,7 @@
                                                   <Color tintMultiplier="1" tintColor="#D09214"/>
                                              </color>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="95Protect" name="Protection" selected="true" centerPoint3DX="670.95" centerPoint3DY="194.45">
+                                        <DOMSymbolInstance libraryItemName="95Protect" name="Protection" centerPoint3DX="670.95" centerPoint3DY="194.45">
                                              <matrix>
                                                   <Matrix tx="593.2" ty="183.95"/>
                                              </matrix>

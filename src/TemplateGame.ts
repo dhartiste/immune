@@ -14,6 +14,7 @@ export default class TemplateGame extends Game{
             external:External,
             internal: InternalScene
         });
-        this.changeScene('external');
+        //this.changeScene('external');
+        this.changeScene('title');
     }
 }

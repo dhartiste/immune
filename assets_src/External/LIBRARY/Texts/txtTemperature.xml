@@ -1,27 +1,27 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Texts/txtTemperature" itemID="40bf4935-00003ead" lastModified="1610443146" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Texts/txtTemperature" itemID="40bf4935-00003ead" lastModified="1610465092" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="txtTemperature" currentFrame="101" layerDepthEnabled="true">
+    <DOMTimeline name="txtTemperature" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" duration="4" name="default" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="4" duration="45" name="healthyToSickText" labelType="name" keyMode="9728">
+            <DOMFrame index="4" duration="45" name="healthyToSick" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="49" duration="5" name="healthyToSick_stopText" labelType="name" keyMode="9728">
+            <DOMFrame index="49" duration="5" name="healthyToSick_stop" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="54" duration="47" name="sickToBedText" labelType="name" keyMode="9728">
+            <DOMFrame index="54" duration="47" name="sickToBed" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="101" name="sickToBed_stopText" labelType="name" keyMode="9728">
+            <DOMFrame index="101" name="sickToBed_stop" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer_1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
