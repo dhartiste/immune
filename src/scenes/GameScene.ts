@@ -32,6 +32,8 @@ export default class GameScene extends BaseScene {
 
        this.art.girl.gotoAndStop(0);
        this.art.syringe.gotoAndStop(0);
+       this.art.virus_attenuatedPopup.visible = false;
+       this.art.pnlPopup2.visible = false;
     }
 
     start(){
@@ -51,6 +53,40 @@ export default class GameScene extends BaseScene {
         this.art.virus_alive.index = MICROORGANISM_INDEX.LIVE_VIRUS;
         this.art.virus_attenuated.index = MICROORGANISM_INDEX.ATTENTUATED_VIRUS;
         this.art.virus_dead.index = MICROORGANISM_INDEX.DEAD_VIRUS;
+
+        this.art.bacteria.on("pointerover",() => {
+            this.art.virus_attenuatedPopup.visible = true;
+            this.art.virus_attenuatedPopup.x = this.art.bacteria.x;
+            this.art.virus_attenuatedPopup.y = this.art.bacteria.y;
+        });
+        /*
+        this.art.pnlPopup.on("pointerover", () => {
+            this.art.pnlPopup.visible = false;
+            this.art.pnlPopup2.visible = true;
+            this.art.pnlPopup2.x = this.art.bacteria.x;
+            this.art.pnlPopup2.y = this.art.bacteria.y;
+        });
+        */
+       this.art.protein.on("pointerover",() => {
+            this.art.virus_attenuatedPopup.visible = true;
+            this.art.virus_attenuatedPopup.x = this.art.protein.x;
+            this.art.virus_attenuatedPopup.y = this.art.protein.y;
+        });
+        this.art.virus_dead.on("pointerover",() => {
+            this.art.virus_attenuatedPopup.visible = true;
+            this.art.virus_attenuatedPopup.x = this.art.virus_dead.x;
+            this.art.virus_attenuatedPopup.y = this.art.virus_dead.y;
+        });
+        this.art.virus_attenuated.on("pointerover",() => {
+            this.art.virus_attenuatedPopup.visible = true;
+            this.art.virus_attenuatedPopup.x = this.art.virus_attenuated.x;
+            this.art.virus_attenuatedPopup.y = this.art.virus_attenuated.y;
+        });
+        this.art.virus_alive.on("pointerover",() => {
+            this.art.virus_attenuatedPopup.visible = true;
+            this.art.virus_attenuatedPopup.x = this.art.virus_alive.x;
+            this.art.virus_attenuatedPopup.y = this.art.virus_alive.y;
+        });
     }
 
     onStartDrag =(object:MicroButtons)=>{
@@ -74,8 +110,8 @@ export default class GameScene extends BaseScene {
                  console.log("go to the scene for... ", );
 
                  //this.changeScene("internal");
-                 //this.changeScene('external');
-                 this.changeScene("antibiotic");
+                 this.changeScene('external');
+                 //this.changeScene("antibiotic");
              }
         }
         if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
@@ -92,7 +128,6 @@ export default class GameScene extends BaseScene {
 
     update(){
         //console.log(this.mouse.clientX);
-
         this.dragManager.update();
         
         if (this.isDragging && this.objDragging!==null) {
@@ -128,6 +163,12 @@ export default class GameScene extends BaseScene {
 
     cleanup(){
     //to do
+        this.art.bacteria.off("pointerover", () => {
+            this.art.pnlPopup2.visible = false;
+        });
+        this.art.pnlPopup2.off("pointerover", () => {
+            this.art.pnlPopup2.visible = false;
+        });
     }
 }
 
@@ -139,6 +180,8 @@ interface Art extends MovieClip {
     virus_alive:MicroButtons;
     girl:MovieClip;
     syringe:MovieClip;
+    virus_attenuatedPopup:MovieClip;
+    pnlPopup2:MovieClip;
 }
 
 interface MicroButtons extends MovieClip {
