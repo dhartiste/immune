@@ -1,23 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/antibiotic" itemID="40fbffab-000042c2" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/antibiotic" sourceLastModified="1090253590" lastModified="1090253590" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/antibiotic" itemID="40fbffab-000042c2" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/antibiotic" sourceLastModified="1090253590" lastModified="1610231110" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="antibiotic">
       <layers>
         <DOMLayer name="button" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Hit controllers/invisible" name="btnAntibody" selected="true" symbolType="button">
-                  <matrix>
-                    <Matrix a="0.659454345703125" d="0.659454345703125" tx="-34.25" ty="-30.65"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

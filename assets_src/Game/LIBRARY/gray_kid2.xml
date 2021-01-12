@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gray_kid2" itemID="410ac6b0-00003931" lastModified="1091236344" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="gray_kid2" itemID="410ac6b0-00003931" lastModified="1610371813" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="gray_kid2">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="gray_Nat">
+                <DOMSymbolInstance libraryItemName="gray_Nat" name="patient" selected="true">
                   <transformationPoint>
                     <Point x="47.5" y="150"/>
                   </transformationPoint>

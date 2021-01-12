@@ -1,0 +1,7 @@
+export const MICROORGANISM_INDEX = {
+    BACTERIA: 0,
+    BACTERIA_PROTEIN: 1,
+    LIVE_VIRUS: 2,
+    DEAD_VIRUS: 3,
+    ATTENTUATED_VIRUS: 4,
+ };

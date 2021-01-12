@@ -1,11 +1,11 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1536" height="768" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" guidesSnapTo="false" viewAngle3D="110.955592495494" vanishingPoint3DX="768" vanishingPoint3DY="384" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="ACC79270925F48F6B9A7B73C4B14D82F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" guidesSnapTo="false" timelineLabelWidth="310" viewAngle3D="113.905639833042" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="ACC79270925F48F6B9A7B73C4B14D82F">
      <folders>
-          <DOMFolderItem name="Act 1 - fixed" itemID="5ff61f00-0000017d"/>
+          <DOMFolderItem name="Act 1 - fixed" itemID="5ffc59a2-000003ef" isExpanded="true"/>
           <DOMFolderItem name="Hit controllers" itemID="409a71c8-00001a2b"/>
           <DOMFolderItem name="Organisms" itemID="5ff4e016-00000190"/>
      </folders>
      <media>
-          <DOMBitmapItem name="NatOutline.png" itemID="410ac5d7-0000365d" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Illustrator:NatOutline.png" sourceLastImported="1091221408" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="NatOutline.png" bitmapDataHRef="M 1 1609965312.dat" frameRight="1900" frameBottom="6000"/>
+          <DOMBitmapItem name="NatOutline.png" itemID="410ac5d7-0000365d" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Illustrator:NatOutline.png" sourceLastImported="1091221408" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="NatOutline.png" bitmapDataHRef="M 1 1610373543.dat" frameRight="1900" frameBottom="6000"/>
      </media>
      <symbols>
           <Include href="Act 1 - fixed/beaker_bottom.xml" loadImmediate="false" itemID="40fd4da6-00001888" lastModified="1091223289"/>
@@ -15,17 +15,20 @@
           <Include href="Act 1 - fixed/expose_txt.xml" loadImmediate="false" itemID="4023ce05-00005304" lastModified="1076084725"/>
           <Include href="Act 1 - fixed/inject_txt.xml" loadImmediate="false" itemID="4023cdfd-000052ea" lastModified="1076084717"/>
           <Include href="Act 1 - fixed/shade.xml" loadImmediate="false" itemID="40fe90a7-000013ef" lastModified="1091223857"/>
-          <Include href="Act 1 - fixed/syringe.xml" loadImmediate="false" itemID="4023cdc9-00005260" lastModified="1091229723"/>
+          <Include href="Act 1 - fixed/syringe.xml" loadImmediate="false" itemID="4023cdc9-00005260" lastModified="1610376663"/>
           <Include href="Act 1 - fixed/temp2.xml" loadImmediate="false" itemID="40fe8cf9-00000d0f" lastModified="1090421262"/>
           <Include href="Button.xml" loadImmediate="false" itemID="5c242ce7-0000042f" lastModified="1545875163"/>
+          <Include href="DropBox.xml" loadImmediate="false" itemID="5ffa578b-00000258" lastModified="1610373554"/>
           <Include href="Eyes.xml" itemIcon="1" loadImmediate="false" itemID="5c2433c3-00000466" lastModified="1545876419"/>
-          <Include href="gray_kid2.xml" loadImmediate="false" itemID="410ac6b0-00003931" lastModified="1091236344"/>
+          <Include href="GameSafe.xml" loadImmediate="false" itemID="5ffa2c0f-00000136" lastModified="1610375119"/>
+          <Include href="girl.xml" loadImmediate="false" itemID="5ffc52e5-000003ce" lastModified="1610374586"/>
+          <Include href="gray_kid2.xml" loadImmediate="false" itemID="410ac6b0-00003931" lastModified="1610371813"/>
           <Include href="gray_Nat.xml" loadImmediate="false" itemID="410ac615-000036b4" lastModified="1091221799"/>
           <Include href="Hit controllers/hitme.xml" itemIcon="0" loadImmediate="false" itemID="402d6554-00018227" lastModified="1091229723"/>
           <Include href="Hit controllers/hitsource.xml" loadImmediate="false" itemID="402d6773-000191b3" lastModified="1088440452"/>
           <Include href="Hit controllers/invisible.xml" itemIcon="0" loadImmediate="false" itemID="402d6110-00016599" lastModified="1088441006"/>
           <Include href="LipsyncScene.xml" loadImmediate="false" itemID="5e6fd93c-0000000d" lastModified="1584388952"/>
-          <Include href="Organisms/antibiotic.xml" loadImmediate="false" itemID="40fbffab-000042c2" lastModified="1090253590"/>
+          <Include href="Organisms/antibiotic.xml" loadImmediate="false" itemID="40fbffab-000042c2" lastModified="1610231110"/>
           <Include href="Organisms/bacteria.xml" loadImmediate="false" itemID="4023ccbf-00004f2a" lastModified="1088441811"/>
           <Include href="Organisms/protein.xml" loadImmediate="false" itemID="4023ccc7-00004f50" lastModified="1088442515"/>
           <Include href="Organisms/virus_alive.xml" loadImmediate="false" itemID="4023c6af-0000403f" lastModified="1090421679"/>
@@ -35,6 +38,7 @@
           <Include href="Remote.xml" loadImmediate="false" itemID="5c242cb7-0000042a" lastModified="1545875115"/>
           <Include href="Screen.xml" loadImmediate="false" itemID="5c242f1c-00000441" lastModified="1545878894"/>
           <Include href="SomeGuy.xml" itemIcon="1" loadImmediate="false" itemID="5c243326-0000045a" lastModified="1545876578"/>
+          <Include href="syringe.xml" loadImmediate="false" itemID="5ffc60f1-00000485" lastModified="1610376754"/>
           <Include href="WhiteScreenBG.xml" itemIcon="1" loadImmediate="false" itemID="5c242fe3-0000044b" lastModified="1545875427"/>
      </symbols>
      <timelines>
@@ -44,31 +48,9 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/syringe" name="syringe" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/expose_txt">
                                              <matrix>
-                                                  <Matrix tx="1039.75" ty="323.45"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <color>
-                                                  <Color alphaMultiplier="0.5"/>
-                                             </color>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="gray_kid2" name="patient" selected="true">
-                                             <matrix>
-                                                  <Matrix tx="1242.8" ty="314.45"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="104.15" y="143.45"/>
-                                             </transformationPoint>
-                                             <color>
-                                                  <Color alphaMultiplier="0.5"/>
-                                             </color>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/expose_txt" selected="true">
-                                             <matrix>
-                                                  <Matrix tx="1267.65" ty="266.4"/>
+                                                  <Matrix tx="1063.05" ty="234.7"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="27.1" y="10.5"/>
@@ -77,9 +59,9 @@
                                                   <Color tintMultiplier="1" tintColor="#D09214"/>
                                              </color>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/inject_txt" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/inject_txt">
                                              <matrix>
-                                                  <Matrix tx="1044.5" ty="266.4"/>
+                                                  <Matrix tx="839.9" ty="234.7"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="23.25" y="10.5"/>
@@ -88,9 +70,9 @@
                                                   <Color tintMultiplier="1" tintColor="#D09214"/>
                                              </color>
                                         </DOMSymbolInstance>
-                                        <DOMDynamicText name="instructions" selected="true" fontRenderingMode="standard" width="307" height="103" includeOutlines="true" lineType="multiline">
+                                        <DOMDynamicText name="instructions" fontRenderingMode="standard" width="307" height="103" includeOutlines="true" lineType="multiline">
                                              <matrix>
-                                                  <Matrix tx="1041.75" ty="145.9"/>
+                                                  <Matrix tx="837.15" ty="114.2"/>
                                              </matrix>
                                              <textRuns>
                                                   <DOMTextRun>
@@ -101,9 +83,9 @@
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/bubbles back" name="bubbles" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/bubbles back" name="bubbles">
                                              <matrix>
-                                                  <Matrix tx="807.85" ty="138"/>
+                                                  <Matrix tx="603.25" ty="106.3"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="-7.55" y="104.9"/>
@@ -112,98 +94,52 @@
                                                   <Color alphaMultiplier="0.26953125" redMultiplier="-0.6796875" blueMultiplier="-0.53125" greenMultiplier="0.87109375" alphaOffset="-19" redOffset="255" blueOffset="-191" greenOffset="-153"/>
                                              </color>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/bacteria" name="bacteria">
                                              <matrix>
-                                                  <Matrix a="0.620635986328125" d="0.620635986328125" tx="766.15" ty="308.75"/>
+                                                  <Matrix a="0.620635986328125" d="0.620635986328125" tx="561.55" ty="277.05"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein">
                                              <matrix>
-                                                  <Matrix tx="879.7" ty="388.9"/>
+                                                  <Matrix tx="675.1" ty="357.2"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.5" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_alive" name="virus_alive" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_alive" name="virus_alive">
                                              <matrix>
-                                                  <Matrix a="0.709274291992188" d="0.709274291992188" tx="754.3" ty="421.05"/>
+                                                  <Matrix a="0.709274291992188" d="0.709274291992188" tx="549.7" ty="389.35"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead">
                                              <matrix>
-                                                  <Matrix a="0.714141845703125" d="0.714141845703125" tx="724.35" ty="579.35"/>
+                                                  <Matrix a="0.714141845703125" d="0.714141845703125" tx="519.75" ty="547.65"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.55" y="1.35"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated">
                                              <matrix>
-                                                  <Matrix a="0.7093505859375" d="0.7093505859375" tx="873.55" ty="530.85"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/beaker_layered" name="beaker" selected="true">
-                                             <matrix>
-                                                  <Matrix tx="663.8" ty="246.7"/>
+                                                  <Matrix a="0.7093505859375" d="0.7093505859375" tx="668.95" ty="499.15"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="151.8" y="202.85"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="ui" color="#9933CC" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="ui_bg" color="#FF0000" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="beaker" color="#4FFF4F" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements>
                                         <DOMSymbolInstance libraryItemName="Act 1 - fixed/beaker_layered" name="beaker">
                                              <matrix>
-                                                  <Matrix tx="419.35" ty="207.45"/>
+                                                  <Matrix tx="459.2" ty="215"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="151.8" y="202.85"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                         </frames>
-                    </DOMLayer>
-                    <DOMLayer name="drop areas" color="#4FFFFF" autoNamed="false">
-                         <frames>
-                              <DOMFrame index="0" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/syringe" name="syringe">
-                                             <matrix>
-                                                  <Matrix tx="924.3" ty="322.2"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
                                              </transformationPoint>
                                              <color>
                                                   <Color alphaMultiplier="0.5"/>
@@ -220,49 +156,60 @@
                                                   <Color alphaMultiplier="0.5"/>
                                              </color>
                                         </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="girl" name="girl">
+                                             <matrix>
+                                                  <Matrix tx="1038.2" ty="282.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="47.5" y="150"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="syringe" name="syringe">
+                                             <matrix>
+                                                  <Matrix tx="835.15" ty="291.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="28.05" y="145.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="texts" color="#4FFF4F" autoNamed="false">
+                    <DOMLayer name="game-safe" color="#9933CC" locked="true" autoNamed="false" visible="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/expose_txt">
+                                        <DOMShape>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <DashedStroke scaleMode="normal" weight="4">
+                                                            <fill>
+                                                                 <SolidColor color="#CC0000"/>
+                                                            </fill>
+                                                       </DashedStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!26740 0|26740 15000!5740 0|5740 15000"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="game-safe-bg" color="#FF800A" autoNamed="false" visible="false" highlighted="true" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="GameSafe">
                                              <matrix>
-                                                  <Matrix tx="1142.6" ty="260.1"/>
+                                                  <Matrix a="1.01718139648438" d="0.9765625" tx="287"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="27.1" y="10.5"/>
+                                                  <Point x="516.15" y="384"/>
                                              </transformationPoint>
-                                             <color>
-                                                  <Color tintMultiplier="1" tintColor="#D09214"/>
-                                             </color>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Act 1 - fixed/inject_txt">
-                                             <matrix>
-                                                  <Matrix tx="924.3" ty="260.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point x="23.25" y="10.5"/>
-                                             </transformationPoint>
-                                             <color>
-                                                  <Color tintMultiplier="1" tintColor="#D09214"/>
-                                             </color>
-                                        </DOMSymbolInstance>
-                                        <DOMDynamicText name="instructions" fontRenderingMode="standard" width="307" height="103" includeOutlines="true" lineType="multiline">
-                                             <matrix>
-                                                  <Matrix tx="907.75" ty="143.45"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>Chose one of the types of microorganisms in the beaker and drag over to the right. You can inject your patient with a vaccine or expose them to a microbe, depending on what you have chosen.</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#4E6040"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                        </DOMDynamicText>
                                    </elements>
                               </DOMFrame>
                          </frames>
@@ -290,11 +237,11 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!20139 4539|23099 4539!23099 4539|23099 5759!23099 5759|20139 5759!20139 5759|20139 4539"/>
-                                                  <Edge fillStyle1="2" strokeStyle="1" edges="!20499 2999|22879 2999!22879 2999|22879 4219!22879 4219|20499 4219!20499 4219|20499 2999"/>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!21019 4359|23979 4359!23979 4359|23979 5579!23979 5579|21019 5579!21019 5579|21019 4359"/>
+                                                  <Edge fillStyle1="2" strokeStyle="1" edges="!21379 2819|23759 2819!23759 2819|23759 4039!23759 4039|21379 4039!21379 4039|21379 2819"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMRectangleObject objectWidth="1536.05" objectHeight="768" x="5.15" y="2.6" selected="true" lockFlag="true">
+                                        <DOMRectangleObject objectWidth="1624.05" objectHeight="750" x="5.15" y="2.6" lockFlag="true">
                                              <matrix>
                                                   <Matrix a="0.999969482421875" tx="-5.15" ty="-2.6"/>
                                              </matrix>

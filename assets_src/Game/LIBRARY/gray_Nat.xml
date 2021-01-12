@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="NatOutline.png"/>
+                <DOMBitmapInstance libraryItemName="NatOutline.png"/>
               </elements>
             </DOMFrame>
           </frames>

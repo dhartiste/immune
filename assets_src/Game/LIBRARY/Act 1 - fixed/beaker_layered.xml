@@ -40,7 +40,7 @@
                     <Color alphaMultiplier="0.73046875"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Act 1 - fixed/shade" selected="true">
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/shade">
                   <transformationPoint>
                     <Point x="151.45" y="200.25"/>
                   </transformationPoint>

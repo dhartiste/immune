@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1088442515" lastModified="1088442515" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/protein" itemID="4023ccc7-00004f50" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Organisms/protein" sourceLastModified="1088442515" lastModified="1088442515" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="protein">
       <layers>
