@@ -71,11 +71,10 @@ export default class AntibioticScene extends BaseScene {
             obj.y > db.y - db.height/2 &&
             obj.y < db.y + db.height/2;
             this.art.girl.gotoAndStop(0);
-            if (this.gameData.currentChoice === "bacteria" || this.gameData.currentChoice === "virus_alive") {    
-                if (this.isHitGirl) {
+            if (this.isHitGirl) {
                     this.art.girl.gotoAndStop(1);
-                } 
-            }   
+            } 
+               
         }
     }
 
