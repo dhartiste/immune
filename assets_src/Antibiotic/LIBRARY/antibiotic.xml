@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="antibiotic" itemID="5ffdcd0f-000005bb" lastModified="1610468623">
+  <timeline>
+    <DOMTimeline name="antibiotic" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="1.29803466796875" d="1.29803466796875" tx="-518.7" ty="-396.9"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="1.29803466796875" d="1.29803466796875" tx="-518.7" ty="-396.9"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!8002 6153S1|8387 6418!8387 6418[8403 6429 8414 6413!8414 6413[8426 6397 8410 6386!8410 6386|8025 6120!8025 6120[8009 6109 7997 6125!7997 6125[7986 6142 8002 6153"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

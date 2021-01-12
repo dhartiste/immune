@@ -74,14 +74,15 @@ export default class GameScene extends BaseScene {
                  console.log("go to the scene for... ", );
 
                  //this.changeScene("internal");
-                 this.changeScene('external');
+                 //this.changeScene('external');
+                 this.changeScene("antibiotic");
              }
         }
         if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
             console.log(this.gameData.currentChoice);
              if (this.isHitSyringe) {
                  console.log("syringe: go to scene for...");
-                 this.changeScene("internal");
+                 this.changeScene("antibiotic");
              }
         }
     }
