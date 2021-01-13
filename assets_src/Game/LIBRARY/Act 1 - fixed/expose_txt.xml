@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/expose_txt" itemID="4023ce05-00005304" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Act 1 - fixed/expose_txt" sourceLastModified="1076084725" lastModified="1076084725" sourceItemID="00000000-ffffffff">
+=======
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/expose_txt" itemID="4023ce05-00005304" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Act 1 - fixed/expose_txt" sourceLastModified="1076084725" lastModified="1609970492" sourceItemID="00000000-ffffffff">
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
   <timeline>
     <DOMTimeline name="expose_txt">
       <layers>
@@ -6,7 +10,11 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+<<<<<<< HEAD
                 <DOMStaticText selected="true" fontRenderingMode="standard" width="50.15" height="16.9" autoExpand="true" isSelectable="false">
+=======
+                <DOMStaticText fontRenderingMode="standard" width="107.3" height="36.2" autoExpand="true" isSelectable="false">
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
                   <matrix>
                     <Matrix tx="2" ty="2"/>
                   </matrix>
@@ -14,7 +22,11 @@
                     <DOMTextRun>
                       <characters>Expose</characters>
                       <textAttrs>
+<<<<<<< HEAD
                         <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="16.9" size="14" face="Tahoma-Bold"/>
+=======
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36.2" size="30" bitmapSize="600" face="Tahoma-Bold"/>
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

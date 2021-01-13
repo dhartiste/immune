@@ -75,8 +75,16 @@ export default class InternalScene extends BaseScene {
         //movement of sprites
         this.liveVirusArray.forEach(virus => {
             
-            virus.x += -Math.random();
             virus.y += 0;
+        
+
+            if(virus.x - virus.width/2 < 800){
+                virus.x + 5;
+                virus.x += Math.random();
+            }
+            else if(virus.x - virus.width/2 > 800){
+                virus.x += -Math.random();
+            }
         })
 
         this.immuneCellArray.forEach(cell => {
@@ -110,6 +118,7 @@ export default class InternalScene extends BaseScene {
 interface LiveVirusSprite extends MovieClip {
     isAbsorbed:boolean;
     velocity:PIXI.Point;
+    isWall:boolean;
 }
 
 interface ImmuneCell extends MovieClip { //3 start

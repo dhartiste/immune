@@ -1066,7 +1066,11 @@
     lib.Game = MovieClip.extend(function () {
         MovieClip.call(this, {
             duration: 1,
-            framerate: 30
+            framerate: 30,
+            labels: {
+                bubbles: 0,
+                beaker: 0
+            }
         });
         var instance17 = new Graphics()
             .drawCommands(shapes.Game[150]);
