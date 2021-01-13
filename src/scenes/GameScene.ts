@@ -107,8 +107,8 @@ export default class GameScene extends BaseScene {
                  // go to the next scene
                  console.log("go to the scene for... ", );
 
-                 //this.changeScene("internal");
-                 this.changeScene('external');
+                 this.changeScene("liveVirus");
+                 //this.changeScene('external');
                  //this.changeScene("antibiotic");
              }
         }
