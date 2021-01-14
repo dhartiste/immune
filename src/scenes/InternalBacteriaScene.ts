@@ -1,26 +1,32 @@
 import { MovieClip } from 'pixi-animate';
 import { AssetList, Tween } from 'wgbh-springroll-game';
-import * as InternalArt from '../assets/Internal';
+import * as InternalBacteriaArt from '../assets/InternalBacteria';
 import { MICROORGANISM_INDEX } from '../helpers/Const';
 import Utils from '../helpers/Utils';
 import BaseScene from './BaseScene';
 
-export default class InternalScene extends BaseScene {
+export default class InternalBacteria extends BaseScene {
 
-    private art: InternalArt;
+    private art: InternalBacteriaArt;
     //private microGuy: MovieClip;
     private bacteriaArray: Bacteria[]=[];
     private macrophageArray: Macrophage[]=[];
     
     preload():AssetList{
         return [
-            {type:'animate', id:'internalArt', stage:InternalArt.stage, cacheInstance:true},
+            {type:'animate', id:'internalBacteriaArt', stage:InternalBacteriaArt.stage, cacheInstance:true},
         ];
     }
 
     setup(){
+
+        const background = new PIXI.Graphics();
+        background.beginFill(0xFFFFCE);
+        background.drawRect(0, 0, 1624, 750);
+        background.endFill();
+        this.addChild(background);
         
-        this.art = this.cache.animations.internalArt as InternalArt;
+        this.art = this.cache.animations.internalBacteriaArt as InternalBacteriaArt;
         this.addChild(this.art);
         this.bacteriaArray = [this.art.bacteria1, this.art.bacteria2, this.art.bacteria3, this.art.bacteria4, this.art.bacteria5];
         this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
@@ -54,16 +60,13 @@ export default class InternalScene extends BaseScene {
 
         // this.art.bacteria.gotoAndStop(0);
         // this.art.protein.gotoAndStop(0);
-        Utils.simpleButton(this.art.back);
 
     }
 
     start(){
         // PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
 
-        this.art.back.once("pointerdown", ()=>{
-            this.changeScene("game");
-        });
+
 
 
 
@@ -136,8 +139,6 @@ export default class InternalScene extends BaseScene {
         //to do
         //Tween.removeAllTweens();
         //Tween.removeTweens(this.microGuy);
-        this.art.back.off("pointerdown");
-        
     }
 }
 
@@ -151,7 +152,7 @@ interface Macrophage extends MovieClip { //3 start
     velocity:PIXI.Point;
 }
 
-interface InternalArt extends MovieClip {
+interface InternalBacteriaArt extends MovieClip {
     bacteria1: Bacteria;
     bacteria2: Bacteria;
     bacteria3: Bacteria;
@@ -161,6 +162,4 @@ interface InternalArt extends MovieClip {
     macrophage1: Macrophage;
     macrophage2: Macrophage;
     macrophage3: Macrophage;
-
-    back: MovieClip;
 }
