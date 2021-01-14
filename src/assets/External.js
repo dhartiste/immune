@@ -134,13 +134,6 @@
         this.addChild(instance1);
     });
 
-    lib.press = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 4
-        });
-
-    });
-
     lib.bulb = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
@@ -857,15 +850,15 @@
                 sickToBed_stop: 100
             }
         });
-        var instance19 = new Graphics()
+        var instance17 = new Graphics()
             .drawCommands(shapes.External[10]);
-        var instance18 = new lib.bandaid();
-        this[instance18.name = "bandaid"] = instance18;
-        var instance17 = new lib.txtHealth();
-        this[instance17.name = "Health"] = instance17;
-        var instance16 = new lib.txtProtection();
-        this[instance16.name = "Protection"] = instance16;
-        var instance15 = new Text("Next Act...")
+        var instance16 = new lib.bandaid();
+        this[instance16.name = "bandaid"] = instance16;
+        var instance15 = new lib.txtHealth();
+        this[instance15.name = "Health"] = instance15;
+        var instance14 = new lib.txtProtection();
+        this[instance14.name = "Protection"] = instance14;
+        var instance13 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -873,7 +866,7 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance24 = new Text("Next Act...")
+        var instance20 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -881,13 +874,13 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance43 = new lib.bandaid();
-        this[instance43.name = "bandaid"] = instance43;
-        var instance42 = new lib.Sick();
-        this[instance42.name = "Health"] = instance42;
-        var instance41 = new lib._70Protection();
-        this[instance41.name = "Protection"] = instance41;
-        var instance40 = new Text("Next Act...")
+        var instance39 = new lib.bandaid();
+        this[instance39.name = "bandaid"] = instance39;
+        var instance38 = new lib.Sick();
+        this[instance38.name = "Health"] = instance38;
+        var instance37 = new lib._70Protection();
+        this[instance37.name = "Protection"] = instance37;
+        var instance36 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -895,15 +888,15 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance66 = new lib.InBed()
+        var instance62 = new lib.InBed()
             .setTransform(436, 185.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance66.name = "Health"] = instance66;
-        var instance65 = new lib._95Protect()
+        this[instance62.name = "Health"] = instance62;
+        var instance61 = new lib._95Protect()
             .setTransform(593.2, 183.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance65.name = "Protection"] = instance65;
-        var instance64 = new Text("Next Act...")
+        this[instance61.name = "Protection"] = instance61;
+        var instance60 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -912,7 +905,7 @@
                 leading: 2
             })
             .setTransform(766.2, 521.65);
-        var instance14 = new Text("(after exposure to the live virus) If the patient falls ill, there is little one can do to fight the viral infection. You normally have to wait for the body to work it out.")
+        var instance12 = new Text("(after exposure to the live virus) If the patient falls ill, there is little one can do to fight the viral infection. You normally have to wait for the body to work it out.")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -923,46 +916,18 @@
                 wordWrapWidth: 248.55
             })
             .setTransform(792.7, 333.15);
-        this[instance14.name = "dDescription"] = instance14;
-        var instance13 = new lib.gray_kid2();
-        this[instance13.name = "patient"] = instance13;
-        var instance12 = new Graphics()
+        this[instance12.name = "dDescription"] = instance12;
+        var instance11 = new lib.gray_kid2();
+        this[instance11.name = "patient"] = instance11;
+        var instance10 = new Graphics()
             .drawCommands(shapes.External[8]);
-        var instance11 = new Text("°F ")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2
-            });
-        var instance10 = new Text("°C")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2
-            })
-            .setAlign("right");
-        var instance23 = new Text("°F ")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2
-            });
-        var instance18 = new Text("°C")
-            .setStyle({
-                fontFamily: "Tahoma",
-                fontSize: 12,
-                fontWeight: "bold",
-                fill: "#4e6040",
-                leading: 2
-            })
-            .setAlign("right");
-        var instance34 = new Text("°F ")
+        var instance9 = new lib.jump()
+            .setTransform(764.2, 544.45);
+        this[instance9.name = "btnMoveOn"] = instance9;
+        var instance8 = new lib.jump()
+            .setTransform(930.6, 544.55);
+        this[instance8.name = "btnBack"] = instance8;
+        var instance7 = new Text("°F ")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -971,7 +936,7 @@
                 leading: 2
             })
             .setTransform(431.7, 270.25);
-        var instance22 = new Text("°C")
+        var instance6 = new Text("°C")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -979,73 +944,61 @@
                 fill: "#4e6040",
                 leading: 2
             })
-            .setAlign("right")
-            .setTransform(526.7, 270.05);
-        var instance9 = new lib.jump()
-            .setTransform(764.2, 544.45);
-        this[instance9.name = "btnMoveOn"] = instance9;
-        var instance8 = new lib.jump()
-            .setTransform(930.6, 544.55);
-        this[instance8.name = "btnBack"] = instance8;
-        var instance7 = new lib.press()
-            .setTransform(931.6, 544.65);
-        this[instance7.name = "btnBack"] = instance7;
-        var instance6 = new lib.press();
-        this[instance6.name = "btnAhead"] = instance6;
+            .setAlign("right");
         var instance5 = new lib._98();
         var instance4 = new lib._38();
-        var instance21 = new lib._99();
-        var instance20 = new lib._39();
-        var instance25 = new lib._40();
-        var instance26 = new lib._41();
-        var instance27 = new lib._42();
-        var instance28 = new lib._43();
-        var instance30 = new lib._100();
-        var instance29 = new lib._44();
-        var instance31 = new lib._45();
-        var instance32 = new lib._46();
-        var instance33 = new lib._47();
-        var instance34 = new lib._48();
-        var instance36 = new lib._101();
-        var instance35 = new lib._49();
-        var instance37 = new lib._50();
-        var instance38 = new lib._51();
-        var instance39 = new lib._52();
-        var instance44 = new lib._54();
-        var instance45 = new lib._55();
-        var instance46 = new lib._56();
-        var instance47 = new lib._57();
-        var instance48 = new lib._58();
-        var instance49 = new lib._59();
-        var instance51 = new lib._102();
-        var instance50 = new lib._60();
-        var instance52 = new lib._61();
-        var instance53 = new lib._62();
-        var instance54 = new lib._63();
-        var instance55 = new lib._64();
-        var instance57 = new lib._103();
-        var instance56 = new lib._65();
-        var instance58 = new lib._66();
-        var instance59 = new lib._67();
-        var instance61 = new lib._104();
-        var instance60 = new lib._68();
-        var instance62 = new lib._69();
+        var instance19 = new lib._99();
+        var instance18 = new lib._39();
+        var instance21 = new lib._40();
+        var instance22 = new lib._41();
+        var instance23 = new lib._42();
+        var instance24 = new lib._43();
+        var instance26 = new lib._100();
+        var instance25 = new lib._44();
+        var instance27 = new lib._45();
+        var instance28 = new lib._46();
+        var instance29 = new lib._47();
+        var instance30 = new lib._48();
+        var instance32 = new lib._101();
+        var instance31 = new lib._49();
+        var instance33 = new lib._50();
+        var instance34 = new lib._51();
+        var instance35 = new lib._52();
+        var instance40 = new lib._54();
+        var instance41 = new lib._55();
+        var instance42 = new lib._56();
+        var instance43 = new lib._57();
+        var instance44 = new lib._58();
+        var instance45 = new lib._59();
+        var instance47 = new lib._102();
+        var instance46 = new lib._60();
+        var instance48 = new lib._61();
+        var instance49 = new lib._62();
+        var instance50 = new lib._63();
+        var instance51 = new lib._64();
+        var instance53 = new lib._103();
+        var instance52 = new lib._65();
+        var instance54 = new lib._66();
+        var instance55 = new lib._67();
+        var instance57 = new lib._104();
+        var instance56 = new lib._68();
+        var instance58 = new lib._69();
         var instance3 = new lib.bandaid();
         this[instance3.name = "bandaid"] = instance3;
         var instance2 = new Graphics()
             .drawCommands(shapes.External[1]);
         var instance1 = new Graphic1(MovieClip.SYNCHED);
-        var instance63 = new Graphic2(MovieClip.SYNCHED)
+        var instance59 = new Graphic2(MovieClip.SYNCHED)
             .setTransform(668.6, 361.1)
             .setAlpha(0);
-        this.addTimedChild(instance19)
-            .addTimedChild(instance18, 0, 4, {
+        this.addTimedChild(instance17)
+            .addTimedChild(instance16, 0, 4, {
                 "0": {
                     x: 647.6,
                     y: 214.95
                 }
             })
-            .addTimedChild(instance17, 0, 45, {
+            .addTimedChild(instance15, 0, 45, {
                 "0": {
                     x: 450,
                     y: 183.95,
@@ -1059,7 +1012,7 @@
                     ]
                 }
             })
-            .addTimedChild(instance16, 0, 45, {
+            .addTimedChild(instance14, 0, 45, {
                 "0": {
                     x: 606.2,
                     y: 183.95,
@@ -1073,25 +1026,25 @@
                     ]
                 }
             })
-            .addTimedChild(instance15, 0, 4, {
+            .addTimedChild(instance13, 0, 4, {
                 "0": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance24, 4, 41, {
+            .addTimedChild(instance20, 4, 41, {
                 "4": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance43, 45, 56, {
+            .addTimedChild(instance39, 45, 56, {
                 "45": {
                     x: 647.6,
                     y: 214.95
                 }
             })
-            .addTimedChild(instance42, 45, 52, {
+            .addTimedChild(instance38, 45, 52, {
                 "45": {
                     x: 446,
                     y: 185.95,
@@ -1105,7 +1058,7 @@
                     ]
                 }
             })
-            .addTimedChild(instance41, 45, 52, {
+            .addTimedChild(instance37, 45, 52, {
                 "45": {
                     x: 606.2,
                     y: 183.95,
@@ -1119,17 +1072,17 @@
                     ]
                 }
             })
-            .addTimedChild(instance40, 45, 52, {
+            .addTimedChild(instance36, 45, 52, {
                 "45": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance66, 97, 4)
-            .addTimedChild(instance65, 97, 4)
-            .addTimedChild(instance64, 97, 4)
-            .addTimedChild(instance14)
-            .addTimedChild(instance13, 0, 101, {
+            .addTimedChild(instance62, 97, 4)
+            .addTimedChild(instance61, 97, 4)
+            .addTimedChild(instance60, 97, 4)
+            .addTimedChild(instance12)
+            .addTimedChild(instance11, 0, 101, {
                 "0": {
                     x: 428.7,
                     y: 219.65,
@@ -2054,28 +2007,14 @@
                     ]
                 }
             })
-            .addTimedChild(instance12)
-            .addTimedChild(instance11, 0, 4, {
-                "0": {
-                    x: 431.7,
-                    y: 270.25
-                }
-            })
-            .addTimedChild(instance10, 0, 4, {
-                "0": {
-                    x: 500.7,
-                    y: 272.05
-                }
-            })
-            .addTimedChild(instance23, 4, 97)
-            .addTimedChild(instance22, 4, 97)
+            .addTimedChild(instance10)
             .addTimedChild(instance9)
             .addTimedChild(instance8)
             .addTimedChild(instance7)
             .addTimedChild(instance6, 0, 101, {
                 "0": {
-                    x: 764.2,
-                    y: 544.65
+                    x: 500.7,
+                    y: 272.05
                 }
             })
             .addTimedChild(instance5, 0, 4, {
@@ -2090,7 +2029,7 @@
                     y: 374.5
                 }
             })
-            .addTimedChild(instance21, 4, 15, {
+            .addTimedChild(instance19, 4, 15, {
                 "4": {
                     x: 382.95,
                     y: 374.5
@@ -2138,7 +2077,7 @@
                     y: 362.25
                 }
             })
-            .addTimedChild(instance20, 4, 3, {
+            .addTimedChild(instance18, 4, 3, {
                 "4": {
                     x: 493,
                     y: 374.5
@@ -2150,7 +2089,7 @@
                     y: 372.75
                 }
             })
-            .addTimedChild(instance25, 7, 3, {
+            .addTimedChild(instance21, 7, 3, {
                 "7": {
                     x: 493,
                     y: 371.85
@@ -2162,7 +2101,7 @@
                     y: 370.1
                 }
             })
-            .addTimedChild(instance26, 10, 3, {
+            .addTimedChild(instance22, 10, 3, {
                 "10": {
                     x: 493,
                     y: 369.25
@@ -2174,7 +2113,7 @@
                     y: 367.5
                 }
             })
-            .addTimedChild(instance27, 13, 3, {
+            .addTimedChild(instance23, 13, 3, {
                 "13": {
                     x: 493,
                     y: 366.6
@@ -2186,7 +2125,7 @@
                     y: 364.85
                 }
             })
-            .addTimedChild(instance28, 16, 3, {
+            .addTimedChild(instance24, 16, 3, {
                 "16": {
                     x: 493,
                     y: 364
@@ -2198,7 +2137,7 @@
                     y: 362.25
                 }
             })
-            .addTimedChild(instance30, 19, 15, {
+            .addTimedChild(instance26, 19, 15, {
                 "19": {
                     x: 382.95,
                     y: 361.35
@@ -2246,7 +2185,7 @@
                     y: 349.1
                 }
             })
-            .addTimedChild(instance29, 19, 4, {
+            .addTimedChild(instance25, 19, 4, {
                 "19": {
                     x: 493,
                     y: 361.35
@@ -2261,7 +2200,7 @@
                     y: 358.75
                 }
             })
-            .addTimedChild(instance31, 23, 3, {
+            .addTimedChild(instance27, 23, 3, {
                 "23": {
                     x: 493,
                     y: 357.85
@@ -2273,7 +2212,7 @@
                     y: 356.1
                 }
             })
-            .addTimedChild(instance32, 26, 3, {
+            .addTimedChild(instance28, 26, 3, {
                 "26": {
                     x: 493,
                     y: 355.2
@@ -2285,7 +2224,7 @@
                     y: 353.45
                 }
             })
-            .addTimedChild(instance33, 29, 3, {
+            .addTimedChild(instance29, 29, 3, {
                 "29": {
                     x: 493,
                     y: 352.55
@@ -2297,7 +2236,7 @@
                     y: 350.8
                 }
             })
-            .addTimedChild(instance34, 32, 2, {
+            .addTimedChild(instance30, 32, 2, {
                 "32": {
                     x: 493,
                     y: 349.95
@@ -2306,7 +2245,7 @@
                     y: 349.1
                 }
             })
-            .addTimedChild(instance36, 34, 35, {
+            .addTimedChild(instance32, 34, 35, {
                 "34": {
                     x: 382.95,
                     y: 348.2
@@ -2399,7 +2338,7 @@
                     y: 321.5
                 }
             })
-            .addTimedChild(instance35, 34, 3, {
+            .addTimedChild(instance31, 34, 3, {
                 "34": {
                     x: 493,
                     y: 348.2
@@ -2411,7 +2350,7 @@
                     y: 346.45
                 }
             })
-            .addTimedChild(instance37, 37, 3, {
+            .addTimedChild(instance33, 37, 3, {
                 "37": {
                     x: 493,
                     y: 345.55
@@ -2423,7 +2362,7 @@
                     y: 343.8
                 }
             })
-            .addTimedChild(instance38, 40, 3, {
+            .addTimedChild(instance34, 40, 3, {
                 "40": {
                     x: 493,
                     y: 342.95
@@ -2435,7 +2374,7 @@
                     y: 341.2
                 }
             })
-            .addTimedChild(instance39, 43, 3, {
+            .addTimedChild(instance35, 43, 3, {
                 "43": {
                     x: 493,
                     y: 340.3
@@ -2447,7 +2386,7 @@
                     y: 338.55
                 }
             })
-            .addTimedChild(instance44, 46, 8, {
+            .addTimedChild(instance40, 46, 8, {
                 "46": {
                     x: 493,
                     y: 337.7
@@ -2462,7 +2401,7 @@
                     y: 335.05
                 }
             })
-            .addTimedChild(instance45, 54, 3, {
+            .addTimedChild(instance41, 54, 3, {
                 "54": {
                     x: 493,
                     y: 335.05
@@ -2474,7 +2413,7 @@
                     y: 333.1
                 }
             })
-            .addTimedChild(instance46, 57, 3, {
+            .addTimedChild(instance42, 57, 3, {
                 "57": {
                     x: 493,
                     y: 332.15
@@ -2486,7 +2425,7 @@
                     y: 330.2
                 }
             })
-            .addTimedChild(instance47, 60, 3, {
+            .addTimedChild(instance43, 60, 3, {
                 "60": {
                     x: 493,
                     y: 329.25
@@ -2498,7 +2437,7 @@
                     y: 327.3
                 }
             })
-            .addTimedChild(instance48, 63, 3, {
+            .addTimedChild(instance44, 63, 3, {
                 "63": {
                     x: 493,
                     y: 326.35
@@ -2510,7 +2449,7 @@
                     y: 324.4
                 }
             })
-            .addTimedChild(instance49, 66, 3, {
+            .addTimedChild(instance45, 66, 3, {
                 "66": {
                     x: 493,
                     y: 323.45
@@ -2522,7 +2461,7 @@
                     y: 321.5
                 }
             })
-            .addTimedChild(instance51, 69, 15, {
+            .addTimedChild(instance47, 69, 15, {
                 "69": {
                     x: 382.95,
                     y: 320.55
@@ -2570,7 +2509,7 @@
                     y: 307
                 }
             })
-            .addTimedChild(instance50, 69, 3, {
+            .addTimedChild(instance46, 69, 3, {
                 "69": {
                     x: 493,
                     y: 320.55
@@ -2582,7 +2521,7 @@
                     y: 318.6
                 }
             })
-            .addTimedChild(instance52, 72, 3, {
+            .addTimedChild(instance48, 72, 3, {
                 "72": {
                     x: 493,
                     y: 317.65
@@ -2594,7 +2533,7 @@
                     y: 315.7
                 }
             })
-            .addTimedChild(instance53, 75, 3, {
+            .addTimedChild(instance49, 75, 3, {
                 "75": {
                     x: 493,
                     y: 314.75
@@ -2606,7 +2545,7 @@
                     y: 312.8
                 }
             })
-            .addTimedChild(instance54, 78, 3, {
+            .addTimedChild(instance50, 78, 3, {
                 "78": {
                     x: 493,
                     y: 311.85
@@ -2618,7 +2557,7 @@
                     y: 309.9
                 }
             })
-            .addTimedChild(instance55, 81, 3, {
+            .addTimedChild(instance51, 81, 3, {
                 "81": {
                     x: 493,
                     y: 308.95
@@ -2630,7 +2569,7 @@
                     y: 307
                 }
             })
-            .addTimedChild(instance57, 84, 9, {
+            .addTimedChild(instance53, 84, 9, {
                 "84": {
                     x: 382.95,
                     y: 306.05
@@ -2660,7 +2599,7 @@
                     y: 298.3
                 }
             })
-            .addTimedChild(instance56, 84, 3, {
+            .addTimedChild(instance52, 84, 3, {
                 "84": {
                     x: 493,
                     y: 306.05
@@ -2672,7 +2611,7 @@
                     y: 304.1
                 }
             })
-            .addTimedChild(instance58, 87, 3, {
+            .addTimedChild(instance54, 87, 3, {
                 "87": {
                     x: 493,
                     y: 303.15
@@ -2684,7 +2623,7 @@
                     y: 301.2
                 }
             })
-            .addTimedChild(instance59, 90, 3, {
+            .addTimedChild(instance55, 90, 3, {
                 "90": {
                     x: 493,
                     y: 300.25
@@ -2696,7 +2635,7 @@
                     y: 298.3
                 }
             })
-            .addTimedChild(instance61, 93, 8, {
+            .addTimedChild(instance57, 93, 8, {
                 "93": {
                     x: 382.95,
                     y: 297.35
@@ -2720,7 +2659,7 @@
                     y: 291.55
                 }
             })
-            .addTimedChild(instance60, 93, 3, {
+            .addTimedChild(instance56, 93, 3, {
                 "93": {
                     x: 493,
                     y: 297.35
@@ -2732,7 +2671,7 @@
                     y: 295.4
                 }
             })
-            .addTimedChild(instance62, 96, 5, {
+            .addTimedChild(instance58, 96, 5, {
                 "96": {
                     x: 493,
                     y: 294.45
@@ -2767,25 +2706,25 @@
                     a: 0.98
                 },
                 "6": {
-                    a: 0.97
+                    a: 0.96
                 },
                 "7": {
                     a: 0.95
                 },
                 "8": {
-                    a: 0.94
+                    a: 0.93
                 },
                 "9": {
                     a: 0.92
                 },
                 "10": {
-                    a: 0.91
+                    a: 0.9
                 },
                 "11": {
                     a: 0.89
                 },
                 "12": {
-                    a: 0.88
+                    a: 0.87
                 },
                 "13": {
                     a: 0.86
@@ -2794,7 +2733,7 @@
                     a: 0.84
                 },
                 "15": {
-                    a: 0.83
+                    a: 0.82
                 },
                 "16": {
                     a: 0.81
@@ -2839,19 +2778,19 @@
                     a: 0.61
                 },
                 "30": {
-                    a: 0.6
+                    a: 0.59
                 },
                 "31": {
                     a: 0.58
                 },
                 "32": {
-                    a: 0.57
+                    a: 0.56
                 },
                 "33": {
                     a: 0.55
                 },
                 "34": {
-                    a: 0.54
+                    a: 0.53
                 },
                 "35": {
                     a: 0.52
@@ -2860,7 +2799,7 @@
                     a: 0.5
                 },
                 "37": {
-                    a: 0.49
+                    a: 0.48
                 },
                 "38": {
                     a: 0.47
@@ -2986,7 +2925,7 @@
                     a: 0.01
                 }
             })
-            .addTimedChild(instance63, 97, 4);
+            .addTimedChild(instance59, 97, 4);
     });
 
     lib.External.assets = {
