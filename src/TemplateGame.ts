@@ -5,7 +5,9 @@ import External from './scenes/External';
 import InternalScene from './scenes/InternalScene';
 import ExternalScene from './scenes/External';
 import LiveVirusScene from './scenes/LiveVirusScene';
+import ProteinInjectScene from './scenes/ProteinInjectScene';
 import AntibioticScene from './scenes/AntibioticScene';
+
 
 export default class TemplateGame extends Game{
 
@@ -16,7 +18,9 @@ export default class TemplateGame extends Game{
             external:External,
             internal: InternalScene,
             liveVirus: LiveVirusScene,
-            antibiotic:AntibioticScene         
+            antibiotic: AntibioticScene,
+            proteinInject: ProteinInjectScene
+
         });
         //this.changeScene('external');
         this.changeScene('title');

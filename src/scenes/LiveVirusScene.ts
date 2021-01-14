@@ -54,6 +54,16 @@ export default class InternalScene extends BaseScene {
 
     update(){
 
+        this.liveVirusArray.forEach(virus => {
+            virus.gotoAndStop(0);
+            //virus.velocity = new PIXI.Point(Math.random(), Math.random());
+        })
+
+        this.immuneCellArray.forEach(cell => {
+            cell.gotoAndStop(0);
+            //cell.velocity = new PIXI.Point(Math.random(), Math.random());
+        })
+
         // hit testing (you need to check if the cell got hit, if it's hit then it becomes a virus factory)
         this.immuneCellArray.forEach(cell => {
             this.liveVirusArray.forEach(virus => {
@@ -72,19 +82,12 @@ export default class InternalScene extends BaseScene {
         });
 
 
-        //movement of sprites
+        //movement of sprites (FIX)
         this.liveVirusArray.forEach(virus => {
             
             virus.y += 0;
+            virus.x = -1;
         
-
-            if(virus.x - virus.width/2 < 800){
-                virus.x + 5;
-                virus.x += Math.random();
-            }
-            else if(virus.x - virus.width/2 > 800){
-                virus.x += -Math.random();
-            }
         })
 
         this.immuneCellArray.forEach(cell => {

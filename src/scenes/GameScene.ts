@@ -116,7 +116,7 @@ export default class GameScene extends BaseScene {
             console.log(this.gameData.currentChoice);
              if (this.isHitSyringe) {
                  console.log("syringe: go to scene for...");
-                 this.changeScene("antibiotic");
+                 this.changeScene("proteinInject");
              }
         }
     }
