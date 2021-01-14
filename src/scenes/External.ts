@@ -33,6 +33,7 @@ export default class GameScene extends Scene {
     }
 
     start(){
+        this.art.interactive = true;
         Utils.simpleButton(this.art.btnAhead);
         Utils.simpleButton(this.art.btnBack);
         //PIXI.animate.Animator.play(this.art, 'healthyToSick');
