@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/bacteria divide/tic2" itemID="40f6bffb-0001410d" lastModified="1089909228">
+  <timeline>
+    <DOMTimeline name="tic2" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="-1.97332763671875" b="0.0011444091796875" c="-0.0003509521484375" d="-0.61956787109375" tx="-216.3" ty="-1.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-128.6" y="-9.1"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="-1.97332763671875" b="0.0011444091796875" c="-0.0003509521484375" d="-0.61956787109375" tx="-216.3" ty="-1.7"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-128.6" y="-9.1"/>
+                      </transformationPoint>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="1.75">
+                            <fill>
+                              <SolidColor color="#666666"/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="!-2949 -204S4[-2638 -330 -2523 -289!-2523 -289[-2435 -258 -2192 -60"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
