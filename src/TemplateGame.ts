@@ -4,6 +4,7 @@ import GameScene from './scenes/GameScene';
 import External from './scenes/External';
 import InternalScene from './scenes/InternalScene';
 import ExternalScene from './scenes/External';
+import LibraryExample from './scenes/LibraryExampleScene';
 import AntibioticScene from './scenes/AntibioticScene';
 
 export default class TemplateGame extends Game{
@@ -14,9 +15,10 @@ export default class TemplateGame extends Game{
             game: GameScene,
             external:External,
             internal: InternalScene,
-            antibiotic:AntibioticScene         
+            antibiotic:AntibioticScene,       
+            library:LibraryExample         
         });
         //this.changeScene('external');
-        this.changeScene('title');
+        this.changeScene('library');
     }
 }
