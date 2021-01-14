@@ -1,8 +1,8 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/bacteria_divide" itemID="4059873a-00000669" linkageExportForAS="true" linkageIdentifier="bacteria_divide" linkageClassName="bacteria_divide" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/bacteria_divide" sourceLastModified="1091231184" lastModified="1091231184" lastUniqueIdentifier="189" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="bacteria_divide" currentFrame="114" layerDepthEnabled="true">
+    <DOMTimeline name="bacteria_divide" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="Actions" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#FF4F4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="54" keyMode="9728">
               <Framescript language="JavaScript">
@@ -153,7 +153,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antennae" color="#FFFF4F" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="antennae" color="#FFFF4F" autoNamed="false" open="false" layerType="folder"/>
         <DOMLayer name="antenae4" color="#9933CC" parentLayerIndex="3" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
@@ -1476,7 +1476,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="body" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
         <DOMLayer name="mouthC" color="#4FFFFF" parentLayerIndex="15" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
@@ -4667,7 +4667,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Body" color="#4FFF4F" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="Body" color="#4FFF4F" parentLayerIndex="15" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>

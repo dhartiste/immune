@@ -2,7 +2,7 @@ import {Game} from 'wgbh-springroll-game';
 import TitleScene from './scenes/TitleScene';
 import GameScene from './scenes/GameScene';
 import External from './scenes/External';
-import InternalScene from './scenes/InternalScene';
+import BacteriaScene from './scenes/InternalBacteriaScene';
 import ExternalScene from './scenes/External';
 import LiveVirusScene from './scenes/LiveVirusScene';
 import ProteinInjectScene from './scenes/ProteinInjectScene';
@@ -16,7 +16,7 @@ export default class TemplateGame extends Game{
             title: TitleScene,
             game: GameScene,
             external:External,
-            internal: InternalScene,
+            bacteria: BacteriaScene,
             liveVirus: LiveVirusScene,
             antibiotic: AntibioticScene,
             proteinInject: ProteinInjectScene

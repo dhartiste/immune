@@ -204,7 +204,11 @@
 
     lib.bacteria_divide = MovieClip.extend(function () {
         MovieClip.call(this, {
-            duration: 115
+            duration: 115,
+            labels: {
+                duplicate: 0,
+                duplicate_stop: 54
+            }
         });
         var instance175 = new lib.body()
             .setRenderable(false);
@@ -5301,7 +5305,9 @@
             duration: 114,
             labels: {
                 crown: 0,
-                crown_stop: 14
+                crown_stop: 14,
+                dead: 15,
+                dead_stop: 29
             }
         });
         var instance23 = new lib.crown();

@@ -39,7 +39,7 @@
           <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
           <Include href="Organisms/details/virus_alive_sm.xml" loadImmediate="false" itemID="409b80c1-00001062" lastModified="1090418520"/>
           <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610489289"/>
-          <Include href="Organisms/macro_bacteria orig.xml" loadImmediate="false" itemID="40d1d5b0-000079f9" lastModified="1610591181"/>
+          <Include href="Organisms/macro_bacteria orig.xml" loadImmediate="false" itemID="40d1d5b0-000079f9" lastModified="1610666075"/>
           <Include href="Organisms/macro_virus_multiply.xml" itemID="40ab9e7f-000171d5" lastModified="1610523154"/>
           <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610591113"/>
           <Include href="Organisms/Virus live breakup/body.xml" loadImmediate="false" itemID="40968346-00015805" lastModified="1090502423"/>
@@ -54,7 +54,7 @@
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="orgs" color="#00FFFF" autoNamed="false" highlighted="true">
+                    <DOMLayer name="orgs" color="#00FFFF" current="true" isSelected="true" autoNamed="false" highlighted="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -74,7 +74,7 @@
                                                   <Point x="-0.05" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage1">
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage1" selected="true">
                                              <matrix>
                                                   <Matrix tx="610.05" ty="269.1"/>
                                              </matrix>
@@ -148,7 +148,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="game_safe_bg" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false" visible="false">
+                    <DOMLayer name="game_safe_bg" color="#FF800A" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>

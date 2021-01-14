@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/macro_bacteria orig" itemID="40d1d5b0-000079f9" lastModified="1610591181" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/macro_bacteria orig" itemID="40d1d5b0-000079f9" lastModified="1610666075" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="macro_bacteria orig" currentFrame="14" layerDepthEnabled="true">
+    <DOMTimeline name="macro_bacteria orig" currentFrame="29" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Actions" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
@@ -17,10 +17,10 @@
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="15" duration="14" keyMode="9728">
+            <DOMFrame index="15" duration="14" name="dead" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="29" keyMode="9728">
+            <DOMFrame index="29" name="dead_stop" labelType="name" keyMode="9728">
               <Framescript language="JavaScript">
                 <script><![CDATA[/* stop();*/]]></script>
               </Framescript>
@@ -75,7 +75,7 @@ this._parent.bInfected = false;*/]]></script>
             </DOMFrame>
             <DOMFrame index="30" duration="84" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Organisms/details/hittestie" name="hittestie" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Organisms/details/hittestie" name="hittestie" symbolType="button">
                   <matrix>
                     <Matrix a="2.0030517578125" d="1.98138427734375" tx="-78.7" ty="-147.05"/>
                   </matrix>
@@ -532,9 +532,9 @@ this._parent.bInfected = false;*/]]></script>
             </DOMFrame>
             <DOMFrame index="30" duration="84" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <fills>
                         <FillStyle index="1">
                           <SolidColor color="#A5DEEC"/>
@@ -560,12 +560,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -582,12 +582,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -605,12 +605,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -627,12 +627,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -650,9 +650,9 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <fills>
                         <FillStyle index="1">
                           <SolidColor/>
@@ -668,12 +668,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -690,12 +690,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -713,12 +713,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -735,12 +735,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -758,12 +758,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -779,12 +779,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -801,12 +801,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -823,12 +823,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -844,12 +844,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -866,12 +866,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -888,12 +888,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -910,12 +910,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.2"/>
                       </matrix>
@@ -932,9 +932,9 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <fills>
                         <FillStyle index="1">
                           <SolidColor/>
@@ -1406,8 +1406,7 @@ this._parent.bInfected = false;*/]]></script>
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="
-!-804.5 -1390|937 -1390"/>
+                    <Edge strokeStyle="1" edges="!-804.5 -1390|937 -1390"/>
                   </edges>
                 </DOMShape>
                 <DOMGroup>
@@ -1996,11 +1995,10 @@ this._parent.bInfected = false;*/]]></script>
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge strokeStyle="1" edges="
-!-804.5 -1391S4|937 -1391"/>
+                    <Edge strokeStyle="1" edges="!-804.5 -1391|937 -1391"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="Organisms/details/crown" selected="true">
+                <DOMSymbolInstance libraryItemName="Organisms/details/crown">
                   <matrix>
                     <Matrix a="0.932113647460938" d="0.932113647460938" tx="-3.7" ty="-104.15"/>
                   </matrix>
@@ -2008,12 +2006,12 @@ this._parent.bInfected = false;*/]]></script>
                     <Point x="0.5" y="-0.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix d="0.999740600585938" tx="4" ty="3.3"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix d="0.999740600585938" tx="4" ty="3.3"/>
                       </matrix>
@@ -2032,12 +2030,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2054,12 +2052,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2077,12 +2075,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2099,12 +2097,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2122,12 +2120,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2144,12 +2142,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2168,12 +2166,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2190,12 +2188,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2213,12 +2211,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2235,12 +2233,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2258,12 +2256,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2279,12 +2277,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2301,12 +2299,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2323,12 +2321,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2344,12 +2342,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2366,12 +2364,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2388,12 +2386,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2410,12 +2408,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-347.5" ty="-262.25"/>
                       </matrix>
@@ -2432,12 +2430,12 @@ this._parent.bInfected = false;*/]]></script>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <matrix>
                     <Matrix a="0.872314453125" d="0.8720703125" tx="-349.4" ty="-284.25"/>
                   </matrix>
                   <members>
-                    <DOMShape selected="true">
+                    <DOMShape>
                       <matrix>
                         <Matrix a="0.872314453125" d="0.8720703125" tx="-349.4" ty="-284.25"/>
                       </matrix>
