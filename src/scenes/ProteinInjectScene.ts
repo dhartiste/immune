@@ -18,21 +18,23 @@ export default class InternalScene extends BaseScene {
 
     setup(){
 
-        this.macrophageArray.forEach(macrophage => {
-            macrophage.gotoAndStop(0);
-            macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
-        })
-
-        this.proteinArray.forEach(protein => {
-            protein.gotoAndStop("bald_stop");
-            protein.velocity = new PIXI.Point(Math.random(), Math.random());
-        })
 
         this.art = this.cache.animations.internalArt as InternalArt;
         this.addChild(this.art);
        
         this.proteinArray = [this.art.protein1, this.art.protein2, this.art.protein3, this.art.protein4, this.art.protein5, this.art.protein6];
         this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
+
+
+        this.macrophageArray.forEach(macrophage => {
+            macrophage.gotoAndStop(0);
+            macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
+        })
+
+        this.proteinArray.forEach(protein => {
+            protein.gotoAndStop(0);
+            protein.velocity = new PIXI.Point(Math.random(), Math.random());
+        })
 
     
 
@@ -56,7 +58,7 @@ export default class InternalScene extends BaseScene {
         //hit testing
         this.macrophageArray.forEach(macrophage => {
             this.proteinArray.forEach(protein => {
-                if(!protein.isHit&&!macrophage.isHit) {
+                if(!protein.isHit) {
                     protein.isHit = macrophage.isHit = 
                     protein.x < macrophage.x + macrophage.width/2 && 
                     protein.x > macrophage.x - macrophage.width/2  &&
@@ -64,35 +66,49 @@ export default class InternalScene extends BaseScene {
                     protein.y < macrophage.y + macrophage.height/2;
                     if(macrophage.isHit) {
                         PIXI.animate.Animator.play(macrophage, "crown");
+                        macrophage.gotoAndStop("crown_stop");
                     }
-                    else{
-                        macrophage.gotoAndStop(0);
-                    }
+                    
                     if(protein.isHit){
                         PIXI.animate.Animator.play(protein, "bald", this.checkProteinsDead);
                     }
-                    else{
-                        protein.gotoAndStop(0);
-                    }
+                    
                 }
 
             });
         });
 
 
-        //movement of sprites (FIX)
+        //movement of sprites 
         this.macrophageArray.forEach(macrophage => {
             
-            macrophage.y += 0;
-            macrophage.x += 1;
+            macrophage.x += macrophage.velocity.x;
+            macrophage.y += macrophage.velocity.y * 2;
+           
+            if(macrophage.position.x - macrophage.width <= this.stageManager.leftEdge || macrophage.position.x + macrophage.width >= this.stageManager.rightEdge){
+                macrophage.velocity.x = -macrophage.velocity.x;
+            }
+            if(macrophage.y - macrophage.height <= -this.stageManager.height/2 || macrophage.y + macrophage.height >= this.stageManager.height/2){
+                macrophage.velocity.y = -macrophage.velocity.y;
+            } 
+              
+            
+            
 
            
         })
 
         this.proteinArray.forEach(protein => {
          
-            protein.x += -1.2;
-            protein.y += 0;
+            protein.x += -protein.velocity.x;
+            protein.y += -protein.velocity.y;
+
+            if(protein.position.x - protein.width <= this.stageManager.leftEdge || protein.position.x + protein.width >= this.stageManager.rightEdge){
+                protein.velocity.x = -protein.velocity.x;
+            }
+            if(protein.y - protein.height <= -this.stageManager.height/2 || protein.y + protein.height >= this.stageManager.height/2){
+                protein.velocity.y = -protein.velocity.y;
+            }
         })
     }
 
@@ -104,7 +120,7 @@ export default class InternalScene extends BaseScene {
             }
 
         })
-        if(count===3) {
+        if(count===5) {
             console.log("animation done");
             this.changeScene("external");
         }

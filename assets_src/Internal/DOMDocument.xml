@@ -27,8 +27,9 @@
           <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
           <Include href="Organisms/details/virus_alive_sm.xml" loadImmediate="false" itemID="409b80c1-00001062" lastModified="1090418520"/>
           <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610249211"/>
+          <Include href="Organisms/macro_bacteria orig.xml" loadImmediate="false" itemID="40d1d5b0-000079f9" lastModified="1610591181"/>
           <Include href="Organisms/macro_virus_multiply.xml" itemID="40ab9e7f-000171d5" lastModified="1610523154"/>
-          <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610252132"/>
+          <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610591113"/>
           <Include href="Organisms/Virus live breakup/body.xml" loadImmediate="false" itemID="40968346-00015805" lastModified="1090502423"/>
           <Include href="Organisms/Virus live breakup/eyes.xml" loadImmediate="false" itemID="409683d6-00015b31" lastModified="1083602374"/>
           <Include href="Organisms/Virus live breakup/fuzzies.xml" loadImmediate="false" itemID="409682ad-000154bd" lastModified="1083602078"/>
@@ -61,68 +62,76 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_multiply" name="immune3" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage3">
                                              <matrix>
-                                                  <Matrix tx="495.95" ty="600.25"/>
+                                                  <Matrix tx="574.75" ty="560.05"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="44.05" y="-37.35"/>
+                                                  <Point x="-0.05" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus1">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein1">
                                              <matrix>
-                                                  <Matrix tx="1029.65" ty="236.9"/>
+                                                  <Matrix tx="1059.4" ty="270"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="0.35" y="-0.5"/>
+                                                  <Point x="0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus5">
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage2">
                                              <matrix>
-                                                  <Matrix tx="1074.2" ty="383.35"/>
+                                                  <Matrix tx="442.4" ty="380.05"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="0.35" y="-0.5"/>
+                                                  <Point x="-0.05" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus2">
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage1">
                                              <matrix>
-                                                  <Matrix tx="968.35" ty="290.5"/>
+                                                  <Matrix tx="610.05" ty="269.1"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="0.35" y="-0.5"/>
+                                                  <Point x="-0.05" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus3">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein3">
                                              <matrix>
-                                                  <Matrix tx="1079.65" ty="290.5"/>
+                                                  <Matrix tx="1099.9" ty="350.6"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="0.35" y="-0.5"/>
+                                                  <Point x="0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus4">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein2" selected="true">
                                              <matrix>
-                                                  <Matrix tx="989.65" ty="360.5"/>
+                                                  <Matrix tx="979.9" ty="320.6"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="0.35" y="-0.5"/>
+                                                  <Point x="0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_multiply" name="immune2">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein4">
                                              <matrix>
-                                                  <Matrix tx="495.95" ty="400.65"/>
+                                                  <Matrix tx="979.9" ty="410.6"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="44.05" y="-37.35"/>
+                                                  <Point x="0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_multiply" name="immune1">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein5">
                                              <matrix>
-                                                  <Matrix tx="495.95" ty="197.35"/>
+                                                  <Matrix tx="1089.9" ty="450.6"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="44.05" y="-37.35"/>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein6">
+                                             <matrix>
+                                                  <Matrix tx="1009.9" ty="489.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -155,7 +164,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="GameSafe" selected="true">
+                                        <DOMSymbolInstance libraryItemName="GameSafe">
                                              <matrix>
                                                   <Matrix a="1.01718139648438" d="0.9765625" tx="287"/>
                                              </matrix>
