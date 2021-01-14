@@ -6,6 +6,7 @@ import BacteriaScene from './scenes/InternalBacteriaScene';
 import ExternalScene from './scenes/External';
 import LiveVirusScene from './scenes/LiveVirusScene';
 import ProteinInjectScene from './scenes/ProteinInjectScene';
+import LibraryExample from './scenes/LibraryExampleScene';
 import AntibioticScene from './scenes/AntibioticScene';
 
 
@@ -19,10 +20,12 @@ export default class TemplateGame extends Game{
             bacteria: BacteriaScene,
             liveVirus: LiveVirusScene,
             antibiotic: AntibioticScene,
-            proteinInject: ProteinInjectScene
+            proteinInject: ProteinInjectScene,
+            internal: InternalScene,
+            library:LibraryExample         
 
         });
         //this.changeScene('external');
-        this.changeScene('title');
+        this.changeScene('library');
     }
 }

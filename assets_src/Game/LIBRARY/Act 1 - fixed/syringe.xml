@@ -1,48 +1,22 @@
-<<<<<<< HEAD
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/syringe" itemID="4023cdc9-00005260" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Act 1 - fixed/syringe" sourceLastModified="1091229723" lastModified="1610376663" sourceItemID="00000000-ffffffff">
+
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/syringe" itemID="4023cdc9-00005260" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Act 1 - fixed/syringe" sourceLastModified="1091229723" lastModified="1610505531" sourceItemID="00000000-ffffffff">
+  <persistentData>
+    <PD n="copyLayersToBitmapScale" t="d" v="1.000000"/>
+  </persistentData>
   <timeline>
     <DOMTimeline name="syringe">
       <layers>
-        <DOMLayer name="hit test" color="#9933CC" autoNamed="false">
-=======
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/syringe" itemID="4023cdc9-00005260" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Act 1 - fixed/syringe" sourceLastModified="1091229723" lastModified="1091229723" sourceItemID="00000000-ffffffff">
-  <timeline>
-    <DOMTimeline name="syringe">
-      <layers>
-        <DOMLayer name="hit test" color="#9933CC" current="true" isSelected="true" autoNamed="false">
->>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
+        <DOMLayer name="vectors" color="#9933CC" locked="true" autoNamed="false" visible="false" layerType="folder"/>
+        <DOMLayer name="Layer 1" color="#4FFF4F" parentLayerIndex="0" locked="true" visible="false" layerType="guide">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Hit controllers/hitme" name="hitme" symbolType="button">
-                  <matrix>
-                    <Matrix tx="20" ty="68.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-<<<<<<< HEAD
-        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
-=======
-        <DOMLayer name="Layer 1" color="#4FFF4F">
->>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -56,18 +30,18 @@
                         </StrokeStyle>
                       </strokes>
                       <edges>
-                        <Edge strokeStyle="1" edges="!8789 4885[8740 4921 8740 4972!8740 4972[8740 5023 8789 5059!8789 5059[8839 5095 8909 5095!8909 5095|9690 5095!9690 5095[9760 5095 9809 5059!9809 5059[9859 5023 9859 4972!9859 4972[9859 4921 9809 4885!9809 4885[9760 4848 9690 4848!9690
+                        <Edge strokeStyle="1" edges="!8789 4885S4[8740 4921 8740 4972!8740 4972[8740 5023 8789 5059!8789 5059[8839 5095 8909 5095!8909 5095|9690 5095!9690 5095[9760 5095 9809 5059!9809 5059[9859 5023 9859 4972!9859 4972[9859 4921 9809 4885!9809 4885[9760 4848 9690 4848!9690
  4848|8909 4848!8909 4848[8839 4848 8789 4885"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -78,17 +52,17 @@
                       </fills>
                       <edges>
                         <Edge fillStyle1="1" edges="
-!9397 5100|9385 8350!9385 8350|9649 8350!9649 8350|9649 8700!9649 8700|8931 8701!8931 8701|8931 8351!8931 8351|9208 8351!9208 8351|9208 5109!9208 5109|9397 5100"/>
+!9397 5100S2|9385 8350!9385 8350|9649 8350!9649 8350|9649 8700!9649 8700|8931 8701!8931 8701|8931 8351!8931 8351|9208 8351!9208 8351|9208 5109!9208 5109|9397 5100"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -103,25 +77,15 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!9397 5100|9385 8350!9385 8350|9649 8350!9649 8350|9649 8700!9649 8700|8931 8701!8931 8701|8931 8351!8931 8351|9208 8351!9208 8351|9208 5109"/>
+!9397 5100S4|9385 8350!9385 8350|9649 8350!9649 8350|9649 8700!9649 8700|8931 8701!8931 8701|8931 8351!8931 8351|9208 8351!9208 8351|9208 5109"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
-<<<<<<< HEAD
+
+                <DOMGroup selected="true">
                   <members>
-                    <DOMShape>
-=======
-                  <matrix>
-                    <Matrix tx="-436.9" ty="-242.4"/>
-                  </matrix>
-                  <members>
-                    <DOMShape>
-                      <matrix>
-                        <Matrix tx="-436.9" ty="-242.4"/>
-                      </matrix>
->>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
+                    <DOMShape selected="true">
                       <fills>
                         <FillStyle index="1">
                           <SolidColor color="#FECBB8" alpha="0.501960784313725"/>
@@ -129,23 +93,21 @@
                       </fills>
                       <edges>
                         <Edge fillStyle1="1" edges="
-<<<<<<< HEAD
-!0 612|1119 612!1119 612|1119 705!1119 705|1024 705!1024 705|1024 983!1024 983|977 983!977 983|977 4205!977 4205|786 4331!786 4331|786 4778!786 4778|612 4784!612 4784|570 5820!570 5820|521 4786!521 4786|369 4786!369 4786|369 4348!369
  4348|125 4217!125 4217|125 1009!125 1009|67 1000!67 1000|67 713!67 713|0 713!0 713|0 612"/>
-=======
+
 !8738 5460|9857 5460!9857 5460|9857 5553!9857 5553|9762 5553!9762 5553|9762 5831!9762 5831|9715 5831!9715 5831|9715 9053!9715 9053|9524 9179!9524 9179|9524 9626!9524 9626|9350 9632!9350 9632|9308 10668!9308 10668|9259 9634!9259 9634|9107
  9634!9107 9634|9107 9196!9107 9196|8863 9065!8863 9065|8863 5857!8863 5857|8805 5848!8805 5848|8805 5561!8805 5561|8738 5561!8738 5561|8738 5460"/>
->>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
+
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -160,18 +122,18 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8738 5460|9857 5460!9857 5460|9857 5553!9857 5553|9762 5553!9762 5553|9762 5831!9762 5831|9715 5831!9715 5831|9715 9053!9715 9053|9524 9179!9524 9179|9524 9626!9524 9626|9350 9632!9350 9632|9308 10668!9308 10668|9259 9634!9259 9634|9107
- 9634!9107 9634|9107 9196!9107 9196|8863 9065!8863 9065|8863 5857!8863 5857|8805 5848!8805 5848|8805 5561!8805 5561|8738 5561!8738 5561|8738 5460"/>
+!8738 5460S4|9857 5460!9857 5460|9857 5553!9857 5553|9762 5553!9762 5553|9762 5831!9762 5831|9715 5831!9715 5831|9715 9053!9715 9053|9524 9179!9524 9179|9524 9626!9524 9626|9350 9632!9350 9632|9308 10668!9308 10668|9259 9634!9259 9634
+|9107 9634!9107 9634|9107 9196!9107 9196|8863 9065!8863 9065|8863 5857!8863 5857|8805 5848!8805 5848|8805 5561!8805 5561|8738 5561!8738 5561|8738 5460"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -186,18 +148,18 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8738 5460|9857 5460!9857 5460|9857 5553!9857 5553|9762 5553!9762 5553|9762 5831!9762 5831|9715 5831!9715 5831|9715 9053!9715 9053|9524 9179!9524 9179|9524 9626!9524 9626|9350 9632!9350 9632|9308 10668!9308 10668|9259 9634!9259 9634|9107
- 9634!9107 9634|9107 9196!9107 9196|8863 9065!8863 9065|8863 5857!8863 5857|8805 5848!8805 5848|8805 5561!8805 5561|8738 5561!8738 5561|8738 5460"/>
+!8738 5460S4|9857 5460!9857 5460|9857 5553!9857 5553|9762 5553!9762 5553|9762 5831!9762 5831|9715 5831!9715 5831|9715 9053!9715 9053|9524 9179!9524 9179|9524 9626!9524 9626|9350 9632!9350 9632|9308 10668!9308 10668|9259 9634!9259 9634
+|9107 9634!9107 9634|9107 9196!9107 9196|8863 9065!8863 9065|8863 5857!8863 5857|8805 5848!8805 5848|8805 5561!8805 5561|8738 5561!8738 5561|8738 5460"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -212,17 +174,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!9707 8764|8865 8764"/>
+!9707 8764S4|8865 8764"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -237,17 +199,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!9707 7354|8865 7354"/>
+!9707 7354S4|8865 7354"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -262,17 +224,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!9707 5968|8865 5968"/>
+!9707 5968S4|8865 5968"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -287,17 +249,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 6225|9056 6225"/>
+!8862 6225S4|9056 6225"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -312,17 +274,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 6789|9056 6789"/>
+!8862 6789S4|9056 6789"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -337,17 +299,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 7071|9056 7071"/>
+!8862 7071S4|9056 7071"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -362,17 +324,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 7353|9056 7353"/>
+!8862 7353S4|9056 7353"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -387,17 +349,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 7635|9056 7635"/>
+!8862 7635S4|9056 7635"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -412,17 +374,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 7917|9056 7917"/>
+!8862 7917S4|9056 7917"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -437,17 +399,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 8199|9056 8199"/>
+!8862 8199S4|9056 8199"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -462,17 +424,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 8481|9056 8481"/>
+!8862 8481S4|9056 8481"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -487,17 +449,17 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 8763|9056 8763"/>
+!8862 8763S4|9056 8763"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <matrix>
                     <Matrix tx="-436.9" ty="-242.4"/>
                   </matrix>
                   <members>
-                    <DOMShape>
+                    <DOMShape selected="true">
                       <matrix>
                         <Matrix tx="-436.9" ty="-242.4"/>
                       </matrix>
@@ -512,11 +474,24 @@
                       </strokes>
                       <edges>
                         <Edge strokeStyle="1" edges="
-!8862 6507|9056 6507"/>
+!8862 6507S4|9056 6507"/>
                       </edges>
                     </DOMShape>
                   </members>
                 </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bitmap" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="syringe1">
+                  <matrix>
+                    <Matrix tx="-1" ty="-1"/>
+                  </matrix>
+                </DOMBitmapInstance>
               </elements>
             </DOMFrame>
           </frames>

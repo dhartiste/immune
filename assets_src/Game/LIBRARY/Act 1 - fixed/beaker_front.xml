@@ -128,11 +128,9 @@
                     <DOMTextRun>
                       <characters>200 ml</characters>
                       <textAttrs>
-<<<<<<< HEAD
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.505882352941176" lineHeight="21.7" size="18" face="Tahoma-Bold" fillColor="#FFFFFF"/>
-=======
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.517647058823529" lineHeight="21.7" size="18" face="Tahoma-Bold" fillColor="#FFFFFF"/>
->>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
+
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.501960784313725" lineHeight="21.7" size="18" face="Tahoma-Bold" fillColor="#FFFFFF"/>
+
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

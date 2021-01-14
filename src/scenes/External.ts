@@ -18,22 +18,22 @@ export default class GameScene extends Scene {
         this.addChild(this.art);
 
         this.art.gotoAndStop('default');
-        this.art.btnAhead.gotoAndStop('default');
-        this.art.btnBack.gotoAndStop('default');
+        this.art.btnMoveOn.dtext.text = "Move On";
+        this.art.btnBack.dtext.text = "Go Back";
 
-        this.art.btnAhead.once("pointerdown",()=>{
-            console.log("btnAhead pressed");
+        this.art.btnMoveOn.once("pointerdown",()=>{
+            console.log("btnMoveOn pressed");
             this.changeScene("title");
             //this.changeScene("external");
         });
         this.art.btnBack.once("pointerdown",()=>{
-            console.log("btnAhead pressed");
+            console.log("btnBack pressed");
             this.changeScene("title");
         });
     }
 
     start(){
-        Utils.simpleButton(this.art.btnAhead);
+        Utils.simpleButton(this.art.btnMoveOn);
         Utils.simpleButton(this.art.btnBack);
         //PIXI.animate.Animator.play(this.art, 'healthyToSick');
         PIXI.animate.Animator.play(this.art);
@@ -46,9 +46,13 @@ export default class GameScene extends Scene {
 
     cleanup(){
         // to do
-        this.art.btnAhead.off("pointerdown");
+        this.art.btnMoveOn.off("pointerdown");
         this.art.btnBack.off("pointerdown");
     }
+}
+
+interface TextButton extends MovieClip {
+    dtext: PIXI.Text;
 }
 
 interface ExternalArt extends MovieClip {
@@ -65,6 +69,6 @@ interface ExternalArt extends MovieClip {
     Protection:PIXI.animate.MovieClip;
     dDescription:PIXI.animate.MovieClip;
     */
-    btnAhead:MovieClip;
-    btnBack:MovieClip;
+    btnMoveOn:TextButton;
+    btnBack:TextButton;
 }
