@@ -1,0 +1,194 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 20.0 build 22168" majorVersion="20" buildNumber="22168" gridSnapTo="true" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="11C5D2F322584ADBB2070FF4FC288B8C">
+     <folders>
+          <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
+          <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
+          <DOMFolderItem name="Organisms" itemID="5ffa6a41-000002f5"/>
+          <DOMFolderItem name="Organisms/bacteria divide" itemID="4059867e-000004fc"/>
+          <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
+          <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="Act 2 - admin/shapes/check.gif" itemID="4047376b-0000f093" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Flash Project:graphics:check.gif" sourceLastImported="1078404439" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Act 2 - admin/shapes/check.gif" bitmapDataHRef="M 3 1610599189.dat" frameRight="400" frameBottom="200"/>
+     </media>
+     <symbols>
+          <Include href="Act 2 - admin/shapes/check.xml" loadImmediate="false" itemID="4048d5c9-0001cad5" lastModified="1089996920"/>
+          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1610402419"/>
+          <Include href="Act 2 - admin/shapes/purple_square_flash.xml" loadImmediate="false" itemID="40473914-0000fdd4" lastModified="1089996307"/>
+          <Include href="Act 2 - admin/shapes/white_mask.xml" loadImmediate="false" itemID="4048b911-0001437b" lastModified="1089996203"/>
+          <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
+          <Include href="Act 2 - admin/statustxt.xml" loadImmediate="false" itemID="4073cd8c-0000052a" lastModified="1610600066"/>
+          <Include href="Back.xml" loadImmediate="false" itemID="5ffa7264-0000033a" lastModified="1610248804"/>
+          <Include href="Eye.xml" loadImmediate="false" itemID="5ffa6c7b-00000314" lastModified="1610247291"/>
+          <Include href="GameSafe.xml" loadImmediate="false" itemID="5ffa2c0f-00000136" lastModified="1610521630"/>
+          <Include href="Organisms/bacteria_simple.xml" loadImmediate="false" itemID="40d07321-00008f82" lastModified="1091228160"/>
+          <Include href="Organisms/bacteria divide/antenae_single.xml" loadImmediate="false" itemID="40572764-00002675" lastModified="1079449940"/>
+          <Include href="Organisms/bacteria divide/body.xml" loadImmediate="false" itemID="40572573-00001e67" lastModified="1089910272"/>
+          <Include href="Organisms/bacteria divide/eye.xml" loadImmediate="false" itemID="40572614-00002085" lastModified="1079449604"/>
+          <Include href="Organisms/bacteria divide/eyelash.xml" loadImmediate="false" itemID="4057261c-000020b3" lastModified="1089907143"/>
+          <Include href="Organisms/bacteria divide/tail_clip.xml" loadImmediate="false" itemID="40581d78-00000731" lastModified="1089905174"/>
+          <Include href="Organisms/details/circle_alpha.xml" loadImmediate="false" itemID="40fd5f9d-00004e39" lastModified="1090343309"/>
+          <Include href="Organisms/details/crown.xml" loadImmediate="false" itemID="4023cbf3-00004c22" lastModified="1076084214"/>
+          <Include href="Organisms/details/hittestie.xml" itemIcon="0" loadImmediate="false" itemID="4048cb38-00019e70" lastModified="1078508840"/>
+          <Include href="Organisms/details/mac_baceyebrows.xml" loadImmediate="false" itemID="40757b3b-00007bcf" lastModified="1081437483"/>
+          <Include href="Organisms/details/macro_bac_blue.xml" loadImmediate="false" itemID="40757a98-000078df" lastModified="1087397386"/>
+          <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
+          <Include href="Organisms/details/virus_alive_sm.xml" loadImmediate="false" itemID="409b80c1-00001062" lastModified="1090418520"/>
+          <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610489289"/>
+          <Include href="Organisms/macro_bacteria orig.xml" loadImmediate="false" itemID="40d1d5b0-000079f9" lastModified="1610591181"/>
+          <Include href="Organisms/macro_virus_multiply.xml" itemID="40ab9e7f-000171d5" lastModified="1610523154"/>
+          <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610591113"/>
+          <Include href="Organisms/Virus live breakup/body.xml" loadImmediate="false" itemID="40968346-00015805" lastModified="1090502423"/>
+          <Include href="Organisms/Virus live breakup/eyes.xml" loadImmediate="false" itemID="409683d6-00015b31" lastModified="1083602374"/>
+          <Include href="Organisms/Virus live breakup/fuzzies.xml" loadImmediate="false" itemID="409682ad-000154bd" lastModified="1083602078"/>
+          <Include href="Organisms/Virus live breakup/inner_circle.xml" loadImmediate="false" itemID="4091199b-0000642a" lastModified="1090498386"/>
+          <Include href="Organisms/Virus live breakup/LeftEye_virus.xml" loadImmediate="false" itemID="409107f2-000020ee" lastModified="1090417813"/>
+          <Include href="Organisms/Virus live breakup/petals.xml" loadImmediate="false" itemID="409682e8-0001559f" lastModified="1090418613"/>
+          <Include href="Organisms/Virus live breakup/RightEye_virus.xml" loadImmediate="false" itemID="409107e3-000020c6" lastModified="1090417746"/>
+          <Include href="RightAnt.xml" loadImmediate="false" itemID="5ffa6d31-00000324" lastModified="1610247473"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" layerDepthEnabled="true">
+               <layers>
+                    <DOMLayer name="ui" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Back" name="back">
+                                             <matrix>
+                                                  <Matrix tx="340" ty="50"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true" highlighted="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage3">
+                                             <matrix>
+                                                  <Matrix tx="574.75" ty="560.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.05" y="-0.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein1" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="1059.4" ty="270"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage2">
+                                             <matrix>
+                                                  <Matrix tx="442.4" ty="380.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.05" y="-0.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage1">
+                                             <matrix>
+                                                  <Matrix tx="610.05" ty="269.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-0.05" y="-0.05"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein3">
+                                             <matrix>
+                                                  <Matrix tx="1099.9" ty="350.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein2">
+                                             <matrix>
+                                                  <Matrix tx="979.9" ty="320.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein4">
+                                             <matrix>
+                                                  <Matrix tx="979.9" ty="410.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein5">
+                                             <matrix>
+                                                  <Matrix tx="1089.9" ty="450.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein6">
+                                             <matrix>
+                                                  <Matrix tx="1009.9" ty="489.7"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="game_safe" color="#9933CC" locked="true" autoNamed="false" highlighted="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <DashedStroke scaleMode="normal" weight="4">
+                                                            <fill>
+                                                                 <SolidColor color="#CC0000"/>
+                                                            </fill>
+                                                       </DashedStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!26740 0|26740 15000!5740 0|5740 15000"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="game_safe_bg" color="#FF800A" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="GameSafe">
+                                             <matrix>
+                                                  <Matrix a="1.01718139648438" d="0.9765625" tx="287"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="516.15" y="384"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

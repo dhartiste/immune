@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/bubbles back" itemID="4023d071-0000075f" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Act 1 - fixed/bubbles back" sourceLastModified="1090419741" lastModified="1090419741" sourceItemID="00000000-ffffffff">
+=======
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/bubbles back" itemID="4023d071-0000075f" sourceFlashFilepath="../z_OrigSource/FlashProject/Act1.fla" sourceLibraryItemHRef="Act 1 - fixed/bubbles back" sourceLastModified="1090419741" lastModified="1090419741" sourceItemID="00000000-ffffffff">
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
   <timeline>
     <DOMTimeline name="bubbles back">
       <layers>

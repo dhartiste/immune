@@ -106,9 +106,8 @@ export default class GameScene extends BaseScene {
              if (this.isHitGirl) {
                  // go to the next scene
                  console.log("go to the scene for... ", );
-
-                 //this.changeScene("internal");
-                 this.changeScene('external');
+                 this.changeScene("bacteria");
+                 //this.changeScene('external');
                  //this.changeScene("antibiotic");
              }
         }
@@ -116,7 +115,7 @@ export default class GameScene extends BaseScene {
             console.log(this.gameData.currentChoice);
              if (this.isHitSyringe) {
                  console.log("syringe: go to scene for...");
-                 this.changeScene("antibiotic");
+                 this.changeScene("proteinInject");
              }
         }
     }

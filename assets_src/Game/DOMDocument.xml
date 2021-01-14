@@ -54,7 +54,7 @@
                <layers>
                     <DOMLayer name="popups" color="#808080" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" keyMode="9728">
+                              <DOMFrame index="0" name="bubbles" labelType="name" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Popup/panel" name="virus_attenuatedPopup" selected="true">
                                              <matrix>
@@ -71,6 +71,9 @@
                                              <transformationPoint>
                                                   <Point x="79.45" y="46.95"/>
                                              </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.26953125" redMultiplier="-0.6796875" blueMultiplier="-0.53125" greenMultiplier="0.87109375" alphaOffset="-19" redOffset="255" blueOffset="-191" greenOffset="-153"/>
+                                             </color>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
@@ -133,6 +136,9 @@
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein">
                                              <matrix>
@@ -147,8 +153,11 @@
                                                   <Matrix a="0.709274291992188" d="0.709274291992188" tx="549.7" ty="389.35"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point/>
+                                                  <Point x="27.1" y="10.5"/>
                                              </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#D09214"/>
+                                             </color>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead" name="virus_dead">
                                              <matrix>
@@ -157,6 +166,9 @@
                                              <transformationPoint>
                                                   <Point x="0.55" y="1.35"/>
                                              </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#D09214"/>
+                                             </color>
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated" name="virus_attenuated">
                                              <matrix>

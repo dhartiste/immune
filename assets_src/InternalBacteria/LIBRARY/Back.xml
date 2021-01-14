@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Back" itemID="5ffa7264-0000033a" lastModified="1610248804">
+  <timeline>
+    <DOMTimeline name="Back" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFCC00"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#CC0000"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!99 -402S6/600 -600!600 -600|600 -61!600 -61|600 600!600 600/38 435!38 435/-600 600!-600 600|-600 -600!-600 -600/99 -402"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="!-200 -61S7/99 -402!-200 -61/38 435!600 -61|-200 -61"/>
+                    <Edge cubics="!-600 -600(;-600,-600 99,-402 99,-402q-600 -600p99 -402);"/>
+                    <Edge cubics="!-200 -61(;-200,-61 38,435 38,435q-200 -61p38 435);"/>
+                    <Edge cubics="!38 435(;38,435 -600,600 -600,600q38 435 -600 600);"/>
+                    <Edge cubics="!600 -61(;600,-61 600,600 600,600q600 -61 600 600);"/>
+                    <Edge cubics="!-200 -61(;-200,-61 99,-402 99,-402q-200 -61 99 -402);"/>
+                    <Edge cubics="!99 -402(;99,-402 600,-600 600,-600q99 -402 600 -600);"/>
+                    <Edge cubics="!600 600(;600,600 38,435 38,435q600 600 38 435);"/>
+                    <Edge cubics="!600 -61(;600,-61 -200,-61 -200,-61q600 -61 -200 -61);"/>
+                    <Edge cubics="!600 -600(;600,-600 600,-61 600,-61q600 -600 600 -61);"/>
+                    <Edge cubics="!-600 600(;-600,600 -600,-600 -600,-600q-600 600 -600 -600);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

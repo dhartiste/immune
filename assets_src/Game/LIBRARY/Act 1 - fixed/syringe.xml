@@ -1,3 +1,4 @@
+
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/syringe" itemID="4023cdc9-00005260" sourceFlashFilepath="../../../immune_1/assets_src/Game/Game_1.xfl" sourceLibraryItemHRef="Act 1 - fixed/syringe" sourceLastModified="1091229723" lastModified="1610505531" sourceItemID="00000000-ffffffff">
   <persistentData>
     <PD n="copyLayersToBitmapScale" t="d" v="1.000000"/>
@@ -81,6 +82,7 @@
                     </DOMShape>
                   </members>
                 </DOMGroup>
+
                 <DOMGroup selected="true">
                   <members>
                     <DOMShape selected="true">
@@ -91,8 +93,11 @@
                       </fills>
                       <edges>
                         <Edge fillStyle1="1" edges="
-!0 612S2|1119 612!1119 612|1119 705!1119 705|1024 705!1024 705|1024 983!1024 983|977 983!977 983|977 4205!977 4205|786 4331!786 4331|786 4778!786 4778|612 4784!612 4784|570 5820!570 5820|521 4786!521 4786|369 4786!369 4786|369 4348!369
  4348|125 4217!125 4217|125 1009!125 1009|67 1000!67 1000|67 713!67 713|0 713!0 713|0 612"/>
+
+!8738 5460|9857 5460!9857 5460|9857 5553!9857 5553|9762 5553!9762 5553|9762 5831!9762 5831|9715 5831!9715 5831|9715 9053!9715 9053|9524 9179!9524 9179|9524 9626!9524 9626|9350 9632!9350 9632|9308 10668!9308 10668|9259 9634!9259 9634|9107
+ 9634!9107 9634|9107 9196!9107 9196|8863 9065!8863 9065|8863 5857!8863 5857|8805 5848!8805 5848|8805 5561!8805 5561|8738 5561!8738 5561|8738 5460"/>
+
                       </edges>
                     </DOMShape>
                   </members>
