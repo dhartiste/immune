@@ -7,9 +7,16 @@
           <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
           <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
      </folders>
+     <media>
+          <DOMBitmapItem name="Act 2 - admin/shapes/check.gif" itemID="4047376b-0000f093" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Flash Project:graphics:check.gif" sourceLastImported="1078404439" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Act 2 - admin/shapes/check.gif" bitmapDataHRef="M 3 1610599189.dat" frameRight="400" frameBottom="200"/>
+     </media>
      <symbols>
+          <Include href="Act 2 - admin/shapes/check.xml" loadImmediate="false" itemID="4048d5c9-0001cad5" lastModified="1089996920"/>
           <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1091228160"/>
+          <Include href="Act 2 - admin/shapes/purple_square_flash.xml" loadImmediate="false" itemID="40473914-0000fdd4" lastModified="1089996307"/>
+          <Include href="Act 2 - admin/shapes/white_mask.xml" loadImmediate="false" itemID="4048b911-0001437b" lastModified="1089996203"/>
           <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
+          <Include href="Act 2 - admin/statustxt.xml" loadImmediate="false" itemID="4073cd8c-0000052a" lastModified="1610600066"/>
           <Include href="Back.xml" loadImmediate="false" itemID="5ffa7264-0000033a" lastModified="1610248804"/>
           <Include href="Eye.xml" loadImmediate="false" itemID="5ffa6c7b-00000314" lastModified="1610247291"/>
           <Include href="GameSafe.xml" loadImmediate="false" itemID="5ffa2c0f-00000136" lastModified="1610521630"/>
@@ -102,7 +109,7 @@
                                                   <Point x="0.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein2" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein" name="protein2">
                                              <matrix>
                                                   <Matrix tx="979.9" ty="320.6"/>
                                              </matrix>
@@ -164,16 +171,13 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="GameSafe">
+                                        <DOMSymbolInstance libraryItemName="GameSafe" selected="true">
                                              <matrix>
                                                   <Matrix a="1.01718139648438" d="0.9765625" tx="287"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="516.15" y="384"/>
                                              </transformationPoint>
-                                             <color>
-                                                  <Color alphaMultiplier="0.1796875"/>
-                                             </color>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>

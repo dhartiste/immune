@@ -2563,8 +2563,7 @@
             framerate: 30
         });
         var instance12 = new lib.GameSafe()
-            .setTransform(287, 0, 1.017, 0.977)
-            .setAlpha(0.18);
+            .setTransform(287, 0, 1.017, 0.977);
         var instance11 = new Graphics()
             .drawCommands(shapes.Internal[81]);
         var instance10 = new lib.macro_bacteria_orig()

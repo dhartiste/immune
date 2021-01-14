@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 2 - admin/shapes/purple_square_flash" itemID="40473914-0000fdd4" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Act 2 - admin/shapes/purple_square_flash" sourceLastModified="1089996307" lastModified="1089996307" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="purple_square_flash" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="1.5">
+                        <fill>
+                          <SolidColor color="#5B5434"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!-1.5 -1.5S4|317 -1.5!317 -1.5|317 317!317 317|-1.5 317!-1.5 317|-1.5 -1.5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
