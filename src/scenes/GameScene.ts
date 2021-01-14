@@ -106,7 +106,6 @@ export default class GameScene extends BaseScene {
              if (this.isHitGirl) {
                  // go to the next scene
                  console.log("go to the scene for... ", );
-
                  this.changeScene("liveVirus");
                  //this.changeScene('external');
                  //this.changeScene("antibiotic");
