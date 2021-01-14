@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Popup/bacteriaDescription" itemID="5fffa6b1-0000015b" lastModified="1610593424" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="bacteriaDescription">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/large box" name="box">
+                  <matrix>
+                    <Matrix a="0.999862670898438" d="0.949981689453125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="69.8" y="-1.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="popuptxt_det" fontRenderingMode="standard" width="156" height="156" includeOutlines="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="17" ty="41.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Both good and bad.&#xD;Good bacteria in our intestines  help us digest food. Bad bacteria cause  all sorts of infections like tuberculosis, diptheria, and food poisoning.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="popuptxt2" fontRenderingMode="standard" top="-2.4" width="143.5" height="18.4" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="17" ty="12.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Bacteria</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/line" name="hline">
+                  <matrix>
+                    <Matrix a="1.10185241699219" tx="15" ty="32.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

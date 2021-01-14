@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Popup/deadVirusDescription" itemID="5fffabc5-0000018b" lastModified="1610593198" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="deadVirusDescription">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/large box" name="box">
+                  <matrix>
+                    <Matrix a="0.947311401367188" d="0.67498779296875" ty="-3.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.45" y="34.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="popuptxt_det" fontRenderingMode="standard" width="138.4" height="97" includeOutlines="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="17" ty="40.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A type of vaccine.&#xD;For example: hepatitis A or influenza vaccines.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="popuptxt2" fontRenderingMode="standard" width="266.4" height="19.05" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="17" ty="12"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Dead Virus</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/line" name="hline">
+                  <matrix>
+                    <Matrix a="0.9996337890625" tx="16.85" ty="30.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
