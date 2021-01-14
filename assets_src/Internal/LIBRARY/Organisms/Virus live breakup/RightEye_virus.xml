@@ -1,0 +1,179 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/Virus live breakup/RightEye_virus" itemID="409107e3-000020c6" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/Virus live breakup/RightEye_virus" sourceLastModified="1090417746" lastModified="1090417746" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="RightEye_virus" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#ABABAB"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!359 289[#1A1.9D #173.11 417.5 487.5!417.5 487.5[#1A1.9D #25B.0E 359 685.5!359 685.5[#12C.FF #2FF.2C 218 767!218 767[#87.61 #2FF.2C 76.5 685.5!76.5 685.5[#11.E3 #25B.0E 18 487.5!18 487.5[#11.E3 #173.11 76.5 289!76.5 289[#87.61 #CF.54
+ 218 207.5!218 207.5[#12C.FF #CF.54 359 289"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!8334 4775[8250 4915 8246 5089!8246 5089[8241 5262 8330 5403!8330 5403[8429 5562 8593 5570!8593 5570[8756 5578 8858 5409!8858 5409[8940 5271 8945 5101!8945 5101[8945 5098 8945 5095!8945 5095[8945 5092 8945 5089!8945 5089[8940 4913 8860
+ 4781!8860 4781[8764 4622 8598 4614!8598 4614[8435 4606 8334 4775!8810 4811[8882 4937 8886 5089!8886 5089[8882 5241 8821 5353!8821 5353[8747 5489 8613 5509!8613 5509[8471 5531 8381 5373!8381 5373[8309 5247 8305 5095!8305 5095[8302 4950
+ 8369 4831!8369 4831[8446 4695 8578 4675!8578 4675[8720 4654 8810 4811"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!8887 5137|8906 5138!8906 5138[8837 5047 8713 5027!8713 5027[8598 5008 8486 5055!8486 5055[8385 5098 8338 5164!8338 5164[8281 5243 8321 5332!8321 5332[8358 5407 8442 5459!8442 5459[8532 5516 8618 5507!8618 5507[8768 5493 8841 5281!8841
+ 5281[8883 5157 8887 5137"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!8746 5399[8674 5497 8554 5472!8554 5472[8449 5450 8371 5356!8371 5356[8294 5264 8370 5174!8370 5174[8432 5100 8543 5067!8543 5067[8637 5038 8728 5061!8728 5061[8804 5080 8858 5131!8858 5131[8818 5299 8746 5399!8506 5016[8400 5048 8330
+ 5126!8330 5126[8248 5219 8284 5318!8284 5318[8324 5426 8430 5488!8430 5488[8537 5551 8650 5532!8650 5532[8828 5503 8910 5170!8910 5170[8917 5168 8925 5161!8925 5161[8948 5141 8929 5119!8929 5119[8852 5028 8735 5003!8735 5003[8626 4979
+ 8506 5016"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!8367 4795[8379 4484 8543 4400!8543 4400[8569 4387 8556 4360!8556 4360[8543 4333 8517 4346!8517 4346[8320 4446 8307 4790!8307 4790[8306 4819 8336 4821!8336 4821[8366 4824 8367 4795"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!217 205.5[#DD.71 #95.31 256.5 101!256.5 101[#124.D #33.C1 346 35!346 35[#16A.BE #1D.6 354.5 12.5!354.5 12.5[#15A.5F #FFFFFB.81 329.5 1!329.5 1[#10C.61 #14.81 226 80!226 80[#B9.41 #88.1 179.5 201.5!179.5 201.5[#B2.41 #DB.A 197 221.5!197
+ 221.5[#D7.BF #DF.7F 217 205.5"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.624755859375" d="0.624755859375" tx="-257.6" ty="-134.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!8983 4373[8872 4377 8788 4463!8788 4463[8704 4547 8695 4658!8695 4658[8693 4687 8722 4690!8722 4690[8752 4693 8755 4664!8755 4664[8762 4578 8826 4508!8826 4508[8893 4436 8978 4432!8978 4432[9006 4431 9009 4402!9009 4402[9011 4372 8983
+ 4373"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="1.8"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix tx="1.8"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!444.5 182[#164.32 #A8.B6 301 266!301 266[#124.61 #119.BF 307.5 292.5!307.5 292.5[#143.3 #12F.1E 332 287.5!332 287.5[#178.31 #D1.D4 441 219!441 219[#1CB.2F #DD.9E 460.5 203!460.5 203[#1CE.7F #B9.01 444.5 182"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

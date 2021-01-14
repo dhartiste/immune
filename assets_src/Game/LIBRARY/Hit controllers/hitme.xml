@@ -6,14 +6,28 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+<<<<<<< HEAD
                 <DOMShape>
+=======
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix a="1.46220397949219" tx="-5.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="8" y="49.5"/>
+                  </transformationPoint>
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#CC9966"/>
                     </FillStyle>
                   </fills>
                   <edges>
+<<<<<<< HEAD
                     <Edge fillStyle1="1" edges="!354 0|354 1980!354 1980|-114 1980!-114 1980|-114 0!-114 0|354 0"/>
+=======
+                    <Edge fillStyle1="1" edges="!320 0S2|320 1980!320 1980|0 1980!0 1980|0 0!0 0|320 0"/>
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
                   </edges>
                 </DOMShape>
               </elements>
