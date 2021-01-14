@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Popup/proteinDescription" itemID="5fffa8bc-00000167" lastModified="1610593974" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="proteinDescription">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/large box" name="box">
+                  <matrix>
+                    <Matrix a="0.999923706054688" d="0.649993896484375" ty="-3.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="79.4" y="34.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="popuptxt_det" fontRenderingMode="standard" width="138.4" height="68" includeOutlines="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="22" ty="39"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>A type of vaccine.&#xD;For example: tetanus or haemophilus B vaccines.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="popuptxt2" fontRenderingMode="standard" width="266.4" height="16" includeOutlines="true">
+                  <matrix>
+                    <Matrix tx="19" ty="7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Bacterial Protein</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="14.5" bitmapSize="240" face="Tahoma-Bold" fillColor="#FFFCCD"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Act 1 - fixed/Popup/line" name="hline">
+                  <matrix>
+                    <Matrix a="0.9996337890625" tx="20" ty="27"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="73.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

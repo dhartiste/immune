@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/Popup/large box" itemID="40437979-000089d6" lastModified="1090420028">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 1 - fixed/Popup/large box" itemID="40437979-000089d6" lastModified="1610592415">
   <timeline>
     <DOMTimeline name="large box">
       <layers>
@@ -13,8 +13,8 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!2959 9|199 9!199 9[116 9 57 67!57 67[#6.9B #76.43 0 187.5!0 187.5[-1 #C6.1D -1 209!-1 209|-1 1669!-1 1669[-1 #68F.E3 0 1690.5!0 1690.5[#6.9B #6DF.9B 57 1810!57 1810[116 1869 199 1869!199 1869|2959 1869!2959 1869[3042 1869 3100 1810!3100
- 1810[3159 1752 3159 1669!3159 1669|3159 209!3159 209[3159 126 3100 67!3100 67[3042 9 2959 9"/>
+                    <Edge fillStyle0="1" edges="!3559 0|241 0!241 0[141 0 70 125!70 125[10 235 1 385!1 385[0 405 0 429!0 429|0 3569!0 3569[0 3593 1 3616!1 3616[10 3765 70 3873!70 3873[141 4000 241 4000!241 4000|3559 4000!3559 4000[3659 4000 3729 3873!3729 3873[3800 3749 3800 3569!3800
+ 3569|3800 429!3800 429[3800 251 3729 125!3729 125[3659 0 3559 0"/>
                   </edges>
                 </DOMShape>
               </elements>

@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="syringe" itemID="5ffc60f1-00000485" lastModified="1610376754" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="syringeTop" itemID="5ffe5d30-000002d8" lastModified="1610505520" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="syringe">
+    <DOMTimeline name="syringeTop">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
