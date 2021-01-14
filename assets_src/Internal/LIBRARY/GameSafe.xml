@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GameSafe" itemID="5ffa2c0f-00000136" lastModified="1610230799">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="GameSafe" itemID="5ffa2c0f-00000136" lastModified="1610521630">
   <timeline>
     <DOMTimeline name="GameSafe" layerDepthEnabled="true">
       <layers>
@@ -9,11 +9,11 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#00FF33"/>
+                      <SolidColor color="#FFFFCE"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!0 0S2|20645 0!20645 0|20645 15360!20645 15360|0 15360!0 15360|0 0"/>
+                    <Edge fillStyle1="1" edges="!0 0|20645 0!20645 0|20645 15360!20645 15360|0 15360!0 15360|0 0"/>
                   </edges>
                 </DOMShape>
               </elements>

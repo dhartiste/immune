@@ -6,7 +6,11 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+<<<<<<< HEAD
                 <DOMBitmapInstance libraryItemName="NatOutline.png"/>
+=======
+                <DOMBitmapInstance selected="true" libraryItemName="NatOutline.png"/>
+>>>>>>> 5d5125438d5224dc76e99d1c99b5656ad1dfca07
               </elements>
             </DOMFrame>
           </frames>
