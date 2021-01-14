@@ -19,6 +19,12 @@ export default class InternalScene extends BaseScene {
     }
 
     setup(){
+        
+        this.art = this.cache.animations.internalArt as InternalArt;
+        this.addChild(this.art);
+        this.bacteriaArray = [this.art.bacteria1, this.art.bacteria2, this.art.bacteria3, this.art.bacteria4, this.art.bacteria5];
+        this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
+
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
             macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
@@ -26,13 +32,8 @@ export default class InternalScene extends BaseScene {
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.gotoAndStop(0);
-            bacteria.velocity = new PIXI.Point(Math.random(), Math.random());
+            bacteria.velocity = new PIXI.Point(Math.random()-1, Math.random());
         })
-        this.art = this.cache.animations.internalArt as InternalArt;
-        this.addChild(this.art);
-        this.bacteriaArray = [this.art.bacteria1, this.art.bacteria2, this.art.bacteria3, this.art.bacteria4, this.art.bacteria5];
-        this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
-
         switch(this.gameData.currentChoiceIndex) {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
                 break;
@@ -99,13 +100,11 @@ export default class InternalScene extends BaseScene {
         });
 
         this.macrophageArray.forEach(macrophage => {
-            macrophage.gotoAndStop(0);
             macrophage.x+=macrophage.velocity.x;
             macrophage.y+=macrophage.velocity.y;
         })
 
         this.bacteriaArray.forEach(bacteria => {
-            bacteria.gotoAndStop(0);
             bacteria.x+=bacteria.velocity.x;
             bacteria.y+=bacteria.velocity.y;
         })

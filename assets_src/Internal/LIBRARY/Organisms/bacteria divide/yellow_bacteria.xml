@@ -1,0 +1,92 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/bacteria divide/yellow_bacteria" itemID="40f6c4b7-00016414" lastModified="1089910439">
+  <timeline>
+    <DOMTimeline name="yellow_bacteria" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="168.75" ty="20.1"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FCF5AE"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2.75">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!-2388 -388S1[-2721 -382 -2913 -306!-2913 -306[-3137 -215 -3263 -57!-3263 -57[-3424 143 -3281 326!-3281 326[-3100 563 -2486 625!-2486 625[-2162 668 -1496 702!-1496 702[#FFFBD1.7C #2DA.91 -633 731!-633 731[#FFFE17.45 #2DA.FB -343 728!-343
+ 728[-306.84375 #2D6.F1 -273 724.5!-273 724.5[#FFFFCC.69 #2C3.49 69 624!69 624[237 506 249 238!249 238|247 241!247 241[264 -88 -76 -235!-76 -235[-318 -340 -693 -340!-693 -340[-1461 -365 -1837 -374!-1837 -374[-2368 -388 -2388 -388"/>
+                    <Edge strokeStyle="1" edges="
+!275 269S4[#17D.8A #12B.2E 471 283!471 283[529 273 635 221!635 221[760 161 839 137!839 137[983 94 1164 86!1164 86[1348 79 1486 156!1486 156[1582 209 1685 329!1685 329[1814 476 1849 505!1849 505[1947 586 2064 586!2064 586[2257 586 2522
+ 496!2522 496[2646 454 2955 394!2955 394[3249 336 3314 336"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="168.75" ty="20.1"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#999999"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="
+!-2716 -318S1[-2545 -351 -2310 -349!-2310 -349[-2300 -349 -1901 -334!-1901 -334[-1597 -323 -989 -306!-989 -306[-890 -303 -631 -297!-631 -297[-393 -286 -232 -245!-232 -245[226 -131 214 250!214 250[#D5.C9 #100.47 215 261.5!215 261.5[#BB.34
+ #26D.6 -157 691!-157 691[#FFFF04.04 #2C6.CA -536 713!-536 713[#FFFDE5.0E #2C8.FB -542 713!-542 713[-812 715 -1058 706!-1058 706[-1264 700 -2030 650!-2030 650[-2580 613 -2841 549!-2841 549[-3056 496 -3187 394!-3187 394[-3367 253 -3301
+ 70!-3301 70[-3246 -82 -3058 -192!-3058 -192[-2905 -282 -2716 -318!-2656 -386[-3048 -329 -3269 -87!-3269 -87[-3367 20 -3374 142!-3374 142[-3381 266 -3291 377!-3291 377[-3151 549 -2745 631!-2745 631[-2489 682 -1843 721!-1843 721[-1051
+ 768 -786 772!-786 772[-660 774 -395 777!-395 777[-166 770 -12 711!-12 711[#F7.E9 #263.56 275 269!275 269[#113.7F #105.26 276 253!276 253[#114.B8 #F2.8F 273.5 235.5!273.5 235.5[#110.D3 -13.171875 73 -164!73 -164[-94 -291 -382 -336!-382
+ -336[-519 -357 -719 -362!-719 -362[-945 -364 -1057 -368!-1057 -368[-1861 -392 -1956 -396!-1956 -396[#FFF7D8.97 #FFFE6F.04 -2198 -402.5!-2198 -402.5[#FFF748.28 #FFFE6F.F1 -2268 -399!-2268 -399[#FFF692.45 #FFFE73.FB -2558 -396!-2558 -396
+[#FFF5CA.26 #FFFE77.DC -2656 -386"/>
+                  </edges>
+                </DOMShape>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="170.45" ty="24.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-93.25" y="-5.1"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix tx="170.45" ty="24.05"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="-93.25" y="-5.1"/>
+                      </transformationPoint>
+                      <strokes>
+                        <StrokeStyle index="1">
+                          <SolidStroke scaleMode="normal" weight="2.5">
+                            <fill>
+                              <SolidColor/>
+                            </fill>
+                          </SolidStroke>
+                        </StrokeStyle>
+                      </strokes>
+                      <edges>
+                        <Edge strokeStyle="1" edges="
+!-3335 191S4|236 191"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

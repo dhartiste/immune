@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/bacteria divide/four_attenae" itemID="405884be-0000bb65" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/bacteria divide/four_attenae" sourceLastModified="1079539374" lastModified="1079539374" lastUniqueIdentifier="4" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="four_attenae" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/bacteria divide/antenae_single" selected="true">
+                  <matrix>
+                    <Matrix a="0.959808349609375" b="-0.271957397460938" c="0.271957397460938" d="0.959808349609375" tx="54.9" ty="3.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.05" y="8.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/bacteria divide/antenae_single" selected="true">
+                  <matrix>
+                    <Matrix a="0.919845581054688" b="-0.387496948242188" c="0.387496948242188" d="0.919845581054688" ty="17.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="8.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/bacteria divide/antenae_single" selected="true">
+                  <matrix>
+                    <Matrix a="0.998458862304688" b="0.0176849365234375" c="-0.0176849365234375" d="0.998458862304688" tx="269.7" ty="2.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7" y="8.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/bacteria divide/antenae_single" selected="true">
+                  <matrix>
+                    <Matrix a="0.99078369140625" b="0.11749267578125" c="-0.11749267578125" d="0.99078369140625" tx="318" ty="13.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.05" y="8.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
