@@ -64,24 +64,19 @@ export default class InternalScene extends BaseScene {
                     protein.x > macrophage.x - macrophage.width/2  &&
                     protein.y > macrophage.y - macrophage.height/2 &&
                     protein.y < macrophage.y + macrophage.height/2;
-                    if(macrophage.isHit) {
+                    if(macrophage.isHit && !macrophage.hitOnce) {
                         PIXI.animate.Animator.play(macrophage, "crown");
-                        macrophage.hitOnce = true;
-                        
-                        
+                        macrophage.hitOnce = true; 
                     }
-                    if(macrophage.hitOnce){ //trying to get the animation play, then freeze on the crown frame (TODO)
-                        macrophage.gotoAndStop("crown_stop");
-                    }
+                    // if(macrophage.hitOnce){ //trying to get the animation play, then freeze on the crown frame (TODO)
+                    //     macrophage.gotoAndStop("crown_stop");
+                    // }
                     if(protein.isHit){
                         PIXI.animate.Animator.play(protein, "bald", this.checkProteinsDead);
                     }
-                    
                 }
-
             });
         });
-
 
         //movement of sprites 
         this.macrophageArray.forEach(macrophage => {
@@ -106,7 +101,7 @@ export default class InternalScene extends BaseScene {
             if(protein.position.x - protein.width <= this.stageManager.leftEdge || protein.position.x + protein.width >= this.stageManager.rightEdge){
                 protein.velocity.x = -protein.velocity.x;
             }
-            if(protein.y - protein.height <= -this.stageManager.height/2 || protein.y + protein.height >= this.stageManager.height/2){
+            if(protein.y - protein.height/2 <= 0 || protein.y + protein.height/2 >= this.stageManager.height){
                 protein.velocity.y = -protein.velocity.y;
             }
         })
@@ -119,7 +114,7 @@ export default class InternalScene extends BaseScene {
                 count++;
             }
 
-        })
+        });
         if(count===5) {
             console.log("animation done");
             this.changeScene("external");

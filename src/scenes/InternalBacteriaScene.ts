@@ -13,6 +13,7 @@ export default class InternalBacteria extends BaseScene {
     //private microGuy: MovieClip;
     private bacteriaArray: Bacteria[]=[];
     private macrophageArray: Macrophage[]=[];
+    private ended:boolean=false;
 
 
     
@@ -232,6 +233,20 @@ export default class InternalBacteria extends BaseScene {
             } 
         })
 
+        if (this.ended) {
+
+            this.macrophageArray.forEach(macrophage => {
+                macrophage.velocity.x*=0.95;
+                macrophage.velocity.y*=0.95;
+            })
+    
+            this.bacteriaArray.forEach(bacteria => {
+                bacteria.velocity.x*=0.99;
+                bacteria.velocity.y*=0.99;
+            })
+            
+        }
+
 
 
     }
@@ -246,7 +261,9 @@ export default class InternalBacteria extends BaseScene {
         })
         if(count===3) {
             console.log("animation done");
-            this.changeScene("external");
+            this.ended = true;
+            setTimeout(()=>{this.changeScene("external");},5000);
+            //this.changeScene("external");
         }
     }
 
