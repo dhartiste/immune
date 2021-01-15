@@ -12,372 +12,146 @@
         this.addChild(instance1);
     });
 
-    lib.virus_alive_sm = MovieClip.extend(function () {
-        MovieClip.call(this, {
-            duration: 3
-        });
-        var instance35 = new Graphics()
-            .drawCommands(shapes.Internal[22]);
-        var instance34 = new Graphics()
-            .drawCommands(shapes.Internal[21]);
-        var instance33 = new Graphics()
-            .drawCommands(shapes.Internal[20]);
-        var instance32 = new Graphics()
-            .drawCommands(shapes.Internal[19]);
-        var instance31 = new Graphics()
-            .drawCommands(shapes.Internal[18]);
-        var instance30 = new Graphics()
-            .drawCommands(shapes.Internal[17]);
-        var instance29 = new Graphics()
-            .drawCommands(shapes.Internal[16]);
-        var instance28 = new Graphics()
-            .drawCommands(shapes.Internal[15]);
-        var instance27 = new Graphics()
-            .drawCommands(shapes.Internal[14]);
-        var instance26 = new Graphics()
-            .drawCommands(shapes.Internal[13]);
-        var instance25 = new Graphics()
-            .drawCommands(shapes.Internal[12]);
-        var instance24 = new Graphics()
-            .drawCommands(shapes.Internal[11]);
-        var instance23 = new Graphics()
-            .drawCommands(shapes.Internal[10]);
-        var instance22 = new Graphics()
-            .drawCommands(shapes.Internal[7]);
-        var instance21 = new Graphics()
-            .drawCommands(shapes.Internal[7]);
-        var instance20 = new Graphics()
-            .drawCommands(shapes.Internal[9]);
-        var instance19 = new Graphics()
-            .drawCommands(shapes.Internal[8]);
-        var instance18 = new Graphics()
-            .drawCommands(shapes.Internal[9]);
-        var instance17 = new Graphics()
-            .drawCommands(shapes.Internal[8]);
-        var instance16 = new Graphics()
-            .drawCommands(shapes.Internal[6]);
-        var instance15 = new Graphics()
-            .drawCommands(shapes.Internal[6]);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.Internal[5]);
-        var instance13 = new Graphics()
-            .drawCommands(shapes.Internal[5]);
-        var instance12 = new Graphics()
-            .drawCommands(shapes.Internal[7]);
-        var instance11 = new Graphics()
-            .drawCommands(shapes.Internal[7]);
-        var instance10 = new Graphics()
-            .drawCommands(shapes.Internal[6]);
-        var instance9 = new Graphics()
-            .drawCommands(shapes.Internal[6]);
-        var instance8 = new Graphics()
-            .drawCommands(shapes.Internal[5]);
-        var instance7 = new Graphics()
-            .drawCommands(shapes.Internal[5]);
-        var instance6 = new Graphics()
-            .drawCommands(shapes.Internal[4]);
-        var instance5 = new Graphics()
-            .drawCommands(shapes.Internal[3]);
-        var instance4 = new Graphics()
-            .drawCommands(shapes.Internal[4]);
-        var instance3 = new Graphics()
-            .drawCommands(shapes.Internal[3]);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.Internal[2]);
+    lib.hitmesquare = Container.extend(function () {
+        Container.call(this);
         var instance1 = new Graphics()
             .drawCommands(shapes.Internal[1]);
-        this.addTimedChild(instance35, 0, 2)
-            .addTimedChild(instance34, 0, 2, {
-                "0": {
-                    x: 80.15,
-                    y: 62.6,
-                    sx: 1.023,
-                    sy: 1.023
-                }
-            })
-            .addTimedChild(instance33, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance32, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.6,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance31, 0, 2, {
-                "0": {
-                    x: -152.35,
-                    y: -129.35,
-                    sx: 0.371,
-                    sy: 0.371,
-                    r: 0.109
-                }
-            })
-            .addTimedChild(instance30, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance29, 0, 2, {
-                "0": {
-                    x: 80.15,
-                    y: 62.6,
-                    sx: 1.023,
-                    sy: 1.023
-                }
-            })
-            .addTimedChild(instance28, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance27, 0, 2, {
-                "0": {
-                    x: -165.8,
-                    y: -114.5,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance26, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance25, 0, 2, {
-                "0": {
-                    x: -166.05,
-                    y: -114.4,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance24, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance23, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance22, 0, 2, {
-                "0": {
-                    x: -173.214,
-                    y: -157.902,
-                    sx: 0.371,
-                    sy: 0.384
-                }
-            })
-            .addTimedChild(instance21, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -157.902,
-                    sx: 0.371,
-                    sy: 0.384
-                }
-            })
-            .addTimedChild(instance20, 0, 2, {
-                "0": {
-                    x: -176.775,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance19, 0, 2, {
-                "0": {
-                    x: -175.94,
-                    y: -114.45,
-                    sx: 0.369,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance18, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance17, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance16, 0, 2, {
-                "0": {
-                    x: -194.319,
-                    y: -126.393,
-                    sx: 0.352,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance15, 0, 2, {
-                "0": {
-                    x: -190.666,
-                    y: -132.625,
-                    sx: 0.352,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance14, 0, 2, {
-                "0": {
-                    x: -188.848,
-                    y: -93.234,
-                    sx: 0.349,
-                    sy: 0.367
-                }
-            })
-            .addTimedChild(instance13, 0, 2, {
-                "0": {
-                    x: -191.927,
-                    y: -99.335,
-                    sx: 0.347,
-                    sy: 0.367
-                }
-            })
-            .addTimedChild(instance12, 0, 2, {
-                "0": {
-                    x: -173.214,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance11, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance10, 0, 2, {
-                "0": {
-                    x: -170.358,
-                    y: -108.126,
-                    sx: 0.373,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance9, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance8, 0, 2, {
-                "0": {
-                    x: -169.728,
-                    y: -120.626,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance7, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance6, 0, 2, {
-                "0": {
-                    x: -176.868,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance5, 0, 2, {
-                "0": {
-                    x: -176.868,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance4, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance3, 0, 2, {
-                "0": {
-                    x: -166,
-                    y: -114.45,
-                    sx: 0.371,
-                    sy: 0.371
-                }
-            })
-            .addTimedChild(instance2, 0, 2)
-            .addTimedChild(instance1, 0, 2, {
-                "0": {
-                    x: -0.2,
-                    y: -0.1
-                }
-            });
+        this.addChild(instance1);
+    });
+
+    lib.virus_alive_sm = Container.extend(function () {
+        Container.call(this);
+        var instance35 = new Graphics()
+            .drawCommands(shapes.Internal[23]);
+        var instance34 = new Graphics()
+            .drawCommands(shapes.Internal[22])
+            .setTransform(80.15, 62.6, 1.023, 1.023);
+        var instance33 = new Graphics()
+            .drawCommands(shapes.Internal[21])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance32 = new Graphics()
+            .drawCommands(shapes.Internal[20])
+            .setTransform(-166, -114.6, 0.371, 0.371);
+        var instance31 = new Graphics()
+            .drawCommands(shapes.Internal[19])
+            .setTransform(-152.35, -129.35, 0.371, 0.371, 0.109);
+        var instance30 = new Graphics()
+            .drawCommands(shapes.Internal[18])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance29 = new Graphics()
+            .drawCommands(shapes.Internal[17])
+            .setTransform(80.15, 62.6, 1.023, 1.023);
+        var instance28 = new Graphics()
+            .drawCommands(shapes.Internal[16])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance27 = new Graphics()
+            .drawCommands(shapes.Internal[15])
+            .setTransform(-165.8, -114.5, 0.371, 0.371);
+        var instance26 = new Graphics()
+            .drawCommands(shapes.Internal[14])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance25 = new Graphics()
+            .drawCommands(shapes.Internal[13])
+            .setTransform(-166.05, -114.4, 0.371, 0.371);
+        var instance24 = new Graphics()
+            .drawCommands(shapes.Internal[12])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance23 = new Graphics()
+            .drawCommands(shapes.Internal[11])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance22 = new Graphics()
+            .drawCommands(shapes.Internal[8])
+            .setTransform(-173.214, -157.902, 0.371, 0.384);
+        var instance21 = new Graphics()
+            .drawCommands(shapes.Internal[8])
+            .setTransform(-166, -157.902, 0.371, 0.384);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.Internal[10])
+            .setTransform(-176.775, -114.45, 0.371, 0.371);
+        var instance19 = new Graphics()
+            .drawCommands(shapes.Internal[9])
+            .setTransform(-175.94, -114.45, 0.369, 0.371);
+        var instance18 = new Graphics()
+            .drawCommands(shapes.Internal[10])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance17 = new Graphics()
+            .drawCommands(shapes.Internal[9])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance16 = new Graphics()
+            .drawCommands(shapes.Internal[7])
+            .setTransform(-194.319, -126.393, 0.352, 0.371);
+        var instance15 = new Graphics()
+            .drawCommands(shapes.Internal[7])
+            .setTransform(-190.666, -132.625, 0.352, 0.371);
+        var instance14 = new Graphics()
+            .drawCommands(shapes.Internal[6])
+            .setTransform(-188.848, -93.234, 0.349, 0.367);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.Internal[6])
+            .setTransform(-191.927, -99.335, 0.347, 0.367);
+        var instance12 = new Graphics()
+            .drawCommands(shapes.Internal[8])
+            .setTransform(-173.214, -114.45, 0.371, 0.371);
+        var instance11 = new Graphics()
+            .drawCommands(shapes.Internal[8])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance10 = new Graphics()
+            .drawCommands(shapes.Internal[7])
+            .setTransform(-170.358, -108.126, 0.373, 0.371);
+        var instance9 = new Graphics()
+            .drawCommands(shapes.Internal[7])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance8 = new Graphics()
+            .drawCommands(shapes.Internal[6])
+            .setTransform(-169.728, -120.626, 0.371, 0.371);
+        var instance7 = new Graphics()
+            .drawCommands(shapes.Internal[6])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance6 = new Graphics()
+            .drawCommands(shapes.Internal[5])
+            .setTransform(-176.868, -114.45, 0.371, 0.371);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.Internal[4])
+            .setTransform(-176.868, -114.45, 0.371, 0.371);
+        var instance4 = new Graphics()
+            .drawCommands(shapes.Internal[5])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance3 = new Graphics()
+            .drawCommands(shapes.Internal[4])
+            .setTransform(-166, -114.45, 0.371, 0.371);
+        var instance2 = new Graphics()
+            .drawCommands(shapes.Internal[3]);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.Internal[2])
+            .setTransform(-0.2, -0.1);
+        this.addChild(instance35, instance34, instance33, instance32, instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.eyes = Container.extend(function () {
         Container.call(this);
         var instance8 = new Graphics()
-            .drawCommands(shapes.Internal[9])
+            .drawCommands(shapes.Internal[10])
             .setTransform(-170.323, -105.55, 0.376, 0.376);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Internal[8])
+            .drawCommands(shapes.Internal[9])
             .setTransform(-169.477, -105.55, 0.374, 0.376);
         var instance6 = new Graphics()
-            .drawCommands(shapes.Internal[9])
+            .drawCommands(shapes.Internal[10])
             .setTransform(-159.4, -105.55, 0.376, 0.376);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Internal[8])
+            .drawCommands(shapes.Internal[9])
             .setTransform(-159.4, -105.55, 0.376, 0.376);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Internal[4])
+            .drawCommands(shapes.Internal[5])
             .setTransform(-170.417, -105.55, 0.376, 0.376);
         var instance3 = new Graphics()
-            .drawCommands(shapes.Internal[3])
+            .drawCommands(shapes.Internal[4])
             .setTransform(-170.417, -105.55, 0.376, 0.376);
         var instance2 = new Graphics()
-            .drawCommands(shapes.Internal[4])
+            .drawCommands(shapes.Internal[5])
             .setTransform(-159.4, -105.55, 0.376, 0.376);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[3])
+            .drawCommands(shapes.Internal[4])
             .setTransform(-159.4, -105.55, 0.376, 0.376);
         this.addChild(instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -385,7 +159,7 @@
     lib.body = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[22])
+            .drawCommands(shapes.Internal[23])
             .setTransform(19.2, 17.35, 0.964, 0.967);
         this.addChild(instance1);
     });
@@ -393,40 +167,40 @@
     lib.petals = Container.extend(function () {
         Container.call(this);
         var instance12 = new Graphics()
-            .drawCommands(shapes.Internal[20])
+            .drawCommands(shapes.Internal[21])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance11 = new Graphics()
-            .drawCommands(shapes.Internal[19])
+            .drawCommands(shapes.Internal[20])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Internal[18])
+            .drawCommands(shapes.Internal[19])
             .setTransform(-112.25, -113.65, 0.376, 0.376, 0.192);
         var instance9 = new Graphics()
-            .drawCommands(shapes.Internal[17])
+            .drawCommands(shapes.Internal[18])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance8 = new Graphics()
-            .drawCommands(shapes.Internal[16])
+            .drawCommands(shapes.Internal[17])
             .setTransform(111.728, 91.13, 1.036, 1.037);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Internal[15])
+            .drawCommands(shapes.Internal[16])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance6 = new Graphics()
-            .drawCommands(shapes.Internal[14])
+            .drawCommands(shapes.Internal[15])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Internal[13])
+            .drawCommands(shapes.Internal[14])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Internal[12])
+            .drawCommands(shapes.Internal[13])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance3 = new Graphics()
-            .drawCommands(shapes.Internal[11])
+            .drawCommands(shapes.Internal[12])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance2 = new Graphics()
-            .drawCommands(shapes.Internal[10])
+            .drawCommands(shapes.Internal[11])
             .setTransform(-137.65, -88.45, 0.376, 0.376);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[12])
+            .drawCommands(shapes.Internal[13])
             .setTransform(199.75, -87.65, 0.376, 0.376, 0, 0, 3.142);
         this.addChild(instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -434,59 +208,52 @@
     lib.white_squre = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[24]);
+            .drawCommands(shapes.Internal[25]);
         this.addChild(instance1);
     });
 
     lib.fuzzies = Container.extend(function () {
         Container.call(this);
         var instance12 = new Graphics()
-            .drawCommands(shapes.Internal[7])
+            .drawCommands(shapes.Internal[8])
             .setTransform(-154.414, -137.781, 0.376, 0.39);
         var instance11 = new Graphics()
-            .drawCommands(shapes.Internal[7])
+            .drawCommands(shapes.Internal[8])
             .setTransform(-147.1, -137.781, 0.376, 0.39);
         var instance10 = new Graphics()
-            .drawCommands(shapes.Internal[6])
+            .drawCommands(shapes.Internal[7])
             .setTransform(-175.809, -105.816, 0.357, 0.376);
         var instance9 = new Graphics()
-            .drawCommands(shapes.Internal[6])
+            .drawCommands(shapes.Internal[7])
             .setTransform(-172.105, -112.138, 0.357, 0.376);
         var instance8 = new Graphics()
-            .drawCommands(shapes.Internal[5])
+            .drawCommands(shapes.Internal[6])
             .setTransform(-170.263, -72.177, 0.354, 0.372);
         var instance7 = new Graphics()
-            .drawCommands(shapes.Internal[5])
+            .drawCommands(shapes.Internal[6])
             .setTransform(-173.384, -78.367, 0.352, 0.372);
         var instance6 = new Graphics()
-            .drawCommands(shapes.Internal[7])
+            .drawCommands(shapes.Internal[8])
             .setTransform(-154.414, -93.7, 0.376, 0.376);
         var instance5 = new Graphics()
-            .drawCommands(shapes.Internal[7])
+            .drawCommands(shapes.Internal[8])
             .setTransform(-147.1, -93.7, 0.376, 0.376);
         var instance4 = new Graphics()
-            .drawCommands(shapes.Internal[6])
+            .drawCommands(shapes.Internal[7])
             .setTransform(-151.518, -87.284, 0.378, 0.376);
         var instance3 = new Graphics()
-            .drawCommands(shapes.Internal[6])
+            .drawCommands(shapes.Internal[7])
             .setTransform(-147.1, -93.7, 0.376, 0.376);
         var instance2 = new Graphics()
-            .drawCommands(shapes.Internal[5])
+            .drawCommands(shapes.Internal[6])
             .setTransform(-150.879, -99.965, 0.376, 0.376);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[5])
+            .drawCommands(shapes.Internal[6])
             .setTransform(-147.1, -93.7, 0.376, 0.376);
         this.addChild(instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.inner_circle = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[31]);
-        this.addChild(instance1);
-    });
-
-    lib.hitmesquare = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
             .drawCommands(shapes.Internal[32]);
@@ -921,17 +688,17 @@
         var instance1 = new lib.hitmesquare();
         this[instance1.name = "hittestie3"] = instance1;
         var instance98 = new Graphics()
-            .drawCommands(shapes.Internal[25]);
-        var instance102 = new Graphics()
             .drawCommands(shapes.Internal[26]);
-        var instance106 = new Graphics()
+        var instance102 = new Graphics()
             .drawCommands(shapes.Internal[27]);
-        var instance108 = new Graphics()
+        var instance106 = new Graphics()
             .drawCommands(shapes.Internal[28]);
-        var instance110 = new Graphics()
+        var instance108 = new Graphics()
             .drawCommands(shapes.Internal[29]);
-        var instance112 = new Graphics()
+        var instance110 = new Graphics()
             .drawCommands(shapes.Internal[30]);
+        var instance112 = new Graphics()
+            .drawCommands(shapes.Internal[31]);
         var instance114 = new lib.inner_circle();
         var instance13 = new lib.virus_alive_sm();
         var instance97 = new lib.white_squre();
@@ -939,23 +706,23 @@
         var instance129 = new lib.petals();
         var instance128 = new lib.body();
         var instance127 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance133 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance134 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance132 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance136 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance137 = new lib.virus_alive_sm();
         var instance195 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance196 = new Graphics()
-            .drawCommands(shapes.Internal[23])
+            .drawCommands(shapes.Internal[24])
             .setTransform(204.55, 33.45, 0.758, 0.768);
         var instance135 = new Graphics()
-            .drawCommands(shapes.Internal[23]);
+            .drawCommands(shapes.Internal[24]);
         var instance126 = new lib.eyes();
         this.addTimedChild(instance6, 0, 2)
             .addTimedChild(instance10, 2, 7)
@@ -3311,36 +3078,63 @@
             duration: 1,
             framerate: 30
         });
-        var instance10 = new Graphics()
+        var instance19 = new Graphics()
             .drawCommands(shapes.Internal[211]);
-        var instance9 = new lib.macro_virus_multiply()
+        var instance18 = new lib.macro_virus_multiply()
             .setTransform(565.95, 169.3);
-        this[instance9.name = "immune1"] = instance9;
-        var instance8 = new lib.macro_virus_multiply()
+        this[instance18.name = "immune1"] = instance18;
+        var instance17 = new lib.macro_virus_multiply()
             .setTransform(469.95, 336.8);
-        this[instance8.name = "immune2"] = instance8;
-        var instance7 = new lib.macro_virus_multiply()
+        this[instance17.name = "immune2"] = instance17;
+        var instance16 = new lib.macro_virus_multiply()
             .setTransform(552.65, 517.35);
-        this[instance7.name = "immune3"] = instance7;
-        var instance6 = new lib.virus_alive_sm()
-            .setTransform(959.65, 200.5);
-        this[instance6.name = "live_virus1"] = instance6;
+        this[instance16.name = "immune3"] = instance16;
+        var instance15 = new lib.virus_alive_sm()
+            .setTransform(-0.1);
+        var instance14 = new lib.hitmesquare()
+            .setTransform(0.25, -0.3, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance14.name = "hittestie"] = instance14;
+        var instance13 = new lib.virus_alive_sm()
+            .setTransform(-0.1);
+        var instance12 = new lib.hitmesquare()
+            .setTransform(0.25, -0.3, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance12.name = "hittestie"] = instance12;
+        var instance11 = new lib.virus_alive_sm()
+            .setTransform(889.6, 218.4);
+        var instance10 = new lib.hitmesquare()
+            .setTransform(889.95, 218.1, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance10.name = "live1"] = instance10;
+        var instance9 = new lib.virus_alive_sm()
+            .setTransform(979.6, 272);
+        var instance8 = new lib.hitmesquare()
+            .setTransform(979.95, 271.7, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance8.name = "live2"] = instance8;
+        var instance7 = new lib.virus_alive_sm()
+            .setTransform(869.6, 300.4);
+        var instance6 = new lib.hitmesquare()
+            .setTransform(869.95, 300.1, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance6.name = "live3"] = instance6;
         var instance5 = new lib.virus_alive_sm()
-            .setTransform(1039.65, 260.5);
-        this[instance5.name = "live_virus2"] = instance5;
-        var instance4 = new lib.virus_alive_sm()
-            .setTransform(909.65, 300.5);
-        this[instance4.name = "live_virus3"] = instance4;
+            .setTransform(950.9, 360.4);
+        var instance4 = new lib.hitmesquare()
+            .setTransform(951.25, 360.1, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance4.name = "live4"] = instance4;
         var instance3 = new lib.virus_alive_sm()
-            .setTransform(1009.65, 354.1);
-        this[instance3.name = "live_virus4"] = instance3;
-        var instance2 = new lib.virus_alive_sm()
-            .setTransform(919.65, 400.5);
-        this[instance2.name = "live_virus4"] = instance2;
+            .setTransform(857.9, 407.7);
+        var instance2 = new lib.hitmesquare()
+            .setTransform(858.25, 407.4, 1.288, 1.309)
+            .setAlpha(0);
+        this[instance2.name = "hittestie"] = instance2;
         var instance1 = new lib.Back()
             .setTransform(340, 50);
         this[instance1.name = "back"] = instance1;
-        this.addChild(instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.Internal.assets = {

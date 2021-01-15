@@ -41,10 +41,6 @@ export default class InternalScene extends BaseScene {
             protein.velocity = new PIXI.Point(Math.random(), Math.random());
         })
 
-    
-
-        //this.art.bacteria.gotoAndStop(0);
-        //this.art.protein.gotoAndStop(0);
         Utils.simpleButton(this.art.back);
 
     }

@@ -29,7 +29,7 @@ export default class InternalLiveVirusScene extends BaseScene {
         this.art = this.cache.animations.internalLiveVirusArt as InternalLiveVirusArt;
         this.addChild(this.art);
        
-        this.liveVirusArray = [this.art.live_virus1, this.art.live_virus2, this.art.live_virus3, this.art.live_virus4, this.art.live_virus5];
+        this.liveVirusArray = [this.art.live1, this.art.live2, this.art.live3, this.art.live4, this.art.live5];
         this.immuneCellArray = [this.art.immune1, this.art.immune2, this.art.immune3];
 
 
@@ -39,7 +39,7 @@ export default class InternalLiveVirusScene extends BaseScene {
         })
 
         this.liveVirusArray.forEach(virus => {
-            virus.gotoAndStop(2);
+            virus.gotoAndStop(0);
             virus.velocity = new PIXI.Point(Math.random(), Math.random());
         })
 
@@ -131,11 +131,11 @@ interface InternalLiveVirusArt extends MovieClip {
     immune2: ImmuneCell;
     immune3: ImmuneCell;
 
-    live_virus1: LiveVirusSprite;
-    live_virus2: LiveVirusSprite;
-    live_virus3: LiveVirusSprite;
-    live_virus4: LiveVirusSprite;
-    live_virus5: LiveVirusSprite;
+    live1: LiveVirusSprite;
+    live2: LiveVirusSprite;
+    live3: LiveVirusSprite;
+    live4: LiveVirusSprite;
+    live5: LiveVirusSprite;
 
     back: MovieClip;
 }
