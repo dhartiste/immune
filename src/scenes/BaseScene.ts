@@ -173,7 +173,7 @@ export default class BaseScene extends Scene {
             this.changeScene('external');
          }
          if (currentAct===9) {
-            this.changeScene('game')
+            this.changeScene('game');
          }
 
       }
@@ -198,7 +198,6 @@ export default class BaseScene extends Scene {
       return this.dataStore.gameData;
    }
    
-
    // **************************
    // END GETTERS AND SETTERS
    // **************************
@@ -206,7 +205,7 @@ export default class BaseScene extends Scene {
 }
 
 export type MicroOrganism = 'none' | 'bacteria' | 'protein'| 'virus_alive' | 'virus_dead' | 'virus_attenuated';
-export type patientChange = 'healthyToSick' | 'sickToBed' | 'bedToHealthy';
+export type patientLabel = 'healthyToSick' | 'sickToBed' | 'bedToHealthy';
 export type Choice = 'left' | 'right';
 
 export interface GameData {
@@ -214,7 +213,7 @@ export interface GameData {
    currentChoiceIndex : number;
    currentAct : number;
    completedOrgs: boolean[];
-   externalLabels:patientChange;
+   label:patientLabel;
    buttonChoice : Choice;
    virusHalfVaccinated : boolean;
 }

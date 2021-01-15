@@ -26,7 +26,7 @@ export default class InternalScene extends BaseScene {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
                 this.microGuy = this.art.bacteria;
                 this.art.bacteria.visible = true;
-                break
+                break;
             case MICROORGANISM_INDEX.BACTERIA:
                 // do the bateria
                 console.log("...The BACTERIA. which was found in the number check");
@@ -41,7 +41,7 @@ export default class InternalScene extends BaseScene {
             case MICROORGANISM_INDEX.DEAD_VIRUS:
                 this.microGuy = this.art.bacteria;
                 this.art.bacteria.visible = true;
-                break
+                break;
             case MICROORGANISM_INDEX.LIVE_VIRUS:
                 this.microGuy = this.art.bacteria;
                 this.art.bacteria.visible = true;

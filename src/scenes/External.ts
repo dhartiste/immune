@@ -3,10 +3,12 @@ import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as ExternalArt from '../assets/External';
 import Utils from '../helpers/Utils';
 import BaseScene from './BaseScene';
+import { MICROORGANISM_INDEX } from '../helpers/Const';
 
 export default class GameScene extends BaseScene {
     
     private art: ExternalArt;
+    private label:string = 'default';
     
     preload():AssetList{
         return [
@@ -35,13 +37,40 @@ export default class GameScene extends BaseScene {
             console.log(this.gameData.buttonChoice);
             this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
         });
+
+        switch(this.gameData.currentChoiceIndex) {
+            case MICROORGANISM_INDEX.BACTERIA:
+                if(this.gameData.currentAct === 3){
+                    this.label = 'healthyToSick';
+                }
+                else if(this.gameData.currentAct === 6){
+                    this.label = 'sickToHealthy';
+                }
+                break;
+            case MICROORGANISM_INDEX.BACTERIA_PROTEIN:
+                this.label = 'default';
+                break;
+            case MICROORGANISM_INDEX.LIVE_VIRUS:
+                if(this.gameData.currentAct === 3){
+                    this.label = 'healthyToBed';
+                }
+                else if(this.gameData.currentAct === 4){
+                    this.label = 'bedToHealthy';
+                }
+                break;
+            case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
+                this.label = 'default';
+                break;
+            case MICROORGANISM_INDEX.DEAD_VIRUS:
+                this.label = 'default';
+                break;
+        }
     }
 
     start(){
         Utils.simpleButton(this.art.btnMoveOn);
         Utils.simpleButton(this.art.btnBack);
-        //PIXI.animate.Animator.play(this.art, 'healthyToSick');
-        PIXI.animate.Animator.play(this.art, 'default');
+        PIXI.animate.Animator.play(this.art, this.label);
     }
 
     update(){
