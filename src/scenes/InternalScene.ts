@@ -24,7 +24,9 @@ export default class InternalScene extends BaseScene {
 
         switch(this.gameData.currentChoiceIndex) {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
-                break;
+                this.microGuy = this.art.bacteria;
+                this.art.bacteria.visible = true;
+                break
             case MICROORGANISM_INDEX.BACTERIA:
                 // do the bateria
                 console.log("...The BACTERIA. which was found in the number check");
@@ -37,8 +39,12 @@ export default class InternalScene extends BaseScene {
                 this.art.protein.visible = true;
                 break;
             case MICROORGANISM_INDEX.DEAD_VIRUS:
-                break;
+                this.microGuy = this.art.bacteria;
+                this.art.bacteria.visible = true;
+                break
             case MICROORGANISM_INDEX.LIVE_VIRUS:
+                this.microGuy = this.art.bacteria;
+                this.art.bacteria.visible = true;
                 break;            
         }
 
@@ -53,7 +59,7 @@ export default class InternalScene extends BaseScene {
         PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
 
         this.art.back.once("pointerdown", ()=>{
-            this.changeScene("game");
+            this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
         });
     }
 

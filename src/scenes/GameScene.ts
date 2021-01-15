@@ -29,6 +29,7 @@ export default class GameScene extends BaseScene {
        this.art.syringe.gotoAndStop(0);
        this.art.virus_attenuatedPopup.visible = false;
        this.art.pnlPopup2.visible = false;
+       this.gameData.currentAct = 1;
     }
 
     start(){
@@ -104,19 +105,13 @@ export default class GameScene extends BaseScene {
        if (this.gameData.currentChoice === "bacteria" || this.gameData.currentChoice === "virus_alive") {
             console.log(this.gameData.currentChoice);
              if (this.isHitGirl) {
-                 // go to the next scene
-                 console.log("go to the scene for... ", );
-
-                 //this.changeScene("internal");
-                 this.changeScene('external');
-                 //this.changeScene("antibiotic");
+                 this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
              }
         }
         if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
             console.log(this.gameData.currentChoice);
              if (this.isHitSyringe) {
-                 console.log("syringe: go to scene for...");
-                 this.changeScene("antibiotic");
+                this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
              }
         }
     }
