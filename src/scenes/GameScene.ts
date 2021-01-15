@@ -54,7 +54,7 @@ export default class GameScene extends BaseScene {
         });
         this.art.bacteria.on("pointerout", () => {
             this.art.virus_attenuatedPopup.visible = false;
-        })
+        });
        this.art.protein.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.protein.x;
@@ -62,7 +62,7 @@ export default class GameScene extends BaseScene {
         });
         this.art.protein.on("pointerout", () => {
             this.art.virus_attenuatedPopup.visible = false;
-        })
+        });
         this.art.virus_dead.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.virus_dead.x;
@@ -70,7 +70,7 @@ export default class GameScene extends BaseScene {
         });
         this.art.virus_dead.on("pointerout", () => {
             this.art.virus_attenuatedPopup.visible = false;
-        })
+        });
         this.art.virus_attenuated.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.virus_attenuated.x;
@@ -78,7 +78,7 @@ export default class GameScene extends BaseScene {
         });
         this.art.virus_attenuated.on("pointerout", () => {
             this.art.virus_attenuatedPopup.visible = false;
-        })
+        });
         this.art.virus_alive.on("pointerover",() => {
             this.art.virus_attenuatedPopup.visible = true;
             this.art.virus_attenuatedPopup.x = this.art.virus_alive.x;
@@ -86,7 +86,7 @@ export default class GameScene extends BaseScene {
         });
         this.art.virus_alive.on("pointerout", () => {
             this.art.virus_attenuatedPopup.visible = false;
-        })
+        });
     }
 
     onStartDrag =(object:MicroButtons)=>{

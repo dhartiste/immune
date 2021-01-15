@@ -21,7 +21,6 @@ export default class TemplateGame extends Game{
             liveVirus: LiveVirusScene,
             antibiotic: AntibioticScene,
             proteinInject: ProteinInjectScene,
-            internal: InternalScene,
             library:LibraryExample         
 
         });
