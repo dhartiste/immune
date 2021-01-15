@@ -134,21 +134,22 @@ export default class InternalBacteria extends BaseScene {
         this.bacteriaArray.forEach(bacteria => {
             if (i%2===0&&i<5) {
                 let bacteriaNew = new this.exampleLib.bacteria_divide() as Bacteria; 
-                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/4, bacteria.y);
+                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/5, bacteria.y);
                 bacteriaNew.width*=-1;
                 bacteriaNew.gotoAndStop("duplicate");
-                bacteriaNew.velocity = new PIXI.Point(bacteria.velocity.x-Math.random(), bacteria.velocity.y);
+                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, bacteria.velocity.y);
                 bacteria.velocity.x+=Math.random();
-                bacteria.x+=bacteria.width/4;
+                bacteria.x+=bacteria.width/5;
                 bacteria.gotoAndStop("duplicate");
                 bacteria.isDividing=false;
+                bacteria.velocity.x*=-1;
                 this.addChild(bacteriaNew);
                 this.bacteriaArray.push(bacteriaNew);
                 console.log("added a new one");
             }
             i++;
         });
-        //setTimeout(() => this.duplicateAFix(), 3000);
+        setTimeout(() => this.duplicateAFix(), 3000);
       
     }
 
@@ -158,12 +159,15 @@ export default class InternalBacteria extends BaseScene {
             
             if (i%2===0&&i<6) {
                 let bacteriaNew = new this.exampleLib.bacteria_divide() as Bacteria; 
-                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width, bacteria.y);
+                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/5, bacteria.y);
                 bacteriaNew.width*=-1;
-                bacteriaNew.gotoAndStop(0);
-                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, -bacteria.velocity.y);
-                bacteria.gotoAndStop(0);
+                bacteriaNew.gotoAndStop("duplicate");
+                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, bacteria.velocity.y);
+                bacteria.velocity.x+=Math.random();
+                bacteria.x+=bacteria.width/5;
+                bacteria.gotoAndStop("duplicate");
                 bacteria.isDividing=false;
+                bacteria.velocity.x*=-1;
                 this.addChild(bacteriaNew);
                 this.bacteriaArray.push(bacteriaNew);
                 console.log("added a new one");
