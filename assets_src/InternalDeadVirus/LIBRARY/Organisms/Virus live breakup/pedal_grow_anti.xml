@@ -1,0 +1,64 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/Virus live breakup/pedal_grow_anti" itemID="409bc6d3-00017f78" lastModified="1084203552" lastUniqueIdentifier="6">
+  <timeline>
+    <DOMTimeline name="pedal_grow_anti" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/petal_grow" selected="true">
+                  <matrix>
+                    <Matrix a="1.14439392089844" b="0.622772216796875" c="-0.622772216796875" d="1.14439392089844" tx="57" ty="10.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.95" y="-2.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/petal_grow" selected="true">
+                  <matrix>
+                    <Matrix a="0.210296630859375" b="1.28324890136719" c="-1.28324890136719" d="0.210296630859375" tx="73.6" ty="37.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-2.65" y="24.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/petal_grow" selected="true">
+                  <matrix>
+                    <Matrix a="0.914413452148438" b="-0.92132568359375" c="0.92132568359375" d="0.914413452148438" tx="24.1" ty="11.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.65" y="-1.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/petal_grow" selected="true">
+                  <matrix>
+                    <Matrix a="0.009613037109375" b="-1.29583740234375" c="1.29583740234375" d="0.009613037109375" tx="10.05" ty="39.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.35" y="-2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/petal_grow" selected="true">
+                  <matrix>
+                    <Matrix a="-1.17555236816406" b="-0.542144775390625" c="0.542144775390625" d="-1.17555236816406" tx="24.9" ty="67.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-2.65" y="24.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/petal_grow" selected="true">
+                  <matrix>
+                    <Matrix a="-0.950469970703125" b="0.876693725585938" c="-0.876693725585938" d="-0.950469970703125" tx="58.55" ty="66.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-2.65" y="24.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

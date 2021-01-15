@@ -1,0 +1,149 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1624" height="750" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="7302C3EB33584BA48F23DADE2B6877F2">
+     <folders>
+          <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
+          <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
+          <DOMFolderItem name="Organisms" itemID="6000f6be-000001f1"/>
+          <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
+          <DOMFolderItem name="Organisms/Virus dead breakup" itemID="409a730b-00001cb7"/>
+          <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
+     </folders>
+     <symbols>
+          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1091228160"/>
+          <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
+          <Include href="Organisms/antibody.xml" itemID="4023ccce-00004f72" lastModified="1090502935"/>
+          <Include href="Organisms/details/hittest.xml" loadImmediate="false" itemID="4076a0b0-00001785" lastModified="1083942952"/>
+          <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
+          <Include href="Organisms/details/virus_dead_sm.xml" loadImmediate="false" itemID="409b80aa-00001039" lastModified="1083937341"/>
+          <Include href="Organisms/macro_virus_d.xml" itemID="40ab834a-0000a1da" lastModified="1091228160"/>
+          <Include href="Organisms/virus_dead_antibodies.xml" itemID="4098fd6e-0000a7df" lastModified="1610684684"/>
+          <Include href="Organisms/Virus dead breakup/body_dead.xml" loadImmediate="false" itemID="409903ca-0000ddd0" lastModified="1083766202"/>
+          <Include href="Organisms/Virus dead breakup/eye_orange.xml" loadImmediate="false" itemID="409baaf2-00010376" lastModified="1083940351"/>
+          <Include href="Organisms/Virus dead breakup/eyes_dead.xml" loadImmediate="false" itemID="40990380-0000dd6e" lastModified="1083766267"/>
+          <Include href="Organisms/Virus dead breakup/petals_dead.xml" loadImmediate="false" itemID="409903be-0000ddb2" lastModified="1083942042"/>
+          <Include href="Organisms/Virus live breakup/body.xml" loadImmediate="false" itemID="40968346-00015805" lastModified="1090502423"/>
+          <Include href="Organisms/Virus live breakup/fuzzies.xml" loadImmediate="false" itemID="409682ad-000154bd" lastModified="1083602078"/>
+          <Include href="Organisms/Virus live breakup/inner_circle.xml" loadImmediate="false" itemID="4091199b-0000642a" lastModified="1090498386"/>
+          <Include href="Organisms/Virus live breakup/LeftEye_virus.xml" loadImmediate="false" itemID="409107f2-000020ee" lastModified="1090417813"/>
+          <Include href="Organisms/Virus live breakup/pedal_grow_anti.xml" loadImmediate="false" itemID="409bc6d3-00017f78" lastModified="1084203552"/>
+          <Include href="Organisms/Virus live breakup/petal_grow.xml" loadImmediate="false" itemID="409bb2b8-000137dc" lastModified="1084203552"/>
+          <Include href="Organisms/Virus live breakup/RightEye_virus.xml" loadImmediate="false" itemID="409107e3-000020c6" lastModified="1090417746"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" layerDepthEnabled="true">
+               <layers>
+                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Organisms/antibody" name="anitbody1">
+                                             <matrix>
+                                                  <Matrix tx="757.05" ty="298.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.15" y="5.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus3">
+                                             <matrix>
+                                                  <Matrix tx="1062.75" ty="291"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="4" y="7.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_d" name="immune3">
+                                             <matrix>
+                                                  <Matrix tx="421.4" ty="432.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-3.75" y="6.85"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_d" name="immune2">
+                                             <matrix>
+                                                  <Matrix tx="582.35" ty="307.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-3.75" y="6.85"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_d" name="immune1">
+                                             <matrix>
+                                                  <Matrix tx="381.4" ty="176.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-3.75" y="6.85"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus5">
+                                             <matrix>
+                                                  <Matrix tx="1062.75" ty="475.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="4" y="7.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus4">
+                                             <matrix>
+                                                  <Matrix tx="1062.75" ty="379.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="4" y="7.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus1">
+                                             <matrix>
+                                                  <Matrix tx="1062.75" ty="131.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="4" y="7.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus2">
+                                             <matrix>
+                                                  <Matrix tx="1062.75" ty="202.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="4" y="7.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#9933CC" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!0 0S6|32480 0!32480 0|32480 15000!32480 15000|0 15000!0 15000|0 0"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>
