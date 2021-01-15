@@ -8,19 +8,23 @@ import BaseScene from './BaseScene';
 export default class InternalLiveVirusScene extends BaseScene {
 
     private art: InternalLiveVirusArt;
+    private virusLibrary:any;
     private liveVirusArray: LiveVirusSprite[]=[];
-    private immuneCellArray: ImmuneCell[]=[];
     private duplicatesArray: LiveVirusSprite[]=[];
-    private duplicate: MovieClip;
+    private immuneCellArray: ImmuneCell[]=[];
+ 
     
     preload():AssetList{
         return [
             {type:'animate', id:'internalLiveVirusArt', stage:InternalLiveVirusArt.stage, cacheInstance:true},
+            
         ];
     }
 
     setup(){
         
+        this.virusLibrary = InternalLiveVirusArt.library;
+
         const background = new PIXI.Graphics();
         background.beginFill(0xFFFFCE);
         background.drawRect(0, 0, 1624, 750);
@@ -38,7 +42,7 @@ export default class InternalLiveVirusScene extends BaseScene {
 
         this.immuneCellArray.forEach(cell => {
             cell.gotoAndStop(0);
-            cell.velocity = new PIXI.Point(Math.random(), Math.random());
+            cell.velocity = new PIXI.Point(Math.random() * .5, Math.random() * .5);
         })
 
         this.liveVirusArray.forEach(virus => {
@@ -71,13 +75,7 @@ export default class InternalLiveVirusScene extends BaseScene {
                     virus.y > cell.y - cell.height/2 &&
                     virus.y < cell.y + cell.height/2;
                     if(cell.isHit) {
-                        PIXI.animate.Animator.play(cell, "duplicate");
-                        virus.visible = false;
-
-                        if(cell.currentFrame == 185){
-                           
-                        }
-
+                        cell.isDuplicating = true;        
                     }
  
                 }
@@ -85,12 +83,24 @@ export default class InternalLiveVirusScene extends BaseScene {
             });
         });
 
+
+        this.immuneCellArray.forEach(cell => {
+
+        });
+
+        this.duplicatesArray.forEach(dup => {
+            dup.position = new PIXI.Point(700+500*Math.random(), 100+500*Math.random());
+            dup.gotoAndStop(0);
+            dup.velocity = new PIXI.Point(Math.random()-1, Math.random());
+            this.addChild(dup);
+        });
+
       
         //movement of sprites 
         this.immuneCellArray.forEach(cell => {
             
             cell.x += cell.velocity.x;
-            cell.y += cell.velocity.y * 2;
+            cell.y += cell.velocity.y;
            
             if(cell.position.x - cell.width <= this.stageManager.leftEdge || cell.position.x + cell.width >= this.stageManager.rightEdge){
                 cell.velocity.x = -cell.velocity.x;
@@ -146,6 +156,7 @@ interface LiveVirusSprite extends MovieClip {
 interface ImmuneCell extends MovieClip { //3 start
     isHit:boolean;
     velocity:PIXI.Point;
+    isDuplicating: boolean;
     
 }
 
