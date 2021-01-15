@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/details/mouth_virus_normal" itemID="40910925-00002866" sourceFlashFilepath="../../../../Downloads/Internal.fla" sourceLibraryItemHRef="Organisms/details/mouth_virus_normal" sourceLastModified="1090342496" lastModified="1090342496" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="mouth_virus_normal" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#ABABAB"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!1061.5 46S2[#47B.1D #50.71 1166.5 143!1166.5 143[#4A5.1A #D6.F1 1115.5 310!1115.5 310[#3D9.7B #1E3.1C 435 570!435 570[#CF.17 #26D.3A 126 560!126 560[#33.72 513.75 25 460!25 460[#FFFFF8.95 #189.C2 67 360!67 360|66 360!66 360[#F7.9F #14E.DD
+ 413 243.5!413 243.5[#1FE.85 #BD.DC 715.5 60!715.5 60[#30E.51 #16.A2 883.5 19!883.5 19[#3D7.6F #F.02 1061.5 46"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!1152.5 166S1[#48B.1C #E8.6 1100 302.5!1100 302.5[#41D.0F #162.5F 980.5 395!980.5 395[#35F.0B #1CD.1F 645 511!645 511[#23D.B8 #20F.61 352.5 567.5!352.5 567.5[#EA.82 #24D.3D 159 558.5!159 558.5[#61.A1 #214.FE 57.5 477.5!57.5 477.5[#A.8A
+ #19B.95 74.5 377!74.5 377[#FD.D #15D.E9 413 264.5!413 264.5[#207.E4 #CF.9C 723 77!723 77[#332.A2 #15.F3 968 37.5!968 37.5[#46E.E8 #36.E4 1152.5 166!1130.5 320.5[#4D0.47 #BF.C1 1161 93!1161 93[#44E.3A #B.C3 931 0.5!931 0.5[#316.8F #FFFFF7.C5
+ 639.5 83!639.5 83[#203.33 #A1.AE 451.5 198.5!451.5 198.5[#155.F1 #107.7E 253 296!253 296[#B1.95 #143.C3 69.5 340!69.5 340[#42.B5 #153.F5 63.5 341!63.5 341[#3E.D1 #155.09 62 341!62 341[#34.F3 #156.C6 49.5 348.5!49.5 348.5[#FFFFED.D3 #185.5B
+ 7 456.5!7 456.5[#1C.53 #201.6F 101.5 566!101.5 566[#AC.A1 #269.5D 277.5 612.5!277.5 612.5[#128.47 #263.AE 462.5 584!462.5 584[#29F.1D #227.0E 833.5 497.5!833.5 497.5[#414.CA #1AD.4D 1130.5 320.5"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
