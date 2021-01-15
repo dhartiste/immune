@@ -13,7 +13,7 @@
   </PublishFormatProperties>
   <PublishJpegProperties enabled="true">
     <Width>1624</Width>
-    <Height>750</Height>
+    <Height>600</Height>
     <Progressive>0</Progressive>
     <DPI>4718592</DPI>
     <Size>0</Size>
@@ -22,7 +22,7 @@
   </PublishJpegProperties>
   <PublishOamProperties enabled="true">
     <Width>1624</Width>
-    <Height>750</Height>
+    <Height>600</Height>
     <CurrentFramePNG>1</CurrentFramePNG>
     <CustomPNG>0</CustomPNG>
     <PNGFilePath></PNGFilePath>

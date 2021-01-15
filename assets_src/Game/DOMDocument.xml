@@ -1,10 +1,10 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 20.0 build 22168" majorVersion="20" buildNumber="22168" guidesSnapTo="false" timelineLabelWidth="310" viewAngle3D="113.905639833042" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="ACC79270925F48F6B9A7B73C4B14D82F">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1624" height="600" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" guidesSnapTo="false" timelineLabelWidth="310" viewAngle3D="113.905639833042" vanishingPoint3DX="812" vanishingPoint3DY="300" nextSceneIdentifier="2" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="ACC79270925F48F6B9A7B73C4B14D82F">
      <folders>
-          <DOMFolderItem name="Act 1 - fixed" itemID="5ffc59a2-000003ef"/>
+          <DOMFolderItem name="Act 1 - fixed" itemID="5ffc59a2-000003ef" isExpanded="true"/>
           <DOMFolderItem name="Act 1 - fixed/Popup" itemID="409a715c-000019a5" isExpanded="true"/>
           <DOMFolderItem name="Hit controllers" itemID="409a71c8-00001a2b"/>
           <DOMFolderItem name="Organisms" itemID="5ff4e016-00000190"/>
-          <DOMFolderItem name="Popup" itemID="5ffdc37e-000001f1"/>
+          <DOMFolderItem name="Popup" itemID="5ffdc37e-000001f1" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="NatOutline.png" itemID="410ac5d7-0000365d" sourceExternalFilepath="dannyArt:Users:daniel:Documents:BioMom mac:Immune system mac:Illustrator:NatOutline.png" sourceLastImported="1091221408" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="NatOutline.png" bitmapDataHRef="M 1 1610373543.dat" frameRight="1900" frameBottom="6000"/>
@@ -17,7 +17,7 @@
           <Include href="Act 1 - fixed/bubbles back.xml" loadImmediate="false" itemID="4023d071-0000075f" lastModified="1090419741"/>
           <Include href="Act 1 - fixed/expose_txt.xml" loadImmediate="false" itemID="4023ce05-00005304" lastModified="1076084725"/>
           <Include href="Act 1 - fixed/inject_txt.xml" loadImmediate="false" itemID="4023cdfd-000052ea" lastModified="1076084717"/>
-          <Include href="Act 1 - fixed/Popup/large box.xml" loadImmediate="false" itemID="40437979-000089d6" lastModified="1090420028"/>
+          <Include href="Act 1 - fixed/Popup/large box.xml" loadImmediate="false" itemID="40437979-000089d6" lastModified="1610592415"/>
           <Include href="Act 1 - fixed/Popup/line.xml" loadImmediate="false" itemID="40437ad2-00009368" lastModified="1088442808"/>
           <Include href="Act 1 - fixed/Popup/popupbox.xml" loadImmediate="false" itemID="402d4c29-0000f13f" lastModified="1090420039"/>
           <Include href="Act 1 - fixed/shade.xml" loadImmediate="false" itemID="40fe90a7-000013ef" lastModified="1091223857"/>
@@ -41,8 +41,13 @@
           <Include href="Organisms/virus_attenuated.xml" loadImmediate="false" itemID="4023c695-00003fd1" lastModified="1091202469"/>
           <Include href="Organisms/virus_dead.xml" loadImmediate="false" itemID="4023c671-00003f5b" lastModified="1088441888"/>
           <Include href="Paper.xml" loadImmediate="false" itemID="5e6fda2c-00000014" lastModified="1584388652"/>
-          <Include href="Popup/panel.xml" loadImmediate="false" itemID="402d4cb8-0000f46d" lastModified="1090420041"/>
+          <Include href="Popup/aliveVirusDescription.xml" loadImmediate="false" itemID="5fffaa07-00000173" lastModified="1610593051"/>
+          <Include href="Popup/attenuatedVirusDescription.xml" loadImmediate="false" itemID="5fffab72-0000017f" lastModified="1610593189"/>
+          <Include href="Popup/bacteriaDescription.xml" loadImmediate="false" itemID="5fffa6b1-0000015b" lastModified="1610593424"/>
+          <Include href="Popup/deadVirusDescription.xml" loadImmediate="false" itemID="5fffabc5-0000018b" lastModified="1610593198"/>
+          <Include href="Popup/panel.xml" loadImmediate="false" itemID="402d4cb8-0000f46d" lastModified="1610591399"/>
           <Include href="Popup/pnlPopup2.xml" loadImmediate="false" itemID="40437b40-000096ea" lastModified="1090420029"/>
+          <Include href="Popup/proteinDescription.xml" loadImmediate="false" itemID="5fffa8bc-00000167" lastModified="1610593974"/>
           <Include href="Remote.xml" loadImmediate="false" itemID="5c242cb7-0000042a" lastModified="1545875115"/>
           <Include href="Screen.xml" loadImmediate="false" itemID="5c242f1c-00000441" lastModified="1545878894"/>
           <Include href="SomeGuy.xml" itemIcon="1" loadImmediate="false" itemID="5c243326-0000045a" lastModified="1545876578"/>
@@ -52,24 +57,48 @@
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="popups" color="#808080" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="popups" color="#808080" current="true" isSelected="true" autoNamed="false" highlighted="true">
                          <frames>
                               <DOMFrame index="0" name="bubbles" labelType="name" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Popup/panel" name="virus_attenuatedPopup" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Popup/attenuatedVirusDescription" name="attenuatedVirusDescrip">
                                              <matrix>
-                                                  <Matrix tx="628.2" ty="839.05"/>
+                                                  <Matrix tx="686" ty="821.2"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="79.45" y="12"/>
+                                                  <Point x="139.95" y="91.1"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Popup/pnlPopup2" name="pnlPopup2">
+                                        <DOMSymbolInstance libraryItemName="Popup/aliveVirusDescription" name="aliveVirusDescrip">
                                              <matrix>
-                                                  <Matrix tx="459.25" ty="839.05"/>
+                                                  <Matrix tx="482.9" ty="821.2"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="79.45" y="46.95"/>
+                                                  <Point x="139.95" y="91.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Popup/proteinDescription" name="proteinDescrip">
+                                             <matrix>
+                                                  <Matrix tx="275.65" ty="821.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="139.95" y="91.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Popup/bacteriaDescription" name="bacteriaDescrip">
+                                             <matrix>
+                                                  <Matrix tx="27.8" ty="802.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="139.95" y="91.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Popup/deadVirusDescription" name="deadVirusDescrip">
+                                             <matrix>
+                                                  <Matrix tx="919" ty="821.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="139.95" y="91.1"/>
                                              </transformationPoint>
                                              <color>
                                                   <Color alphaMultiplier="0.26953125" redMultiplier="-0.6796875" blueMultiplier="-0.53125" greenMultiplier="0.87109375" alphaOffset="-19" redOffset="255" blueOffset="-191" greenOffset="-153"/>
@@ -224,7 +253,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMShape>
+                                        <DOMShape isFloating="true">
                                              <strokes>
                                                   <StrokeStyle index="1">
                                                        <DashedStroke scaleMode="normal" weight="4">

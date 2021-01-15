@@ -1,0 +1,266 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/macro_virus_at" itemID="40ab833a-0000a1a1" linkageExportForAS="true" linkageIdentifier="macro_virus_at" linkageClassName="macro_virus_at" lastModified="1610745464" lastUniqueIdentifier="26">
+  <timeline>
+    <DOMTimeline name="macro_virus_at" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Actions" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[/* stop();
+var myLoop:Number = this._parent.nLoop; //store this for resetting later*/]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="virus_explode" color="#9933CC" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="antibodies" color="#808080" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="eyes" color="#FF4F4F" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mouth" color="#4FFFFF" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="body" color="#4F80FF" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="petals" color="#808080" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fuzzies" color="#4FFF4F" parentLayerIndex="1" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="virus" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="inner_circle" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="macro" color="#FFFF4F" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="hittests" color="#FFFF4F" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie4">
+                  <matrix>
+                    <Matrix a="2.35868835449219" d="1.46087646484375" tx="61.9" ty="17"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-25.3" y="13.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie1">
+                  <matrix>
+                    <Matrix a="1.73419189453125" d="0.7930908203125" tx="7.95" ty="-64.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.35" y="13.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie2">
+                  <matrix>
+                    <Matrix a="1.73333740234375" d="0.7930908203125" tx="78.95" ty="-62.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.45" y="13.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie5">
+                  <matrix>
+                    <Matrix a="0.932403564453125" d="1.426025390625" tx="-16.85" ty="-30.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.45" y="13.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie3">
+                  <matrix>
+                    <Matrix a="4.67645263671875" d="5.7352294921875" tx="3.9" ty="2.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-24.4" y="13.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mouth" color="#9933CC" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/details/mouth_virus_normal">
+                  <matrix>
+                    <Matrix tx="-25.2" ty="18.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="29.75" y="15.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Guide__R_eye" color="#4F80FF" parentLayerIndex="10" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="R_eye" color="#FF4F4F" parentLayerIndex="13" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="L_eye" color="#4FFF4F" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="head" color="#4FFF4F" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#D55200"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!533.5 -1256[628.25 #FFFABB.13 733 -1372.5!733 -1372.5[#3A1.5D #FFFA74.08 1067 -1295!1067 -1295[#4A9.CD #FFFB64.86 1255 -934!1255 -934[#521.9D #FFFD43.A3 1303.5 -393!1303.5 -393[#50D.AD -87.5625 1219.5 223.5!1219.5 223.5[#475.4D #223.CD
+ 1007.5 811.5!1007.5 811.5[#35F.1E #448.6A 675 1267!675 1267[#EB.29 #682.CD -326.5 1365!-326.5 1365[#FFFD81.C2 #4AA.85 -897.5 806!-897.5 806[#FFFB77.7B #19B.C1 -1190.5 57.5!-1190.5 57.5[#FFFB27.93 #FFFEDC.D1 -1233.5 -615.5!-1233.5 -615.5
+[#FFFB37.C6 #FFFBCF.2E -1092.5 -1244!-1092.5 -1244[#FFFCBC.EC #FFF9FC.6F -644.5 -1514!-644.5 -1514[#FFFE38.EF #FFFA2E.FF -285 -1141!-285 -1141[#FFFEF2.01 #FFFBA9.92 -242.5 -1030.5!-242.5 -1030.5[-217.5 #FFFC41.6E -197.5 -923.5!-197.5
+ -923.5[#FFFF7A.13 #FFFCD4.4A 14 -815.5!14 -815.5[#7D.4E #FFFCCD.FC 221 -895.5!221 -895.5[#11C.C1 #FFFC4E.0C 378.5 -1069.5!378.5 -1069.5[#1E4.BC #FFFB47.A4 533.5 -1256"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.624755859375" d="0.624755859375" tx="-236.95" ty="-172.75"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.624755859375" d="0.624755859375" tx="-236.95" ty="-172.75"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!6618 3090[6407 3025 6165 3190!6165 3190[6016 3291 5812 3522!5812 3522[5807 3527 5806 3533!5806 3533[5666 3726 5615 4044!5615 4044[5584 4240 5580 4609!5580 4609[5574 5221 5672 5784!5672 5784[5782 6420 6299 7076!6299 7076[6731 7624 7250
+ 7836!7250 7836[7572 7967 7896 7939!7896 7939[8227 7911 8510 7720!8510 7720[9008 7384 9343 6585!9343 6585[9641 5871 9695 5041!9695 5041[9747 4234 9525 3740!9525 3740[9419 3506 9241 3386!9241 3386[9045 3254 8805 3293!8805 3293[8581 3330
+ 8384 3536!8384 3536[8317 3606 8224 3727!8224 3727[8094 3895 8071 3923!8071 3923[7845 4195 7581 4196!7581 4196[7425 4197 7332 4081!7332 4081[7272 4006 7209 3824!7209 3824[7122 3573 6990 3388!6990 3388[6822 3153 6618 3090!8325 3694[8643
+ 3291 9015 3350!9015 3350[9429 3416 9582 4113!9582 4113[9718 4739 9570 5585!9570 5585[9416 6453 9025 7074!9025 7074[8589 7771 7984 7874!7984 7874[7509 7956 7022 7655!7022 7655[6628 7412 6288 6965!6288 6965[5812 6338 5707 5600!5707 5600
+[5616 4954 5647 4376!5647 4376[5662 4110 5696 3948!5696 3948[5748 3707 5861 3556!5861 3556[6009 3387 6115 3302!6115 3302[6275 3172 6431 3140!6431 3140[6671 3090 6902 3382!6902 3382[7045 3566 7196 3966!7196 3966[7290 4216 7521 4252!7521
+ 4252[7768 4289 7990 4090!7990 4090[8071 4018 8168 3897!8168 3897[8223 3828 8325 3694"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/LeftEye_virus">
+                  <matrix>
+                    <Matrix tx="-30.45" ty="-38.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="11.45" y="20.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/Virus live breakup/RightEye_virus">
+                  <matrix>
+                    <Matrix tx="20.65" ty="-38.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.35" y="19.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="extra_shape" color="#4FFFFF" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shape" color="#4F80FF" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="interior" color="#4FFFFF" parentLayerIndex="10" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
