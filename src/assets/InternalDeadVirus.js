@@ -5,10 +5,28 @@
     var Graphics = PIXI.Graphics;
     var shapes = PIXI.animate.ShapesCache;
 
+    lib.hittest = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[1]);
+        this.addChild(instance1);
+    });
+
+    lib.antibody = Container.extend(function () {
+        Container.call(this);
+        var instance2 = new lib.hittest()
+            .setTransform(23.5, 22.7)
+            .setAlpha(0.05);
+        this[instance2.name = "hittestie"] = instance2;
+        var instance1 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[0]);
+        this.addChild(instance2, instance1);
+    });
+
     lib.hitmesquare = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[0])
+            .drawCommands(shapes.InternalDeadVirus[2])
             .setTransform(0, 0.85, 1, 1.055);
         this.addChild(instance1);
     });
@@ -16,97 +34,97 @@
     lib.virus_dead_sm = Container.extend(function () {
         Container.call(this);
         var instance31 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[19])
+            .drawCommands(shapes.InternalDeadVirus[21])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance30 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[18])
+            .drawCommands(shapes.InternalDeadVirus[20])
             .setTransform(0.1, 0.65, 1.004, 1.004);
         var instance29 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[17])
+            .drawCommands(shapes.InternalDeadVirus[19])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance28 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[16])
+            .drawCommands(shapes.InternalDeadVirus[18])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance27 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[15])
+            .drawCommands(shapes.InternalDeadVirus[17])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance26 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[14])
+            .drawCommands(shapes.InternalDeadVirus[16])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance25 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[13])
+            .drawCommands(shapes.InternalDeadVirus[15])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance24 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[12])
+            .drawCommands(shapes.InternalDeadVirus[14])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance23 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[11])
+            .drawCommands(shapes.InternalDeadVirus[13])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance22 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[10])
+            .drawCommands(shapes.InternalDeadVirus[12])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance21 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[1])
+            .drawCommands(shapes.InternalDeadVirus[3])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance20 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[9])
+            .drawCommands(shapes.InternalDeadVirus[11])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance19 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[8])
+            .drawCommands(shapes.InternalDeadVirus[10])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance18 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-95.925, -156.282, 0.366, 0.379);
         var instance17 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-88.8, -156.282, 0.366, 0.379);
         var instance16 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-120.578, -124.34, 0.348, 0.364);
         var instance15 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-116.97, -131.3, 0.348, 0.366);
         var instance14 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-115.798, -92.397, 0.345, 0.362);
         var instance13 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-119.607, -97.818, 0.345, 0.36);
         var instance12 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-95.925, -113.35, 0.366, 0.366);
         var instance11 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance10 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-92.243, -107.104, 0.366, 0.366);
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-92.024, -119.449, 0.365, 0.366);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[4])
+            .drawCommands(shapes.InternalDeadVirus[6])
             .setTransform(-100.504, -113.35, 0.367, 0.366);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[3])
+            .drawCommands(shapes.InternalDeadVirus[5])
             .setTransform(-100.504, -113.35, 0.367, 0.366);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[4])
+            .drawCommands(shapes.InternalDeadVirus[6])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[3])
+            .drawCommands(shapes.InternalDeadVirus[5])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[2])
+            .drawCommands(shapes.InternalDeadVirus[4])
             .setTransform(-88.8, -113.35, 0.366, 0.366);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[1])
+            .drawCommands(shapes.InternalDeadVirus[3])
             .setTransform(89.5, -112.55, 0.366, 0.366, 0, 0, 3.142);
         this.addChild(instance31, instance30, instance29, instance28, instance27, instance26, instance25, instance24, instance23, instance22, instance21, instance20, instance19, instance18, instance17, instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -125,16 +143,16 @@
     lib.eyes_dead = Container.extend(function () {
         Container.call(this);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[4])
+            .drawCommands(shapes.InternalDeadVirus[6])
             .setTransform(-88.024, -99.7, 0.352, 0.351);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[3])
+            .drawCommands(shapes.InternalDeadVirus[5])
             .setTransform(-88.024, -99.7, 0.352, 0.351);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[4])
+            .drawCommands(shapes.InternalDeadVirus[6])
             .setTransform(-76.8, -99.7, 0.351, 0.351);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[3])
+            .drawCommands(shapes.InternalDeadVirus[5])
             .setTransform(-76.8, -99.7, 0.351, 0.351);
         this.addChild(instance4, instance3, instance2, instance1);
     });
@@ -142,7 +160,7 @@
     lib.body_dead = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[19])
+            .drawCommands(shapes.InternalDeadVirus[21])
             .setTransform(-66.175, -91.849, 0.351, 0.351);
         this.addChild(instance1);
     });
@@ -150,47 +168,47 @@
     lib.body = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[40]);
+            .drawCommands(shapes.InternalDeadVirus[42]);
         this.addChild(instance1);
     });
 
     lib.petals_dead = Container.extend(function () {
         Container.call(this);
         var instance12 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[17])
+            .drawCommands(shapes.InternalDeadVirus[19])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance11 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[16])
+            .drawCommands(shapes.InternalDeadVirus[18])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance10 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[15])
+            .drawCommands(shapes.InternalDeadVirus[17])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[14])
+            .drawCommands(shapes.InternalDeadVirus[16])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[13])
+            .drawCommands(shapes.InternalDeadVirus[15])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[12])
+            .drawCommands(shapes.InternalDeadVirus[14])
             .setTransform(-56.2, -83.2, 0.35, 0.352);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[11])
+            .drawCommands(shapes.InternalDeadVirus[13])
             .setTransform(-56.4, -83, 0.351, 0.351);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[10])
+            .drawCommands(shapes.InternalDeadVirus[12])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[1])
+            .drawCommands(shapes.InternalDeadVirus[3])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[9])
+            .drawCommands(shapes.InternalDeadVirus[11])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[8])
+            .drawCommands(shapes.InternalDeadVirus[10])
             .setTransform(-56.5, -82.95, 0.351, 0.351);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[1])
+            .drawCommands(shapes.InternalDeadVirus[3])
             .setTransform(114.5, -82.1, 0.351, 0.351, 0, 0, 3.142);
         this.addChild(instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -200,45 +218,45 @@
             duration: 20
         });
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[41]);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[42]);
-        var instance3 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[43]);
-        var instance4 = new Graphics()
+        var instance2 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[44]);
-        var instance5 = new Graphics()
+        var instance3 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[45]);
-        var instance6 = new Graphics()
+        var instance4 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[46]);
-        var instance7 = new Graphics()
+        var instance5 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[47]);
-        var instance8 = new Graphics()
+        var instance6 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[48]);
-        var instance9 = new Graphics()
+        var instance7 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[49]);
-        var instance10 = new Graphics()
+        var instance8 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[50]);
-        var instance11 = new Graphics()
+        var instance9 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[51]);
-        var instance12 = new Graphics()
+        var instance10 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[52]);
-        var instance13 = new Graphics()
+        var instance11 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[53]);
-        var instance14 = new Graphics()
+        var instance12 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[54]);
-        var instance15 = new Graphics()
+        var instance13 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[55]);
-        var instance16 = new Graphics()
+        var instance14 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[56]);
-        var instance17 = new Graphics()
+        var instance15 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[57]);
-        var instance18 = new Graphics()
+        var instance16 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[58]);
-        var instance19 = new Graphics()
+        var instance17 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[59]);
-        var instance20 = new Graphics()
+        var instance18 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[60]);
+        var instance19 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[61]);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[62]);
         this.addTimedChild(instance1, 0, 1)
             .addTimedChild(instance2, 1, 1)
             .addTimedChild(instance3, 2, 1)
@@ -284,40 +302,40 @@
     lib.fuzzies = Container.extend(function () {
         Container.call(this);
         var instance12 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-77.216, -138.214, 0.376, 0.39);
         var instance11 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-69.903, -138.214, 0.376, 0.39);
         var instance10 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-102.523, -106.23, 0.357, 0.376);
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-98.819, -112.552, 0.357, 0.376);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-97.615, -72.591, 0.354, 0.372);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-101.075, -78.78, 0.352, 0.372);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-77.216, -94.114, 0.376, 0.376);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[7])
+            .drawCommands(shapes.InternalDeadVirus[9])
             .setTransform(-69.903, -94.114, 0.376, 0.376);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-73.964, -87.698, 0.378, 0.376);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[6])
+            .drawCommands(shapes.InternalDeadVirus[8])
             .setTransform(-69.903, -94.114, 0.376, 0.376);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-73.682, -100.379, 0.376, 0.376);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[5])
+            .drawCommands(shapes.InternalDeadVirus[7])
             .setTransform(-69.903, -94.114, 0.376, 0.376);
         this.addChild(instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -325,42 +343,42 @@
     lib.inner_circle = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[67]);
+            .drawCommands(shapes.InternalDeadVirus[69]);
         this.addChild(instance1);
     });
 
     lib.mouth_virus_normal = Container.extend(function () {
         Container.call(this);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[69]);
+            .drawCommands(shapes.InternalDeadVirus[71]);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[68]);
+            .drawCommands(shapes.InternalDeadVirus[70]);
         this.addChild(instance2, instance1);
     });
 
     lib.RightEye_virus = Container.extend(function () {
         Container.call(this);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[96]);
+            .drawCommands(shapes.InternalDeadVirus[98]);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[95])
+            .drawCommands(shapes.InternalDeadVirus[97])
             .setTransform(-257.6, -134.7, 0.625, 0.625);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[94])
+            .drawCommands(shapes.InternalDeadVirus[96])
             .setTransform(-257.6, -134.7, 0.625, 0.625);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[93])
+            .drawCommands(shapes.InternalDeadVirus[95])
             .setTransform(-257.6, -134.7, 0.625, 0.625);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[92])
+            .drawCommands(shapes.InternalDeadVirus[94])
             .setTransform(-257.6, -134.7, 0.625, 0.625);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[91]);
+            .drawCommands(shapes.InternalDeadVirus[93]);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[90])
+            .drawCommands(shapes.InternalDeadVirus[92])
             .setTransform(-257.6, -134.7, 0.625, 0.625);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[89])
+            .drawCommands(shapes.InternalDeadVirus[91])
             .setTransform(1.8);
         this.addChild(instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -368,27 +386,27 @@
     lib.eye_orange = Container.extend(function () {
         Container.call(this);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[99]);
+            .drawCommands(shapes.InternalDeadVirus[101]);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[95])
+            .drawCommands(shapes.InternalDeadVirus[97])
             .setTransform(-267.93, -153.7, 0.625, 0.625);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[98])
+            .drawCommands(shapes.InternalDeadVirus[100])
             .setTransform(-217.95, -154.7, 0.625, 0.625);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[97])
+            .drawCommands(shapes.InternalDeadVirus[99])
             .setTransform(-217.95, -154.7, 0.625, 0.625);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[92])
+            .drawCommands(shapes.InternalDeadVirus[94])
             .setTransform(-267.9, -153.95, 0.625, 0.625);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[91])
+            .drawCommands(shapes.InternalDeadVirus[93])
             .setTransform(-10.251, -19.253, 0.997, 0.999);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[90])
+            .drawCommands(shapes.InternalDeadVirus[92])
             .setTransform(-267.9, -153.95, 0.625, 0.625);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[89])
+            .drawCommands(shapes.InternalDeadVirus[91])
             .setTransform(-8.533, -19.159, 0.997, 0.993);
         this.addChild(instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -396,28 +414,28 @@
     lib.LeftEye_virus = Container.extend(function () {
         Container.call(this);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[96])
+            .drawCommands(shapes.InternalDeadVirus[98])
             .setTransform(1.1, 1.35);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[95])
+            .drawCommands(shapes.InternalDeadVirus[97])
             .setTransform(-256.48, -133.35, 0.625, 0.625);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[98])
+            .drawCommands(shapes.InternalDeadVirus[100])
             .setTransform(-206.5, -134.35, 0.625, 0.625);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[97])
+            .drawCommands(shapes.InternalDeadVirus[99])
             .setTransform(-206.5, -134.35, 0.625, 0.625);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[103])
+            .drawCommands(shapes.InternalDeadVirus[105])
             .setTransform(2);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[102])
+            .drawCommands(shapes.InternalDeadVirus[104])
             .setTransform(1.4);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[101])
+            .drawCommands(shapes.InternalDeadVirus[103])
             .setTransform(2);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[100])
+            .drawCommands(shapes.InternalDeadVirus[102])
             .setTransform(2);
         this.addChild(instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -425,7 +443,7 @@
     lib.white_squre = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[107]);
+            .drawCommands(shapes.InternalDeadVirus[109]);
         this.addChild(instance1);
     });
 
@@ -438,193 +456,193 @@
             }
         });
         var instance10 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[105]);
+            .drawCommands(shapes.InternalDeadVirus[107]);
         var instance14 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[106]);
+            .drawCommands(shapes.InternalDeadVirus[108]);
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[104]);
+            .drawCommands(shapes.InternalDeadVirus[106]);
         var instance8 = new lib.LeftEye_virus();
         var instance7 = new lib.RightEye_virus();
         var instance6 = new lib.mouth_virus_normal();
         var instance12 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[71]);
+            .drawCommands(shapes.InternalDeadVirus[73]);
         var instance11 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[70]);
-        var instance13 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[72]);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[74]);
         var instance20 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[152]);
-        var instance19 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[108]);
-        var instance22 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[153]);
-        var instance21 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[109]);
-        var instance24 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[154]);
-        var instance23 = new Graphics()
+        var instance19 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[110]);
-        var instance26 = new Graphics()
+        var instance22 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[155]);
-        var instance25 = new Graphics()
+        var instance21 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[111]);
-        var instance28 = new Graphics()
+        var instance24 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[156]);
-        var instance27 = new Graphics()
+        var instance23 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[112]);
-        var instance30 = new Graphics()
+        var instance26 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[157]);
-        var instance29 = new Graphics()
+        var instance25 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[113]);
-        var instance32 = new Graphics()
+        var instance28 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[158]);
-        var instance31 = new Graphics()
+        var instance27 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[114]);
-        var instance34 = new Graphics()
+        var instance30 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[159]);
-        var instance33 = new Graphics()
+        var instance29 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[115]);
-        var instance36 = new Graphics()
+        var instance32 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[160]);
-        var instance35 = new Graphics()
+        var instance31 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[116]);
-        var instance38 = new Graphics()
+        var instance34 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[161]);
-        var instance37 = new Graphics()
+        var instance33 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[117]);
-        var instance40 = new Graphics()
+        var instance36 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[162]);
-        var instance39 = new Graphics()
+        var instance35 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[118]);
-        var instance42 = new Graphics()
+        var instance38 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[163]);
-        var instance41 = new Graphics()
+        var instance37 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[119]);
-        var instance44 = new Graphics()
+        var instance40 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[164]);
-        var instance43 = new Graphics()
+        var instance39 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[120]);
-        var instance46 = new Graphics()
+        var instance42 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[165]);
-        var instance45 = new Graphics()
+        var instance41 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[121]);
-        var instance48 = new Graphics()
+        var instance44 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[166]);
-        var instance47 = new Graphics()
+        var instance43 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[122]);
-        var instance50 = new Graphics()
+        var instance46 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[167]);
-        var instance49 = new Graphics()
+        var instance45 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[123]);
-        var instance52 = new Graphics()
+        var instance48 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[168]);
-        var instance51 = new Graphics()
+        var instance47 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[124]);
-        var instance54 = new Graphics()
+        var instance50 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[169]);
-        var instance53 = new Graphics()
+        var instance49 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[125]);
-        var instance56 = new Graphics()
+        var instance52 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[170]);
-        var instance55 = new Graphics()
+        var instance51 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[126]);
-        var instance58 = new Graphics()
+        var instance54 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[171]);
-        var instance57 = new Graphics()
+        var instance53 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[127]);
-        var instance60 = new Graphics()
+        var instance56 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[172]);
-        var instance59 = new Graphics()
+        var instance55 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[128]);
-        var instance62 = new Graphics()
+        var instance58 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[173]);
-        var instance61 = new Graphics()
+        var instance57 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[129]);
-        var instance64 = new Graphics()
+        var instance60 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[174]);
-        var instance63 = new Graphics()
+        var instance59 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[130]);
-        var instance66 = new Graphics()
+        var instance62 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[175]);
-        var instance65 = new Graphics()
+        var instance61 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[131]);
-        var instance68 = new Graphics()
+        var instance64 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[176]);
-        var instance67 = new Graphics()
+        var instance63 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[132]);
-        var instance70 = new Graphics()
+        var instance66 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[177]);
-        var instance69 = new Graphics()
+        var instance65 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[133]);
-        var instance72 = new Graphics()
+        var instance68 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[178]);
-        var instance71 = new Graphics()
+        var instance67 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[134]);
-        var instance74 = new Graphics()
+        var instance70 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[179]);
-        var instance73 = new Graphics()
+        var instance69 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[135]);
-        var instance76 = new Graphics()
+        var instance72 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[180]);
-        var instance75 = new Graphics()
+        var instance71 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[136]);
-        var instance78 = new Graphics()
+        var instance74 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[181]);
-        var instance77 = new Graphics()
+        var instance73 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[137]);
-        var instance80 = new Graphics()
+        var instance76 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[182]);
-        var instance79 = new Graphics()
+        var instance75 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[138]);
-        var instance82 = new Graphics()
+        var instance78 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[183]);
-        var instance81 = new Graphics()
+        var instance77 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[139]);
-        var instance84 = new Graphics()
+        var instance80 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[184]);
-        var instance83 = new Graphics()
+        var instance79 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[140]);
-        var instance86 = new Graphics()
+        var instance82 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[185]);
-        var instance85 = new Graphics()
+        var instance81 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[141]);
-        var instance88 = new Graphics()
+        var instance84 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[186]);
-        var instance87 = new Graphics()
+        var instance83 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[142]);
-        var instance90 = new Graphics()
+        var instance86 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[187]);
-        var instance89 = new Graphics()
+        var instance85 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[143]);
-        var instance92 = new Graphics()
+        var instance88 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[188]);
-        var instance91 = new Graphics()
+        var instance87 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[144]);
-        var instance94 = new Graphics()
+        var instance90 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[189]);
-        var instance93 = new Graphics()
+        var instance89 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[145]);
-        var instance96 = new Graphics()
+        var instance92 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[190]);
-        var instance95 = new Graphics()
+        var instance91 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[146]);
-        var instance98 = new Graphics()
+        var instance94 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[191]);
-        var instance97 = new Graphics()
+        var instance93 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[147]);
-        var instance103 = new Graphics()
+        var instance96 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[192]);
-        var instance102 = new Graphics()
+        var instance95 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[148]);
-        var instance105 = new Graphics()
+        var instance98 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[193]);
+        var instance97 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[149]);
+        var instance103 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[194]);
+        var instance102 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[150]);
+        var instance105 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[151]);
         var instance101 = new lib.white_squre();
         var instance111 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[150]);
+            .drawCommands(shapes.InternalDeadVirus[152]);
         var instance157 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[151]);
+            .drawCommands(shapes.InternalDeadVirus[153]);
         var instance172 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[150])
+            .drawCommands(shapes.InternalDeadVirus[152])
             .setTransform(-4, -2);
         var instance18 = new lib.LeftEye_virus();
         var instance17 = new lib.RightEye_virus();
@@ -632,69 +650,69 @@
         var instance100 = new lib.mouth_virus_normal();
         this[instance100.name = "mouth"] = instance100;
         var instance123 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[73]);
-        var instance125 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[74]);
-        var instance127 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[75]);
-        var instance129 = new Graphics()
+        var instance125 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[76]);
-        var instance131 = new Graphics()
+        var instance127 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[77]);
-        var instance133 = new Graphics()
+        var instance129 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[78]);
-        var instance135 = new Graphics()
+        var instance131 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[79]);
-        var instance137 = new Graphics()
+        var instance133 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[80]);
-        var instance139 = new Graphics()
+        var instance135 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[81]);
-        var instance141 = new Graphics()
+        var instance137 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[82]);
-        var instance143 = new Graphics()
+        var instance139 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[83]);
-        var instance145 = new Graphics()
+        var instance141 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[84]);
-        var instance147 = new Graphics()
+        var instance143 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[85]);
-        var instance150 = new Graphics()
+        var instance145 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[86]);
-        var instance151 = new Graphics()
+        var instance147 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[87]);
+        var instance150 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[88]);
+        var instance151 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[89]);
         var instance154 = new lib.eye_orange();
         var instance155 = new lib.RightEye_virus();
         var instance152 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[88]);
+            .drawCommands(shapes.InternalDeadVirus[90]);
         var instance156 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[87]);
+            .drawCommands(shapes.InternalDeadVirus[89]);
         var instance158 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[86]);
+            .drawCommands(shapes.InternalDeadVirus[88]);
         var instance159 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[85]);
+            .drawCommands(shapes.InternalDeadVirus[87]);
         var instance160 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[84]);
+            .drawCommands(shapes.InternalDeadVirus[86]);
         var instance161 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[83]);
+            .drawCommands(shapes.InternalDeadVirus[85]);
         var instance162 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[82]);
+            .drawCommands(shapes.InternalDeadVirus[84]);
         var instance163 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[81]);
+            .drawCommands(shapes.InternalDeadVirus[83]);
         var instance164 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[80]);
+            .drawCommands(shapes.InternalDeadVirus[82]);
         var instance165 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[79]);
+            .drawCommands(shapes.InternalDeadVirus[81]);
         var instance166 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[78]);
+            .drawCommands(shapes.InternalDeadVirus[80]);
         var instance167 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[77]);
+            .drawCommands(shapes.InternalDeadVirus[79]);
         var instance168 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[76]);
+            .drawCommands(shapes.InternalDeadVirus[78]);
         var instance169 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[75]);
+            .drawCommands(shapes.InternalDeadVirus[77]);
         var instance170 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[74]);
+            .drawCommands(shapes.InternalDeadVirus[76]);
         var instance171 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[73])
+            .drawCommands(shapes.InternalDeadVirus[75])
             .setTransform(-9.75, -20.2);
         var instance5 = new lib.hitmesquare()
             .setTransform(61.9, 17, 2.359, 1.461)
@@ -715,63 +733,63 @@
         var instance1 = new lib.hitmesquare();
         this[instance1.name = "hittestie3"] = instance1;
         var instance99 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[61]);
-        var instance104 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[62]);
-        var instance106 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[63]);
-        var instance107 = new Graphics()
+        var instance104 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[64]);
-        var instance108 = new Graphics()
+        var instance106 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[65]);
-        var instance109 = new Graphics()
+        var instance107 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[66]);
+        var instance108 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[67]);
+        var instance109 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[68]);
         var instance110 = new lib.inner_circle();
         var instance16 = new lib.virus_dead_sm();
         var instance116 = new lib.fuzzies();
         var instance115 = new lib.petals_dead();
         var instance114 = new lib.body_dead();
         var instance113 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[20]);
-        var instance117 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[21]);
-        var instance118 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[22]);
-        var instance119 = new Graphics()
+        var instance117 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[23]);
-        var instance120 = new Graphics()
+        var instance118 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[24]);
-        var instance121 = new Graphics()
+        var instance119 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[25]);
-        var instance122 = new Graphics()
+        var instance120 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[26]);
-        var instance124 = new Graphics()
+        var instance121 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[27]);
-        var instance126 = new Graphics()
+        var instance122 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[28]);
-        var instance128 = new Graphics()
+        var instance124 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[29]);
-        var instance130 = new Graphics()
+        var instance126 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[30]);
-        var instance132 = new Graphics()
+        var instance128 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[31]);
-        var instance134 = new Graphics()
+        var instance130 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[32]);
-        var instance136 = new Graphics()
+        var instance132 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[33]);
-        var instance138 = new Graphics()
+        var instance134 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[34]);
-        var instance140 = new Graphics()
+        var instance136 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[35]);
-        var instance142 = new Graphics()
+        var instance138 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[36]);
-        var instance144 = new Graphics()
+        var instance140 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[37]);
-        var instance146 = new Graphics()
+        var instance142 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[38]);
+        var instance144 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[39]);
+        var instance146 = new Graphics()
+            .drawCommands(shapes.InternalDeadVirus[40]);
         var instance149 = new lib.body();
         var instance148 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[39]);
+            .drawCommands(shapes.InternalDeadVirus[41]);
         var instance112 = new lib.eyes_dead();
         var instance153 = new lib.pedal_grow_anti();
         this.addTimedChild(instance10, 0, 2)
@@ -3112,24 +3130,6 @@
             }, 174);
     });
 
-    lib.hittest = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[194]);
-        this.addChild(instance1);
-    });
-
-    lib.antibody = Container.extend(function () {
-        Container.call(this);
-        var instance2 = new lib.hittest()
-            .setTransform(23.5, 22.7)
-            .setAlpha(0.05);
-        this[instance2.name = "hittestie"] = instance2;
-        var instance1 = new Graphics()
-            .drawCommands(shapes.InternalDeadVirus[193]);
-        this.addChild(instance2, instance1);
-    });
-
     lib.InternalDeadVirus = MovieClip.extend(function () {
         MovieClip.call(this, {
             duration: 1,
@@ -3137,33 +3137,33 @@
         });
         var instance10 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[195]);
-        var instance9 = new lib.antibody()
-            .setTransform(757.05, 298.8);
-        this[instance9.name = "anitbody1"] = instance9;
-        var instance8 = new lib.virus_dead_antibodies()
-            .setTransform(1062.75, 291);
-        this[instance8.name = "dead_virus3"] = instance8;
-        var instance7 = new lib.macro_virus_d()
+        var instance9 = new lib.virus_dead_antibodies()
+            .setTransform(1275.75, 142.7);
+        this[instance9.name = "dead_virus3"] = instance9;
+        var instance8 = new lib.macro_virus_d()
             .setTransform(421.4, 432.05);
-        this[instance7.name = "immune3"] = instance7;
-        var instance6 = new lib.macro_virus_d()
+        this[instance8.name = "immune3"] = instance8;
+        var instance7 = new lib.macro_virus_d()
             .setTransform(582.35, 307.05);
-        this[instance6.name = "immune2"] = instance6;
-        var instance5 = new lib.macro_virus_d()
+        this[instance7.name = "immune2"] = instance7;
+        var instance6 = new lib.macro_virus_d()
             .setTransform(381.4, 176.85);
-        this[instance5.name = "immune1"] = instance5;
+        this[instance6.name = "immune1"] = instance6;
+        var instance5 = new lib.virus_dead_antibodies()
+            .setTransform(1281.6, 153.55);
+        this[instance5.name = "dead_virus5"] = instance5;
         var instance4 = new lib.virus_dead_antibodies()
-            .setTransform(1062.75, 475.4);
-        this[instance4.name = "dead_virus5"] = instance4;
+            .setTransform(1260.9, 161.25);
+        this[instance4.name = "dead_virus4"] = instance4;
         var instance3 = new lib.virus_dead_antibodies()
-            .setTransform(1062.75, 379.9);
-        this[instance3.name = "dead_virus4"] = instance3;
+            .setTransform(1275.75, 135);
+        this[instance3.name = "dead_virus1"] = instance3;
         var instance2 = new lib.virus_dead_antibodies()
-            .setTransform(1062.75, 131.4);
-        this[instance2.name = "dead_virus1"] = instance2;
-        var instance1 = new lib.virus_dead_antibodies()
-            .setTransform(1062.75, 202.1);
-        this[instance1.name = "dead_virus2"] = instance1;
+            .setTransform(1294.75, 142.7);
+        this[instance2.name = "dead_virus2"] = instance2;
+        var instance1 = new lib.antibody()
+            .setTransform(1570.75, 43.3);
+        this[instance1.name = "anitbody1"] = instance1;
         this.addChild(instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 

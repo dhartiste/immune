@@ -171,7 +171,6 @@ interface LiveVirusSprite extends MovieClip {
     isAbsorbed:boolean;
     velocity:PIXI.Point;
     isHit:boolean;
-    
 }
 
 interface ImmuneCell extends MovieClip { //3 start

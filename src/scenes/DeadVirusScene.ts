@@ -7,6 +7,7 @@ import BaseScene from './BaseScene';
 
 export default class DeadVirusScene extends BaseScene {
 
+    private exampleLib: any;
     private art: InternalDeadVirusArt;
     private deadVirusArray: DeadVirus[]=[];
     private immuneCellArray: ImmuneCell[]=[];
@@ -19,7 +20,7 @@ export default class DeadVirusScene extends BaseScene {
 
     setup(){
 
-
+        this.exampleLib = InternalDeadVirusArt.library; 
         this.art = this.cache.animations.internalDeadVirusArt as InternalDeadVirusArt;
         this.addChild(this.art);
 
@@ -62,19 +63,11 @@ export default class DeadVirusScene extends BaseScene {
                     virus.x > cell.x - cell.width/2  &&
                     virus.y > cell.y - cell.height/2 &&
                     virus.y < cell.y + cell.height/2;
-                    if(cell.isHit) {
+                    if(cell.isHit && virus.isAbsorbed) {
                         PIXI.animate.Animator.play(cell, "intro", this.checkVirusCount);
-                        //cell.gotoAndStop("intro_stop");
-                        // cell.hitOnce = true;
-                    }
-                    // if(cell.hitOnce){ //trying to get the animation play, then freeze on the crown frame (TODO)
-                        
-                    // }
-                    if(virus.isAbsorbed){
                         virus.visible = false;
-
+                        setTimeout(()=>{this.createAntibodies();},4000);
                     }
-                    
                 }
             }) ;
         });
@@ -111,6 +104,14 @@ export default class DeadVirusScene extends BaseScene {
         
     }
 
+    createAntibodies=()=>{
+        for(let i = 0; i < 10; i++){
+            let newAntibody = new this.exampleLib.antibody as MovieClip;
+            newAntibody.position = new PIXI.Point(Math.random() * 750, Math.random() * 750);
+            this.addChild(newAntibody);
+        }
+    }
+
     checkVirusCount=()=>{
         let count:number = 0;
         this.immuneCellArray.forEach(cell => {
@@ -121,7 +122,7 @@ export default class DeadVirusScene extends BaseScene {
         });
         if(count===3) {
             console.log("animation done");
-            this.changeScene("external");
+            setTimeout(()=>{this.changeScene("external");},5000);
         }
     }
     
@@ -132,6 +133,10 @@ export default class DeadVirusScene extends BaseScene {
     }
     
 }
+
+// interface Antibody extends MovieClip {
+
+// }
 
 interface DeadVirus extends MovieClip {
     isAbsorbed: boolean;

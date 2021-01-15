@@ -1,8 +1,8 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1624" height="750" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 20.0 build 22168" majorVersion="20" buildNumber="22168" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="7302C3EB33584BA48F23DADE2B6877F2">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1624" height="750" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="7302C3EB33584BA48F23DADE2B6877F2">
      <folders>
           <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
           <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
-          <DOMFolderItem name="Organisms" itemID="6000f6be-000001f1"/>
+          <DOMFolderItem name="Organisms" itemID="6000f6be-000001f1" isExpanded="true"/>
           <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
           <DOMFolderItem name="Organisms/Virus dead breakup" itemID="409a730b-00001cb7"/>
           <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
@@ -31,21 +31,29 @@
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+                    <DOMLayer name="antibody" color="#9933CC" current="true" isSelected="true" autoNamed="false" highlighted="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Organisms/antibody" name="anitbody1" selected="true">
                                              <matrix>
-                                                  <Matrix tx="757.05" ty="298.8"/>
+                                                  <Matrix tx="1570.75" ty="43.3"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.15" y="5.8"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Layer_1" color="#00FFFF">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus3">
                                              <matrix>
-                                                  <Matrix tx="1062.75" ty="291"/>
+                                                  <Matrix tx="1275.75" ty="142.7"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="4" y="7.45"/>
@@ -77,7 +85,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus5">
                                              <matrix>
-                                                  <Matrix tx="1062.75" ty="475.4"/>
+                                                  <Matrix tx="1281.6" ty="153.55"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="4" y="7.45"/>
@@ -85,7 +93,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus4">
                                              <matrix>
-                                                  <Matrix tx="1062.75" ty="379.9"/>
+                                                  <Matrix tx="1260.9" ty="161.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="4" y="7.45"/>
@@ -93,7 +101,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus1">
                                              <matrix>
-                                                  <Matrix tx="1062.75" ty="131.4"/>
+                                                  <Matrix tx="1275.75" ty="135"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="4" y="7.45"/>
@@ -101,7 +109,7 @@
                                         </DOMSymbolInstance>
                                         <DOMSymbolInstance libraryItemName="Organisms/virus_dead_antibodies" name="dead_virus2">
                                              <matrix>
-                                                  <Matrix tx="1062.75" ty="202.1"/>
+                                                  <Matrix tx="1294.75" ty="142.7"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="4" y="7.45"/>
@@ -118,14 +126,14 @@
                                         <DOMShape>
                                              <fills>
                                                   <FillStyle index="1">
-                                                       <SolidColor color="#FFFFFF"/>
+                                                       <SolidColor color="#FFFFCC"/>
                                                   </FillStyle>
                                              </fills>
                                              <strokes>
                                                   <StrokeStyle index="1">
                                                        <SolidStroke scaleMode="normal">
                                                             <fill>
-                                                                 <SolidColor/>
+                                                                 <SolidColor color="#FFFFCC"/>
                                                             </fill>
                                                        </SolidStroke>
                                                   </StrokeStyle>
