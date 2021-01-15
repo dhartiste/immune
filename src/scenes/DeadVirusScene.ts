@@ -28,15 +28,14 @@ export default class DeadVirusScene extends BaseScene {
 
 
         this.deadVirusArray.forEach(virus => {
-            //virus.gotoAndStop(0);
-            virus.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
+            virus.velocity = new PIXI.Point(Math.random() + 0.25, Math.random() + 0.25);
         })
-/*
+
         this.immuneCellArray.forEach(cell => {
             cell.gotoAndStop(0);
-            cell.velocity = new PIXI.Point(Math.random(), Math.random());
+            cell.velocity = new PIXI.Point(Math.random() + 0.25, Math.random() + 0.25);
         })
-*/
+
 
     
 
@@ -57,35 +56,44 @@ export default class DeadVirusScene extends BaseScene {
     }
 
     update(){
-/*
-        // hit testing (you need to check if the cell got hit, if it's hit then it becomes a virus factory)
+
+//hit testing
         this.immuneCellArray.forEach(cell => {
             this.deadVirusArray.forEach(virus => {
                 if(!cell.isHit) {
-                    cell.isHit = 
+                    cell.isHit = virus.isAbsorbed =
                     virus.x < cell.x + cell.width/2 && 
                     virus.x > cell.x - cell.width/2  &&
                     virus.y > cell.y - cell.height/2 &&
                     virus.y < cell.y + cell.height/2;
                     if(cell.isHit) {
-                        PIXI.animate.Animator.play(cell, "duplicate", this.checkVirusCount);
+                        PIXI.animate.Animator.play(cell, "intro");
+                        //cell.gotoAndStop("intro_stop");
+                        // cell.hitOnce = true;
                     }
-                }
+                    // if(cell.hitOnce){ //trying to get the animation play, then freeze on the crown frame (TODO)
+                        
+                    // }
+                    if(virus.isAbsorbed){
+                        virus.visible = false;
 
-            });
+                    }
+                    
+                }
+            }) 
         });
 
 
         //movement of sprites 
         this.deadVirusArray.forEach(virus => {
             
-            virus.x += virus.velocity.x;
-            virus.y += virus.velocity.y * 2;
+            virus.x += -virus.velocity.x;
+            virus.y += -virus.velocity.y;
            
             if(virus.position.x - virus.width <= this.stageManager.leftEdge || virus.position.x + virus.width >= this.stageManager.rightEdge){
                 virus.velocity.x = -virus.velocity.x;
             }
-            if(virus.y - virus.height <= -this.stageManager.height/2 || virus.y + virus.height >= this.stageManager.height/2){
+            if(virus.y - virus.height <= 0 || virus.y + virus.height >= 750){
                 virus.velocity.y = -virus.velocity.y;
             } 
            
@@ -93,20 +101,20 @@ export default class DeadVirusScene extends BaseScene {
 
         this.immuneCellArray.forEach(cell => {
          
-            cell.x += -cell.velocity.x;
-            cell.y += -cell.velocity.y;
+            cell.x += cell.velocity.x;
+            cell.y += cell.velocity.y;
 
             if(cell.position.x - cell.width <= this.stageManager.leftEdge || cell.position.x + cell.width >= this.stageManager.rightEdge){
                 cell.velocity.x = -cell.velocity.x;
             }
-            if(cell.y - cell.height <= -this.stageManager.height/2 || cell.y + cell.height >= this.stageManager.height/2){
+            if(cell.y - cell.height <= 0 || cell.y + cell.height >= 750){
                 cell.velocity.y = -cell.velocity.y;
             }
         })
 
-        */
+        
     }
-/*
+
     checkVirusCount=()=>{
         let count:number = 0;
         this.immuneCellArray.forEach(cell => {
@@ -120,7 +128,7 @@ export default class DeadVirusScene extends BaseScene {
             this.changeScene("game");
         }
     }
-    */
+    
 
     cleanup(){
         //to do
