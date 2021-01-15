@@ -16,6 +16,8 @@ export default class InternalLiveVirusScene extends BaseScene {
 
     // temp!
     private oneCell:boolean=false;
+    private trigger:boolean=false;
+    private count:number = 0;
  
     
     preload():AssetList{
@@ -70,6 +72,10 @@ export default class InternalLiveVirusScene extends BaseScene {
 
 
         // hit testing (you need to check if the cell got hit, if it's hit then it becomes a virus factory)
+
+    
+
+        
         this.immuneCellArray.forEach(cell => {
             this.liveVirusArray.forEach(virus => {
                 if(!virus.isHit && !cell.isHit) {
@@ -83,35 +89,27 @@ export default class InternalLiveVirusScene extends BaseScene {
                         cell.isDuplicating = true;
                         virus.visible = false;        
                     }
- 
                 }
 
             });
-            if (cell.isHit && !this.oneCell) {
+            if (cell.isDuplicating && !this.oneCell) {
+                if (cell.currentFrame == 185){
                 let newVirus = new this.virusLibrary.virus_alive_sm() as LiveVirusSprite;
                 this.liveVirusArray.push(newVirus);
-                newVirus.position = cell.position;
-                newVirus.velocity = new PIXI.Point(Math.random(), Math.random());
+                newVirus.position.x = cell.position.x + 144;
+                newVirus.position.y = cell.position.y - 30;
+                newVirus.velocity = new PIXI.Point(-Math.random(), Math.random());
                 this.addChild(newVirus);
                 this.oneCell=true;
+                cell.isDuplicating = false;
+                }
+                this.oneCell=false;
+                this.count++;
             }
         });
+    
 
 
-
-
-
-        //insert duplicate virus TODO
-        /* this.immuneCellArray.forEach(cell => {
-            if(cell.isHit){
-                this.duplicatesArray.push(new this.virusLibrary.virus_alive_sm() as LiveVirusSprite);
-            }
-            this.duplicatesArray.forEach(dup => {
-                dup.position = new PIXI.Point(cell.x + 20 , cell.y + 20);
-                dup.gotoAndStop(0);
-                this.addChild(dup);
-            });
-        }); */
 
 
       
@@ -124,7 +122,7 @@ export default class InternalLiveVirusScene extends BaseScene {
             if(cell.position.x - cell.width <= this.stageManager.leftEdge || cell.position.x + cell.width >= this.stageManager.rightEdge){
                 cell.velocity.x = -cell.velocity.x;
             }
-            if(cell.y - cell.height/2 <= -this.stageManager.height || cell.y + cell.height/2 >= this.stageManager.height){
+            if(cell.y - cell.height/2 <= 0 || cell.y + cell.height/2 >= this.stageManager.height){
                 cell.velocity.y = -cell.velocity.y;
             } 
 
@@ -154,7 +152,7 @@ export default class InternalLiveVirusScene extends BaseScene {
             }
 
         });
-        if(count===10) {
+        if(count===5) {
             console.log("animation done");
             this.changeScene("external");
         }
@@ -178,7 +176,7 @@ interface ImmuneCell extends MovieClip { //3 start
     isHit:boolean;
     velocity:PIXI.Point;
     isDuplicating: boolean;
-    
+    trigger: boolean;
 }
 
 interface InternalLiveVirusArt extends MovieClip {
