@@ -13,7 +13,7 @@
           <DOMFolderItem name="Title" itemID="6001ebfc-00000643" isExpanded="true"/>
      </folders>
      <media>
-          <DOMBitmapItem name="titleName.png" itemID="6001ec19-0000064a" sourceExternalFilepath="./LIBRARY/titleName.png" sourceLastImported="1610738299" sourcePlatform="macintosh" externalFileSize="14549" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="titleName.png" bitmapDataHRef="M 2 1610738713.dat" frameRight="12000" frameBottom="2600"/>
+          <DOMBitmapItem name="titleName.png" itemID="6001ec19-0000064a" sourceExternalFilepath="../Title/LIBRARY/titleName.png" sourceLastImported="1610738299" sourcePlatform="macintosh" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="titleName.png" bitmapDataHRef="M 2 1610738713.dat" frameRight="12000" frameBottom="2600"/>
      </media>
      <symbols>
           <Include href="Act 1 - fixed/expose_txt.xml" loadImmediate="false" itemID="4023ce05-00005304" lastModified="1610729588"/>
@@ -56,7 +56,7 @@
           <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="6001cf5e-0000076c" lastModified="1610731358"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="56" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="59" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="game_safe" color="#FF800A" autoNamed="false" layerType="guide">
                          <frames>

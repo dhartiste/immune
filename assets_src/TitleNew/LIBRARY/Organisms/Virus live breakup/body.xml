@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/Virus live breakup/body" itemID="40968346-00015805" sourceFlashFilepath="../TitleAttempt1/TitleAttempt1.xfl" sourceLibraryItemHRef="Organisms/Virus live breakup/body" sourceLastModified="1090502423" lastModified="1090502423" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="body" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <transformationPoint>
+                    <Point x="19.35" y="16.8"/>
+                  </transformationPoint>
+                  <members>
+                    <DOMShape selected="true">
+                      <transformationPoint>
+                        <Point x="19.35" y="16.8"/>
+                      </transformationPoint>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#9DD00B"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!581.5 671.5S2|194 671.5!194 671.5|0 336!0 336|194 0!194 0|581.5 0!581.5 0|775 336!775 336|581.5 671.5"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/Virus att breakup/mouth_att" itemID="40ab88e7-0000bdac" lastModified="1084979927">
+  <timeline>
+    <DOMTimeline name="mouth_att" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix tx="-6.65" ty="-6.85"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!437.5 227.5S1|363 153!363 153[#162.72 #90.93 347 152!347 152|266 233!266 233|266 150!266 150[#109.E2 #8E.D7 259.5 139!259.5 139[#FC.F2 #86.F5 247.5 140.5!247.5 140.5|137.5 251.5!137.5 251.5[#81.A1 #102.B2 136.5 267!136.5 267[144 #113.9C
+ 151.5 268!151.5 268|244 175.5!244 175.5|244 258.5!244 258.5[#F3.DE #109.A8 250 269.5!250 269.5[#100.BC #111.8B 262 268!262 268|354 175.5!354 175.5|429 250!429 250[#1B5.7C #102.AC 444.5 251.5!444.5 251.5|533 163!533 163[#21C.2F #9B.8D
+ 533 147!533 147[#20E.1E #8A.64 518.5 146!518.5 146|437.5 227.5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
