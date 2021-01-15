@@ -22,7 +22,7 @@ export default class DeadVirusScene extends BaseScene {
 
         this.art = this.cache.animations.internalDeadVirusArt as InternalDeadVirusArt;
         this.addChild(this.art);
-        
+
         this.deadVirusArray = [this.art.dead_virus1, this.art.dead_virus2, this.art.dead_virus3, this.art.dead_virus4, this.art.dead_virus5];
         this.immuneCellArray = [this.art.immune1, this.art.immune2, this.art.immune3];
 

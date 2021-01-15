@@ -27,6 +27,6 @@ export default class TemplateGame extends Game{
 
         });
         //this.changeScene('external');
-        this.changeScene('game');
+        this.changeScene('title');
     }
 }
