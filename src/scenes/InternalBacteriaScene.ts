@@ -33,12 +33,12 @@ export default class InternalBacteria extends BaseScene {
 
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
-            macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
+            macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()-.5);
         })
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.gotoAndStop(0);
-            bacteria.velocity = new PIXI.Point(Math.random()-1, Math.random());
+            bacteria.velocity = new PIXI.Point(Math.random()-1, Math.random()*2-1);
         })
         switch(this.gameData.currentChoiceIndex) {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
@@ -65,7 +65,9 @@ export default class InternalBacteria extends BaseScene {
 
     start(){
         // PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
-
+        let start = 1;
+        setInterval(this.duplicateB, 1, 9000);
+        this.duplicateB(2);
 
 
 
@@ -74,6 +76,18 @@ export default class InternalBacteria extends BaseScene {
 
     }
 
+    duplicateB=(start: number) => {
+        let i = start;
+        this.bacteriaArray.forEach(bacteria => {
+            if (i%2===0) {
+                bacteria.isDividing=true;
+                PIXI.animate.Animator.play(bacteria,"duplicate");
+                bacteria.isDividing=false;
+            }
+            i++;
+        });
+        //do this
+    }
     // boingIt = () => {
     //     // 
     //     Tween.get(this.microGuy)
@@ -105,11 +119,41 @@ export default class InternalBacteria extends BaseScene {
         this.macrophageArray.forEach(macrophage => {
             macrophage.x+=macrophage.velocity.x;
             macrophage.y+=macrophage.velocity.y;
+
+            if(macrophage.position.x - macrophage.width <= this.stageManager.leftEdge || macrophage.position.x + macrophage.width >= this.stageManager.rightEdge){
+                macrophage.velocity.x = -macrophage.velocity.x;
+                macrophage.x+=macrophage.velocity.x;
+            }
+            if(macrophage.y - macrophage.height <= -this.stageManager.height/2 || macrophage.y + macrophage.height >= 750){
+                macrophage.velocity.y = -macrophage.velocity.y;
+                macrophage.y+=macrophage.velocity.y;
+            } 
         })
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.x+=bacteria.velocity.x;
             bacteria.y+=bacteria.velocity.y;
+
+            if(bacteria.position.x - bacteria.width <= this.stageManager.leftEdge || bacteria.position.x + bacteria.width >= this.stageManager.rightEdge){
+                bacteria.velocity.x = -bacteria.velocity.x;
+                bacteria.x+=2*bacteria.velocity.x;
+            }
+            if(bacteria.y - bacteria.height/2 <= 0 || bacteria.y + bacteria.height/2  >= 750 ){
+                if(bacteria.y - bacteria.height/2 <= -this.stageManager.height/2) {
+                    console.log("bottome height: ");
+                    console.log(bacteria.y - bacteria.height/2);
+                    console.log("bottome bound: ");
+                    console.log(-1*this.stageManager.height/2);
+                }
+                else {
+                    console.log("top height: ");
+                    console.log(bacteria.y + bacteria.height/2 );
+                    console.log("bottome bound: ");
+                    console.log(this.stageManager.height/2);
+                }
+                bacteria.velocity.y = -bacteria.velocity.y;
+                bacteria.y+=2*bacteria.velocity.y;
+            } 
         })
 
         // todo
