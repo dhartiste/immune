@@ -38,7 +38,7 @@ export default class InternalBacteria extends BaseScene {
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.gotoAndStop(0);
-            bacteria.velocity = new PIXI.Point(Math.random()-1, Math.random()*2-1);
+            bacteria.velocity = new PIXI.Point(Math.random()*-6, Math.random()-.5);
         })
         switch(this.gameData.currentChoiceIndex) {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
@@ -65,19 +65,41 @@ export default class InternalBacteria extends BaseScene {
 
     start(){
         // PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
-        let start = 1;
-        setInterval(this.duplicateB, 1, 9000);
-        this.duplicateB(2);
+        // let start = 1;
+        setInterval(this.duplicateB, 2000);
+        //this.duplicateB();
 
-
+        // this.bacteriaArray.forEach(bacteria => {
+           
+        //         bacteria.isDividing=true;
+        //         PIXI.animate.Animator.play(bacteria,"duplicate");
+        //         bacteria.isDividing=false;
+            
+        // });
 
 
         //initialize arrays
 
     }
 
-    duplicateB=(start: number) => {
-        let i = start;
+    duplicateB=() => {
+        let i = 0;
+        this.bacteriaArray.forEach(bacteria => {
+            if (i%2===0) {
+                bacteria.isDividing=true;
+                PIXI.animate.Animator.play(bacteria,"duplicate");
+                
+                bacteria.gotoAndStop("duplicate");
+                bacteria.isDividing=false;
+            }
+            i++;
+        });
+        setTimeout(() => this.duplicateA(), 3000);
+        //do this
+    }
+
+    duplicateA(){
+        let i = 1;
         this.bacteriaArray.forEach(bacteria => {
             if (i%2===0) {
                 bacteria.isDividing=true;
@@ -124,7 +146,7 @@ export default class InternalBacteria extends BaseScene {
                 macrophage.velocity.x = -macrophage.velocity.x;
                 macrophage.x+=macrophage.velocity.x;
             }
-            if(macrophage.y - macrophage.height <= -this.stageManager.height/2 || macrophage.y + macrophage.height >= 750){
+            if(macrophage.y - macrophage.height <= 0|| macrophage.y + macrophage.height >= 750){
                 macrophage.velocity.y = -macrophage.velocity.y;
                 macrophage.y+=macrophage.velocity.y;
             } 
@@ -134,23 +156,12 @@ export default class InternalBacteria extends BaseScene {
             bacteria.x+=bacteria.velocity.x;
             bacteria.y+=bacteria.velocity.y;
 
-            if(bacteria.position.x - bacteria.width <= this.stageManager.leftEdge || bacteria.position.x + bacteria.width >= this.stageManager.rightEdge){
+            if(bacteria.position.x - bacteria.width/2 <= this.stageManager.leftEdge || bacteria.position.x + bacteria.width/2 >= this.stageManager.rightEdge){
                 bacteria.velocity.x = -bacteria.velocity.x;
                 bacteria.x+=2*bacteria.velocity.x;
             }
             if(bacteria.y - bacteria.height/2 <= 0 || bacteria.y + bacteria.height/2  >= 750 ){
-                if(bacteria.y - bacteria.height/2 <= -this.stageManager.height/2) {
-                    console.log("bottome height: ");
-                    console.log(bacteria.y - bacteria.height/2);
-                    console.log("bottome bound: ");
-                    console.log(-1*this.stageManager.height/2);
-                }
-                else {
-                    console.log("top height: ");
-                    console.log(bacteria.y + bacteria.height/2 );
-                    console.log("bottome bound: ");
-                    console.log(this.stageManager.height/2);
-                }
+                
                 bacteria.velocity.y = -bacteria.velocity.y;
                 bacteria.y+=2*bacteria.velocity.y;
             } 
