@@ -27,6 +27,10 @@ export default class TemplateGame extends Game{
 
         });
         //this.changeScene('external');
+<<<<<<< HEAD
+=======
+        //this.changeScene('library');
+>>>>>>> ecfaf04b676cc2430a8412f594af0ed42e2acd57
         this.changeScene('title');
     }
 }
