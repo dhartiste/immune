@@ -6,7 +6,7 @@ import 'pixi-sound';
 import 'pixi-animate';
 import TemplateGame from './TemplateGame';
 import * as Transition from './assets/Transition';
-import { CONFIG } from './config/config';
+//import { CONFIG } from './config/config';
 
 
 const game = new TemplateGame({
