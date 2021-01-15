@@ -2,23 +2,33 @@ import { MovieClip } from 'pixi-animate';
 import { AssetList, Tween } from 'wgbh-springroll-game';
 import * as InternalBacteriaArt from '../assets/InternalBacteria';
 import { MICROORGANISM_INDEX } from '../helpers/Const';
+
 import Utils from '../helpers/Utils';
 import BaseScene from './BaseScene';
 
 export default class InternalBacteria extends BaseScene {
 
+    private exampleLib:any;
     private art: InternalBacteriaArt;
     //private microGuy: MovieClip;
     private bacteriaArray: Bacteria[]=[];
     private macrophageArray: Macrophage[]=[];
+
+
     
+
+
     preload():AssetList{
         return [
-            {type:'animate', id:'internalBacteriaArt', stage:InternalBacteriaArt.stage, cacheInstance:true},
+            {type:'animate', id:'internalBacteriaArt', stage:InternalBacteriaArt.stage, cacheInstance:true}
         ];
     }
 
     setup(){
+   
+        this.exampleLib = InternalBacteriaArt.library;
+
+       
 
         const background = new PIXI.Graphics();
         background.beginFill(0xFFFFCE);
@@ -30,6 +40,13 @@ export default class InternalBacteria extends BaseScene {
         this.addChild(this.art);
         this.bacteriaArray = [this.art.bacteria1, this.art.bacteria2, this.art.bacteria3, this.art.bacteria4, this.art.bacteria5];
         this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
+
+
+        // let macro1= new this.exampleLib.macro_bacteria() as Organism; 
+        // macro1.position = new PIXI.Point(500, 200);
+        // macro1.gotoAndStop(0);
+        // macro1.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
+        // this.addChild(macro1);
 
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
@@ -66,7 +83,7 @@ export default class InternalBacteria extends BaseScene {
     start(){
         // PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
         // let start = 1;
-        setInterval(this.duplicateB, 2000);
+        setTimeout(this.duplicateB, 2000);
         //this.duplicateB();
 
         // this.bacteriaArray.forEach(bacteria => {
@@ -82,20 +99,20 @@ export default class InternalBacteria extends BaseScene {
 
     }
 
-    duplicateB=() => {
+    duplicateB=() => {  
         let i = 0;
         this.bacteriaArray.forEach(bacteria => {
             if (i%2===0) {
                 bacteria.isDividing=true;
                 PIXI.animate.Animator.play(bacteria,"duplicate");
                 
-                bacteria.gotoAndStop("duplicate");
-                bacteria.isDividing=false;
             }
             i++;
         });
         setTimeout(() => this.duplicateA(), 3000);
-        //do this
+        console.log("here");
+        setTimeout(() => this.duplicateBFix(), 2000);
+      
     }
 
     duplicateA(){
@@ -104,11 +121,59 @@ export default class InternalBacteria extends BaseScene {
             if (i%2===0) {
                 bacteria.isDividing=true;
                 PIXI.animate.Animator.play(bacteria,"duplicate");
-                bacteria.isDividing=false;
             }
             i++;
         });
-        //do this
+    }
+
+
+
+    duplicateBFix=() => {  
+        console.log("hi");
+        let i = 0;
+        this.bacteriaArray.forEach(bacteria => {
+            if (i%2===0&&i<5) {
+                let bacteriaNew = new this.exampleLib.bacteria_divide() as Bacteria; 
+                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/5, bacteria.y);
+                bacteriaNew.width*=-1;
+                bacteriaNew.gotoAndStop("duplicate");
+                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, bacteria.velocity.y);
+                bacteria.velocity.x+=Math.random();
+                bacteria.x+=bacteria.width/5;
+                bacteria.gotoAndStop("duplicate");
+                bacteria.isDividing=false;
+                bacteria.velocity.x*=-1;
+                this.addChild(bacteriaNew);
+                this.bacteriaArray.push(bacteriaNew);
+                console.log("added a new one");
+            }
+            i++;
+        });
+        setTimeout(() => this.duplicateAFix(), 3000);
+      
+    }
+
+    duplicateAFix(){
+        let i = 1;
+        this.bacteriaArray.forEach(bacteria => {
+            
+            if (i%2===0&&i<6) {
+                let bacteriaNew = new this.exampleLib.bacteria_divide() as Bacteria; 
+                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/5, bacteria.y);
+                bacteriaNew.width*=-1;
+                bacteriaNew.gotoAndStop("duplicate");
+                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, bacteria.velocity.y);
+                bacteria.velocity.x+=Math.random();
+                bacteria.x+=bacteria.width/5;
+                bacteria.gotoAndStop("duplicate");
+                bacteria.isDividing=false;
+                bacteria.velocity.x*=-1;
+                this.addChild(bacteriaNew);
+                this.bacteriaArray.push(bacteriaNew);
+                console.log("added a new one");
+            }
+            i++;
+        });
     }
     // boingIt = () => {
     //     // 
@@ -167,11 +232,6 @@ export default class InternalBacteria extends BaseScene {
             } 
         })
 
-        // todo
-        // each microphage and bacteria is moving
-
-        //check to see if overlap
-
 
 
     }
@@ -206,6 +266,11 @@ interface Macrophage extends MovieClip { //3 start
     isHit:boolean;
     velocity:PIXI.Point;
 }
+
+// interface Organism extends MovieClip {
+//     isHit:boolean;
+//     velocity:PIXI.Point;
+// }
 
 interface InternalBacteriaArt extends MovieClip {
     bacteria1: Bacteria;
