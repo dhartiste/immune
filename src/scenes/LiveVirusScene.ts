@@ -1,4 +1,5 @@
 import { MovieClip } from 'pixi-animate';
+import { HintSequencePlayer } from 'springroll';
 import { AssetList, Tween } from 'wgbh-springroll-game';
 import * as InternalLiveVirusArt from '../assets/InternalLiveVirus';
 import { MICROORGANISM_INDEX } from '../helpers/Const';
@@ -12,6 +13,9 @@ export default class InternalLiveVirusScene extends BaseScene {
     private liveVirusArray: LiveVirusSprite[]=[];
     private duplicatesArray: LiveVirusSprite[]=[];
     private immuneCellArray: ImmuneCell[]=[];
+
+    // temp!
+    private oneCell:boolean=false;
  
     
     preload():AssetList{
@@ -43,12 +47,12 @@ export default class InternalLiveVirusScene extends BaseScene {
         this.immuneCellArray.forEach(cell => {
             cell.gotoAndStop(0);
             cell.velocity = new PIXI.Point(Math.random() * .5, Math.random() * .5);
-        })
+        });
 
         this.liveVirusArray.forEach(virus => {
             virus.gotoAndStop(0);
             virus.velocity = new PIXI.Point(Math.random(), Math.random());
-        })
+        });
 
      
         Utils.simpleButton(this.art.back);
@@ -83,7 +87,19 @@ export default class InternalLiveVirusScene extends BaseScene {
                 }
 
             });
+            if (cell.isHit && !this.oneCell) {
+                let newVirus = new this.virusLibrary.virus_alive_sm() as LiveVirusSprite;
+                this.liveVirusArray.push(newVirus);
+                newVirus.position = cell.position;
+                newVirus.velocity = new PIXI.Point(Math.random(), Math.random());
+                this.addChild(newVirus);
+                this.oneCell=true;
+            }
         });
+
+
+
+
 
         //insert duplicate virus TODO
         /* this.immuneCellArray.forEach(cell => {
@@ -108,11 +124,11 @@ export default class InternalLiveVirusScene extends BaseScene {
             if(cell.position.x - cell.width <= this.stageManager.leftEdge || cell.position.x + cell.width >= this.stageManager.rightEdge){
                 cell.velocity.x = -cell.velocity.x;
             }
-            if(cell.y - cell.height <= -this.stageManager.height/2 || cell.y + cell.height >= this.stageManager.height/2){
+            if(cell.y - cell.height/2 <= -this.stageManager.height || cell.y + cell.height/2 >= this.stageManager.height){
                 cell.velocity.y = -cell.velocity.y;
             } 
 
-        })
+        });
 
         this.liveVirusArray.forEach(virus => {
          
@@ -122,10 +138,10 @@ export default class InternalLiveVirusScene extends BaseScene {
             if(virus.position.x - virus.width <= this.stageManager.leftEdge || virus.position.x + virus.width >= this.stageManager.rightEdge){
                 virus.velocity.x = -virus.velocity.x;
             }
-            if(virus.y - virus.height <= -this.stageManager.height/2 || virus.y + virus.height >= this.stageManager.height/2){
+            if(virus.y - virus.height/2 <= 0 || virus.y + virus.height/2 >= this.stageManager.height){
                 virus.velocity.y = -virus.velocity.y;
             }
-        })
+        });
 
         
     }
@@ -137,7 +153,7 @@ export default class InternalLiveVirusScene extends BaseScene {
                 count++;
             }
 
-        })
+        });
         if(count===10) {
             console.log("animation done");
             this.changeScene("external");

@@ -52,12 +52,12 @@ export default class InternalBacteria extends BaseScene {
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
             macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()-.5);
-        })
+        });
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.gotoAndStop(0);
             bacteria.velocity = new PIXI.Point(Math.random()*-6, Math.random()-.5);
-        })
+        });
         switch(this.gameData.currentChoiceIndex) {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
                 break;
@@ -216,7 +216,7 @@ export default class InternalBacteria extends BaseScene {
                 macrophage.velocity.y = -macrophage.velocity.y;
                 macrophage.y+=macrophage.velocity.y;
             } 
-        })
+        });
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.x+=bacteria.velocity.x;
@@ -231,19 +231,19 @@ export default class InternalBacteria extends BaseScene {
                 bacteria.velocity.y = -bacteria.velocity.y;
                 bacteria.y+=2*bacteria.velocity.y;
             } 
-        })
+        });
 
         if (this.ended) {
 
             this.macrophageArray.forEach(macrophage => {
                 macrophage.velocity.x*=0.95;
                 macrophage.velocity.y*=0.95;
-            })
+            });
     
             this.bacteriaArray.forEach(bacteria => {
                 bacteria.velocity.x*=0.99;
                 bacteria.velocity.y*=0.99;
-            })
+            });
             
         }
 
@@ -258,7 +258,7 @@ export default class InternalBacteria extends BaseScene {
                 count++;
             }
             
-        })
+        });
         if(count===3) {
             console.log("animation done");
             this.ended = true;

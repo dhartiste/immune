@@ -34,12 +34,12 @@ export default class InternalScene extends BaseScene {
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
             macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
-        })
+        });
 
         this.proteinArray.forEach(protein => {
             protein.gotoAndStop(0);
             protein.velocity = new PIXI.Point(Math.random(), Math.random());
-        })
+        });
 
         Utils.simpleButton(this.art.back);
 
@@ -87,11 +87,11 @@ export default class InternalScene extends BaseScene {
             if(macrophage.position.x - macrophage.width <= this.stageManager.leftEdge || macrophage.position.x + macrophage.width >= this.stageManager.rightEdge){
                 macrophage.velocity.x = -macrophage.velocity.x;
             }
-            if(macrophage.y - macrophage.height <= -this.stageManager.height/2 || macrophage.y + macrophage.height >= this.stageManager.height/2){
+            if(macrophage.y - macrophage.height/2 <= 0 || macrophage.y + macrophage.height /2>= this.stageManager.height){
                 macrophage.velocity.y = -macrophage.velocity.y;
             } 
 
-        })
+        });
 
         this.proteinArray.forEach(protein => {
          
@@ -104,7 +104,7 @@ export default class InternalScene extends BaseScene {
             if(protein.y - protein.height/2 <= 0 || protein.y + protein.height/2 >= this.stageManager.height){
                 protein.velocity.y = -protein.velocity.y;
             }
-        })
+        });
     }
 
     checkProteinsDead=()=>{

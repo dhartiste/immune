@@ -30,7 +30,7 @@ export default class DeadVirusScene extends BaseScene {
         this.deadVirusArray.forEach(virus => {
             //virus.gotoAndStop(0);
             virus.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
-        })
+        });
 /*
         this.immuneCellArray.forEach(cell => {
             cell.gotoAndStop(0);
