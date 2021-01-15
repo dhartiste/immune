@@ -45,10 +45,12 @@ export default class BaseScene extends Scene {
 }
 
 export type MicroOrganism = 'none' | 'bacteria' | 'protein'| 'virus_alive' | 'virus_dead' | 'virus_attenuated';
+export type patientChange = 'healthyToSick' | 'sickToBed' | 'bedToHealthy';
 
 export interface GameData {
    currentChoice : MicroOrganism;
    currentChoiceIndex : number;
    currentAct : number;
    completedOrgs: boolean[];
+   externalLabels:patientChange;
 }
