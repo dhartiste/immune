@@ -1,10 +1,10 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/details/virus_alive_sm" itemID="409b80c1-00001062" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/details/virus_alive_sm" sourceLastModified="1090418520" lastModified="1090418520" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/details/virus_alive_sm" itemID="409b80c1-00001062" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/details/virus_alive_sm" sourceLastModified="1090418520" lastModified="1610727306" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="virus_alive_sm" layerDepthEnabled="true">
+    <DOMTimeline name="virus_alive_sm" currentFrame="2" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
-            <DOMFrame index="0" keyMode="9728">
+            <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
                 <DOMGroup>
                   <members>

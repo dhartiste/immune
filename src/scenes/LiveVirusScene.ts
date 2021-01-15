@@ -10,6 +10,8 @@ export default class InternalLiveVirusScene extends BaseScene {
     private art: InternalLiveVirusArt;
     private liveVirusArray: LiveVirusSprite[]=[];
     private immuneCellArray: ImmuneCell[]=[];
+    private duplicatesArray: LiveVirusSprite[]=[];
+    private duplicate: MovieClip;
     
     preload():AssetList{
         return [
@@ -29,6 +31,7 @@ export default class InternalLiveVirusScene extends BaseScene {
         this.art = this.cache.animations.internalLiveVirusArt as InternalLiveVirusArt;
         this.addChild(this.art);
        
+    
         this.liveVirusArray = [this.art.live1, this.art.live2, this.art.live3, this.art.live4, this.art.live5];
         this.immuneCellArray = [this.art.immune1, this.art.immune2, this.art.immune3];
 
@@ -43,15 +46,12 @@ export default class InternalLiveVirusScene extends BaseScene {
             virus.velocity = new PIXI.Point(Math.random(), Math.random());
         })
 
-        //this.art.bacteria.gotoAndStop(0);
-        //this.art.protein.gotoAndStop(0);
+     
         Utils.simpleButton(this.art.back);
 
     }
 
     start(){
-        
-        //PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
 
         this.art.back.once("pointerdown", ()=>{
             this.changeScene("game");
@@ -64,33 +64,54 @@ export default class InternalLiveVirusScene extends BaseScene {
         // hit testing (you need to check if the cell got hit, if it's hit then it becomes a virus factory)
         this.immuneCellArray.forEach(cell => {
             this.liveVirusArray.forEach(virus => {
-                if(!cell.isHit) {
-                    cell.isHit = 
+                if(!virus.isHit && !cell.isHit) {
+                    virus.isHit = cell.isHit = 
                     virus.x < cell.x + cell.width/2 && 
                     virus.x > cell.x - cell.width/2  &&
                     virus.y > cell.y - cell.height/2 &&
                     virus.y < cell.y + cell.height/2;
                     if(cell.isHit) {
-                        PIXI.animate.Animator.play(cell, "duplicate", this.checkVirusCount);
+                        PIXI.animate.Animator.play(cell, "duplicate");
+                        virus.visible = false;
+
+                        if(cell.currentFrame == 185){
+                           
+                        }
+
                     }
+ 
                 }
 
             });
         });
 
-
-        //movement of sprites (FIX)
-        this.liveVirusArray.forEach(virus => {
+      
+        //movement of sprites 
+        this.immuneCellArray.forEach(cell => {
             
-            virus.y += 0;
-            virus.x = -1;
-        
+            cell.x += cell.velocity.x;
+            cell.y += cell.velocity.y * 2;
+           
+            if(cell.position.x - cell.width <= this.stageManager.leftEdge || cell.position.x + cell.width >= this.stageManager.rightEdge){
+                cell.velocity.x = -cell.velocity.x;
+            }
+            if(cell.y - cell.height <= -this.stageManager.height/2 || cell.y + cell.height >= this.stageManager.height/2){
+                cell.velocity.y = -cell.velocity.y;
+            } 
+
         })
 
-        this.immuneCellArray.forEach(cell => {
+        this.liveVirusArray.forEach(virus => {
          
-            cell.x += Math.random() * .5;
-            cell.y += 0;
+            virus.x += -virus.velocity.x;
+            virus.y += -virus.velocity.y;
+
+            if(virus.position.x - virus.width <= this.stageManager.leftEdge || virus.position.x + virus.width >= this.stageManager.rightEdge){
+                virus.velocity.x = -virus.velocity.x;
+            }
+            if(virus.y - virus.height <= -this.stageManager.height/2 || virus.y + virus.height >= this.stageManager.height/2){
+                virus.velocity.y = -virus.velocity.y;
+            }
         })
     }
 
@@ -118,12 +139,14 @@ export default class InternalLiveVirusScene extends BaseScene {
 interface LiveVirusSprite extends MovieClip {
     isAbsorbed:boolean;
     velocity:PIXI.Point;
+    isHit:boolean;
     
 }
 
 interface ImmuneCell extends MovieClip { //3 start
     isHit:boolean;
     velocity:PIXI.Point;
+    
 }
 
 interface InternalLiveVirusArt extends MovieClip {
