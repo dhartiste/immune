@@ -431,7 +431,11 @@
 
     lib.macro_virus_d = MovieClip.extend(function () {
         MovieClip.call(this, {
-            duration: 175
+            duration: 175,
+            labels: {
+                intro: 9,
+                intro_stop: 174
+            }
         });
         var instance10 = new Graphics()
             .drawCommands(shapes.InternalDeadVirus[105]);

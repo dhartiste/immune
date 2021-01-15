@@ -25,7 +25,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Organisms/details/virus_dead_sm" selected="true">
+                <DOMSymbolInstance libraryItemName="Organisms/details/virus_dead_sm">
                   <matrix>
                     <Matrix tx="0.05" ty="-0.2"/>
                   </matrix>

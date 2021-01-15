@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1624" height="750" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="7302C3EB33584BA48F23DADE2B6877F2">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="1624" height="750" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 20.0 build 22168" majorVersion="20" buildNumber="22168" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="7302C3EB33584BA48F23DADE2B6877F2">
      <folders>
           <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
           <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
@@ -14,7 +14,7 @@
           <Include href="Organisms/details/hittest.xml" loadImmediate="false" itemID="4076a0b0-00001785" lastModified="1083942952"/>
           <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
           <Include href="Organisms/details/virus_dead_sm.xml" loadImmediate="false" itemID="409b80aa-00001039" lastModified="1083937341"/>
-          <Include href="Organisms/macro_virus_d.xml" itemID="40ab834a-0000a1da" lastModified="1091228160"/>
+          <Include href="Organisms/macro_virus_d.xml" itemID="40ab834a-0000a1da" lastModified="1610741352"/>
           <Include href="Organisms/virus_dead_antibodies.xml" itemID="4098fd6e-0000a7df" lastModified="1610684684"/>
           <Include href="Organisms/Virus dead breakup/body_dead.xml" loadImmediate="false" itemID="409903ca-0000ddd0" lastModified="1083766202"/>
           <Include href="Organisms/Virus dead breakup/eye_orange.xml" loadImmediate="false" itemID="409baaf2-00010376" lastModified="1083940351"/>
@@ -35,7 +35,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Organisms/antibody" name="anitbody1">
+                                        <DOMSymbolInstance libraryItemName="Organisms/antibody" name="anitbody1" selected="true">
                                              <matrix>
                                                   <Matrix tx="757.05" ty="298.8"/>
                                              </matrix>

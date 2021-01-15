@@ -57,7 +57,7 @@
     <Property name="PublishSettings.PixiJS.SpritesheetScale">1.0</Property>
     <Property name="PublishSettings.PixiJS.SpritesheetSize">1024</Property>
     <Property name="PublishSettings.PixiJS.Spritesheets">true</Property>
-    <Property name="PublishSettings.PixiJS.StageName">Internal</Property>
+    <Property name="PublishSettings.PixiJS.StageName">Internal_Protein</Property>
   </PublishProperties>
 </profile>
 </profiles>

@@ -32,11 +32,11 @@
                     <Edge fillStyle1="1" strokeStyle="2" edges="!687 169.5|444.5 137.5"/>
                     <Edge strokeStyle="2" edges="!444.5 137.5|388 131"/>
                     <Edge fillStyle0="1" edges="!687 169.5|691.5 170!691.5 170|692 170!692 170|643 -176!643 -176|3.5 78!3.5 78|1 79!1 79|25.5 82"/>
+                    <Edge fillStyle0="1" strokeStyle="2" edges="!25.5 82|57 86"/>
                     <Edge strokeStyle="1" edges="!-15 75.5|3.5 78"/>
                     <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="!3.5 78|44 84"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!44 84|57 86"/>
                     <Edge strokeStyle="1" edges="!57 86|388 131!388 131|667 172"/>
-                    <Edge fillStyle0="1" strokeStyle="2" edges="!25.5 82|57 86"/>
                     <Edge fillStyle0="1" edges="!44 84|444.5 137.5"/>
                     <Edge strokeStyle="1" edges="!-680 160[#FFFE06.FB #89.BB -330 115.5!-330 115.5[-295 #6E.FB -260 106.5!-260 106.5[-207.5 #63.B8 -155 93!-155 93[-89.75 #54.D2 -24.5 76.5!-24.5 76.5|-23.5 76.5!-23.5 76.5[#FFFFEC.C1 #4C.0A -15 75.5!-15 75.5|-24 74!-24 74|-25 74!-25 74
 |-24 73.5!-24 73.5|617 -181"/>
