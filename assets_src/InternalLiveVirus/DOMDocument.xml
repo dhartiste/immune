@@ -2,9 +2,11 @@
      <folders>
           <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
           <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
-          <DOMFolderItem name="Organisms" itemID="5ffa6a41-000002f5"/>
+          <DOMFolderItem name="Organisms" itemID="5ffa6a41-000002f5" isExpanded="true"/>
           <DOMFolderItem name="Organisms/bacteria divide" itemID="4059867e-000004fc"/>
-          <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
+          <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0" isExpanded="true"/>
+          <DOMFolderItem name="Organisms/Organisms" itemID="6001bbd5-00000139" isExpanded="true"/>
+          <DOMFolderItem name="Organisms/Organisms/details" itemID="6001bbd5-0000013a" isExpanded="true"/>
           <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
      </folders>
      <media>
@@ -12,7 +14,7 @@
      </media>
      <symbols>
           <Include href="Act 2 - admin/shapes/check.xml" loadImmediate="false" itemID="4048d5c9-0001cad5" lastModified="1089996920"/>
-          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1610402419"/>
+          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1091228160"/>
           <Include href="Act 2 - admin/shapes/purple_square_flash.xml" loadImmediate="false" itemID="40473914-0000fdd4" lastModified="1089996307"/>
           <Include href="Act 2 - admin/shapes/white_mask.xml" loadImmediate="false" itemID="4048b911-0001437b" lastModified="1089996203"/>
           <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
@@ -20,7 +22,7 @@
           <Include href="Back.xml" loadImmediate="false" itemID="5ffa7264-0000033a" lastModified="1610248804"/>
           <Include href="Eye.xml" loadImmediate="false" itemID="5ffa6c7b-00000314" lastModified="1610247291"/>
           <Include href="GameSafe.xml" loadImmediate="false" itemID="5ffa2c0f-00000136" lastModified="1610521630"/>
-          <Include href="Organisms/bacteria_simple.xml" loadImmediate="false" itemID="40d07321-00008f82" lastModified="1091228160"/>
+          <Include href="Organisms/bacteria_simple.xml" loadImmediate="false" itemID="40d07321-00008f82" lastModified="1610725241"/>
           <Include href="Organisms/bacteria divide/antenae_single.xml" loadImmediate="false" itemID="40572764-00002675" lastModified="1079449940"/>
           <Include href="Organisms/bacteria divide/body.xml" loadImmediate="false" itemID="40572573-00001e67" lastModified="1089910272"/>
           <Include href="Organisms/bacteria divide/eye.xml" loadImmediate="false" itemID="40572614-00002085" lastModified="1079449604"/>
@@ -32,10 +34,11 @@
           <Include href="Organisms/details/mac_baceyebrows.xml" loadImmediate="false" itemID="40757b3b-00007bcf" lastModified="1081437483"/>
           <Include href="Organisms/details/macro_bac_blue.xml" loadImmediate="false" itemID="40757a98-000078df" lastModified="1087397386"/>
           <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
-          <Include href="Organisms/details/virus_alive_sm.xml" loadImmediate="false" itemID="409b80c1-00001062" lastModified="1610691602"/>
+          <Include href="Organisms/details/virus_alive_sm.xml" loadImmediate="false" itemID="409b80c1-00001062" lastModified="1610727306"/>
           <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610489289"/>
           <Include href="Organisms/macro_bacteria orig.xml" loadImmediate="false" itemID="40d1d5b0-000079f9" lastModified="1610591181"/>
-          <Include href="Organisms/macro_virus_multiply.xml" itemID="40ab9e7f-000171d5" lastModified="1610523154"/>
+          <Include href="Organisms/macro_virus_multiply.xml" itemID="40ab9e7f-000171d5" lastModified="1610725241"/>
+          <Include href="Organisms/Organisms/details/virus_dead_sm.xml" loadImmediate="false" itemID="409b80aa-00001039" lastModified="1083937341"/>
           <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610591113"/>
           <Include href="Organisms/Virus live breakup/body.xml" loadImmediate="false" itemID="40968346-00015805" lastModified="1090502423"/>
           <Include href="Organisms/Virus live breakup/eyes.xml" loadImmediate="false" itemID="409683d6-00015b31" lastModified="1083602374"/>
@@ -93,41 +96,79 @@
                                                   <Point x="44.05" y="-37.35"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus1">
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm">
                                              <matrix>
-                                                  <Matrix tx="959.65" ty="200.5"/>
+                                                  <Matrix tx="-0.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.4" y="-0.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie">
+                                             <matrix>
+                                                  <Matrix a="1.28807067871094" d="1.30856323242188" tx="0.25" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="15" y="14.5"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm">
+                                             <matrix>
+                                                  <Matrix tx="-0.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.4" y="-0.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie">
+                                             <matrix>
+                                                  <Matrix a="1.28807067871094" d="1.30856323242188" tx="0.25" ty="-0.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="15" y="14.5"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live2">
+                                             <matrix>
+                                                  <Matrix tx="1097.65" ty="307.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.35" y="-0.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus2">
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live1">
                                              <matrix>
-                                                  <Matrix tx="1039.65" ty="260.5"/>
+                                                  <Matrix tx="989.65" ty="250.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.35" y="-0.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus3">
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live3">
                                              <matrix>
-                                                  <Matrix tx="909.65" ty="300.5"/>
+                                                  <Matrix tx="981.65" ty="341.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.35" y="-0.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus4">
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live4" selected="true">
                                              <matrix>
-                                                  <Matrix tx="1009.65" ty="354.1"/>
+                                                  <Matrix tx="1072.65" ty="397.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.35" y="-0.5"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live_virus4">
+                                        <DOMSymbolInstance libraryItemName="Organisms/details/virus_alive_sm" name="live5">
                                              <matrix>
-                                                  <Matrix tx="919.65" ty="400.5"/>
+                                                  <Matrix tx="988.65" ty="428.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="0.35" y="-0.5"/>

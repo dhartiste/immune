@@ -41,17 +41,12 @@ export default class InternalScene extends BaseScene {
             protein.velocity = new PIXI.Point(Math.random(), Math.random());
         })
 
-    
-
-        //this.art.bacteria.gotoAndStop(0);
-        //this.art.protein.gotoAndStop(0);
         Utils.simpleButton(this.art.back);
 
     }
 
     start(){
-        
-        //PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
+
 
         this.art.back.once("pointerdown", ()=>{
             this.changeScene("game");
@@ -100,11 +95,7 @@ export default class InternalScene extends BaseScene {
             if(macrophage.y - macrophage.height <= -this.stageManager.height/2 || macrophage.y + macrophage.height >= this.stageManager.height/2){
                 macrophage.velocity.y = -macrophage.velocity.y;
             } 
-              
-            
-            
 
-           
         })
 
         this.proteinArray.forEach(protein => {
