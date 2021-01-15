@@ -152,8 +152,7 @@
     lib.hitmesquare = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[37])
-            .setTransform(0, 0.85, 1, 1.055);
+            .drawCommands(shapes.Internal[37]);
         this.addChild(instance1);
     });
 

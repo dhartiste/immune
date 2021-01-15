@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_dead_antibodies" itemID="4098fd6e-0000a7df" linkageExportForAS="true" linkageIdentifier="virus_dead_antibodies" linkageClassName="virus_dead_antibodies" lastModified="1610684684" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="virus_dead_antibodies" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="hittest" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie">
+                  <matrix>
+                    <Matrix a="1.28807067871094" d="1.30856323242188" tx="30.65" ty="-19.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15" y="14.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="virus" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/details/virus_dead_sm" selected="true">
+                  <matrix>
+                    <Matrix tx="0.05" ty="-0.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.35" y="-0.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

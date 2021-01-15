@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/antibody" itemID="4023ccce-00004f72" linkageExportForAS="true" linkageIdentifier="antibody" linkageClassName="antibody" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/antibody" sourceLastModified="1090502935" lastModified="1090502935" lastUniqueIdentifier="3" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="antibody" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="antibidy" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFAE59" alpha="0.670588235294118"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2.75">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal" weight="0.05" solidStyle="hairline">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="2" edges="!687 169.5|444.5 137.5"/>
+                    <Edge strokeStyle="2" edges="!444.5 137.5|388 131"/>
+                    <Edge fillStyle0="1" edges="!687 169.5|691.5 170!691.5 170|692 170!692 170|643 -176!643 -176|3.5 78!3.5 78|1 79!1 79|25.5 82"/>
+                    <Edge strokeStyle="1" edges="!-15 75.5|3.5 78"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="!3.5 78|44 84"/>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!44 84|57 86"/>
+                    <Edge strokeStyle="1" edges="!57 86|388 131!388 131|667 172"/>
+                    <Edge fillStyle0="1" strokeStyle="2" edges="!25.5 82|57 86"/>
+                    <Edge fillStyle0="1" edges="!44 84|444.5 137.5"/>
+                    <Edge strokeStyle="1" edges="!-680 160[#FFFE06.FB #89.BB -330 115.5!-330 115.5[-295 #6E.FB -260 106.5!-260 106.5[-207.5 #63.B8 -155 93!-155 93[-89.75 #54.D2 -24.5 76.5!-24.5 76.5|-23.5 76.5!-23.5 76.5[#FFFFEC.C1 #4C.0A -15 75.5!-15 75.5|-24 74!-24 74|-25 74!-25 74
+|-24 73.5!-24 73.5|617 -181"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hittest" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/details/hittest" name="hittestie" selected="true">
+                  <matrix>
+                    <Matrix tx="23.5" ty="22.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1.5" y="-0.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.05078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

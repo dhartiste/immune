@@ -113,9 +113,11 @@ export default class GameScene extends BaseScene {
         }
         if (this.gameData.currentChoice === "protein" || this.gameData.currentChoice === "virus_attenuated" || this.gameData.currentChoice === "virus_dead"){ 
             console.log(this.gameData.currentChoice);
-             if (this.isHitSyringe) {
+             if (this.isHitSyringe && this.gameData.currentChoice === "protein") {
                  console.log("syringe: go to scene for...");
                  this.changeScene("proteinInject");
+             } else if (this.isHitSyringe && this.gameData.currentChoice === "virus_dead"){
+                 this.changeScene("deadVirus")
              }
         }
     }
