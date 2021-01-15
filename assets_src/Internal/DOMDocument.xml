@@ -12,7 +12,7 @@
      </media>
      <symbols>
           <Include href="Act 2 - admin/shapes/check.xml" loadImmediate="false" itemID="4048d5c9-0001cad5" lastModified="1089996920"/>
-          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1091228160"/>
+          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1610402419"/>
           <Include href="Act 2 - admin/shapes/purple_square_flash.xml" loadImmediate="false" itemID="40473914-0000fdd4" lastModified="1089996307"/>
           <Include href="Act 2 - admin/shapes/white_mask.xml" loadImmediate="false" itemID="4048b911-0001437b" lastModified="1089996203"/>
           <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
@@ -33,7 +33,7 @@
           <Include href="Organisms/details/macro_bac_blue.xml" loadImmediate="false" itemID="40757a98-000078df" lastModified="1087397386"/>
           <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
           <Include href="Organisms/details/virus_alive_sm.xml" loadImmediate="false" itemID="409b80c1-00001062" lastModified="1090418520"/>
-          <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610249211"/>
+          <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1610489289"/>
           <Include href="Organisms/macro_bacteria orig.xml" loadImmediate="false" itemID="40d1d5b0-000079f9" lastModified="1610591181"/>
           <Include href="Organisms/macro_virus_multiply.xml" itemID="40ab9e7f-000171d5" lastModified="1610523154"/>
           <Include href="Organisms/protein.xml" itemID="4023ccc7-00004f50" lastModified="1610591113"/>
@@ -65,7 +65,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true" highlighted="true">
+                    <DOMLayer name="Layer_1" color="#00FFFF" highlighted="true">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -167,11 +167,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="game_safe_bg" color="#FF800A" locked="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="GameSafe" selected="true">
+                                        <DOMSymbolInstance libraryItemName="GameSafe">
                                              <matrix>
                                                   <Matrix a="1.01718139648438" d="0.9765625" tx="287"/>
                                              </matrix>
