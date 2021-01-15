@@ -27,11 +27,11 @@ export default class GameScene extends BaseScene {
         this.art = this.cache.animations.gameArt as Art;
         this.addChild(this.art);
 
-       this.art.girl.gotoAndStop(0);
-       this.art.syringe.gotoAndStop(0);
-       //this.art.virus_attenuatedPopup.visible = false;
-       //this.art.pnlPopup2.visible = false;
-       this.gameData.currentAct = 1;
+        this.art.girl.gotoAndStop(0);
+        this.art.syringe.gotoAndStop(0);
+        //this.art.virus_attenuatedPopup.visible = false;
+        //this.art.pnlPopup2.visible = false;
+        this.gameData.currentAct = 1;
     }
 
     start(){

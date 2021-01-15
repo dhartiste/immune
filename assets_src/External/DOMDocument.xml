@@ -4,7 +4,7 @@
           <DOMFolderItem name="Numbers" itemID="5ffde59e-0000032e" isExpanded="true"/>
           <DOMFolderItem name="Objects" itemID="5ffca150-000001e0" isExpanded="true"/>
           <DOMFolderItem name="Objects/Hit controllers" itemID="410ad7fb-00005338"/>
-          <DOMFolderItem name="Texts" itemID="5ffca144-000001d2"/>
+          <DOMFolderItem name="Texts" itemID="5ffca144-000001d2" isExpanded="true"/>
           <DOMFolderItem name="zDetails" itemID="40bf5ee3-0000416d"/>
           <DOMFolderItem name="zDetails/bandaid details" itemID="40bf255f-00001874"/>
      </folders>
@@ -83,9 +83,9 @@
           <Include href="zDetails/bandaid details/nub_only.xml" loadImmediate="false" itemID="40bf243b-00001446" lastModified="1090507614"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="327" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="353" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Labels" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Labels" color="#FF4F4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" name="default" labelType="name" keyMode="9728">
                                    <elements/>
@@ -220,7 +220,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="255" duration="44" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                              <DOMFrame index="255" duration="99" keyMode="15872">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Tween 5" symbolType="graphic" centerPoint3DX="668.6" centerPoint3DY="361.1" loop="loop">
                                              <matrix>
@@ -231,36 +231,6 @@
                                              </transformationPoint>
                                              <color>
                                                   <Color alphaMultiplier="0.98046875"/>
-                                             </color>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="299" duration="48" name="70% - 95%" labelType="name" tweenType="motion" motionTweenSnap="true" keyMode="22017">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tween 5" symbolType="graphic" centerPoint3DX="668.6" centerPoint3DY="361.1" loop="loop">
-                                             <matrix>
-                                                  <Matrix tx="668.6" ty="361.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <color>
-                                                  <Color alphaMultiplier="0.30078125"/>
-                                             </color>
-                                        </DOMSymbolInstance>
-                                   </elements>
-                              </DOMFrame>
-                              <DOMFrame index="347" duration="7" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Tween 6" symbolType="graphic" loop="loop">
-                                             <matrix>
-                                                  <Matrix tx="668.6" ty="361.1"/>
-                                             </matrix>
-                                             <transformationPoint>
-                                                  <Point/>
-                                             </transformationPoint>
-                                             <color>
-                                                  <Color alphaMultiplier="0"/>
                                              </color>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -1427,7 +1397,7 @@
                               </DOMFrame>
                               <DOMFrame index="293" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="38.4" selected="true" centerPoint3DX="520.5" centerPoint3DY="351.3">
+                                        <DOMSymbolInstance libraryItemName="38.4" centerPoint3DX="520.5" centerPoint3DY="351.3">
                                              <matrix>
                                                   <Matrix tx="493" ty="340.3"/>
                                              </matrix>
@@ -2291,7 +2261,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="layout" color="#FFFF4F" autoNamed="false">
+                    <DOMLayer name="layout" color="#FFFF4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="4" keyMode="9728">
                                    <elements>
@@ -2559,7 +2529,7 @@
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="254" duration="41" keyMode="9728">
+                              <DOMFrame index="254" duration="43" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Texts/txtHealth" name="Health" centerPoint3DX="482" centerPoint3DY="196.45">
                                              <matrix>
@@ -2598,7 +2568,7 @@
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="295" duration="52" keyMode="9728">
+                              <DOMFrame index="297" duration="47" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid" centerPoint3DX="668.6" centerPoint3DY="361.1">
                                              <matrix>
@@ -2645,7 +2615,7 @@
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="347" duration="7" keyMode="9728">
+                              <DOMFrame index="344" duration="10" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Objects/bandaid" name="bandaid" centerPoint3DX="668.6" centerPoint3DY="361.1">
                                              <matrix>

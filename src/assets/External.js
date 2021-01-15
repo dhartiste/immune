@@ -837,14 +837,7 @@
     });
 
     var Graphic3 = MovieClip.extend(function (mode) {
-        MovieClip.call(this, { mode: mode, duration: 93, loop: false });
-        var instance1 = new Graphics()
-            .drawCommands(shapes.External[0]);
-        this.addTimedChild(instance1);
-    });
-
-    var Graphic4 = MovieClip.extend(function (mode) {
-        MovieClip.call(this, { mode: mode, duration: 7, loop: false });
+        MovieClip.call(this, { mode: mode, duration: 100, loop: false });
         var instance1 = new Graphics()
             .drawCommands(shapes.External[0]);
         this.addTimedChild(instance1);
@@ -859,7 +852,7 @@
                 healthyToSick: 4,
                 "0% - 70%": 254,
                 healthyToSick_stop: 49,
-                "70% - 95%": 299,
+                "70% - 95%": 49,
                 sickToBed: 54,
                 sickToBed_stop: 100,
                 bedToHealthy: 104,
@@ -958,13 +951,13 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance150 = new lib.bandaid();
-        this[instance150.name = "bandaid"] = instance150;
-        var instance149 = new lib.Sick();
-        this[instance149.name = "Health"] = instance149;
-        var instance148 = new lib._70Protection();
-        this[instance148.name = "Protection"] = instance148;
-        var instance147 = new Text("Next Act...")
+        var instance151 = new lib.bandaid();
+        this[instance151.name = "bandaid"] = instance151;
+        var instance150 = new lib.Sick();
+        this[instance150.name = "Health"] = instance150;
+        var instance149 = new lib._70Protection();
+        this[instance149.name = "Protection"] = instance149;
+        var instance148 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -972,15 +965,15 @@
                 fill: "#d09214",
                 leading: 2
             });
-        var instance173 = new lib.InBed()
+        var instance171 = new lib.InBed()
             .setTransform(436, 185.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance173.name = "Health"] = instance173;
-        var instance172 = new lib._95Protect()
+        this[instance171.name = "Health"] = instance171;
+        var instance170 = new lib._95Protect()
             .setTransform(593.2, 183.95)
             .setColorTransform(0, 0.82, 0, 0.57, 0, 0.08);
-        this[instance172.name = "Protection"] = instance172;
-        var instance171 = new Text("Next Act...")
+        this[instance170.name = "Protection"] = instance170;
+        var instance169 = new Text("Next Act...")
             .setStyle({
                 fontFamily: "Tahoma",
                 fontSize: 12,
@@ -1140,7 +1133,7 @@
         var instance144 = new lib._50();
         var instance145 = new lib._51();
         var instance146 = new lib._52();
-        var instance151 = new lib._54();
+        var instance147 = new lib._54();
         var instance152 = new lib._55();
         var instance153 = new lib._56();
         var instance154 = new lib._57();
@@ -1158,7 +1151,7 @@
         var instance166 = new lib._67();
         var instance168 = new lib._104();
         var instance167 = new lib._68();
-        var instance169 = new lib._69()
+        var instance172 = new lib._69()
             .setTransform(493, 294.45);
         var instance3 = new lib.bandaid();
         this[instance3.name = "bandaid"] = instance3;
@@ -1167,9 +1160,6 @@
         var instance1 = new Graphic1(MovieClip.SYNCHED);
         var instance59 = new Graphic2(MovieClip.SYNCHED);
         var instance126 = new Graphic3(MovieClip.SYNCHED);
-        var instance170 = new Graphic4(MovieClip.SYNCHED)
-            .setTransform(668.6, 361.1)
-            .setAlpha(0);
         this.addTimedChild(instance17)
             .addTimedChild(instance16, 0, 4, {
                 "0": {
@@ -1365,7 +1355,7 @@
                     y: 521.65
                 }
             })
-            .addTimedChild(instance131, 254, 41, {
+            .addTimedChild(instance131, 254, 43, {
                 "254": {
                     x: 450,
                     y: 183.95,
@@ -1379,7 +1369,7 @@
                     ]
                 }
             })
-            .addTimedChild(instance130, 254, 41, {
+            .addTimedChild(instance130, 254, 43, {
                 "254": {
                     x: 606.2,
                     y: 183.95,
@@ -1393,20 +1383,20 @@
                     ]
                 }
             })
-            .addTimedChild(instance129, 254, 41, {
+            .addTimedChild(instance129, 254, 43, {
                 "254": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance150, 295, 59, {
-                "295": {
+            .addTimedChild(instance151, 297, 57, {
+                "297": {
                     x: 647.6,
                     y: 214.95
                 }
             })
-            .addTimedChild(instance149, 295, 52, {
-                "295": {
+            .addTimedChild(instance150, 297, 47, {
+                "297": {
                     x: 446,
                     y: 185.95,
                     c: [
@@ -1419,8 +1409,8 @@
                     ]
                 }
             })
-            .addTimedChild(instance148, 295, 52, {
-                "295": {
+            .addTimedChild(instance149, 297, 47, {
+                "297": {
                     x: 606.2,
                     y: 183.95,
                     c: [
@@ -1433,15 +1423,15 @@
                     ]
                 }
             })
-            .addTimedChild(instance147, 295, 52, {
-                "295": {
+            .addTimedChild(instance148, 297, 47, {
+                "297": {
                     x: 766.2,
                     y: 521.65
                 }
             })
-            .addTimedChild(instance173, 347, 7)
-            .addTimedChild(instance172, 347, 7)
-            .addTimedChild(instance171, 347, 7)
+            .addTimedChild(instance171, 344, 10)
+            .addTimedChild(instance170, 344, 10)
+            .addTimedChild(instance169, 344, 10)
             .addTimedChild(instance12)
             .addTimedChild(instance11, 0, 354, {
                 "0": {
@@ -6692,7 +6682,7 @@
                     y: 338.55
                 }
             })
-            .addTimedChild(instance151, 296, 8, {
+            .addTimedChild(instance147, 296, 8, {
                 "296": {
                     x: 493,
                     y: 337.7
@@ -6959,7 +6949,7 @@
                     y: 295.4
                 }
             })
-            .addTimedChild(instance169, 346, 8)
+            .addTimedChild(instance172, 346, 8)
             .addTimedChild(instance3, 0, 354, {
                 "0": {
                     x: 647.9,
@@ -7206,7 +7196,7 @@
                     a: 0
                 }
             })
-            .addTimedChild(instance126, 254, 93, {
+            .addTimedChild(instance126, 254, 100, {
                 "254": {
                     x: 668.6,
                     y: 361.1,
@@ -7214,228 +7204,8 @@
                 },
                 "255": {
                     a: 0.98
-                },
-                "256": {
-                    a: 0.96
-                },
-                "257": {
-                    a: 0.95
-                },
-                "258": {
-                    a: 0.93
-                },
-                "259": {
-                    a: 0.92
-                },
-                "260": {
-                    a: 0.9
-                },
-                "261": {
-                    a: 0.89
-                },
-                "262": {
-                    a: 0.87
-                },
-                "263": {
-                    a: 0.86
-                },
-                "264": {
-                    a: 0.84
-                },
-                "265": {
-                    a: 0.82
-                },
-                "266": {
-                    a: 0.81
-                },
-                "267": {
-                    a: 0.8
-                },
-                "268": {
-                    a: 0.78
-                },
-                "269": {
-                    a: 0.77
-                },
-                "270": {
-                    a: 0.75
-                },
-                "271": {
-                    a: 0.73
-                },
-                "272": {
-                    a: 0.72
-                },
-                "273": {
-                    a: 0.7
-                },
-                "274": {
-                    a: 0.69
-                },
-                "275": {
-                    a: 0.67
-                },
-                "276": {
-                    a: 0.66
-                },
-                "277": {
-                    a: 0.64
-                },
-                "278": {
-                    a: 0.63
-                },
-                "279": {
-                    a: 0.61
-                },
-                "280": {
-                    a: 0.59
-                },
-                "281": {
-                    a: 0.58
-                },
-                "282": {
-                    a: 0.56
-                },
-                "283": {
-                    a: 0.55
-                },
-                "284": {
-                    a: 0.53
-                },
-                "285": {
-                    a: 0.52
-                },
-                "286": {
-                    a: 0.5
-                },
-                "287": {
-                    a: 0.48
-                },
-                "288": {
-                    a: 0.47
-                },
-                "289": {
-                    a: 0.46
-                },
-                "290": {
-                    a: 0.44
-                },
-                "291": {
-                    a: 0.43
-                },
-                "292": {
-                    a: 0.41
-                },
-                "293": {
-                    a: 0.39
-                },
-                "294": {
-                    a: 0.38
-                },
-                "295": {
-                    a: 0.36
-                },
-                "296": {
-                    a: 0.35
-                },
-                "297": {
-                    a: 0.33
-                },
-                "298": {
-                    a: 0.32
-                },
-                "299": {
-                    a: 0.3
-                },
-                "300": {
-                    a: 0.29
-                },
-                "302": {
-                    a: 0.28
-                },
-                "304": {
-                    a: 0.27
-                },
-                "305": {
-                    a: 0.26
-                },
-                "307": {
-                    a: 0.25
-                },
-                "309": {
-                    a: 0.24
-                },
-                "310": {
-                    a: 0.23
-                },
-                "312": {
-                    a: 0.22
-                },
-                "313": {
-                    a: 0.21
-                },
-                "315": {
-                    a: 0.2
-                },
-                "317": {
-                    a: 0.19
-                },
-                "318": {
-                    a: 0.18
-                },
-                "320": {
-                    a: 0.17
-                },
-                "321": {
-                    a: 0.16
-                },
-                "323": {
-                    a: 0.15
-                },
-                "324": {
-                    a: 0.14
-                },
-                "326": {
-                    a: 0.13
-                },
-                "328": {
-                    a: 0.12
-                },
-                "329": {
-                    a: 0.11
-                },
-                "331": {
-                    a: 0.1
-                },
-                "332": {
-                    a: 0.09
-                },
-                "334": {
-                    a: 0.08
-                },
-                "335": {
-                    a: 0.07
-                },
-                "337": {
-                    a: 0.06
-                },
-                "338": {
-                    a: 0.05
-                },
-                "340": {
-                    a: 0.04
-                },
-                "342": {
-                    a: 0.03
-                },
-                "343": {
-                    a: 0.02
-                },
-                "345": {
-                    a: 0.01
                 }
-            })
-            .addTimedChild(instance170, 347, 7);
+            });
     });
 
     lib.External.assets = {
