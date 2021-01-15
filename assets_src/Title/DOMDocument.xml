@@ -1,0 +1,215 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1624" height="750" frameRate="30" currentTimeline="1" xflVersion="2.980" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 21.0 build 37179" majorVersion="21" buildNumber="37179" viewAngle3D="113.905639833043" vanishingPoint3DX="812" vanishingPoint3DY="375" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="D30F8A0D-8234-44E1-9E30-EE48B415BE9D" filetypeName="PixiAnimate" fileGUID="E4688FC00C9C477DB55712335C7DB3AF">
+     <folders>
+          <DOMFolderItem name="Act 1 - fixed" itemID="6001c60c-000006e8"/>
+          <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
+          <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
+          <DOMFolderItem name="Hit controllers" itemID="409a71c8-00001a2b"/>
+          <DOMFolderItem name="Organisms" itemID="6001c533-00000681" isExpanded="true"/>
+          <DOMFolderItem name="Organisms/bacteria divide" itemID="4059867e-000004fc"/>
+          <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
+          <DOMFolderItem name="Organisms/Virus att breakup" itemID="40ab8886-0000bc38"/>
+          <DOMFolderItem name="Organisms/Virus dead breakup" itemID="409a730b-00001cb7"/>
+          <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
+     </folders>
+     <symbols>
+          <Include href="Act 1 - fixed/expose_txt.xml" loadImmediate="false" itemID="4023ce05-00005304" lastModified="1610729588"/>
+          <Include href="Act 1 - fixed/syringe.xml" loadImmediate="false" itemID="4023cdc9-00005260" lastModified="1610728999"/>
+          <Include href="Act 2 - admin/shapes/hitmesquare.xml" loadImmediate="false" itemID="4076cb7d-00005a5a" lastModified="1091228160"/>
+          <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
+          <Include href="Hit controllers/hitme.xml" itemIcon="0" loadImmediate="false" itemID="402d6554-00018227" lastModified="1091229723"/>
+          <Include href="Hit controllers/hitsource.xml" loadImmediate="false" itemID="402d6773-000191b3" lastModified="1088440452"/>
+          <Include href="Hit controllers/invisible.xml" itemIcon="0" loadImmediate="false" itemID="402d6110-00016599" lastModified="1088441006"/>
+          <Include href="Name.xml" loadImmediate="false" itemID="6001cd14-00000761" lastModified="1610731052"/>
+          <Include href="Organisms/bacteria_simple.xml" loadImmediate="false" itemID="40d07321-00008f82" lastModified="1091228160"/>
+          <Include href="Organisms/bacteria divide/antenae_single.xml" loadImmediate="false" itemID="40572764-00002675" lastModified="1079449940"/>
+          <Include href="Organisms/bacteria divide/body.xml" loadImmediate="false" itemID="40572573-00001e67" lastModified="1089910272"/>
+          <Include href="Organisms/bacteria divide/eye.xml" loadImmediate="false" itemID="40572614-00002085" lastModified="1079449604"/>
+          <Include href="Organisms/bacteria divide/eyelash.xml" loadImmediate="false" itemID="4057261c-000020b3" lastModified="1089907143"/>
+          <Include href="Organisms/bacteria divide/tail_clip.xml" loadImmediate="false" itemID="40581d78-00000731" lastModified="1089905174"/>
+          <Include href="Organisms/details/crown.xml" loadImmediate="false" itemID="4023cbf3-00004c22" lastModified="1076084214"/>
+          <Include href="Organisms/details/hittestie.xml" itemIcon="0" loadImmediate="false" itemID="4048cb38-00019e70" lastModified="1078508840"/>
+          <Include href="Organisms/details/mac_baceyebrows.xml" loadImmediate="false" itemID="40757b3b-00007bcf" lastModified="1081437483"/>
+          <Include href="Organisms/details/macro_bac_blue.xml" loadImmediate="false" itemID="40757a98-000078df" lastModified="1087397386"/>
+          <Include href="Organisms/details/mouth_virus_normal.xml" loadImmediate="false" itemID="40910925-00002866" lastModified="1090342496"/>
+          <Include href="Organisms/details/virus_att_sm.xml" loadImmediate="false" itemID="409b8065-00000f35" lastModified="1091197735"/>
+          <Include href="Organisms/macro_bacteria.xml" itemID="4023cc85-00004ed5" lastModified="1091228160"/>
+          <Include href="Organisms/macro_virus_at.xml" itemID="40ab833a-0000a1a1" lastModified="1091228160"/>
+          <Include href="Organisms/protein.xml" loadImmediate="false" itemID="4023ccc7-00004f50" lastModified="1610728918"/>
+          <Include href="Organisms/virus_attenuated.xml" loadImmediate="false" itemID="4023c695-00003fd1" lastModified="1091202469"/>
+          <Include href="Organisms/Virus att breakup/eyes_att.xml" loadImmediate="false" itemID="40ab886f-0000bbd7" lastModified="1091197855"/>
+          <Include href="Organisms/Virus att breakup/fuzzies_att.xml" loadImmediate="false" itemID="40ab8974-0000bff6" lastModified="1084980068"/>
+          <Include href="Organisms/Virus att breakup/mouth_att.xml" loadImmediate="false" itemID="40ab88e7-0000bdac" lastModified="1084979927"/>
+          <Include href="Organisms/Virus att breakup/petals_att.xml" loadImmediate="false" itemID="40ab8987-0000c022" lastModified="1084980087"/>
+          <Include href="Organisms/Virus dead breakup/eye_orange.xml" loadImmediate="false" itemID="409baaf2-00010376" lastModified="1083940351"/>
+          <Include href="Organisms/Virus live breakup/body.xml" loadImmediate="false" itemID="40968346-00015805" lastModified="1090502423"/>
+          <Include href="Organisms/Virus live breakup/inner_circle.xml" loadImmediate="false" itemID="4091199b-0000642a" lastModified="1090498386"/>
+          <Include href="Organisms/Virus live breakup/LeftEye_virus.xml" loadImmediate="false" itemID="409107f2-000020ee" lastModified="1090417813"/>
+          <Include href="Organisms/Virus live breakup/RightEye_virus.xml" loadImmediate="false" itemID="409107e3-000020c6" lastModified="1090417746"/>
+          <Include href="Symbol 1.xml" loadImmediate="false" itemID="6001d148-00000774" lastModified="1610731848"/>
+          <Include href="Syringe.xml" loadImmediate="false" itemID="6001c61e-000006ef" lastModified="1610730804"/>
+          <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="6001c731-000006fb" lastModified="1610729265"/>
+          <Include href="Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="6001cf5e-0000076c" lastModified="1610731358"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1" currentFrame="59" layerDepthEnabled="true">
+               <layers>
+                    <DOMLayer name="game_safe" color="#FF800A" autoNamed="false" layerType="guide">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <DashedStroke scaleMode="normal" weight="4">
+                                                            <fill>
+                                                                 <SolidColor color="#CC0000"/>
+                                                            </fill>
+                                                       </DashedStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!26757 10|26757 15010!5757 10|5757 15010"/>
+                                                  <Edge cubics="!26757 10(;26757,10 26757,15010 26757,15010q26757 10 26757 15010);"/>
+                                                  <Edge cubics="!5757 10(;5757,10 5757,15010 5757,15010q5757 10 5757 15010);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Fade" color="#009999" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="29" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFCC"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <DashedStroke scaleMode="normal" weight="4">
+                                                            <fill>
+                                                                 <SolidColor color="#FFFFCC"/>
+                                                            </fill>
+                                                       </DashedStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!10365 6510|22403 6510!22403 6510|22403 9092!22403 9092|10365 9092!10365 9092|10365 6510"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="29" duration="31" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="31000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="30000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 1">
+                                             <matrix>
+                                                  <Matrix tx="518.25" ty="325.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="300.95" y="64.55"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="syringe" color="#FF4F4F" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="28" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="28000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.50223" xformPtYOffsetPct="0.50189" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,315" next="0,315" previous="0,315" roving="0" timevalue="27000"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,124.875" next="0,124.875" previous="0,124.875" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,89.6896" next="0,89.6896" previous="0,89.6896" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Syringe">
+                                             <matrix>
+                                                  <Matrix a="1.24874877929688" d="0.896881103515625" tx="577.45" ty="49.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="28.15" y="146"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="28" duration="32" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Syringe" matrix3D="0.829037725925446 -0.559192657470703 0 0 0.559192657470703 0.829037725925446 0 0 0 0 1 0 26.6754150390625 7397.24755859375 0 1" rotationZ="326" centerPoint3DX="605.55" centerPoint3DY="182.75">
+                                             <matrix>
+                                                  <Matrix a="0.99896240234375" d="0.896896362304688" tx="577.45" ty="52.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="28.3" y="145.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Objects" color="#00FFFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="60" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria">
+                                             <matrix>
+                                                  <Matrix a="0.857528686523438" d="0.810440063476562" tx="453.95" ty="497.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="1.5" y="4.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_virus_at">
+                                             <matrix>
+                                                  <Matrix a="0.88897705078125" d="0.83782958984375" tx="1160.85" ty="214"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2.65" y="3.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/protein">
+                                             <matrix>
+                                                  <Matrix a="1.23265075683594" d="1.37326049804688" tx="565.95" ty="567.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.15" y="1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/virus_attenuated">
+                                             <matrix>
+                                                  <Matrix a="0.628280639648438" d="0.681060791015625" tx="1053.5" ty="276.15"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2.45" y="2.8"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Name">
+                                             <matrix>
+                                                  <Matrix tx="552.65" ty="359.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="218.8" y="32.15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#00FFFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="60" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>
