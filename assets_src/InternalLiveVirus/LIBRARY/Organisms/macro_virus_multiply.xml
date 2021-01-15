@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/macro_virus_multiply" itemID="40ab9e7f-000171d5" linkageExportForAS="true" linkageIdentifier="macro_virus" linkageClassName="macro_virus" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/macro_virus_multiply" sourceLastModified="1091228160" lastModified="1610523154" lastUniqueIdentifier="81" sourceItemID="00000000-ffffffff">
   <timeline>
-    <DOMTimeline name="macro_virus_multiply" currentFrame="203" layerDepthEnabled="true">
+    <DOMTimeline name="macro_virus_multiply" layerDepthEnabled="true">
       <layers>
         <DOMLayer name="Actions" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
           <frames>
@@ -1408,13 +1408,13 @@ gotoAndPlay(106);
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" fillStyle1="2" edges="
-!645 816.5[#32B.E8 #341.E4 829.5 945!829.5 945[#348.1C #3F3.6 777 1081.5!777 1081.5[#2DA.0F #46D.5F 657.5 1174!657.5 1174[#21C.0B #4D8.1F 322 1290!322 1290[#FA.B8 #51A.61 29.5 1346.5!29.5 1346.5[#FFFFA7.82 #558.3D -164 1337.5!-164 1337.5
-[#FFFF1E.A1 #51F.FE -265.5 1256.5!-265.5 1256.5[#FFFEC7.8A #4A6.95 -248.5 1156!-248.5 1156[-69.1875 #468.E9 90 1043.5!90 1043.5[#C4.E4 #3DA.9C 400 856!400 856[#1EF.A2 #320.F3 645 816.5"/>
                     <Edge fillStyle0="1" edges="
 !128.5 977.5[#12.F1 #412.7E -70 1075!-70 1075[#FFFF6E.95 #44E.C3 -253.5 1119!-253.5 1119[#FFFEFF.B5 #45E.F5 -259.5 1120!-259.5 1120[#FFFEFB.D1 #460.09 -261 1120!-261 1120[#FFFEF1.F3 #461.C6 -273.5 1127.5!-273.5 1127.5[#FFFEAA.D3 #490.5B
  -316 1235.5!-316 1235.5[#FFFED9.53 #50C.6F -221.5 1345!-221.5 1345[#FFFF69.A1 #574.5D -45.5 1391.5!-45.5 1391.5[#FFFFE5.47 #56E.AE 139.5 1363!139.5 1363[#15C.1D #532.0E 510.5 1276.5!510.5 1276.5[#2D1.CA #4B8.4D 807.5 1099.5!807.5 1099.5
 [#38D.47 #3CA.C1 838 872!838 872[#30B.3A #316.C3 608 779.5!608 779.5[#1D3.8F #302.C5 316.5 862!316.5 862[#C0.33 #3AC.AE 128.5 977.5"/>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="
+!645 816.5[#32B.E8 #341.E4 829.5 945!829.5 945[#348.1C #3F3.6 777 1081.5!777 1081.5[#2DA.0F #46D.5F 657.5 1174!657.5 1174[#21C.0B #4D8.1F 322 1290!322 1290[#FA.B8 #51A.61 29.5 1346.5!29.5 1346.5[#FFFFA7.82 #558.3D -164 1337.5!-164 1337.5
+[#FFFF1E.A1 #51F.FE -265.5 1256.5!-265.5 1256.5[#FFFEC7.8A #4A6.95 -248.5 1156!-248.5 1156[-69.1875 #468.E9 90 1043.5!90 1043.5[#C4.E4 #3DA.9C 400 856!400 856[#1EF.A2 #320.F3 645 816.5"/>
                   </edges>
                 </DOMShape>
               </elements>

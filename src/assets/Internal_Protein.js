@@ -152,8 +152,7 @@
     lib.hitmesquare = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[37])
-            .setTransform(0, 0.85, 1, 1.055);
+            .drawCommands(shapes.Internal[37]);
         this.addChild(instance1);
     });
 
@@ -2550,53 +2549,53 @@
             }, 113);
     });
 
-    lib.GameSafe = Container.extend(function () {
-        Container.call(this);
-        var instance1 = new Graphics()
-            .drawCommands(shapes.Internal[82]);
-        this.addChild(instance1);
-    });
-
     lib.Internal = MovieClip.extend(function () {
         MovieClip.call(this, {
             duration: 1,
             framerate: 30
         });
-        var instance12 = new lib.GameSafe()
-            .setTransform(287, 0, 1.017, 0.977);
-        var instance11 = new Graphics()
+        var instance14 = new Graphics()
             .drawCommands(shapes.Internal[81]);
-        var instance10 = new lib.macro_bacteria_orig()
+        var instance13 = new lib.macro_bacteria_orig()
             .setTransform(574.75, 560.05);
-        this[instance10.name = "macrophage3"] = instance10;
-        var instance9 = new lib.protein()
-            .setTransform(1059.4, 270);
-        this[instance9.name = "protein1"] = instance9;
-        var instance8 = new lib.macro_bacteria_orig()
+        this[instance13.name = "macrophage3"] = instance13;
+        var instance12 = new lib.protein()
+            .setTransform(1049.9, 299.4);
+        this[instance12.name = "protein1"] = instance12;
+        var instance11 = new lib.macro_bacteria_orig()
             .setTransform(442.4, 380.05);
-        this[instance8.name = "macrophage2"] = instance8;
-        var instance7 = new lib.macro_bacteria_orig()
+        this[instance11.name = "macrophage2"] = instance11;
+        var instance10 = new lib.macro_bacteria_orig()
             .setTransform(610.05, 269.1);
-        this[instance7.name = "macrophage1"] = instance7;
+        this[instance10.name = "macrophage1"] = instance10;
+        var instance9 = new lib.protein()
+            .setTransform(1080.4, 380.6);
+        this[instance9.name = "protein3"] = instance9;
+        var instance8 = new lib.protein()
+            .setTransform(979.9, 330);
+        this[instance8.name = "protein2"] = instance8;
+        var instance7 = new lib.protein()
+            .setTransform(1009.4, 400.6);
+        this[instance7.name = "protein4"] = instance7;
         var instance6 = new lib.protein()
-            .setTransform(1099.9, 350.6);
-        this[instance6.name = "protein3"] = instance6;
+            .setTransform(1149.9, 419.4);
+        this[instance6.name = "protein5"] = instance6;
         var instance5 = new lib.protein()
-            .setTransform(979.9, 320.6);
-        this[instance5.name = "protein2"] = instance5;
+            .setTransform(1049.9, 470);
+        this[instance5.name = "protein6"] = instance5;
         var instance4 = new lib.protein()
-            .setTransform(979.9, 410.6);
-        this[instance4.name = "protein4"] = instance4;
+            .setTransform(1179.9, 350);
+        this[instance4.name = "protein7"] = instance4;
         var instance3 = new lib.protein()
-            .setTransform(1089.9, 450.6);
-        this[instance3.name = "protein5"] = instance3;
+            .setTransform(1139.4, 510);
+        this[instance3.name = "protein9"] = instance3;
         var instance2 = new lib.protein()
-            .setTransform(1009.9, 489.7);
-        this[instance2.name = "protein6"] = instance2;
+            .setTransform(1120.9, 299.4);
+        this[instance2.name = "protein8"] = instance2;
         var instance1 = new lib.Back()
             .setTransform(340, 50);
         this[instance1.name = "back"] = instance1;
-        this.addChild(instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this.addChild(instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.Internal.assets = {

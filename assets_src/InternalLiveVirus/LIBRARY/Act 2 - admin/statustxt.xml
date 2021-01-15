@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Act 2 - admin/statustxt" itemID="4073cd8c-0000052a" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Act 2 - admin/statustxt" sourceLastModified="1610599964" lastModified="1610600066" lastUniqueIdentifier="2" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="statustxt" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/purple_square_flash" name="square">
+                  <matrix>
+                    <Matrix tx="-0.2" ty="-7.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="9" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMDynamicText name="dtext" fontRenderingMode="standard" width="782.15" height="23" includeOutlines="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="27.65" ty="-9.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>immune system stimulated</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="19.3" size="16" bitmapSize="320" face="Tahoma-Bold" fillColor="#D09214"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/check" name="check">
+                  <matrix>
+                    <Matrix tx="3.25" ty="-4.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#738F5F"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

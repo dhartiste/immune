@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Eye" itemID="5ffa6c7b-00000314" lastModified="1610247291">
+  <timeline>
+    <DOMTimeline name="Eye" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix a="0.839508056640625" d="0.837432861328125" tx="-341.15" ty="-254.4"/>
+                  </matrix>
+                  <members>
+                    <DOMShape selected="true">
+                      <matrix>
+                        <Matrix a="0.839508056640625" d="0.837432861328125" tx="-341.15" ty="-254.4"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!8065 6076S2[8065 6003 8128 6003!8128 6003[8191 6003 8191 6076!8191 6076[8191 6106 8173 6128!8173 6128[8154 6149 8128 6149!8128 6149[8102 6149 8083 6128!8083 6128[8065 6106 8065 6076"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

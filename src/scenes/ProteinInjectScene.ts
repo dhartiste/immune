@@ -18,11 +18,16 @@ export default class InternalScene extends BaseScene {
 
     setup(){
 
-
+        const background = new PIXI.Graphics();
+        background.beginFill(0xFFFFCE);
+        background.drawRect(0, 0, 1624, 750);
+        background.endFill();
+        this.addChild(background);
+        
         this.art = this.cache.animations.internalArt as InternalArt;
         this.addChild(this.art);
        
-        this.proteinArray = [this.art.protein1, this.art.protein2, this.art.protein3, this.art.protein4, this.art.protein5, this.art.protein6];
+        this.proteinArray = [this.art.protein1, this.art.protein2, this.art.protein3, this.art.protein4, this.art.protein5, this.art.protein6, this.art.protein7, this.art.protein8, this.art.protein9];
         this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
 
 
@@ -66,9 +71,13 @@ export default class InternalScene extends BaseScene {
                     protein.y < macrophage.y + macrophage.height/2;
                     if(macrophage.isHit) {
                         PIXI.animate.Animator.play(macrophage, "crown");
+                        macrophage.hitOnce = true;
+                        
+                        
+                    }
+                    if(macrophage.hitOnce){ //trying to get the animation play, then freeze on the crown frame (TODO)
                         macrophage.gotoAndStop("crown_stop");
                     }
-                    
                     if(protein.isHit){
                         PIXI.animate.Animator.play(protein, "bald", this.checkProteinsDead);
                     }
@@ -142,6 +151,7 @@ interface Protein extends MovieClip {
 interface Macrophage extends MovieClip { //3 start
     isHit:boolean;
     velocity:PIXI.Point;
+    hitOnce: boolean;
 }
 
 interface InternalArt extends MovieClip {
@@ -151,6 +161,9 @@ interface InternalArt extends MovieClip {
     protein4: Protein;
     protein5: Protein;
     protein6: Protein;
+    protein7: Protein;
+    protein8: Protein;
+    protein9: Protein;
 
     macrophage1: Macrophage;
     macrophage2: Macrophage;
