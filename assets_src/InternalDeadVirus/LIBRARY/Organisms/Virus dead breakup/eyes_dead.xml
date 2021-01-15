@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/Virus dead breakup/eyes_dead" itemID="40990380-0000dd6e" lastModified="1083766267">
+  <timeline>
+    <DOMTimeline name="eyes_dead" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!4636 5759|4384 6012!4384 6012[4363 6032 4382 6055!4382 6055[4402 6078 4422 6058!4422 6058|4675 5805!4675 5805[4695 5785 4676 5762!4676 5762[4657 5739 4636 5759"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!4392 5801|4644 6054!4644 6054[4665 6074 4688 6055!4688 6055[4711 6036 4690 6015!4690 6015|4438 5763!4438 5763[4417 5743 4394 5762!4394 5762[4371 5781 4392 5801"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!5258 5759|5006 6012!5006 6012[4986 6032 5005 6055!5005 6055[5024 6078 5045 6058!5045 6058|5297 5805!5297 5805[5317 5785 5298 5762!5298 5762[5279 5739 5258 5759"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                  </matrix>
+                  <members>
+                    <DOMShape>
+                      <matrix>
+                        <Matrix a="0.351287841796875" d="0.351287841796875" tx="-76.8" ty="-99.7"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!5014 5801|5267 6054!5267 6054[5287 6074 5310 6055!5310 6055[5333 6036 5312 6015!5312 6015|5060 5763!5060 5763[5040 5743 5017 5762!5017 5762[4994 5781 5014 5801"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

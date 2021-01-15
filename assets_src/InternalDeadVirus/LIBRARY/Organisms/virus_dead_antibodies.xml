@@ -1,0 +1,99 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/virus_dead_antibodies" itemID="4098fd6e-0000a7df" linkageExportForAS="true" linkageIdentifier="virus_dead_antibodies" linkageClassName="virus_dead_antibodies" lastModified="1610676232" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="virus_dead_antibodies" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="antibodies" color="#FFFF4F" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/antibody" name="ant2">
+                  <matrix>
+                    <Matrix a="0.0504913330078125" b="-0.393905639648438" c="0.393905639648438" d="0.0504913330078125" tx="-1.2" ty="30.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-88.35" y="-75.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/antibody" name="ant1">
+                  <matrix>
+                    <Matrix a="-0.365280151367188" b="0.15484619140625" c="-0.15484619140625" d="-0.365280151367188" tx="26.8" ty="-15.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-17.25" y="-2.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/antibody" name="ant5">
+                  <matrix>
+                    <Matrix a="0.37042236328125" b="-0.142425537109375" c="0.142425537109375" d="0.37042236328125" tx="-27.35" ty="12.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-17.3" y="-2.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/antibody" name="ant6">
+                  <matrix>
+                    <Matrix a="-0.050445556640625" b="0.3939208984375" c="-0.3939208984375" d="-0.050445556640625" tx="1.8" ty="-31.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-17.3" y="-2.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/antibody" name="ant4">
+                  <matrix>
+                    <Matrix a="-0.319183349609375" b="-0.2353515625" c="0.2353515625" d="-0.319183349609375" tx="26.5" ty="14.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-17.4" y="-2.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Organisms/antibody" name="ant3">
+                  <matrix>
+                    <Matrix a="0.30877685546875" b="0.248748779296875" c="-0.248748779296875" d="0.30877685546875" tx="-25.3" ty="-17.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-17.25" y="-2.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hittest" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Act 2 - admin/shapes/hitmesquare" name="hittestie">
+                  <matrix>
+                    <Matrix a="1.28807067871094" d="1.30856323242188" tx="30.65" ty="-19.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15" y="14.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="virus" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Organisms/details/virus_dead_sm" selected="true">
+                  <matrix>
+                    <Matrix tx="0.05" ty="-0.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.35" y="-0.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
