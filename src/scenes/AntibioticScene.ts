@@ -50,7 +50,7 @@ export default class AntibioticScene extends BaseScene {
                  // go to the next scene
             console.log("go to the scene for... ", );
 
-            this.changeScene("internal");
+            this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
         }
         
     }

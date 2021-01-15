@@ -2,8 +2,9 @@ import { MovieClip, utils} from 'pixi-animate';
 import { Scene, AssetList, PauseableTimer } from 'wgbh-springroll-game';
 import * as ExternalArt from '../assets/External';
 import Utils from '../helpers/Utils';
+import BaseScene from './BaseScene';
 
-export default class ExternalScene extends Scene {
+export default class GameScene extends BaseScene {
     
     private art: ExternalArt;
     
@@ -23,12 +24,16 @@ export default class ExternalScene extends Scene {
 
         this.art.btnMoveOn.once("pointerdown",()=>{
             console.log("btnMoveOn pressed");
-            this.changeScene("title");
+            this.gameData.buttonChoice="left";
+            console.log(this.gameData.buttonChoice);
+            this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
             //this.changeScene("external");
         });
         this.art.btnBack.once("pointerdown",()=>{
             console.log("btnBack pressed");
-            this.changeScene("title");
+            this.gameData.buttonChoice="right";
+            console.log(this.gameData.buttonChoice);
+            this.sceneEnded(this.gameData.currentAct, this.gameData.currentChoice, this.gameData.buttonChoice);
         });
     }
 
