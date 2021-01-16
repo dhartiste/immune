@@ -93,7 +93,7 @@ export default class InternalLiveVirusScene extends BaseScene {
 
             });
             if (cell.isDuplicating && !this.oneCell) {
-                if (cell.currentFrame == 185){
+                if (cell.currentFrame === 185){
                 let newVirus = new this.virusLibrary.virus_alive_sm() as LiveVirusSprite;
                 this.liveVirusArray.push(newVirus);
                 newVirus.position.x = cell.position.x + 144;

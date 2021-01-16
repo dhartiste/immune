@@ -22,14 +22,29 @@ export default class BaseScene extends Scene {
       super.resize(width,height,offset);
    }
 
-   sceneEnded(currentAct:number, organism: string, choice:string) {
+   sceneEnded(currentAct:number, organism: MicroOrganism, choice:string) {
       // to do
       // switch to currect scene based on current act and choice
       // update current act
       this.gameData.currentAct++;
       if (currentAct===1){
-         // to do - change to specific internal scene based on organism
-         this.changeScene("internal");
+         switch (organism) {
+            case "bacteria":
+               this.changeScene('bacteria');
+               break;
+            case "protein":
+               this.changeScene('proteinInject');
+               break;
+            case "virus_alive":
+               this.changeScene('liveVirus');
+               break;
+            case "virus_attenuated":
+               this.changeScene('deadVirus');
+               break;
+            case "virus_dead":
+               this.changeScene('deadVirus');
+               break;
+         }
       }
       if (organism === 'bacteria') {
          if (currentAct===2) {

@@ -262,8 +262,10 @@ export default class InternalBacteria extends BaseScene {
         if(count===3) {
             console.log("animation done");
             this.ended = true;
-            setTimeout(()=>{this.changeScene("external");},5000);
-            //this.changeScene("external");
+            setTimeout(()=>{
+                this.sceneEnded(this.gameData.currentAct,"bacteria","none");
+            },5000);
+           
         }
     }
 
