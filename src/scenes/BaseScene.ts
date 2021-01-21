@@ -60,7 +60,7 @@ export default class BaseScene extends Scene {
          }
          if (currentAct===4) {
             // to do - change to specific internal scene for Act 5
-               this.changeScene('internal');
+               this.changeScene('bacteria2');
             
          }
          if (currentAct===5) {
