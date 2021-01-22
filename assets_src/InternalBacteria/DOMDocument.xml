@@ -2,7 +2,8 @@
      <folders>
           <DOMFolderItem name="Act 2 - admin" itemID="409a7305-00001cb6"/>
           <DOMFolderItem name="Act 2 - admin/shapes" itemID="4047375e-0000f042"/>
-          <DOMFolderItem name="Organisms" itemID="5ffa6a41-000002f5"/>
+          <DOMFolderItem name="Hit controllers" itemID="409a71c8-00001a2b"/>
+          <DOMFolderItem name="Organisms" itemID="5ffa6a41-000002f5" isExpanded="true"/>
           <DOMFolderItem name="Organisms/bacteria divide" itemID="4059867e-000004fc"/>
           <DOMFolderItem name="Organisms/details" itemID="4023cc9e-00004ef0"/>
           <DOMFolderItem name="Organisms/Virus live breakup" itemID="409a730f-00001cb8"/>
@@ -17,10 +18,13 @@
           <Include href="Act 2 - admin/shapes/white_mask.xml" loadImmediate="false" itemID="4048b911-0001437b" lastModified="1089996203"/>
           <Include href="Act 2 - admin/shapes/white squre.xml" loadImmediate="false" itemID="40911369-0000550e" lastModified="1090418275"/>
           <Include href="Act 2 - admin/statustxt.xml" loadImmediate="false" itemID="4073cd8c-0000052a" lastModified="1610600066"/>
+          <Include href="antibiotic_stick.xml" loadImmediate="false" itemID="600a5373-00000185" lastModified="1611289459"/>
           <Include href="Back.xml" loadImmediate="false" itemID="5ffa7264-0000033a" lastModified="1610248804"/>
           <Include href="Eye.xml" loadImmediate="false" itemID="5ffa6c7b-00000314" lastModified="1610247291"/>
           <Include href="GameSafe.xml" loadImmediate="false" itemID="5ffa2c0f-00000136" lastModified="1610521630"/>
-          <Include href="Organisms/bacteria_divide.xml" itemID="4059873a-00000669" lastModified="1091231184"/>
+          <Include href="Hit controllers/hitsource.xml" loadImmediate="false" itemID="402d6773-000191b3" lastModified="1088440452"/>
+          <Include href="Organisms/antibiotic.xml" loadImmediate="false" itemID="40fbffab-000042c2" lastModified="1610468628"/>
+          <Include href="Organisms/bacteria_divide.xml" itemID="4059873a-00000669" lastModified="1611288606"/>
           <Include href="Organisms/bacteria_simple.xml" loadImmediate="false" itemID="40d07321-00008f82" lastModified="1091228160"/>
           <Include href="Organisms/bacteria divide/antenae_single.xml" loadImmediate="false" itemID="40572764-00002675" lastModified="1079449940"/>
           <Include href="Organisms/bacteria divide/body.xml" loadImmediate="false" itemID="40572573-00001e67" lastModified="1089910272"/>
@@ -74,7 +78,7 @@
                                                   <Point x="-0.05" y="-0.05"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage1" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Organisms/macro_bacteria orig" name="macrophage1">
                                              <matrix>
                                                   <Matrix tx="610.05" ty="269.1"/>
                                              </matrix>
@@ -120,6 +124,14 @@
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="76.9" y="-4.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Organisms/antibiotic" name="antibiotic" selected="true">
+                                             <matrix>
+                                                  <Matrix tx="1375.7" ty="207.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="0.45" y="0.9"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>

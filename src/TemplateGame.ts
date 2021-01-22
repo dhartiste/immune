@@ -27,6 +27,6 @@ export default class TemplateGame extends Game{
             library:LibraryExample,      
             internal: BacteriaScene      
         });
-        this.changeScene('title');
+        this.changeScene('bacteria2');
     }
 }

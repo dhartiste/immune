@@ -5,23 +5,88 @@
     var Graphics = PIXI.Graphics;
     var shapes = PIXI.animate.ShapesCache;
 
-    lib.hitmesquare = Container.extend(function () {
+    lib.hitsource = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
             .drawCommands(shapes.InternalBacteria[0]);
         this.addChild(instance1);
     });
 
+    lib.antibiotic_stick = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[1])
+            .setTransform(-518.7, -396.9, 1.298, 1.298);
+        this.addChild(instance1);
+    });
+
+    lib.antibiotic = Container.extend(function () {
+        Container.call(this);
+        var instance16 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[13])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance15 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[12])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance14 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[11])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance13 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[10])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance12 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[9]);
+        var instance11 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[2])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance10 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[8])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance9 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[6])
+            .setTransform(-545.46, -366.569, 1.438, 1.401);
+        var instance8 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[7]);
+        var instance7 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[6])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance6 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[5])
+            .setTransform(-518.85, -389.35, 1.298, 1.298);
+        var instance5 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[4]);
+        var instance4 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[3]);
+        var instance3 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[2])
+            .setTransform(519.8, -389.45, 1.298, 1.298, 0, 0, 3.142);
+        var instance2 = new lib.antibiotic_stick()
+            .setTransform(-0.15, 7.55);
+        this[instance2.name = "antibiotic"] = instance2;
+        var instance1 = new lib.hitsource()
+            .setTransform(-14.5, -9.85, 0.646, 0.646)
+            .setAlpha(0);
+        this[instance1.name = "hittestie"] = instance1;
+        this.addChild(instance16, instance15, instance14, instance13, instance12, instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+    });
+
+    lib.hitmesquare = Container.extend(function () {
+        Container.call(this);
+        var instance1 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[14]);
+        this.addChild(instance1);
+    });
+
     lib.yellow_bacteria = Container.extend(function () {
         Container.call(this);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[3])
+            .drawCommands(shapes.InternalBacteria[17])
             .setTransform(168.75, 20.1);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[2])
+            .drawCommands(shapes.InternalBacteria[16])
             .setTransform(168.75, 20.1);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[1])
+            .drawCommands(shapes.InternalBacteria[15])
             .setTransform(170.45, 24.05);
         this.addChild(instance3, instance2, instance1);
     });
@@ -29,13 +94,13 @@
     lib.antenae_single = Container.extend(function () {
         Container.call(this);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[6])
+            .drawCommands(shapes.InternalBacteria[20])
             .setTransform(-277.05, -95.65);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[5])
+            .drawCommands(shapes.InternalBacteria[19])
             .setTransform(-277.05, -95.65);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[4])
+            .drawCommands(shapes.InternalBacteria[18])
             .setTransform(-277.05, -95.65);
         this.addChild(instance3, instance2, instance1);
     });
@@ -56,10 +121,10 @@
     lib.eyelash = Container.extend(function () {
         Container.call(this);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44])
+            .drawCommands(shapes.InternalBacteria[58])
             .setTransform(-157.8, -117.1);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45])
+            .drawCommands(shapes.InternalBacteria[59])
             .setTransform(-157.8, -117.1);
         this.addChild(instance2, instance1);
     });
@@ -67,10 +132,10 @@
     lib.eye = Container.extend(function () {
         Container.call(this);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[47])
+            .drawCommands(shapes.InternalBacteria[61])
             .setTransform(-161.95, -119.45);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[46])
+            .drawCommands(shapes.InternalBacteria[60])
             .setTransform(-161.95, -119.45);
         this.addChild(instance2, instance1);
     });
@@ -78,15 +143,15 @@
     lib.body = Container.extend(function () {
         Container.call(this);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[49])
+            .drawCommands(shapes.InternalBacteria[63])
             .setTransform(0.15, -0.55);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[48])
+            .drawCommands(shapes.InternalBacteria[62])
             .setTransform(0.15, -0.55);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[49]);
+            .drawCommands(shapes.InternalBacteria[63]);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[48]);
+            .drawCommands(shapes.InternalBacteria[62]);
         this.addChild(instance4, instance3, instance2, instance1);
     });
 
@@ -95,65 +160,65 @@
             duration: 30
         });
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[50]);
-        var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[51]);
-        var instance3 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[52]);
-        var instance4 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[53]);
-        var instance5 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[54]);
-        var instance6 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[55]);
-        var instance7 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[56]);
-        var instance8 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[57]);
-        var instance9 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[58]);
-        var instance10 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[59]);
-        var instance11 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[60]);
-        var instance12 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[61]);
-        var instance13 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[62]);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[63]);
-        var instance15 = new Graphics()
             .drawCommands(shapes.InternalBacteria[64]);
-        var instance16 = new Graphics()
+        var instance2 = new Graphics()
             .drawCommands(shapes.InternalBacteria[65]);
-        var instance17 = new Graphics()
+        var instance3 = new Graphics()
             .drawCommands(shapes.InternalBacteria[66]);
-        var instance18 = new Graphics()
+        var instance4 = new Graphics()
             .drawCommands(shapes.InternalBacteria[67]);
-        var instance19 = new Graphics()
+        var instance5 = new Graphics()
             .drawCommands(shapes.InternalBacteria[68]);
-        var instance20 = new Graphics()
+        var instance6 = new Graphics()
             .drawCommands(shapes.InternalBacteria[69]);
-        var instance21 = new Graphics()
+        var instance7 = new Graphics()
             .drawCommands(shapes.InternalBacteria[70]);
-        var instance22 = new Graphics()
+        var instance8 = new Graphics()
             .drawCommands(shapes.InternalBacteria[71]);
-        var instance23 = new Graphics()
+        var instance9 = new Graphics()
             .drawCommands(shapes.InternalBacteria[72]);
-        var instance24 = new Graphics()
+        var instance10 = new Graphics()
             .drawCommands(shapes.InternalBacteria[73]);
-        var instance25 = new Graphics()
+        var instance11 = new Graphics()
             .drawCommands(shapes.InternalBacteria[74]);
-        var instance26 = new Graphics()
+        var instance12 = new Graphics()
             .drawCommands(shapes.InternalBacteria[75]);
-        var instance27 = new Graphics()
+        var instance13 = new Graphics()
             .drawCommands(shapes.InternalBacteria[76]);
-        var instance28 = new Graphics()
+        var instance14 = new Graphics()
             .drawCommands(shapes.InternalBacteria[77]);
-        var instance29 = new Graphics()
+        var instance15 = new Graphics()
             .drawCommands(shapes.InternalBacteria[78]);
+        var instance16 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[79]);
+        var instance17 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[80]);
+        var instance18 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[81]);
+        var instance19 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[82]);
+        var instance20 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[83]);
+        var instance21 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[84]);
+        var instance22 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[85]);
+        var instance23 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[86]);
+        var instance24 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[87]);
+        var instance25 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[88]);
+        var instance26 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[89]);
+        var instance27 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[90]);
+        var instance28 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[91]);
+        var instance29 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[92]);
         var instance30 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[50]);
+            .drawCommands(shapes.InternalBacteria[64]);
         this.addTimedChild(instance1, 0, 1)
             .addTimedChild(instance2, 1, 1)
             .addTimedChild(instance3, 2, 1)
@@ -189,7 +254,7 @@
     lib.tic2 = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[154])
+            .drawCommands(shapes.InternalBacteria[168])
             .setTransform(-216.3, -1.7, 1.973, 0.62, 0, 3.142, 3.141);
         this.addChild(instance1);
     });
@@ -197,7 +262,7 @@
     lib.tic1 = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[155])
+            .drawCommands(shapes.InternalBacteria[169])
             .setTransform(-173.6, 11.45, 1.56, 0.916, 0, 3.161, 3.122);
         this.addChild(instance1);
     });
@@ -207,7 +272,9 @@
             duration: 115,
             labels: {
                 duplicate: 0,
-                duplicate_stop: 54
+                duplicate_stop: 54,
+                dead: 55,
+                dead_stop: 113
             }
         });
         var instance175 = new lib.body()
@@ -216,339 +283,339 @@
         var instance13 = new lib.body();
         this[instance13.name = "body"] = instance13;
         var instance18 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[49]);
+            .drawCommands(shapes.InternalBacteria[63]);
         var instance17 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[48]);
+            .drawCommands(shapes.InternalBacteria[62]);
         var instance16 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[49]);
+            .drawCommands(shapes.InternalBacteria[63]);
         var instance15 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[48]);
+            .drawCommands(shapes.InternalBacteria[62]);
         var instance19 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[48]);
+            .drawCommands(shapes.InternalBacteria[62]);
         var instance21 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[96]);
-        var instance20 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[79]);
-        var instance23 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[97]);
-        var instance22 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[80]);
-        var instance25 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[98]);
-        var instance24 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[81]);
-        var instance27 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[99]);
-        var instance26 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[82]);
-        var instance29 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[100]);
-        var instance28 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[83]);
-        var instance31 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[101]);
-        var instance30 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[84]);
-        var instance36 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[102]);
-        var instance35 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[85]);
-        var instance42 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[103]);
-        var instance41 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[86]);
-        var instance45 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[104]);
-        var instance44 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[87]);
-        var instance48 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[105]);
-        var instance47 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[88]);
-        var instance51 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[106]);
-        var instance50 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[89]);
-        var instance54 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[107]);
-        var instance53 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[90]);
-        var instance57 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[108]);
-        var instance56 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[91]);
-        var instance60 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[109]);
-        var instance59 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[92]);
-        var instance63 = new Graphics()
             .drawCommands(shapes.InternalBacteria[110]);
-        var instance62 = new Graphics()
+        var instance20 = new Graphics()
             .drawCommands(shapes.InternalBacteria[93]);
-        var instance66 = new Graphics()
+        var instance23 = new Graphics()
             .drawCommands(shapes.InternalBacteria[111]);
-        var instance65 = new Graphics()
+        var instance22 = new Graphics()
             .drawCommands(shapes.InternalBacteria[94]);
-        var instance69 = new Graphics()
+        var instance25 = new Graphics()
             .drawCommands(shapes.InternalBacteria[112]);
-        var instance68 = new Graphics()
+        var instance24 = new Graphics()
             .drawCommands(shapes.InternalBacteria[95]);
-        var instance73 = new Graphics()
+        var instance27 = new Graphics()
             .drawCommands(shapes.InternalBacteria[113]);
-        var instance75 = new Graphics()
+        var instance26 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[96]);
+        var instance29 = new Graphics()
             .drawCommands(shapes.InternalBacteria[114]);
-        var instance78 = new Graphics()
+        var instance28 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[97]);
+        var instance31 = new Graphics()
             .drawCommands(shapes.InternalBacteria[115]);
-        var instance81 = new Graphics()
+        var instance30 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[98]);
+        var instance36 = new Graphics()
             .drawCommands(shapes.InternalBacteria[116]);
-        var instance84 = new Graphics()
+        var instance35 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[99]);
+        var instance42 = new Graphics()
             .drawCommands(shapes.InternalBacteria[117]);
-        var instance89 = new Graphics()
+        var instance41 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[100]);
+        var instance45 = new Graphics()
             .drawCommands(shapes.InternalBacteria[118]);
-        var instance92 = new Graphics()
+        var instance44 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[101]);
+        var instance48 = new Graphics()
             .drawCommands(shapes.InternalBacteria[119]);
-        var instance94 = new Graphics()
+        var instance47 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[102]);
+        var instance51 = new Graphics()
             .drawCommands(shapes.InternalBacteria[120]);
-        var instance99 = new Graphics()
+        var instance50 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[103]);
+        var instance54 = new Graphics()
             .drawCommands(shapes.InternalBacteria[121]);
-        var instance102 = new Graphics()
+        var instance53 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[104]);
+        var instance57 = new Graphics()
             .drawCommands(shapes.InternalBacteria[122]);
-        var instance105 = new Graphics()
+        var instance56 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[105]);
+        var instance60 = new Graphics()
             .drawCommands(shapes.InternalBacteria[123]);
-        var instance108 = new Graphics()
+        var instance59 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[106]);
+        var instance63 = new Graphics()
             .drawCommands(shapes.InternalBacteria[124]);
-        var instance113 = new Graphics()
+        var instance62 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[107]);
+        var instance66 = new Graphics()
             .drawCommands(shapes.InternalBacteria[125]);
-        var instance115 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[140]);
-        var instance114 = new Graphics()
+        var instance65 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[108]);
+        var instance69 = new Graphics()
             .drawCommands(shapes.InternalBacteria[126]);
-        var instance117 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[141]);
-        var instance116 = new Graphics()
+        var instance68 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[109]);
+        var instance73 = new Graphics()
             .drawCommands(shapes.InternalBacteria[127]);
-        var instance119 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[142]);
-        var instance118 = new Graphics()
+        var instance75 = new Graphics()
             .drawCommands(shapes.InternalBacteria[128]);
-        var instance121 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[143]);
-        var instance120 = new Graphics()
+        var instance78 = new Graphics()
             .drawCommands(shapes.InternalBacteria[129]);
-        var instance123 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[144]);
-        var instance122 = new Graphics()
+        var instance81 = new Graphics()
             .drawCommands(shapes.InternalBacteria[130]);
-        var instance127 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[145]);
-        var instance126 = new Graphics()
+        var instance84 = new Graphics()
             .drawCommands(shapes.InternalBacteria[131]);
-        var instance130 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[146]);
-        var instance129 = new Graphics()
+        var instance89 = new Graphics()
             .drawCommands(shapes.InternalBacteria[132]);
-        var instance133 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[147]);
-        var instance132 = new Graphics()
+        var instance92 = new Graphics()
             .drawCommands(shapes.InternalBacteria[133]);
-        var instance136 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[148]);
-        var instance135 = new Graphics()
+        var instance94 = new Graphics()
             .drawCommands(shapes.InternalBacteria[134]);
-        var instance142 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[149]);
-        var instance141 = new Graphics()
+        var instance99 = new Graphics()
             .drawCommands(shapes.InternalBacteria[135]);
-        var instance152 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[150]);
-        var instance151 = new Graphics()
+        var instance102 = new Graphics()
             .drawCommands(shapes.InternalBacteria[136]);
-        var instance156 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[151]);
-        var instance155 = new Graphics()
+        var instance105 = new Graphics()
             .drawCommands(shapes.InternalBacteria[137]);
-        var instance160 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[152]);
-        var instance159 = new Graphics()
+        var instance108 = new Graphics()
             .drawCommands(shapes.InternalBacteria[138]);
-        var instance166 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[153]);
-        var instance165 = new Graphics()
+        var instance113 = new Graphics()
             .drawCommands(shapes.InternalBacteria[139]);
+        var instance115 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[154]);
+        var instance114 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[140]);
+        var instance117 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[155]);
+        var instance116 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[141]);
+        var instance119 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[156]);
+        var instance118 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[142]);
+        var instance121 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[157]);
+        var instance120 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[143]);
+        var instance123 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[158]);
+        var instance122 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[144]);
+        var instance127 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[159]);
+        var instance126 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[145]);
+        var instance130 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[160]);
+        var instance129 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[146]);
+        var instance133 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[161]);
+        var instance132 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[147]);
+        var instance136 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[162]);
+        var instance135 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[148]);
+        var instance142 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[163]);
+        var instance141 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[149]);
+        var instance152 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[164]);
+        var instance151 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[150]);
+        var instance156 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[165]);
+        var instance155 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[151]);
+        var instance160 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[166]);
+        var instance159 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[152]);
+        var instance166 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[167]);
+        var instance165 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[153]);
         var instance12 = new lib.tail_clip();
         var instance34 = new lib.tail_clip();
         var instance171 = new lib.body();
         this[instance171.name = "body"] = instance171;
         var instance170 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[50]);
+            .drawCommands(shapes.InternalBacteria[64]);
         var instance11 = new lib.eye();
         var instance33 = new lib.eye();
         var instance10 = new lib.eyelash();
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
-        var instance14 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
-        var instance32 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
-        var instance40 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance39 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance38 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[30]);
-        var instance37 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[8]);
-        var instance43 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[9]);
-        var instance46 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[10]);
-        var instance49 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[11]);
-        var instance52 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[12]);
-        var instance55 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[13]);
-        var instance58 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[14]);
-        var instance64 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[31]);
-        var instance67 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[32]);
-        var instance72 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance71 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance70 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[33]);
-        var instance74 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[34]);
-        var instance61 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[15]);
-        var instance77 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[33]);
-        var instance76 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[16]);
-        var instance80 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[32]);
-        var instance79 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[17]);
-        var instance83 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[31]);
-        var instance82 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[18]);
-        var instance88 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance87 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance86 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[30]);
-        var instance85 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[19]);
-        var instance91 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[35]);
-        var instance90 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[20]);
-        var instance93 = new Graphics()
             .drawCommands(shapes.InternalBacteria[21]);
-        var instance98 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance97 = new Graphics()
+        var instance14 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[21]);
+        var instance32 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[21]);
+        var instance40 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance39 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance38 = new Graphics()
             .drawCommands(shapes.InternalBacteria[44]);
-        var instance96 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[36]);
-        var instance95 = new Graphics()
+        var instance37 = new Graphics()
             .drawCommands(shapes.InternalBacteria[22]);
-        var instance101 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[37]);
-        var instance100 = new Graphics()
+        var instance43 = new Graphics()
             .drawCommands(shapes.InternalBacteria[23]);
-        var instance104 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[38]);
-        var instance103 = new Graphics()
+        var instance46 = new Graphics()
             .drawCommands(shapes.InternalBacteria[24]);
-        var instance107 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[39]);
-        var instance106 = new Graphics()
+        var instance49 = new Graphics()
             .drawCommands(shapes.InternalBacteria[25]);
-        var instance112 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance111 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance125 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance124 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance110 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[30]);
-        var instance128 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[40]);
-        var instance131 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[41]);
-        var instance134 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[42]);
-        var instance140 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance139 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance148 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[45]);
-        var instance147 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance138 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[43]);
-        var instance109 = new Graphics()
+        var instance52 = new Graphics()
             .drawCommands(shapes.InternalBacteria[26]);
-        var instance150 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[42]);
-        var instance149 = new Graphics()
+        var instance55 = new Graphics()
             .drawCommands(shapes.InternalBacteria[27]);
-        var instance154 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[41]);
-        var instance153 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[8]);
-        var instance158 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[40]);
-        var instance157 = new Graphics()
+        var instance58 = new Graphics()
             .drawCommands(shapes.InternalBacteria[28]);
-        var instance164 = new Graphics()
+        var instance64 = new Graphics()
             .drawCommands(shapes.InternalBacteria[45]);
-        var instance163 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[44]);
-        var instance162 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[30]);
-        var instance161 = new Graphics()
+        var instance67 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[46]);
+        var instance72 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance71 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance70 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[47]);
+        var instance74 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[48]);
+        var instance61 = new Graphics()
             .drawCommands(shapes.InternalBacteria[29]);
+        var instance77 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[47]);
+        var instance76 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[30]);
+        var instance80 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[46]);
+        var instance79 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[31]);
+        var instance83 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[45]);
+        var instance82 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[32]);
+        var instance88 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance87 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance86 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[44]);
+        var instance85 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[33]);
+        var instance91 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[49]);
+        var instance90 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[34]);
+        var instance93 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[35]);
+        var instance98 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance97 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance96 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[50]);
+        var instance95 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[36]);
+        var instance101 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[51]);
+        var instance100 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[37]);
+        var instance104 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[52]);
+        var instance103 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[38]);
+        var instance107 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[53]);
+        var instance106 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[39]);
+        var instance112 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance111 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance125 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance124 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance110 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[44]);
+        var instance128 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[54]);
+        var instance131 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[55]);
+        var instance134 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[56]);
+        var instance140 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance139 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance148 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance147 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance138 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[57]);
+        var instance109 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[40]);
+        var instance150 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[56]);
+        var instance149 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[41]);
+        var instance154 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[55]);
+        var instance153 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[22]);
+        var instance158 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[54]);
+        var instance157 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[42]);
+        var instance164 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[59]);
+        var instance163 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[58]);
+        var instance162 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[44]);
+        var instance161 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[43]);
         var instance169 = new lib.eyelash();
         var instance168 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
+            .drawCommands(shapes.InternalBacteria[21]);
         var instance173 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[155]);
+            .drawCommands(shapes.InternalBacteria[169]);
         var instance172 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[154]);
+            .drawCommands(shapes.InternalBacteria[168]);
         var instance174 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
+            .drawCommands(shapes.InternalBacteria[21]);
         var instance176 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[154]);
+            .drawCommands(shapes.InternalBacteria[168]);
         var instance177 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
+            .drawCommands(shapes.InternalBacteria[21]);
         var instance179 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[154]);
+            .drawCommands(shapes.InternalBacteria[168]);
         var instance178 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
+            .drawCommands(shapes.InternalBacteria[21]);
         var instance181 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[155]);
+            .drawCommands(shapes.InternalBacteria[169]);
         var instance182 = new lib.tic1();
         var instance180 = new lib.tic2();
         var instance183 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7]);
+            .drawCommands(shapes.InternalBacteria[21]);
         var instance186 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[158]);
+            .drawCommands(shapes.InternalBacteria[172]);
         var instance185 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[157]);
+            .drawCommands(shapes.InternalBacteria[171]);
         var instance184 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[156]);
+            .drawCommands(shapes.InternalBacteria[170]);
         var instance187 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[159]);
+            .drawCommands(shapes.InternalBacteria[173]);
         var instance8 = new lib.antenae_single();
         var instance7 = new lib.antenae_single();
         var instance6 = new lib.antenae_single();
@@ -591,7 +658,7 @@
                     sy: 0.966
                 },
                 "3": {
-                    x: -109.215,
+                    x: -109.213,
                     y: -24.358,
                     sx: 1.173,
                     sy: 0.949
@@ -603,13 +670,13 @@
                     sy: 0.933
                 },
                 "5": {
-                    x: -119.507,
+                    x: -119.505,
                     y: -23.546,
                     sx: 1.289,
                     sy: 0.916
                 },
                 "6": {
-                    x: -124.678,
+                    x: -124.677,
                     y: -23.215,
                     sx: 1.347,
                     sy: 0.899
@@ -617,7 +684,7 @@
             })
             .addTimedChild(instance18, 7, 2, {
                 "7": {
-                    x: -129.668,
+                    x: -129.67,
                     y: -23.037,
                     sx: 1.405,
                     sy: 0.882
@@ -629,7 +696,7 @@
             })
             .addTimedChild(instance17, 7, 1, {
                 "7": {
-                    x: -129.668,
+                    x: -129.67,
                     y: -23.051,
                     sx: 1.405,
                     sy: 0.882
@@ -645,7 +712,7 @@
             })
             .addTimedChild(instance15, 7, 1, {
                 "7": {
-                    x: -129.868,
+                    x: -129.87,
                     y: -22.551,
                     sx: 1.405,
                     sy: 0.882
@@ -1276,15 +1343,15 @@
                     sx: 1.099
                 },
                 "4": {
-                    x: -41.388,
+                    x: -41.387,
                     sx: 1.131
                 },
                 "5": {
-                    x: -36.222,
+                    x: -36.221,
                     sx: 1.164
                 },
                 "6": {
-                    x: -31.156,
+                    x: -31.155,
                     sx: 1.197
                 },
                 "7": {
@@ -1293,7 +1360,7 @@
                 },
                 "8": {
                     x: -23.615,
-                    y: -13.353,
+                    y: -13.352,
                     sx: 1.302,
                     sy: 0.975
                 },
@@ -1304,13 +1371,13 @@
                     sy: 0.95
                 },
                 "10": {
-                    x: -18.996,
-                    y: -12.258,
+                    x: -18.997,
+                    y: -12.257,
                     sx: 1.445,
                     sy: 0.925
                 },
                 "11": {
-                    x: -16.712,
+                    x: -16.713,
                     y: -11.66,
                     sx: 1.517,
                     sy: 0.9
@@ -1611,7 +1678,7 @@
                 },
                 "64": {
                     x: -67.853,
-                    y: -11.244,
+                    y: -11.243,
                     sx: 2.471,
                     sy: 1.408,
                     c: [
@@ -1653,7 +1720,7 @@
                 },
                 "67": {
                     x: -69.873,
-                    y: -11.742,
+                    y: -11.741,
                     sx: 2.961,
                     sy: 1.545,
                     c: [
@@ -1687,7 +1754,7 @@
                 },
                 "70": {
                     x: -71.674,
-                    y: -13.026,
+                    y: -13.025,
                     sx: 4.242,
                     sy: 1.996
                 },
@@ -1830,7 +1897,7 @@
                     sy: 6.665
                 },
                 "94": {
-                    x: -85.408,
+                    x: -85.407,
                     y: -26.584,
                     sx: 17.658,
                     sy: 6.868
@@ -1870,7 +1937,7 @@
                 "16": {
                     x: -0.819,
                     y: -9.05,
-                    sx: 1.725
+                    sx: 1.724
                 },
                 "17": {
                     x: 5.761,
@@ -2116,7 +2183,7 @@
             .addTimedChild(instance32, 15, 1, {
                 "15": {
                     x: -310.95,
-                    y: -140.25,
+                    y: -140.3,
                     sx: 1.847
                 }
             })
@@ -2538,19 +2605,19 @@
                     sy: 1.175
                 },
                 "58": {
-                    x: -66.838,
+                    x: -66.837,
                     y: -15.421,
                     sx: 1.382,
                     sy: 1.262
                 },
                 "59": {
-                    x: -66.75,
+                    x: -66.749,
                     y: -16.245,
                     sx: 1.509,
                     sy: 1.35
                 },
                 "60": {
-                    x: -66.562,
+                    x: -66.561,
                     y: -17.118,
                     sx: 1.637,
                     sy: 1.437
@@ -4865,8 +4932,7 @@
                 "1": {
                     x: -0.831,
                     y: -4,
-                    sx: 6.23,
-                    sy: 2.558
+                    sx: 6.23
                 },
                 "2": {
                     x: -0.663,
@@ -5079,8 +5145,7 @@
                 "54": {
                     x: 7.7,
                     y: -4.05,
-                    sx: 15.424,
-                    sy: 2.559
+                    sx: 15.424
                 },
                 "55": {
                     x: -1.1,
@@ -5205,7 +5270,7 @@
     lib.hittestie = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[160])
+            .drawCommands(shapes.InternalBacteria[174])
             .setTransform(32.45, -30.8);
         this.addChild(instance1);
     });
@@ -5222,7 +5287,7 @@
         var instance10 = new lib.eyelash()
             .setTransform(17.95, 14.75, 0.593, 0.537);
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[7])
+            .drawCommands(shapes.InternalBacteria[21])
             .setTransform(-76.2, -48.05, 0.593, 0.537);
         var instance8 = new lib.antenae_single()
             .setTransform(88.5, 2.4, 0.593, 0.537);
@@ -5255,28 +5320,28 @@
     lib.mac_baceyebrows = Container.extend(function () {
         Container.call(this);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[169])
+            .drawCommands(shapes.InternalBacteria[183])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[168])
+            .drawCommands(shapes.InternalBacteria[182])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[167])
+            .drawCommands(shapes.InternalBacteria[181])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[166])
+            .drawCommands(shapes.InternalBacteria[180])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[165])
+            .drawCommands(shapes.InternalBacteria[179])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[164])
+            .drawCommands(shapes.InternalBacteria[178])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[163])
+            .drawCommands(shapes.InternalBacteria[177])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[162])
+            .drawCommands(shapes.InternalBacteria[176])
             .setTransform(-318.4, -198.2, 0.872, 0.872);
         this.addChild(instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
@@ -5284,10 +5349,10 @@
     lib.crown = Container.extend(function () {
         Container.call(this);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[184])
+            .drawCommands(shapes.InternalBacteria[198])
             .setTransform(15.4, 112.75);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[183])
+            .drawCommands(shapes.InternalBacteria[197])
             .setTransform(-398.45, -207.15);
         this.addChild(instance2, instance1);
     });
@@ -5295,7 +5360,7 @@
     lib.macro_bac_blue = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[181])
+            .drawCommands(shapes.InternalBacteria[195])
             .setTransform(73.8, 97.1);
         this.addChild(instance1);
     });
@@ -5312,167 +5377,167 @@
         });
         var instance23 = new lib.crown();
         var instance22 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[182]);
+            .drawCommands(shapes.InternalBacteria[196]);
         var instance21 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[181]);
+            .drawCommands(shapes.InternalBacteria[195]);
         var instance29 = new lib.macro_bac_blue();
         var instance68 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[185]);
+            .drawCommands(shapes.InternalBacteria[199]);
         var instance67 = new lib.crown()
             .setTransform(-3.7, -104.15, 0.932, 0.932);
         var instance66 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[181])
+            .drawCommands(shapes.InternalBacteria[195])
             .setTransform(4, 3.3);
         var instance20 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[176]);
+            .drawCommands(shapes.InternalBacteria[190]);
         var instance19 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[175]);
+            .drawCommands(shapes.InternalBacteria[189]);
         var instance18 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[176]);
+            .drawCommands(shapes.InternalBacteria[190]);
         var instance17 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[175]);
+            .drawCommands(shapes.InternalBacteria[189]);
         var instance16 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[179]);
+            .drawCommands(shapes.InternalBacteria[193]);
         var instance15 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[178]);
+            .drawCommands(shapes.InternalBacteria[192]);
         var instance14 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[173]);
+            .drawCommands(shapes.InternalBacteria[187]);
         var instance13 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[172]);
+            .drawCommands(shapes.InternalBacteria[186]);
         var instance12 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[171]);
+            .drawCommands(shapes.InternalBacteria[185]);
         var instance11 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[170]);
+            .drawCommands(shapes.InternalBacteria[184]);
         var instance10 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[169]);
+            .drawCommands(shapes.InternalBacteria[183]);
         var instance9 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[168]);
+            .drawCommands(shapes.InternalBacteria[182]);
         var instance8 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[167]);
+            .drawCommands(shapes.InternalBacteria[181]);
         var instance7 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[166]);
+            .drawCommands(shapes.InternalBacteria[180]);
         var instance6 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[165]);
+            .drawCommands(shapes.InternalBacteria[179]);
         var instance5 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[164]);
+            .drawCommands(shapes.InternalBacteria[178]);
         var instance4 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[163]);
+            .drawCommands(shapes.InternalBacteria[177]);
         var instance3 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[162]);
+            .drawCommands(shapes.InternalBacteria[176]);
         var instance65 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[179])
+            .drawCommands(shapes.InternalBacteria[193])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance64 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[178])
+            .drawCommands(shapes.InternalBacteria[192])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance63 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[173])
+            .drawCommands(shapes.InternalBacteria[187])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance62 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[172])
+            .drawCommands(shapes.InternalBacteria[186])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance61 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[171])
+            .drawCommands(shapes.InternalBacteria[185])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance60 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[170])
+            .drawCommands(shapes.InternalBacteria[184])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance59 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[169])
+            .drawCommands(shapes.InternalBacteria[183])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance58 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[168])
+            .drawCommands(shapes.InternalBacteria[182])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance57 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[167])
+            .drawCommands(shapes.InternalBacteria[181])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance56 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[166])
+            .drawCommands(shapes.InternalBacteria[180])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance55 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[165])
+            .drawCommands(shapes.InternalBacteria[179])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance54 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[164])
+            .drawCommands(shapes.InternalBacteria[178])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance53 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[163])
+            .drawCommands(shapes.InternalBacteria[177])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance52 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[162])
+            .drawCommands(shapes.InternalBacteria[176])
             .setTransform(-347.5, -262.25, 0.872, 0.872);
         var instance2 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[180]);
+            .drawCommands(shapes.InternalBacteria[194]);
         var instance28 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[171]);
+            .drawCommands(shapes.InternalBacteria[185]);
         var instance31 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[171]);
+            .drawCommands(shapes.InternalBacteria[185]);
         var instance27 = new lib.mac_baceyebrows();
         var instance26 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[179]);
+            .drawCommands(shapes.InternalBacteria[193]);
         var instance25 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[178]);
+            .drawCommands(shapes.InternalBacteria[192]);
         var instance24 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[173]);
+            .drawCommands(shapes.InternalBacteria[187]);
         var instance30 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[173]);
+            .drawCommands(shapes.InternalBacteria[187]);
         var instance51 = new lib.bacteria_simple();
         this[instance51.name = "bac"] = instance51;
         var instance72 = new lib.tail_clip();
         var instance50 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[177]);
+            .drawCommands(shapes.InternalBacteria[191]);
         var instance49 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[176])
+            .drawCommands(shapes.InternalBacteria[190])
             .setTransform(-397.658, -255.136, 0.872, 0.872);
         var instance48 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[175])
+            .drawCommands(shapes.InternalBacteria[189])
             .setTransform(-397.658, -255.136, 0.872, 0.872);
         var instance47 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[176])
+            .drawCommands(shapes.InternalBacteria[190])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance46 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[175])
+            .drawCommands(shapes.InternalBacteria[189])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance45 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[174]);
+            .drawCommands(shapes.InternalBacteria[188]);
         var instance44 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[173])
+            .drawCommands(shapes.InternalBacteria[187])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance43 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[172])
+            .drawCommands(shapes.InternalBacteria[186])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance42 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[171])
+            .drawCommands(shapes.InternalBacteria[185])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance41 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[170])
+            .drawCommands(shapes.InternalBacteria[184])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance40 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[169])
+            .drawCommands(shapes.InternalBacteria[183])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance39 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[168])
+            .drawCommands(shapes.InternalBacteria[182])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance38 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[167])
+            .drawCommands(shapes.InternalBacteria[181])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance37 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[166])
+            .drawCommands(shapes.InternalBacteria[180])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance36 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[165])
+            .drawCommands(shapes.InternalBacteria[179])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance35 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[164])
+            .drawCommands(shapes.InternalBacteria[178])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance34 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[163])
+            .drawCommands(shapes.InternalBacteria[177])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance33 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[162])
+            .drawCommands(shapes.InternalBacteria[176])
             .setTransform(-347.5, -262.2, 0.872, 0.872);
         var instance32 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[161]);
+            .drawCommands(shapes.InternalBacteria[175]);
         var instance71 = new lib.antenae_single();
         this[instance71.name = "ant1"] = instance71;
         var instance70 = new lib.antenae_single();
@@ -7475,7 +7540,7 @@
     lib.GameSafe = Container.extend(function () {
         Container.call(this);
         var instance1 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[187]);
+            .drawCommands(shapes.InternalBacteria[201]);
         this.addChild(instance1);
     });
 
@@ -7484,35 +7549,38 @@
             duration: 1,
             framerate: 30
         });
-        var instance10 = new lib.GameSafe()
+        var instance11 = new lib.GameSafe()
             .setTransform(287, 0, 1.017, 0.977);
-        var instance9 = new Graphics()
-            .drawCommands(shapes.InternalBacteria[186]);
-        var instance8 = new lib.macro_bacteria_orig()
+        var instance10 = new Graphics()
+            .drawCommands(shapes.InternalBacteria[200]);
+        var instance9 = new lib.macro_bacteria_orig()
             .setTransform(574.75, 560.05);
-        this[instance8.name = "macrophage3"] = instance8;
-        var instance7 = new lib.macro_bacteria_orig()
+        this[instance9.name = "macrophage3"] = instance9;
+        var instance8 = new lib.macro_bacteria_orig()
             .setTransform(442.4, 380.05);
-        this[instance7.name = "macrophage2"] = instance7;
-        var instance6 = new lib.macro_bacteria_orig()
+        this[instance8.name = "macrophage2"] = instance8;
+        var instance7 = new lib.macro_bacteria_orig()
             .setTransform(610.05, 269.1);
-        this[instance6.name = "macrophage1"] = instance6;
-        var instance5 = new lib.bacteria_divide()
+        this[instance7.name = "macrophage1"] = instance7;
+        var instance6 = new lib.bacteria_divide()
             .setTransform(914.05, 178);
-        this[instance5.name = "bacteria1"] = instance5;
-        var instance4 = new lib.bacteria_divide()
+        this[instance6.name = "bacteria1"] = instance6;
+        var instance5 = new lib.bacteria_divide()
             .setTransform(977.05, 267.95);
-        this[instance4.name = "bacteria2"] = instance4;
-        var instance3 = new lib.bacteria_divide()
+        this[instance5.name = "bacteria2"] = instance5;
+        var instance4 = new lib.bacteria_divide()
             .setTransform(988.05, 387.9);
-        this[instance3.name = "bacteria3"] = instance3;
-        var instance2 = new lib.bacteria_divide()
+        this[instance4.name = "bacteria3"] = instance4;
+        var instance3 = new lib.bacteria_divide()
             .setTransform(929.05, 492.9);
-        this[instance2.name = "bacteria4"] = instance2;
-        var instance1 = new lib.bacteria_divide()
+        this[instance3.name = "bacteria4"] = instance3;
+        var instance2 = new lib.bacteria_divide()
             .setTransform(1096.3, 613.9);
-        this[instance1.name = "bacteria5"] = instance1;
-        this.addChild(instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
+        this[instance2.name = "bacteria5"] = instance2;
+        var instance1 = new lib.antibiotic()
+            .setTransform(1375.7, 207.3);
+        this[instance1.name = "antibiotic"] = instance1;
+        this.addChild(instance11, instance10, instance9, instance8, instance7, instance6, instance5, instance4, instance3, instance2, instance1);
     });
 
     lib.InternalBacteria.assets = {

@@ -1,7 +1,23 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/bacteria_divide" itemID="4059873a-00000669" linkageExportForAS="true" linkageIdentifier="bacteria_divide" linkageClassName="bacteria_divide" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/bacteria_divide" sourceLastModified="1091231184" lastModified="1091231184" lastUniqueIdentifier="189" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Organisms/bacteria_divide" itemID="4059873a-00000669" linkageExportForAS="true" linkageIdentifier="bacteria_divide" linkageClassName="bacteria_divide" sourceFlashFilepath="../z_OrigSource/FlashProject/Internal.fla" sourceLibraryItemHRef="Organisms/bacteria_divide" sourceLastModified="1091231184" lastModified="1611288606" lastUniqueIdentifier="189" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="bacteria_divide" layerDepthEnabled="true">
       <layers>
+        <DOMLayer name="label" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="54" name="duplicate" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="54" name="duplicate_stop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="55" duration="58" name="dead" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="113" duration="2" name="dead_stop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="Actions" color="#FF4F4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="54" keyMode="9728">
@@ -154,7 +170,7 @@ gotoAndPlay(1);*/]]></script>
           </frames>
         </DOMLayer>
         <DOMLayer name="antennae" color="#FFFF4F" autoNamed="false" open="false" layerType="folder"/>
-        <DOMLayer name="antenae4" color="#9933CC" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae4" color="#9933CC" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -290,7 +306,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae9" color="#9933CC" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae9" color="#9933CC" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="50" keyMode="9728">
               <elements/>
@@ -324,7 +340,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae10" color="#4FFF4F" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae10" color="#4FFF4F" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="50" keyMode="9728">
               <elements/>
@@ -358,7 +374,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae11" color="#FF4F4F" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae11" color="#FF4F4F" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="50" keyMode="9728">
               <elements/>
@@ -392,7 +408,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae8" color="#4F80FF" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae8" color="#4F80FF" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="50" keyMode="9728">
               <elements/>
@@ -426,7 +442,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae7" color="#4FFFFF" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae7" color="#4FFFFF" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -601,7 +617,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae6" color="#FF4FFF" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae6" color="#FF4FFF" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -776,7 +792,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae5" color="#FFFF4F" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae5" color="#FFFF4F" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -951,7 +967,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae3" color="#4FFF4F" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae3" color="#4FFF4F" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -1126,7 +1142,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae2" color="#FF4F4F" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae2" color="#FF4F4F" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -1301,7 +1317,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="antenae1" color="#808080" parentLayerIndex="3" autoNamed="false">
+        <DOMLayer name="antenae1" color="#808080" parentLayerIndex="4" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -1476,8 +1492,8 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="body" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
-        <DOMLayer name="mouthC" color="#4FFFFF" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="body" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="mouthC" color="#4FFFFF" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -1543,7 +1559,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="1.84690856933594" tx="-310.95" ty="-140.1"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="167.55" y="146.45"/>
+                    <Point x="167.55" y="146.4"/>
                   </transformationPoint>
                   <members>
                     <DOMShape>
@@ -1551,7 +1567,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="1.84690856933594" tx="-310.95" ty="-140.1"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="167.55" y="146.45"/>
+                        <Point x="167.55" y="146.4"/>
                       </transformationPoint>
                       <fills>
                         <FillStyle index="1">
@@ -1560,10 +1576,10 @@ gotoAndPlay(1);*/]]></script>
                       </fills>
                       <edges>
                         <Edge fillStyle0="1" edges="
-!3257 2850[3172 2924 3140 2943!3140 2943[3085 2977 3074 2980!3074 2980[3039 2990 3032 2939!3032 2939[3025 2889 2981 2852!2981 2852[2914 2797 2780 2892!2780 2892[2757 2909 2776 2932!2776 2932[2796 2955 2819 2938!2819 2938[2955 2843 2973
- 2949!2973 2949[2980 2989 2988 3013!2988 3013[3003 3056 3059 3052!3059 3052[3089 3051 3202 2975!3202 2975[3260 2935 3296 2904!3296 2904[3398 2816 3402 3020!3402 3020[3403 3037 3416 3047!3416 3047[3429 3057 3445 3049!3445 3049[3486 3030
- 3544 2968!3544 2968[3577 2932 3606 2954!3606 2954[3606 2955 3650 3008!3650 3008[3675 3040 3720 3032!3720 3032[3735 3030 3769 3009!3769 3009[3825 2975 3890 3033!3890 3033[3912 3052 3929 3027!3929 3027[3946 3003 3924 2984!3924 2984[3858
- 2924 3794 2931!3794 2931[3780 2932 3722 2968!3722 2968[3702 2980 3683 2952!3683 2952[3666 2918 3660 2910!3660 2910[3611 2844 3535 2900!3535 2900[3490 2944 3460 2968!3460 2968[3448 2832 3392 2811!3392 2811[3339 2791 3257 2850"/>
+!3257 2849[3172 2923 3140 2942!3140 2942[3085 2976 3074 2979!3074 2979[3039 2989 3032 2938!3032 2938[3025 2888 2981 2851!2981 2851[2914 2796 2780 2891!2780 2891[2757 2908 2776 2931!2776 2931[2796 2954 2819 2937!2819 2937[2955 2842 2973
+ 2948!2973 2948[2980 2988 2988 3012!2988 3012[3003 3055 3059 3051!3059 3051[3089 3050 3202 2974!3202 2974[3260 2934 3296 2903!3296 2903[3398 2815 3402 3019!3402 3019[3403 3036 3416 3046!3416 3046[3429 3056 3445 3048!3445 3048[3486 3029
+ 3544 2967!3544 2967[3577 2931 3606 2953!3606 2953[3606 2954 3650 3007!3650 3007[3675 3039 3720 3031!3720 3031[3735 3029 3769 3008!3769 3008[3825 2974 3890 3032!3890 3032[3912 3051 3929 3026!3929 3026[3946 3002 3924 2983!3924 2983[3858
+ 2923 3794 2930!3794 2930[3780 2931 3722 2967!3722 2967[3702 2979 3683 2951!3683 2951[3666 2917 3660 2909!3660 2909[3611 2843 3535 2899!3535 2899[3490 2943 3460 2967!3460 2967[3448 2831 3392 2810!3392 2810[3339 2790 3257 2849"/>
                       </edges>
                     </DOMShape>
                   </members>
@@ -1662,7 +1678,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="1.9049072265625" d="1.0867919921875" tx="-355.2" ty="-151.8"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="167.6" y="146.45"/>
+                    <Point x="167.6" y="146.4"/>
                   </transformationPoint>
                   <members>
                     <DOMShape>
@@ -1670,7 +1686,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="1.9049072265625" d="1.0867919921875" tx="-355.2" ty="-151.8"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="167.6" y="146.45"/>
+                        <Point x="167.6" y="146.4"/>
                       </transformationPoint>
                       <fills>
                         <FillStyle index="1">
@@ -1696,7 +1712,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="3.07569885253906" d="1.93116760253906" tx="-517.15" ty="-280.8"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="167.45" y="146.6"/>
+                    <Point x="167.4" y="146.6"/>
                   </transformationPoint>
                   <members>
                     <DOMShape>
@@ -1704,7 +1720,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="3.07569885253906" d="1.93116760253906" tx="-517.15" ty="-280.8"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="167.45" y="146.6"/>
+                        <Point x="167.4" y="146.6"/>
                       </transformationPoint>
                       <fills>
                         <FillStyle index="1">
@@ -1896,7 +1912,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mouthR" color="#9933CC" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="mouthR" color="#9933CC" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="16" keyMode="9728">
               <elements/>
@@ -2338,7 +2354,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mouthL" color="#4FFF4F" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="mouthL" color="#4FFF4F" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="16" keyMode="9728">
               <elements/>
@@ -2795,7 +2811,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Guide__eyelashR" color="#9933CC" parentLayerIndex="15" autoNamed="false" layerType="guide">
+        <DOMLayer name="Guide__eyelashR" color="#9933CC" parentLayerIndex="16" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" duration="62" keyMode="9728">
               <elements/>
@@ -2824,7 +2840,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="eyelashR" color="#4F80FF" parentLayerIndex="19" autoNamed="false">
+        <DOMLayer name="eyelashR" color="#4F80FF" parentLayerIndex="20" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="16" keyMode="9728">
               <elements/>
@@ -2836,7 +2852,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="1.25773620605469" tx="-211.85" ty="-128.7"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="169.25" y="121.55"/>
+                    <Point x="169.2" y="121.55"/>
                   </transformationPoint>
                   <members>
                     <DOMShape>
@@ -2844,7 +2860,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="1.25773620605469" tx="-211.85" ty="-128.7"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="169.25" y="121.55"/>
+                        <Point x="169.2" y="121.55"/>
                       </transformationPoint>
                       <strokes>
                         <StrokeStyle index="1">
@@ -3189,7 +3205,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="-1.67498779296875" b="0.000518798828125" c="-0.00018310546875" d="-0.619873046875" tx="-188.1" ty="-17.3"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-128.45" y="-9.05"/>
+                    <Point x="-128.4" y="-9.05"/>
                   </transformationPoint>
                   <members>
                     <DOMShape>
@@ -3197,7 +3213,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="-1.67498779296875" b="0.000518798828125" c="-0.00018310546875" d="-0.619873046875" tx="-188.1" ty="-17.3"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="-128.45" y="-9.05"/>
+                        <Point x="-128.4" y="-9.05"/>
                       </transformationPoint>
                       <strokes>
                         <StrokeStyle index="1">
@@ -3224,7 +3240,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="-1.97332763671875" b="0.0011444091796875" c="-0.0003509521484375" d="-0.61956787109375" tx="-229.5" ty="-20.4"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-128.45" y="-8.85"/>
+                    <Point x="-128.4" y="-8.8"/>
                   </transformationPoint>
                   <members>
                     <DOMShape>
@@ -3232,7 +3248,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="-1.97332763671875" b="0.0011444091796875" c="-0.0003509521484375" d="-0.61956787109375" tx="-229.5" ty="-20.4"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="-128.45" y="-8.85"/>
+                        <Point x="-128.4" y="-8.8"/>
                       </transformationPoint>
                       <strokes>
                         <StrokeStyle index="1">
@@ -3281,7 +3297,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Guide__eyelashL" color="#FFFF4F" parentLayerIndex="15" autoNamed="false" layerType="guide">
+        <DOMLayer name="Guide__eyelashL" color="#FFFF4F" parentLayerIndex="16" autoNamed="false" layerType="guide">
           <frames>
             <DOMFrame index="0" duration="62" keyMode="9728">
               <elements/>
@@ -3307,7 +3323,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="eyelashL" color="#FF4FFF" parentLayerIndex="21" autoNamed="false">
+        <DOMLayer name="eyelashL" color="#FF4FFF" parentLayerIndex="22" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -3732,7 +3748,7 @@ gotoAndPlay(1);*/]]></script>
                     <Matrix a="-1.55978393554688" b="0.030242919921875" c="-0.0177459716796875" d="-0.915374755859375" tx="-228.05" ty="40"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-128.2" y="4.4"/>
+                    <Point x="-128.15" y="4.45"/>
                   </transformationPoint>
                   <members>
                     <DOMShape selected="true">
@@ -3740,7 +3756,7 @@ gotoAndPlay(1);*/]]></script>
                         <Matrix a="-1.55978393554688" b="0.030242919921875" c="-0.0177459716796875" d="-0.915374755859375" tx="-228.05" ty="40"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="-128.2" y="4.4"/>
+                        <Point x="-128.15" y="4.45"/>
                       </transformationPoint>
                       <strokes>
                         <StrokeStyle index="1">
@@ -3789,7 +3805,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="eyeR" color="#FF4F4F" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="eyeR" color="#FF4F4F" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="15" keyMode="9728">
               <elements/>
@@ -3907,7 +3923,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_38" color="#4FFF4F" parentLayerIndex="15" layerType="mask">
+        <DOMLayer name="Layer_38" color="#4FFF4F" parentLayerIndex="16" layerType="mask">
           <frames>
             <DOMFrame index="0" duration="68" keyMode="9728">
               <elements/>
@@ -3926,7 +3942,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="eyeL" color="#FFFF4F" parentLayerIndex="24" autoNamed="false">
+        <DOMLayer name="eyeL" color="#FFFF4F" parentLayerIndex="25" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -4104,7 +4120,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="TailL" color="#FFFF4F" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="TailL" color="#FFFF4F" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="15" keyMode="9728">
               <elements/>
@@ -4222,7 +4238,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Tail" color="#9933CC" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="Tail" color="#9933CC" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -4378,14 +4394,14 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="FinalLeft" color="#808080" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="FinalLeft" color="#808080" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="99" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Body_Line" color="#808080" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="Body_Line" color="#808080" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="8" keyMode="9728">
               <elements/>
@@ -4649,15 +4665,15 @@ gotoAndPlay(1);*/]]></script>
                   </fills>
                   <edges>
                     <Edge fillStyle0="1" edges="
-!717 -182S1[926 -228 1245 -193!1245 -193[1770 -135 2335 41!2335 41[2616 126 2828 231!2828 231[3063 348 3127 466!3127 466[3147 504 3145 545!3145 545[#C48.CD #226.D4 3146 555.5!3146 555.5[#C39.D1 #26F.E5 3028 656!3028 656[2975 673 2850
- 685!2850 685[2667 704 2285 677!2285 677[1908 646 1720 634!1720 634[1526 625 1432 616!1432 616[1272 599 1150 553!1150 553[1017 503 837 401!837 401[633 280 530 223!530 223[#F8.2D #41.45 20 21.5!20 21.5[#FFFFC6.F1 #6.C4 -128 5!-128 5[-263
- 2 -427 67!-427 67[-525 106 -702 204!-702 204[-906 324 -1010 380!-1010 380[-1191 478 -1335 518!-1335 518[-1397 536 -1601 540!-1601 540[-1681 542 -1837 566!-1837 566[-2234 643 -2432 679!-2432 679[-3310 836 -3082 464!-3082 464[-2989 314
- -2709 113!-2709 113[-2480 -51 -2249 -146!-2249 -146[-2092 -211 -1754 -225!-1754 -225[-1459 -237 -1072 -206!-1072 -206[-721 -178 -428 -119!-428 -119[-326 -98 -130 -50!-130 -50[-50.9375 -34.28125 20 -29!20 -29[#66.7E #FFFFE9.87 174 -30
-!174 -30[279 -42 447 -99!447 -99[647 -167 717 -182!20 -84[#FFFFA9.62 #FFFFA5.E7 -231 -126!-231 -126[-510 -195 -537 -200!-537 -200[-1198 -318 -1853 -279!-1853 -279[-2121 -263 -2290 -194!-2290 -194[-2483 -114 -2729 55!-2729 55[-2974 223
- -3102 390!-3102 390[-3230 554 -3166 673!-3166 673[-3105 786 -2872 788!-2872 788[-2699 791 -2324 720!-2324 720[-1825 624 -1743 613!-1743 613[-1710 608 -1492 595!-1492 595[-1342 585 -1244 552!-1244 552[-1114 508 -935 405!-935 405[-834
- 348 -632 230!-632 230[#FFFEF7.B4 #1D.B5 20 80.5!20 80.5[21 #50.D1 22 81!22 81[180 110 358 196!358 196[467 249 671 372!671 372[879 497 984 548!984 548[1162 636 1319 667!1319 667[1488 701 1839 702!1839 702[2342 741 2422 745!2422 745[2788
- 765 2980 727!2980 727[3192 684 3208 549!3208 549[#C89.56 #218.13 3204 528.5!3204 528.5[#C7E.21 #189.37 3032 276!3032 276[2941 212 2725 118!2725 118[2299 -65 1650 -190!1650 -190[1337 -250 1142 -263!1142 -263[859 -281 633 -223!633 -223
-[450 -165 358 -136!358 -136[195 -85 77 -83!77 -83[#31.FF #FFFFAD.A9 20 -84"/>
+!20 -84S1[#FFFFA9.62 #FFFFA5.E7 -231 -126!-231 -126[-510 -195 -537 -200!-537 -200[-1198 -318 -1853 -279!-1853 -279[-2121 -263 -2290 -194!-2290 -194[-2483 -114 -2729 55!-2729 55[-2974 223 -3102 390!-3102 390[-3230 554 -3166 673!-3166 673
+[-3105 786 -2872 788!-2872 788[-2699 791 -2324 720!-2324 720[-1825 624 -1743 613!-1743 613[-1710 608 -1492 595!-1492 595[-1342 585 -1244 552!-1244 552[-1114 508 -935 405!-935 405[-834 348 -632 230!-632 230[#FFFEF7.B4 #1D.B5 20 80.5!20
+ 80.5[21 #50.D1 22 81!22 81[180 110 358 196!358 196[467 249 671 372!671 372[879 497 984 548!984 548[1162 636 1319 667!1319 667[1488 701 1839 702!1839 702[2342 741 2422 745!2422 745[2788 765 2980 727!2980 727[3192 684 3208 549!3208 549
+[#C89.56 #218.13 3204 528.5!3204 528.5[#C7E.21 #189.37 3032 276!3032 276[2941 212 2725 118!2725 118[2299 -65 1650 -190!1650 -190[1337 -250 1142 -263!1142 -263[859 -281 633 -223!633 -223[450 -165 358 -136!358 -136[195 -85 77 -83!77 -83
+[#31.FF #FFFFAD.A9 20 -84!717 -182[926 -228 1245 -193!1245 -193[1770 -135 2335 41!2335 41[2616 126 2828 231!2828 231[3063 348 3127 466!3127 466[3147 504 3145 545!3145 545[#C48.CD #226.D4 3146 555.5!3146 555.5[#C39.D1 #26F.E5 3028 656
+!3028 656[2975 673 2850 685!2850 685[2667 704 2285 677!2285 677[1908 646 1720 634!1720 634[1526 625 1432 616!1432 616[1272 599 1150 553!1150 553[1017 503 837 401!837 401[633 280 530 223!530 223[#F8.2D #41.45 20 21.5!20 21.5[#FFFFC6.F1
+ #6.C4 -128 5!-128 5[-263 2 -427 67!-427 67[-525 106 -702 204!-702 204[-906 324 -1010 380!-1010 380[-1191 478 -1335 518!-1335 518[-1397 536 -1601 540!-1601 540[-1681 542 -1837 566!-1837 566[-2234 643 -2432 679!-2432 679[-3310 836 -3082
+ 464!-3082 464[-2989 314 -2709 113!-2709 113[-2480 -51 -2249 -146!-2249 -146[-2092 -211 -1754 -225!-1754 -225[-1459 -237 -1072 -206!-1072 -206[-721 -178 -428 -119!-428 -119[-326 -98 -130 -50!-130 -50[-50.9375 -34.28125 20 -29!20 -29[#66.7E
+ #FFFFE9.87 174 -30!174 -30[279 -42 447 -99!447 -99[647 -167 717 -182"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -4667,7 +4683,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Body" color="#4FFF4F" parentLayerIndex="15" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Body" color="#4FFF4F" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" tweenType="motion" keyMode="17921">
               <elements>
@@ -7096,7 +7112,7 @@ gotoAndPlay(1);*/]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="BodyR" color="#FF4FFF" parentLayerIndex="15" autoNamed="false">
+        <DOMLayer name="BodyR" color="#FF4FFF" parentLayerIndex="16" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="39" keyMode="9728">
               <elements/>

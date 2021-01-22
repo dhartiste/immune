@@ -11,7 +11,7 @@
                     <Matrix a="-1.55978393554688" b="0.030242919921875" c="-0.0177459716796875" d="-0.915374755859375" tx="-173.6" ty="11.45"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-128.3" y="4.25"/>
+                    <Point x="-128.25" y="4.25"/>
                   </transformationPoint>
                   <members>
                     <DOMShape selected="true">
@@ -19,7 +19,7 @@
                         <Matrix a="-1.55978393554688" b="0.030242919921875" c="-0.0177459716796875" d="-0.915374755859375" tx="-173.6" ty="11.45"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="-128.3" y="4.25"/>
+                        <Point x="-128.25" y="4.25"/>
                       </transformationPoint>
                       <strokes>
                         <StrokeStyle index="1">

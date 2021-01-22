@@ -49,6 +49,8 @@ export default class InternalBacteria extends BaseScene {
         // macro1.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
         // this.addChild(macro1);
 
+        this.art.antibiotic.visible = false;
+
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
             macrophage.velocity = new PIXI.Point(Math.random()*.5, Math.random()-.5);
@@ -301,4 +303,6 @@ interface InternalBacteriaArt extends MovieClip {
     macrophage1: Macrophage;
     macrophage2: Macrophage;
     macrophage3: Macrophage;
+
+    antibiotic: MovieClip;
 }

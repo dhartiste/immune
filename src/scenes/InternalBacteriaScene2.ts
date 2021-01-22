@@ -1,4 +1,5 @@
 import { MovieClip } from 'pixi-animate';
+import { Sprite } from 'pixi.js';
 import { AssetList, Tween } from 'wgbh-springroll-game';
 import * as InternalBacteriaArt from '../assets/InternalBacteria';
 import { MICROORGANISM_INDEX } from '../helpers/Const';
@@ -10,15 +11,10 @@ export default class InternalBacteria extends BaseScene {
 
     private exampleLib:any;
     private art: InternalBacteriaArt;
-    //private microGuy: MovieClip;
     private bacteriaArray: Bacteria[]=[];
     private macrophageArray: Macrophage[]=[];
     private ended:boolean=false;
     private antibioticArray: Antibiotic[] = [];
-
-
-    
-
 
     preload():AssetList{
         return [
@@ -30,8 +26,6 @@ export default class InternalBacteria extends BaseScene {
    
         this.exampleLib = InternalBacteriaArt.library;
 
-       
-
         const background = new PIXI.Graphics();
         background.beginFill(0xFFFFCE);
         background.drawRect(0, 0, 1624, 750);
@@ -41,14 +35,9 @@ export default class InternalBacteria extends BaseScene {
         this.art = this.cache.animations.internalBacteriaArt as InternalBacteriaArt;
         this.addChild(this.art);
         this.bacteriaArray = [this.art.bacteria1, this.art.bacteria2, this.art.bacteria3, this.art.bacteria4, this.art.bacteria5];
-        this.macrophageArray = [this.art.macrophage1, this.art.macrophage2, this.art.macrophage3];
-
-
-        // let macro1= new this.exampleLib.macro_bacteria() as Organism; 
-        // macro1.position = new PIXI.Point(500, 200);
-        // macro1.gotoAndStop(0);
-        // macro1.velocity = new PIXI.Point(Math.random()*.5, Math.random()*.5);
-        // this.addChild(macro1);
+        this.macrophageArray = [this.art.macrophage1];
+        this.art.macrophage2.visible = this.art.macrophage3.visible = false;
+        this.antibioticArray = [this.art.antibiotic];
 
         this.macrophageArray.forEach(macrophage => {
             macrophage.gotoAndStop(0);
@@ -57,21 +46,18 @@ export default class InternalBacteria extends BaseScene {
 
         this.bacteriaArray.forEach(bacteria => {
             bacteria.gotoAndStop(0);
-            bacteria.velocity = new PIXI.Point(Math.random()*-6, Math.random()-.5);
+            bacteria.velocity = new PIXI.Point(Math.random()*-1, Math.random()-.5);
         });
 
-
-        for (let index = 0; index < 50; index++) {
-            this.antibioticArray.push(new this.exampleLib.bacteria_divide() as Antibiotic); // chnage back to antibiotic
+        for (let index = 0; index < 19; index++) {
+            this.antibioticArray.push(new this.exampleLib.antibiotic() as Antibiotic);
         }
 
         this.antibioticArray.forEach((antibiotic,index)=> {
-            antibiotic.position = new PIXI.Point(700+500*Math.random(), 100+500*Math.random());
-            antibiotic.gotoAndStop(0);
-            antibiotic.velocity = new PIXI.Point(Math.random()-1, Math.random());
+            antibiotic.position = new PIXI.Point(this.art.antibiotic.x+50*Math.random(), this.art.antibiotic.y+50*Math.random());
+            antibiotic.velocity = new PIXI.Point(Math.random()-2, 2*Math.random()-1);
             this.addChild(antibiotic);
         });
-
 
         switch(this.gameData.currentChoiceIndex) {
             case MICROORGANISM_INDEX.ATTENTUATED_VIRUS:
@@ -91,30 +77,11 @@ export default class InternalBacteria extends BaseScene {
                 break;            
         }
 
-        // this.art.bacteria.gotoAndStop(0);
-        // this.art.protein.gotoAndStop(0);
-
     }
 
     start(){
-        // PIXI.animate.Animator.play(this.microGuy,"intro",this.boingIt);
-        // let start = 1;
         setTimeout(this.duplicateB, 10000);
         setTimeout(() => this.changeScene("external"), 12000);
-        //this.duplicateB();
-
-        // this.bacteriaArray.forEach(bacteria => {
-           
-        //         bacteria.isDividing=true;
-        //         PIXI.animate.Animator.play(bacteria,"duplicate");
-        //         bacteria.isDividing=false;
-            
-        // });
-
-
-        //initialize arrays
-        
-
     }
 
     duplicateB=() => {  
@@ -122,15 +89,15 @@ export default class InternalBacteria extends BaseScene {
         this.bacteriaArray.forEach(bacteria => {
             if (i%2===0) {
                 bacteria.isDividing=true;
-                PIXI.animate.Animator.play(bacteria,"duplicate");
-                
+                if (!bacteria.isHit){
+                    PIXI.animate.Animator.play(bacteria,"duplicate");
+                }
             }
             i++;
         });
         setTimeout(() => this.duplicateA(), 3000);
         console.log("here");
         setTimeout(() => this.duplicateBFix(), 2000);
-      
     }
 
     duplicateA(){
@@ -138,13 +105,13 @@ export default class InternalBacteria extends BaseScene {
         this.bacteriaArray.forEach(bacteria => {
             if (i%2===0) {
                 bacteria.isDividing=true;
-                PIXI.animate.Animator.play(bacteria,"duplicate");
+                if (!bacteria.isHit){
+                    PIXI.animate.Animator.play(bacteria,"duplicate");
+                }
             }
             i++;
         });
     }
-
-
 
     duplicateBFix=() => {  
         console.log("hi");
@@ -193,45 +160,45 @@ export default class InternalBacteria extends BaseScene {
             i++;
         });
     }
-    // boingIt = () => {
-    //     // 
-    //     Tween.get(this.microGuy)
-    //         .to({x:this.art.back.x + this.art.back.width + this.microGuy.width,y:this.microGuy.height},800,"quadOut")
-    //         .to({y:this.stageManager.height-this.microGuy.height/2},1300,"bounceOut")
-    //         .call(this.endIt);
-    // }
-    // endIt = () => {
-    //     PIXI.animate.Animator.play(this.microGuy,"reveal",this.boingIt);
-    // }
 
     update(){
+
         this.bacteriaArray.forEach(bacteria => {
             this.antibioticArray.forEach(antibiotic => {
-                if(antibiotic.visible&&!bacteria.isDividing) {
+                if(antibiotic.visible&&!bacteria.isDividing&&!bacteria.isHit) {
                     bacteria.isHit = 
                     antibiotic.x < bacteria.x + bacteria.width/2 && 
                     antibiotic.x > bacteria.x - bacteria.width/2  &&
                     antibiotic.y > bacteria.y - bacteria.height/2 &&
                     antibiotic.y < bacteria.y + bacteria.height/2;
                     if(bacteria.isHit) {
-                        PIXI.animate.Animator.play(bacteria, "dead");
+                       // bacteria.addChild(antibiotic);
+                        antibiotic.velocity = new PIXI.Point(0,0);
+                        bacteria.velocity = new PIXI.Point(0,0);
+                        PIXI.animate.Animator.play(bacteria, "dead", ()=>{
+                            bacteria.visible = false;
+                        });
+                        this.bacteriaArray.forEach((bacmatch,index)=>{
+                            if (bacmatch===bacteria) {
+                                console.log("remove this item from the active array", index);
+                            }
+                        });
                     }
                 }
-                
             });
         });
 
-        this.macrophageArray.forEach(macrophage => {
-            macrophage.x+=macrophage.velocity.x;
-            macrophage.y+=macrophage.velocity.y;
+        this.antibioticArray.forEach(antibiotic => {
+            antibiotic.x+=antibiotic.velocity.x;
+            antibiotic.y+=antibiotic.velocity.y;
 
-            if(macrophage.position.x - macrophage.width <= this.stageManager.leftEdge || macrophage.position.x + macrophage.width >= this.stageManager.rightEdge){
-                macrophage.velocity.x = -macrophage.velocity.x;
-                macrophage.x+=macrophage.velocity.x;
+            if(antibiotic.position.x - antibiotic.width <= this.stageManager.leftEdge || antibiotic.position.x + antibiotic.width >= this.stageManager.rightEdge){
+                antibiotic.velocity.x = -antibiotic.velocity.x;
+                antibiotic.x+=antibiotic.velocity.x;
             }
-            if(macrophage.y - macrophage.height <= 0|| macrophage.y + macrophage.height >= 750){
-                macrophage.velocity.y = -macrophage.velocity.y;
-                macrophage.y+=macrophage.velocity.y;
+            if(antibiotic.y - antibiotic.height <= 0|| antibiotic.y + antibiotic.height >= 750){
+                antibiotic.velocity.y = -antibiotic.velocity.y;
+                antibiotic.y+=antibiotic.velocity.y;
             } 
         });
 
@@ -262,10 +229,11 @@ export default class InternalBacteria extends BaseScene {
                 bacteria.velocity.y*=0.99;
             });
             
+            this.antibioticArray.forEach(antibiotic => {
+                antibiotic.velocity.x*=0.99;
+                antibiotic.velocity.y*=0.99;
+            });
         }
-
-
-
     }
 
     checkMacrophage=()=>{
@@ -274,7 +242,6 @@ export default class InternalBacteria extends BaseScene {
             if(macrophage.isHit){
                 count++;
             }
-            
         });
         if(count===3) {
             console.log("animation done");
@@ -282,14 +249,15 @@ export default class InternalBacteria extends BaseScene {
             setTimeout(()=>{
                 this.sceneEnded(this.gameData.currentAct,"bacteria","none");
             },5000);
-           
         }
     }
 
     cleanup(){
         //to do
-        //Tween.removeAllTweens();
-        //Tween.removeTweens(this.microGuy);
+        // clear timeouts before destroying scene
+        this.bacteriaArray.forEach(bacteria => {
+            bacteria.visible=false;
+        });
     }
 }
 
@@ -304,15 +272,10 @@ interface Macrophage extends MovieClip { //3 start
     velocity:PIXI.Point;
 }
 
-interface Antibiotic extends MovieClip{
+interface Antibiotic extends Sprite{
     velocity:PIXI.Point;
     visible:boolean;
 }
-
-// interface Organism extends MovieClip {
-//     isHit:boolean;
-//     velocity:PIXI.Point;
-// }
 
 interface InternalBacteriaArt extends MovieClip {
     bacteria1: Bacteria;
@@ -324,4 +287,6 @@ interface InternalBacteriaArt extends MovieClip {
     macrophage1: Macrophage;
     macrophage2: Macrophage;
     macrophage3: Macrophage;
+
+    antibiotic: Antibiotic;
 }
