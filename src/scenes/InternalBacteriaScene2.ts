@@ -80,90 +80,13 @@ export default class InternalBacteria extends BaseScene {
     }
 
     start(){
-        setTimeout(this.duplicateB, 10000);
         setTimeout(() => this.changeScene("external"), 12000);
-    }
-
-    duplicateB=() => {  
-        let i = 0;
-        this.bacteriaArray.forEach(bacteria => {
-            if (i%2===0) {
-                bacteria.isDividing=true;
-                if (!bacteria.isHit){
-                    PIXI.animate.Animator.play(bacteria,"duplicate");
-                }
-            }
-            i++;
-        });
-        setTimeout(() => this.duplicateA(), 3000);
-        console.log("here");
-        setTimeout(() => this.duplicateBFix(), 2000);
-    }
-
-    duplicateA(){
-        let i = 1;
-        this.bacteriaArray.forEach(bacteria => {
-            if (i%2===0) {
-                bacteria.isDividing=true;
-                if (!bacteria.isHit){
-                    PIXI.animate.Animator.play(bacteria,"duplicate");
-                }
-            }
-            i++;
-        });
-    }
-
-    duplicateBFix=() => {  
-        console.log("hi");
-        let i = 0;
-        this.bacteriaArray.forEach(bacteria => {
-            if (i%2===0&&i<5) {
-                let bacteriaNew = new this.exampleLib.bacteria_divide() as Bacteria; 
-                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/5, bacteria.y);
-                bacteriaNew.width*=-1;
-                bacteriaNew.gotoAndStop("duplicate");
-                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, bacteria.velocity.y);
-                bacteria.velocity.x+=Math.random();
-                bacteria.x+=bacteria.width/5;
-                bacteria.gotoAndStop("duplicate");
-                bacteria.isDividing=false;
-                bacteria.velocity.x*=-1;
-                this.addChild(bacteriaNew);
-                this.bacteriaArray.push(bacteriaNew);
-                console.log("added a new one");
-            }
-            i++;
-        });
-        setTimeout(() => this.duplicateAFix(), 3000);
-      
-    }
-
-    duplicateAFix(){
-        let i = 1;
-        this.bacteriaArray.forEach(bacteria => {
-            
-            if (i%2===0&&i<6) {
-                let bacteriaNew = new this.exampleLib.bacteria_divide() as Bacteria; 
-                bacteriaNew.position = new PIXI.Point(bacteria.x-bacteria.width/5, bacteria.y);
-                bacteriaNew.width*=-1;
-                bacteriaNew.gotoAndStop("duplicate");
-                bacteriaNew.velocity = new PIXI.Point(-bacteria.velocity.x, bacteria.velocity.y);
-                bacteria.velocity.x+=Math.random();
-                bacteria.x+=bacteria.width/5;
-                bacteria.gotoAndStop("duplicate");
-                bacteria.isDividing=false;
-                bacteria.velocity.x*=-1;
-                this.addChild(bacteriaNew);
-                this.bacteriaArray.push(bacteriaNew);
-                console.log("added a new one");
-            }
-            i++;
-        });
     }
 
     update(){
 
         this.bacteriaArray.forEach(bacteria => {
+            let antiCount =0;
             this.antibioticArray.forEach(antibiotic => {
                 if(antibiotic.visible&&!bacteria.isDividing&&!bacteria.isHit) {
                     bacteria.isHit = 
@@ -177,14 +100,17 @@ export default class InternalBacteria extends BaseScene {
                         bacteria.velocity = new PIXI.Point(0,0);
                         PIXI.animate.Animator.play(bacteria, "dead", ()=>{
                             bacteria.visible = false;
+                            antibiotic.visible = false;
+                            this.antibioticArray.splice(antiCount, 1);
                         });
                         this.bacteriaArray.forEach((bacmatch,index)=>{
                             if (bacmatch===bacteria) {
-                                console.log("remove this item from the active array", index);
-                            }
+                                console.log("remove this item from the active array", index);  
+                                this.bacteriaArray.splice(index, 1);          }
                         });
                     }
                 }
+                antiCount++;
             });
         });
 
@@ -258,6 +184,7 @@ export default class InternalBacteria extends BaseScene {
         this.bacteriaArray.forEach(bacteria => {
             bacteria.visible=false;
         });
+        clearTimeout();
     }
 }
 
